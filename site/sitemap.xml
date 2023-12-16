@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://shuaiwen-cui.github.io/Infinity/</loc>
+        <lastmod>2023-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/Infinity/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/Infinity/zh/"/>
+    </url>
+    <url>
+        <loc>https://shuaiwen-cui.github.io/Infinity/CS/CS/</loc>
+        <lastmod>2023-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/Infinity/CS/CS/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/Infinity/zh/CS/CS/"/>
+    </url>
+    <url>
+        <loc>https://shuaiwen-cui.github.io/Infinity/blog/</loc>
+        <lastmod>2023-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/Infinity/blog/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/Infinity/zh/blog/"/>
+    </url>
+    <url>
+        <loc>https://shuaiwen-cui.github.io/Infinity/zh/</loc>
+        <lastmod>2023-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/Infinity/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/Infinity/"/>
+    </url>
+    <url>
+        <loc>https://shuaiwen-cui.github.io/Infinity/zh/CS/CS/</loc>
+        <lastmod>2023-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/Infinity/zh/CS/CS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/Infinity/CS/CS/"/>
+    </url>
+    <url>
+        <loc>https://shuaiwen-cui.github.io/Infinity/zh/blog/</loc>
+        <lastmod>2023-12-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://shuaiwen-cui.github.io/Infinity/zh/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shuaiwen-cui.github.io/Infinity/blog/"/>
+    </url>
+</urlset>
