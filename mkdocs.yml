@@ -3,14 +3,14 @@
 
 # Project information
 site_name: Eureka!
-site_url: https://github.com/Shuaiwen-Cui/Infinity.git/
+site_url: https://shuaiwen-cui.github.io/Infinity/
 site_author: Shuaiwen Cui
 site_description: >-
   Welcome to Shaun's rabbit hole. This site serves as a personal knowledge base for me to record my thoughts and ideas. It is also a place for me to share my knowledge and experience with the world. I hope you find something useful here.
 
 # Repository
 repo_name: Shuaiwen-Cui/Infinity
-repo_url: https://github.com/Shuaiwen-Cui/Infinity/
+repo_url: https://github.com/Shuaiwen-Cui/Infinity.git/
 
 # Copyright
 copyright: Copyright &copy; 2023 Shuaiwen Cui
