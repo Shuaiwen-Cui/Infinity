@@ -1,0 +1,27 @@
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.00c04c01.min.css' | url }}">
+{% endblock %}
+{% block announce %}
+  For updates follow <strong>@ShuaiwenCui</strong> on
+  <a rel="me" href="https://www.linkedin.com/in/shaun-shuaiwen-cui/">
+    <span class="twemoji mastodon">
+      {% include ".icons/fontawesome/brands/linkedin.svg" %}
+    </span>
+    <strong>Linkedin</strong>
+  </a>
+  and
+  <a href="https://twitter.com/ShuaiwenC">
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/twitter.svg" %}
+    </span>
+    <strong>Twitter</strong>
+  </a>
+{% endblock %}
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/javascripts/custom.2340dcd7.min.js' | url }}"></script>
+{% endblock %}
