@@ -6,7 +6,7 @@
 ├── upload.sh : upload the file to the server
 ├── mkdocs.yml : mkdocs configuration file
 ├── .editorconfig : editor configuration file
-├── .gitignore : git ignore file
+├── .gitignore : git ignore file. note that, better build the website in the server rather than locally
 ├── material : theme materials
 └── docs : documentation files, this is the root directory of the website
     │── static: static files

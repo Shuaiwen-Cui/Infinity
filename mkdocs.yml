@@ -3,7 +3,7 @@
 
 # Project information
 site_name: Eureka!
-site_url: https://shuaiwen-cui.github.io/Infinity/
+site_url: http://http://www.cuishuaiwen.com:8000/Infinity/
 site_author: Shuaiwen Cui
 site_description: >-
   Welcome to Shaun's rabbit hole. This site serves as a personal knowledge base for me to record my thoughts and ideas. It is also a place for me to share my knowledge and experience with the world. I hope you find something useful here.
@@ -101,20 +101,37 @@ plugins:
   - minify:
       minify_html: true
   # - privacy
+  # - i18n:
+  #     languages:
+  #       - locale: en
+  #         default: true
+  #         name: English
+  #         build: true
+  #       - locale: zh
+  #         name: 简体中文
+  #         build: true
+  #         site_name: 知也无涯
+  #         nav_translations:
+  #           Foreword: 前言
+  #           # CS: 计算机
   - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
       languages:
         - locale: en
           default: true
           name: English
           build: true
+          # site_name: Infinity
         - locale: zh
           name: 简体中文
           build: true
           site_name: 知也无涯
           nav_translations:
             Foreword: 前言
-            # CS: 计算机
-
+            CS: 计算机
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
