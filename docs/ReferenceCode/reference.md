@@ -53,9 +53,56 @@ or
 ```
 
 ## PDF Embedding
+
 !!! tip
 
     If you don't have prior experience with Python, we recommend reading
     [Using Python's pip to Manage Your Projects' Dependencies], which is a
     really good introduction on the mechanics of Python package management and
     helps you troubleshoot if you run into errors.
+
+
+:fontawesome-brands-youtube:{ style="color: #EE0F0F" }
+__[How to set up Material for MkDocs]__ by @james-willett – :octicons-clock-24:
+15m – Learn how to create and host a documentation site using Material for
+MkDocs on GitHub Pages in a step-by-step guide.
+
+??? question "How to add plugins to the Docker image?"
+
+    Material for MkDocs only bundles selected plugins in order to keep the size
+    of the official image small. If the plugin you want to use is not included,
+    you can add them easily:
+
+    === "Material for MkDocs"
+
+        Create a `Dockerfile` and extend the official image:
+
+        ``` Dockerfile title="Dockerfile"
+        FROM squidfunk/mkdocs-material
+        RUN pip install mkdocs-macros-plugin
+        RUN pip install mkdocs-glightbox
+        ```
+
+## Site structure
+
+Set up and customize the structure of your documentation by configuring the
+header and footer to your taste, choosing among many modes of navigation,
+setting up site search, and more.
+
+<div class="grid cards" markdown>
+
+- :fontawesome-solid-earth-americas: __[Language]__ – Choose out of the 60+ supported languages or add a new one
+- :material-page-layout-sidebar-left: __[Navigation]__ – Create a clear, concise, and comprehensive navigation structure
+- :material-page-layout-header: __[Header]__ – Customize the behavior of the header, add an announcement bar
+- :material-page-layout-footer: __[Footer]__ – Add links to your social media profiles or websites in the footer
+- :material-tab-search: __[Search]__ – Set up and configure search, running entirely in the user's browser
+- :material-tag-plus-outline: __[Tags]__ – Categorize your pages with tags and group related pages
+
+</div>
+
+  [Language]: changing-the-language.md
+  [Navigation]: setting-up-navigation.md
+  [Header]: setting-up-the-header.md
+  [Footer]: setting-up-the-footer.md
+  [Search]: setting-up-site-search.md
+  [Tags]: setting-up-tags.md

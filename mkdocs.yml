@@ -271,6 +271,7 @@ nav:
       - HANDS-ON:
           - Have A Server: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
           - Server Configuration: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
+          - Get A Domain Name: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
   - AI: 
       - "./AI/ai.md"
   - RESEARCH: 
