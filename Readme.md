@@ -4,10 +4,12 @@
 ```bash
 ├── README.md : project instructions and guide
 ├── upload.sh : upload the file to the server
+├── deploy.sh : clean the file, pull repo, build the website and upload to the server
 ├── mkdocs.yml : mkdocs configuration file
 ├── .editorconfig : editor configuration file
 ├── .gitignore : git ignore file. note that, better build the website in the server rather than locally
 ├── material : theme materials
+├── site : built website to be deployed
 └── docs : documentation files, this is the root directory of the website
     │── static: static files
     │   │── images: images
@@ -15,7 +17,8 @@
     │── blog: blog posts
     │   │── index.md: blog index page
     │   └── posts: blog posts
-    │── index.en.md: home page - in English
+    │── index.md: home page - in English
     │── index.zh.md: home page - in Chinese
+    └── Other pages
 
 ```
