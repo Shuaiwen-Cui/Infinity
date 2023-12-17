@@ -3,7 +3,7 @@
 
 # Project information
 site_name: Eureka!
-site_url: http://http://www.cuishuaiwen.com:8000/Infinity/
+site_url: https://localhost:8000/ # build and run on server, to visit it, type in the server's IP address and port number like this: xxx.xxx.xxx.xxx:8000
 site_author: Shuaiwen Cui
 site_description: >-
   Welcome to Shaun's rabbit hole. This site serves as a personal knowledge base for me to record my thoughts and ideas. It is also a place for me to share my knowledge and experience with the world. I hope you find something useful here.
