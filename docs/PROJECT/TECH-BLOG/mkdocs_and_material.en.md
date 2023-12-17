@@ -4,13 +4,27 @@
 
 For tech blog, one may don't want to use the traditional blog platform, such as WordPress, Blogger, etc. Instead, one may want to use a static site generator, which is much lightweight and easy to use. Popular static site generators include:
 
+- [MkDocs](https://www.mkdocs.org/) (My Pick)
+
+- [docsify](https://docsify.js.org/#/)
+
+- [VuePress](https://vuepress.vuejs.org/zh/)
+
+- [Docusaurus](https://docusaurus.io/)
+
+- [GitBook](https://www.gitbook.com/)
+
+- [Hexo](https://hexo.io/zh-cn/)
+
 - [Jekyll](https://jekyllrb.com/)
 
 - [Hugo](https://gohugo.io/)
 
-- [Hexo](https://hexo.io/)
+- [Gatsby](https://www.gatsbyjs.com/)
 
-- [MkDocs](https://www.mkdocs.org/) (My Pick)
+- [DocFX](https://dotnet.github.io/docfx/)
+
+- [Sphinx](https://www.sphinx-doc.org/en/master/)
 
 ### What Is MkDocs?
 
@@ -73,11 +87,13 @@ This step is to build the documentation site. The documentation site will be loc
 The configuration file is named `mkdocs.yml`, and is located in the root of your project. The configuration file is a YAML file, with a simple structure. The configuration file contains a list of pages (in the `pages` key), a list of options (in the `site_name` key), and a list of pages to be excluded from the build (in the `exclude` key).
 
 ```yaml
-site_name: MkLorum
-pages:
-- Home: index.md
-- About: about.md
-- License: license.md
+site_name: My Project
+site_description: A short description of my project.
+site_author: Your Name
+site_url: https://example.com
+site_dir: site
+site_favicon: images/favicon.ico
+# ...
 ```
 
 !!! tip
@@ -384,7 +400,7 @@ nav: # navigation tree - please follow my way to do this, otherwise, it may not 
       - "./PROJECT/project.md"
       - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
 ```
-This configuration file should help you build a gorgeous website like you see now.
+This configuration file should help you build a gorgeous website like you see now. Actually, almost all the configuration is done in this file.
 
 ### Writing Documentation
 
