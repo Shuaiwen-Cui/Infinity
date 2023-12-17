@@ -134,6 +134,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PROJECT/project/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/PROJECT/TECH-BLOG/mkdocs_and_material/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/RESEARCH/research/</loc>
         <lastmod>2023-12-17</lastmod>
         <changefreq>daily</changefreq>
@@ -300,6 +307,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PROJECT/project/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PROJECT/project/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/PROJECT/TECH-BLOG/mkdocs_and_material/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/PROJECT/TECH-BLOG/mkdocs_and_material/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/RESEARCH/research/</loc>
