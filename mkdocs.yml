@@ -127,6 +127,10 @@ plugins:
             ACTUATION: 执行
             IOT: 物联网
             CLOUD: 云
+            CLOUD-TECH: 云技术
+            HANDS-ON: 实践
+            Have A Server: 拥有一台服务器
+            Server Configuration: 服务器配置
             AI: 人工智能
             RESEARCH: 研究
             PROJECT: 项目
@@ -246,16 +250,30 @@ nav:
       - "index.md"
       - ABOUT: "./HOME/about.md"
       - SPONSORSHIP: "./HOME/sponsorship.md"
-  - CS: "./CS/CS.md"
-  - CODING: "./CODING/coding.md"
-  - EMBEDDED-SYS: "./EMBEDDED-SYS/embedded-sys.md"
-  - DSP: "./DSP/dsp.md"
-  - PERCEPTION: "./PERCEPTION/perception.md"
+  - CS: 
+      - "./CS/CS.md"
+  - CODING: 
+      - "./CODING/coding.md"
+  - EMBEDDED-SYS: 
+      - "./EMBEDDED-SYS/embedded-sys.md"
+  - DSP: 
+      - "./DSP/dsp.md"
+  - PERCEPTION: 
+      - "./PERCEPTION/perception.md"
   - ACTUATION: 
       - "./ACTUATION/actuation.md"
       - ROS: "./ACTUATION/ROS/ros.md"
-  - IOT: "./IOT/iot.md"
-  - CLOUD: "./CLOUD/cloud.md"
-  - AI: "./AI/ai.md"
-  - RESEARCH: "./RESEARCH/research.md"
-  - PROJECT: "./PROJECT/project.md"
+  - IOT: 
+      - "./IOT/iot.md"
+  - CLOUD: 
+      - "./CLOUD/cloud.md"
+      - CLOUD-TECH: "./CLOUD/CLOUD-TECH/cloud-tech.md"
+      - HANDS-ON:
+          - Have A Server: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
+          - Server Configuration: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
+  - AI: 
+      - "./AI/ai.md"
+  - RESEARCH: 
+      - "./RESEARCH/research.md"
+  - PROJECT: 
+      - "./PROJECT/project.md"
