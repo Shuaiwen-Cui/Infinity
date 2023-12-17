@@ -36,6 +36,27 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/cloud/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CLOUD/CLOUD-TECH/cloud-tech/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/CLOUD-TECH/cloud-tech/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/CLOUD-TECH/cloud-tech/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CODING/coding/</loc>
         <lastmod>2023-12-17</lastmod>
         <changefreq>daily</changefreq>
@@ -160,6 +181,27 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/cloud/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/cloud/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CLOUD/CLOUD-TECH/cloud-tech/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/CLOUD-TECH/cloud-tech/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/CLOUD-TECH/cloud-tech/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/CODING/coding/</loc>
