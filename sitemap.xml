@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://localhost:8000/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CS/CS/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/CS/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/CS/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/FOREWORD/about/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FOREWORD/about/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FOREWORD/about/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/FOREWORD/sponsorship/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FOREWORD/sponsorship/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FOREWORD/sponsorship/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/ReferenceCode/reference/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/reference/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/reference/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/blog/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/blog/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/blog/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CS/CS/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/CS/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/CS/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/FOREWORD/about/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FOREWORD/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FOREWORD/about/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/FOREWORD/sponsorship/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/FOREWORD/sponsorship/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/FOREWORD/sponsorship/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/ReferenceCode/reference/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/reference/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/blog/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/blog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/blog/"/>
+    </url>
+</urlset>
