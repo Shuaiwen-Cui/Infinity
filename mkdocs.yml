@@ -131,6 +131,7 @@ plugins:
             HANDS-ON: 上手实践
             Have A Server: 拥有一台服务器
             Server Configuration: 服务器配置
+            Get A Domain Name: 获得一个域名
             AI: 人工智能
             RESEARCH: 研究
             PROJECT: 项目
@@ -278,3 +279,4 @@ nav:
       - "./RESEARCH/research.md"
   - PROJECT: 
       - "./PROJECT/project.md"
+      - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
