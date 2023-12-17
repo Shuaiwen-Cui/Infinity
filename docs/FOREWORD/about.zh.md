@@ -11,4 +11,4 @@
 
 欢迎来到我的个人技术博客！ 本网站作为我个人学习、研究和开发的规划图。 请点击顶部或左侧的导航栏开始探索本站。
 
-![Cover](./static/images/Cover.jpg)
+![Cover](Cover.jpg)

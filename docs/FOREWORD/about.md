@@ -10,4 +10,4 @@
 ## 🎮 About
 Welcome to my personal tech blog! This website serves as a roadmap for my personal study, research and development. Explore this site by clicking the navigation bar on the top or the left.
 
-![Cover](./static/images/Cover.jpg)
+![Cover](Cover.jpg)

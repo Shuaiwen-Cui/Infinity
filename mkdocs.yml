@@ -1,4 +1,4 @@
-# Copyright (c) 2023 Shuaiwen Cui
+# Copyright (c) 2023 - now Shuaiwen Cui
 # Built upon MkDocs & Material for MkDocs
 
 # Project information
@@ -13,7 +13,7 @@ repo_name: Shuaiwen-Cui/Infinity
 repo_url: https://github.com/Shuaiwen-Cui/Infinity.git/
 
 # Copyright
-copyright: Copyright &copy; 2023 Shuaiwen Cui
+copyright: Copyright &copy; 2023 ~ now | 🚀 Shuaiwen Cui (Shaun)
 
 # Configuration
 theme:
@@ -128,9 +128,10 @@ plugins:
         - locale: zh
           name: 简体中文
           build: true
-          site_name: 知也无涯
-          nav_translations:
+          nav_translations: # note that all titles and subtitles in the navigation bar must be translated need to be translated can be put here, but with no indentation
             Foreword: 前言
+            About: 关于
+            Sponsorship: 赞助
             CS: 计算机
 # # Hooks
 # hooks:
@@ -244,7 +245,10 @@ markdown_extensions:
 
 # Page Navigation Tree
 nav:
-  - Foreword: "index.md"
+  - Foreword: 
+      - "index.md"
+      - About: "./FOREWORD/about.md"
+      - Sponsorship: "./FOREWORD/sponsorship.md"
   - CS: "./CS/CS.md"
 
 
