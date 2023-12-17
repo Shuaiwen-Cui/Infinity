@@ -57,6 +57,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CODING/coding/</loc>
         <lastmod>2023-12-17</lastmod>
         <changefreq>daily</changefreq>
@@ -134,6 +141,20 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/RESEARCH/research/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/ReferenceCode/browser-support/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/browser-support/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/browser-support/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/ReferenceCode/conventions/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/conventions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/conventions/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/ReferenceCode/reference/</loc>
         <lastmod>2023-12-17</lastmod>
         <changefreq>daily</changefreq>
@@ -202,6 +223,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/CODING/coding/</loc>
@@ -279,6 +307,20 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/RESEARCH/research/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/RESEARCH/research/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/ReferenceCode/browser-support/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/browser-support/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/browser-support/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/ReferenceCode/conventions/</loc>
+        <lastmod>2023-12-17</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/conventions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/conventions/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/ReferenceCode/reference/</loc>
