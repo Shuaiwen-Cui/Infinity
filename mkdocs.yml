@@ -115,7 +115,7 @@ plugins:
         - locale: zh
           name: 简体中文
           build: true
-          nav_translations: # note that all titles and subtitles in the navigation bar must be translated need to be translated can be put here, but with no indentation
+          nav_translations: # note that all titles and subtitles in the navigation bar that need to be translated can be put here, but with no indentation
             HOME: 首页
             ABOUT: 关于
             SPONSORSHIP: 赞助
