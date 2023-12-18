@@ -198,8 +198,8 @@ extra:
   #     make our documentation better.
 
 # Extra Configuration 
-# extra_javascript:
-#   - https://giscus.app/client.js
+extra_javascript:
+  - https://giscus.app/client.js
 
 
 # Extensions
