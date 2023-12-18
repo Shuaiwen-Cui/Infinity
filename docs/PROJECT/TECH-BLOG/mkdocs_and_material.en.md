@@ -115,6 +115,26 @@ Material for MkDocs is available from [PyPI](https://pypi.org/project/mkdocs-mat
 pip install mkdocs-material
 ```
 
+To view your projects in real time, run the following command:
+
+```bash
+mkdocs serve
+```
+
+if you get some errors reporting some modules not found, you can try to install them manually. Mainly due to the plugins, in my case, rss, minify, and i18n.
+  
+```bash
+pip install mkdocs-rss-plugin
+```
+
+```bash
+pip install mkdocs-minify-plugin
+```
+
+```bash
+pip install mkdocs-static-i18n
+```
+
 ### Configuration
 
 This part should be paid attention to. I use my own configuration file as an example. Refer to the comments in the configuration file for details.

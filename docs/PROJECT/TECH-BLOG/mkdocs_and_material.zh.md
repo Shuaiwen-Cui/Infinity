@@ -136,6 +136,26 @@ pip install mkdocs-material
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple mkdocs-material
 ```
 
+如果想要实时反馈，可以先把项目跑起来：
+
+```bash
+mkdocs serve
+```
+
+如果运行以上代码报错，提示缺少某个模块，可以使用以下命令安装。我遇到的问题是rss, minify, static-i18n这三个模块没有安装，所以我使用以下命令安装了这三个模块。
+  
+```bash
+pip install mkdocs-rss-plugin
+```
+
+```bash
+pip install mkdocs-minify-plugin
+```
+
+```bash
+pip install mkdocs-static-i18n
+```
+
 ### 配置Material主题
 
 这个部分应该是花费时间和心思最多的部分，因为Material主题提供了非常多的配置选项，我们可以根据自己的需求进行配置。具体可以参考我的备注。

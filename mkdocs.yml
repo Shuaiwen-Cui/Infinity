@@ -74,7 +74,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: static/images/logo.png
   icon:
     logo: logo
     previous: fontawesome/solid/angle-left
@@ -119,6 +119,7 @@ plugins:
             HOME: 首页
             ABOUT: 关于
             SPONSORSHIP: 赞助
+            MATH: 数学
             CS: 计算机
             CODING: 编程
             EMBEDDED-SYS: 嵌入式系统
@@ -135,6 +136,7 @@ plugins:
             AI: 人工智能
             RESEARCH: 研究
             PROJECT: 项目
+            TECH-BLOG: 技术博客
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
@@ -195,6 +197,11 @@ extra:
   #     find what they're searching for. With your consent, you're helping us to
   #     make our documentation better.
 
+# Extra Configuration 
+# extra_javascript:
+#   - https://giscus.app/client.js
+
+
 # Extensions
 markdown_extensions:
   - abbr
@@ -251,6 +258,8 @@ nav:
       - "index.md"
       - ABOUT: "./HOME/about.md"
       - SPONSORSHIP: "./HOME/sponsorship.md"
+  - MATH:
+      - "./MATH/math.md"
   - CS: 
       - "./CS/CS.md"
   - CODING: 

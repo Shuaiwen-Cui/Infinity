@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 🔭 吾生也有涯，而知也无涯
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
 ![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)

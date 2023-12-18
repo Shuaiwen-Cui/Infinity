@@ -1,13 +1,11 @@
-# 🔭 Stay Hungry, Stay Foolish
-![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
-![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Shuaiwen-Cui/Infinity?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Shuaiwen-Cui/Infinity?style=social)
+# 🔭 About Me And This Website
+
+## About Me
 
 !!! tip
-    To visit my personal website, please click the link: [🏘️ www.cuishuaiwen.com](http://www.cuishuaiwen.com).
+    Just go to my personal website : [🏘️ www.cuishuaiwen.com](http://www.cuishuaiwen.com){:target="_blank"}.
 
-## 🎮 About
-Welcome to my personal tech blog! This website serves as a roadmap for my personal study, research and development. Explore this site by clicking the navigation bar on the top or the left.
+## About This Website
+This website serves as a roadmap for my personal study, research and development. 
 
 ![Cover](Cover.jpg)
