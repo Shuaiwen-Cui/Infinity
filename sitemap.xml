@@ -29,6 +29,69 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/ai/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/AI/BASICS/basics/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/BASICS/basics/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/BASICS/basics/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/CNN/cnn/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/CNN/cnn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/CNN/cnn/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/FL/fl/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/FL/fl/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/FL/fl/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/FRAMEWORKS/frameworks/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/FRAMEWORKS/frameworks/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/FRAMEWORKS/frameworks/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/GAN/gan/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/GAN/gan/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/GAN/gan/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/MLP/mlp/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/MLP/mlp/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/MLP/mlp/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/RL/rl/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/RL/rl/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/RL/rl/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/RNN/rnn/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/RNN/rnn/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/RNN/rnn/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/AI/TRANSFORMER/transformer/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/TRANSFORMER/transformer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/TRANSFORMER/transformer/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CLOUD/cloud/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
@@ -71,6 +134,41 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/coding/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CODING/C-C%2B%2B/c-c%2B%2B/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/c-c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/c-c%2B%2B/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CODING/C-C%2B%2B/C/c/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/C/c/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C/c/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CODING/PYTHON/python/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/PYTHON/python/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/PYTHON/python/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CONTROL/control/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CONTROL/control/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CONTROL/control/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CS/CS/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
@@ -78,11 +176,32 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/CS/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/DEVENV/devenv/</loc>
+        <loc>https://localhost:8000/DEV/dev/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEVENV/devenv/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEVENV/devenv/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/dev/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/dev/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/DEV/BACK-END/back-end/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/BACK-END/back-end/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/BACK-END/back-end/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/DEV/DEVENV/devenv/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/DEVENV/devenv/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/DEVENV/devenv/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/DEV/FRONT-END/front-end/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/FRONT-END/front-end/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/FRONT-END/front-end/"/>
     </url>
     <url>
         <loc>https://localhost:8000/DSP/dsp/</loc>
@@ -155,13 +274,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/RESEARCH/research/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/ReferenceCode/</loc>
-        <lastmod>2023-12-18</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/"/>
-    </url>
-    <url>
         <loc>https://localhost:8000/ReferenceCode/browser-support/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
@@ -169,18 +281,32 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/browser-support/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/ReferenceCode/conventions/</loc>
-        <lastmod>2023-12-18</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/conventions/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/conventions/"/>
-    </url>
-    <url>
         <loc>https://localhost:8000/ReferenceCode/reference/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/reference/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/reference/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/SHM/shm/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/SHM/shm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/SHM/shm/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/VISUALIZATION/2D/2d-visualization/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/VISUALIZATION/2D/2d-visualization/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/VISUALIZATION/2D/2d-visualization/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/VISUALIZATION/3D/3d-visualization/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/VISUALIZATION/3D/3d-visualization/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/VISUALIZATION/3D/3d-visualization/"/>
     </url>
     <url>
         <loc>https://localhost:8000/blog/</loc>
@@ -216,6 +342,69 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/ai/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/ai/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/BASICS/basics/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/BASICS/basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/BASICS/basics/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/CNN/cnn/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/CNN/cnn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/CNN/cnn/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/FL/fl/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/FL/fl/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/FL/fl/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/FRAMEWORKS/frameworks/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/FRAMEWORKS/frameworks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/FRAMEWORKS/frameworks/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/GAN/gan/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/GAN/gan/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/GAN/gan/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/MLP/mlp/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/MLP/mlp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/MLP/mlp/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/RL/rl/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/RL/rl/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/RL/rl/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/RNN/rnn/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/RNN/rnn/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/RNN/rnn/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/TRANSFORMER/transformer/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/TRANSFORMER/transformer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/TRANSFORMER/transformer/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/CLOUD/cloud/</loc>
@@ -260,6 +449,41 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/coding/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/zh/CODING/C-C%2B%2B/c-c%2B%2B/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/c-c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/c-c%2B%2B/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CODING/C-C%2B%2B/C/c/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C/c/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/C/c/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/C%2B%2B/c%2B%2B/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CODING/PYTHON/python/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/PYTHON/python/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/PYTHON/python/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CONTROL/control/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CONTROL/control/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CONTROL/control/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/zh/CS/CS/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
@@ -267,11 +491,32 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/CS/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/DEVENV/devenv/</loc>
+        <loc>https://localhost:8000/zh/DEV/dev/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEVENV/devenv/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEVENV/devenv/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/dev/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/DEV/BACK-END/back-end/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/BACK-END/back-end/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/BACK-END/back-end/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/DEV/DEVENV/devenv/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/DEVENV/devenv/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/DEVENV/devenv/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/DEV/FRONT-END/front-end/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/DEV/FRONT-END/front-end/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/DEV/FRONT-END/front-end/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/DSP/dsp/</loc>
@@ -344,13 +589,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/RESEARCH/research/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/ReferenceCode/</loc>
-        <lastmod>2023-12-18</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/"/>
-    </url>
-    <url>
         <loc>https://localhost:8000/zh/ReferenceCode/browser-support/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
@@ -358,18 +596,32 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/browser-support/"/>
     </url>
     <url>
-        <loc>https://localhost:8000/zh/ReferenceCode/conventions/</loc>
-        <lastmod>2023-12-18</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/conventions/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/conventions/"/>
-    </url>
-    <url>
         <loc>https://localhost:8000/zh/ReferenceCode/reference/</loc>
         <lastmod>2023-12-18</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/ReferenceCode/reference/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/ReferenceCode/reference/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/SHM/shm/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/SHM/shm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/SHM/shm/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/VISUALIZATION/2D/2d-visualization/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/VISUALIZATION/2D/2d-visualization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/VISUALIZATION/2D/2d-visualization/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/VISUALIZATION/3D/3d-visualization/</loc>
+        <lastmod>2023-12-18</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/VISUALIZATION/3D/3d-visualization/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/VISUALIZATION/3D/3d-visualization/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/blog/</loc>
