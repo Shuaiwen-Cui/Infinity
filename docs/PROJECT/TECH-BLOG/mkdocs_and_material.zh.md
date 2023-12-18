@@ -194,7 +194,7 @@ theme:
     - navigation.expand # 默认展开导航栏
     - navigation.footer # 底部导航栏
     - navigation.indexes # 索引按钮可以直接触发文件，而不是只能点击其下属选项浏览，这个功能可以给对应的section提供很好的预览和导航功能
-    - navigation.instant # 瞬间加载
+    # - navigation.instant # 瞬间加载 - 如果这个开着，那么语言切换后就会跳转至首页，所以我关掉了
     - navigation.instant.prefetch # 预加载
     - navigation.instant.progress # 进度条
     - navigation.path # 导航路径， 目前好像没啥用
@@ -323,7 +323,7 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-  # alternate: # 由上面那个i18n插件提供的多语言功能，这个似乎就不需要了。 这个是官方文档的例子，但是官方没有提供很详细的例子，所以我也不知道怎么用。尤其是那个stay on page，我做不来。
+  # alternate: # 由上面那个i18n插件提供的多语言功能，这个似乎就不需要了。 这个是官方文档的例子，但是官方没有提供很详细的例子，所以我也不知道怎么用。
   #   - name: English
   #     link: /en/ 
   #     lang: en

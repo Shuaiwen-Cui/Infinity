@@ -34,7 +34,7 @@ theme:
     - navigation.expand # expand the side navigation bar by default
     - navigation.footer
     - navigation.indexes # documents can be directly attached to sections, which is particularly useful for providing overview pages
-    - navigation.instant
+    # - navigation.instant
     - navigation.instant.prefetch # for large file
     - navigation.instant.progress # loading progress bar
     - navigation.path # breadcrumb path on top of page

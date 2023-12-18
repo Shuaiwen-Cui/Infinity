@@ -173,7 +173,7 @@ theme:
     - navigation.expand # expand the side navigation bar by default
     - navigation.footer # footer navigation
     - navigation.indexes # documents can be directly attached to sections, which is particularly useful for providing overview pages
-    - navigation.instant # instant navigation
+    # - navigation.instant # instant navigation - better comment out this item, otherwise, once you switch the language, it will jump back to the home page
     - navigation.instant.prefetch # for large file
     - navigation.instant.progress # loading progress bar
     - navigation.path # breadcrumb path on top of page
