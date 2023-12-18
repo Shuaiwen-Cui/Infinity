@@ -135,7 +135,20 @@ plugins:
             Server Configuration: 服务器配置
             Get A Domain Name: 获得一个域名
             AI: 人工智能
+            BASICS: 基础
+            FRAMEWORKS: 框架
+            MLP: 多层感知机
+            CNN: 卷积神经网络
+            RNN: 循环神经网络
+            TRANSFORMER: 变压器
+            GAN: 生成对抗网络
+            RL: 强化学习
+            FL: 联邦学习
             SHM: 结构健康监测
+            DEV: 开发
+            DEVENV: 开发环境
+            FRONT-END: 前端
+            BACK-END: 后端
             RESEARCH: 研究
             PROJECT: 项目
             TECH-BLOG: 技术博客
@@ -287,9 +300,23 @@ nav:
           - Server Configuration: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
           - Get A Domain Name: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
   - AI: 
-      - "./AI/ai.md"
+      # - "./AI/ai.md"
+      - BASICS: "./AI/BASICS/basics.md"
+      - FRAMEWORKS: "./AI/FRAMEWORKS/frameworks.md"
+      - MLP: "./AI/MLP/mlp.md"
+      - CNN: "./AI/CNN/cnn.md"
+      - RNN: "./AI/RNN/rnn.md"
+      - TRANSFORMER: "./AI/TRANSFORMER/transformer.md"
+      - GAN: "./AI/GAN/gan.md"
+      - RL: "./AI/RL/rl.md"
+      - FL: "./AI/FL/fl.md"
   - SHM: 
       - "./SHM/shm.md"
+  - DEV: 
+      - "./DEV/dev.md"
+      - DEVENV: "./DEV/DEVENV/devenv.md"
+      - FRONT-END: "./DEV/FRONT-END/front-end.md"
+      - BACK-END: "./DEV/BACK-END/back-end.md"
   - RESEARCH: 
       - "./RESEARCH/research.md"
   - PROJECT: 
