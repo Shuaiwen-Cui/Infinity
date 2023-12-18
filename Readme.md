@@ -27,20 +27,36 @@
 
 ```
 
-## How To Get Started (Linux as an example)
+## How To Get Started
 
 - For uploading
 
+If you use MacOS or Linux, you can use the following command to upload the website to the server
+
 ```bash
 bash upload.sh
+```
+
+If you use Windows, you can use the following command to upload the website to the server
+
+```bash
+./upload.sh
 ```
 
 - For server side operations
 
 change directory to the root directory of the website
 
+If the server is Linux, you can use the following command to do a series of operations on the server
+
 ```bash
 bash Ops.sh
+```
+
+If the server is Windows, you can use the following command to do a series of operations on the server
+
+```bash
+./Ops.sh
 ```
 
 for more details, please refer to the page http://www.cuishuaiwen.com:8000/PROJECT/TECH-BLOG/mkdocs_and_material/
