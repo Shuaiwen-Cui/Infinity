@@ -1,5 +1,8 @@
 # AI 基础
 
+![AI-ML-DL](ai-ml-dl.png)
+AI 进化史: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/](https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/)
+
 ## 机器学习
 
 <div class="grid cards" markdown>
@@ -20,7 +23,7 @@
 
 <div class="grid cards" markdown>
 
--  :simple-coursera:{ .lg .middle } __深度学习专项课程🏆__
+-  :simple-coursera:{ .lg .middle } __深度学习专项课程 🏆__
     
     ---
 
@@ -40,7 +43,7 @@
     
     [:octicons-arrow-right-24: <a href="https://www.coursera.org/specializations/deep-learning" target="_blank"> 课程主页 </a>](#)
 
--   :fontawesome-brands-square-github:{ .lg .middle } __动手学深度学习🏆__
+-   :fontawesome-brands-square-github:{ .lg .middle } __动手学深度学习 🏆__
 
     --- 
 

@@ -125,8 +125,9 @@ plugins:
             EMBEDDED-SYS: 嵌入式系统
             DSP: 数字信号处理
             PERCEPTION: 感知
-            ACTUATION: 执行
             CONTROL: 控制
+            ACTUATION: 执行
+            VISUALIZATION: 可视化            
             IOT: 物联网
             CLOUD: 云
             CLOUD-TECH: 云技术
@@ -140,7 +141,7 @@ plugins:
             MLP: 多层感知机
             CNN: 卷积神经网络
             RNN: 循环神经网络
-            TRANSFORMER: 变压器
+            TRANSFORMER: “变形金刚”
             GAN: 生成对抗网络
             RL: 强化学习
             FL: 联邦学习
@@ -278,18 +279,26 @@ nav:
   - CS: 
       - "./CS/CS.md"
   - CODING: 
-      - "./CODING/coding.md"
+      # - "./CODING/coding.md"
+      - C/C++:
+          # - "./C-C++/c-c++.md"
+          - C: "./CODING/C-C++/C/c.md"
+          - C++: "./CODING/C-C++/C++/c++.md"
+      - PYTHON: "./CODING/PYTHON/python.md"
   - EMBEDDED-SYS: 
       - "./EMBEDDED-SYS/embedded-sys.md"
   - DSP: 
       - "./DSP/dsp.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
+  - CONTROL: 
+      - "./CONTROL/control.md"
   - ACTUATION: 
       - "./ACTUATION/actuation.md"
       - ROS: "./ACTUATION/ROS/ros.md"
-  - CONTROL: 
-      - "./CONTROL/control.md"
+  - VISUALIZATION: 
+      - 2D: "./VISUALIZATION/2D/2d-visualization.md"
+      - 3D: "./VISUALIZATION/3D/3d-visualization.md"
   - IOT: 
       - "./IOT/iot.md"
   - CLOUD: 

@@ -1,5 +1,8 @@
 # AI Basics
 
+![AI-ML-DL](ai-ml-dl.png)
+Evolution of AI: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/](https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/)
+
 ## Machine Learning
 
 <div class="grid cards" markdown>
@@ -19,7 +22,7 @@
 ## Deep Learning
 <div class="grid cards" markdown>
 
--  :simple-coursera:{ .lg .middle } __Deep Learning Specialization🏆__
+-  :simple-coursera:{ .lg .middle } __Deep Learning Specialization 🏆__
 
     ---
 
@@ -37,7 +40,7 @@
 
     [:octicons-arrow-right-24: <a href="https://www.coursera.org/specializations/deep-learning" target="_blank"> Portal </a>](#)
 
--   :fontawesome-brands-square-github:{ .lg .middle } __Dive Into Deep Learning🏆__
+-   :fontawesome-brands-square-github:{ .lg .middle } __Dive Into Deep Learning 🏆__
 
     --- 
 

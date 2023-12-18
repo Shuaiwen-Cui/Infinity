@@ -8,11 +8,11 @@ comments: true
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course__
+-   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course 🏆__
 
     ---
 
-    🏆 Very very very good video series for CS beginners, highly recommended!
+    Very very very good video series for CS beginners, highly recommended!
 
     [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=O5nskjZ_GoI&list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy" target="_blank"> Portal </a>](#)
 
@@ -39,6 +39,13 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://csdiy.wiki/" target="_blank"> Portal </a>](#)
 
+-   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo 🏆__
+
+    ---
+
+    Hello Algo is a very good algorithm self-learning guide. (In Chinese)
+
+    [:octicons-arrow-right-24: <a href="https://www.hello-algo.com/" target="_blank"> Portal </a>](#)
 </div>
 
 ### Classic Books
@@ -52,11 +59,11 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://github.com/acmbpdc/openlib.cs" target="_blank"> Portal </a>](#)
 
--  :material-book:{ .lg .middle } __Computer System: APP__
+-  :material-book:{ .lg .middle } __Computer System: APP 🏆__
 
     ---
 
-    🏆 Computer System: A Programmer's Perspectiv - This is classic, but it is not easy to read. Anyway, it deserves your time.
+    Computer System: A Programmer's Perspectiv - This is classic, but it is not easy to read. Anyway, it deserves your time.
 
     [:octicons-arrow-right-24: <a href="https://github.com/iWangMu/Book-CSAPP/blob/master/_Attachments/Computer_Systems_A_Programmers_Perspective(3rd).pdf" target="_blank"> Portal </a>](#)
 
@@ -65,11 +72,11 @@ comments: true
 ## Online Study Platforms
 
 <div class="grid cards" markdown>
--  :simple-coursera:{ .lg .middle } __Coursera__
+-  :simple-coursera:{ .lg .middle } __Coursera 🏆__
 
     ---
 
-    🏆 Coursera is a very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
+    Coursera is a very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
 
     [:octicons-arrow-right-24: <a href="https://www.coursera.org/" target="_blank"> Portal </a>](#)
 
@@ -94,19 +101,19 @@ comments: true
 ## Become A Developer
 
 <div class="grid cards" markdown>
--   :simple-roadmapdotsh:{ .lg .middle } __Roadmap__
+-   :simple-roadmapdotsh:{ .lg .middle } __Roadmap 🏆__
 
     ---
 
-    🏆 One-stop roadmap to become a developer.
+    One-stop roadmap to become a developer.
 
     [:octicons-arrow-right-24: <a href="https://roadmap.sh/" target="_blank"> Portal </a>](#)
 
--  :material-book:{ .lg .middle } __黑马程序员教程__
+-  :material-book:{ .lg .middle } __黑马程序员教程 🏆__
 
     ---
 
-    🏆 [In Chinese] Practical guide to become a developer
+    [In Chinese] Practical guide to become a developer
 
     [:octicons-arrow-right-24: <a href="https://book.itheima.net/" target="_blank"> Portal </a>](#)
 

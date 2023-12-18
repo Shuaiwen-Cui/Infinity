@@ -1,10 +1,10 @@
----
+<!-- ---
 comments: false
----
+--- -->
 
-# MATH
+# Math
 
-## GENERIC
+## Generic
 
 <div class="grid cards" markdown>
 
@@ -18,22 +18,21 @@ comments: false
 
 </div>
 
-## ANALYSES
-
+## Analysis
 <div class="grid cards" markdown>
 - :material-book: <a href="https://github.com/vortexmethods/Stewart" target="_blank">__Calculus, 8th Edition__</a> – in English, by James Stewart
 </div>
 
-## ALGEBRA
+## Algebra
 
 <div class="grid cards" markdown>
 - :material-book: <a href="https://textbooks.math.gatech.edu/ila/" target="_blank">__Interactive Linear Algebra__</a> – in English, by Dan Margalit and Joseph Rabinoff
 - :material-book: <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix" target="_blank">__Power of Matrix__</a> – in Chinese, Visual ML Series 4
 </div>
 
-## GEOMETRY
+## Geometry
 
-## PROBABILITY & STATISTICS
+## Probability and Statistics
 
 <div class="grid cards" markdown>
 - :material-book: <a href="https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics" target="_blank">__Essentials of Posibility and Statistics__</a> – in Chinese, Visual ML Series 5
