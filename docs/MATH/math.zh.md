@@ -2,9 +2,9 @@
 comments: true
 ---
 
-# MATH
+# 数学
 
-## GENERIC
+## 通用
 
 <div class="grid cards" markdown>
 
@@ -17,13 +17,13 @@ comments: true
 - :material-book: <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics" target="_blank">__数学元素__</a> – 机器学习可视化系列3
 </div>
 
-## ANALYSES
+## 分析
 
 <div class="grid cards" markdown>
 - :material-book: <a href="https://github.com/vortexmethods/Stewart" target="_blank">__微积分 第八版__</a> – James Stewart 著
 </div>
 
-## ALGEBRA
+## 代数
 
 <div class="grid cards" markdown>
 - :material-book: <a href="https://textbooks.math.gatech.edu/ila/" target="_blank">__交互式线性代数__</a> – Dan Margalit，Joseph Rabinoff 著
@@ -31,9 +31,9 @@ comments: true
 - :material-book: <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix" target="_blank">__矩阵力量__</a> – 机器学习可视化系列4
 </div>
 
-## GEOMETRY
+## 几何
 
-## PROBABILITY & STATISTICS
+## 概率与统计
 
 <div class="grid cards" markdown>
 - :material-book: <a href="https://github.com/Visualize-ML/Book5_Essentials-of-Probability-and-Statistics" target="_blank">__统计至简__</a> – 机器学习可视化系列5

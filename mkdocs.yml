@@ -134,6 +134,7 @@ plugins:
             Server Configuration: 服务器配置
             Get A Domain Name: 获得一个域名
             AI: 人工智能
+            SHM: 结构健康监测
             RESEARCH: 研究
             PROJECT: 项目
             TECH-BLOG: 技术博客
@@ -284,6 +285,8 @@ nav:
           - Get A Domain Name: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
   - AI: 
       - "./AI/ai.md"
+  - SHM: 
+      - "./SHM/shm.md"
   - RESEARCH: 
       - "./RESEARCH/research.md"
   - PROJECT: 
