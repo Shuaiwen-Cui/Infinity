@@ -1,5 +1,5 @@
 ---
-comments: true
+comments: false
 ---
 
 # 数学

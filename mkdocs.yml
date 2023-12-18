@@ -126,6 +126,7 @@ plugins:
             DSP: 数字信号处理
             PERCEPTION: 感知
             ACTUATION: 执行
+            CONTROL: 控制
             IOT: 物联网
             CLOUD: 云
             CLOUD-TECH: 云技术
@@ -199,8 +200,8 @@ extra:
   #     make our documentation better.
 
 # Extra Configuration 
-extra_javascript:
-  - https://giscus.app/client.js
+# extra_javascript:
+#   - https://giscus.app/client.js
 
 
 # Extensions
@@ -274,6 +275,8 @@ nav:
   - ACTUATION: 
       - "./ACTUATION/actuation.md"
       - ROS: "./ACTUATION/ROS/ros.md"
+  - CONTROL: 
+      - "./CONTROL/control.md"
   - IOT: 
       - "./IOT/iot.md"
   - CLOUD: 
