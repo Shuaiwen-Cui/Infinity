@@ -24,3 +24,21 @@
     └── Other pages and resources
 
 ```
+
+## How To Get Started (Linux as an example)
+
+- For uploading
+
+```bash
+bash upload.sh
+```
+
+- For server side operations
+
+change directory to the root directory of the website
+
+```bash
+bash Ops.sh
+```
+
+for more details, please refer to the page http://www.cuishuaiwen.com:8000/PROJECT/TECH-BLOG/mkdocs_and_material/
