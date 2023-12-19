@@ -78,6 +78,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/NOTE-D2L/CH1-INTRO/ch1-intro/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/AI/NOTE-D2L/CH2-PRE/pre/</loc>
+        <lastmod>2023-12-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/NOTE-D2L/CH2-PRE/pre/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/NOTE-D2L/CH2-PRE/pre/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/AI/RL/rl/</loc>
         <lastmod>2023-12-19</lastmod>
         <changefreq>daily</changefreq>
@@ -433,6 +440,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/NOTE-D2L/CH1-INTRO/ch1-intro/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/NOTE-D2L/CH1-INTRO/ch1-intro/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/AI/NOTE-D2L/CH2-PRE/pre/</loc>
+        <lastmod>2023-12-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/AI/NOTE-D2L/CH2-PRE/pre/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/AI/NOTE-D2L/CH2-PRE/pre/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/AI/RL/rl/</loc>
