@@ -157,6 +157,8 @@ plugins:
             SHM: 结构健康监测
             DEV: 开发
             DEVENV: 开发环境
+            REMOTE-CONTROL: 远程控制
+            CLOUD-SYNC: 云同步
             FRONT-END: 前端
             BACK-END: 后端
             RESEARCH: 研究
@@ -338,7 +340,10 @@ nav:
       - "./SHM/shm.md"
   - DEV: 
       - "./DEV/dev.md"
-      - DEVENV: "./DEV/DEVENV/devenv.md"
+      - DEVENV: 
+          # - "./DEV/DEVENV/devenv.md"
+          - REMOTE-CONTROL: "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
+          - CLOUD-SYNC: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
       - FRONT-END: "./DEV/FRONT-END/front-end.md"
       - BACK-END: "./DEV/BACK-END/back-end.md"
       - VISUALIZATION:

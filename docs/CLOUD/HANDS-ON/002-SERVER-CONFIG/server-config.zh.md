@@ -144,3 +144,72 @@ conda 是一个工具，可以让你创建独立的 Python 环境。它创建一
 sudo apt-get install conda
 ```
 
+### UWF (firewall)
+
+#### 什么是 UWF？
+
+UWF 是一个防火墙，可以让你保护你的服务器免受恶意攻击。
+
+#### 如何安装 UWF？（以 Linux 为例）
+
+在 Linux 上，你可以使用以下命令安装 UWF：
+
+```bash
+sudo apt-get install uwf
+```
+
+#### 如何使用 UWF 检查端口状态？（以 Linux 为例）
+
+在 Linux 上，你可以使用以下命令使用 UWF 检查端口状态：
+
+```bash
+sudo uwf status
+```
+
+使用以下命令检查哪些端口是开放的：
+
+```bash
+sudo uwf status verbose
+```
+
+你也可以使用 netstat 检查端口状态，使用以下命令：
+
+```bash
+sudo netstat -tulpn
+```
+
+或者
+
+```bash
+sudo ss -tulpn
+```
+
+你也可以使用 iptables 检查端口状态，使用以下命令：
+
+```bash
+sudo iptables -L
+```
+
+#### 如何使用 UWF 启用端口？（以 Linux 为例）
+
+首先，你需要在云服务提供商的防火墙中启用端口，然后你需要在 UWF 中启用端口。
+
+在 Linux 上，你可以使用以下命令使用 UWF 启用端口：
+
+```bash
+sudo uwf allow <port>/<protocol>
+```
+
+或者更简单一点，不需要输入协议：
+
+```bash
+sudo uwf allow <port>
+```
+
+例如，端口 80 用于 http，这通常是 http 的默认端口，因此你可以使用以下命令：
+
+```bash
+sudo uwf allow 80/tcp 
+```
+
+

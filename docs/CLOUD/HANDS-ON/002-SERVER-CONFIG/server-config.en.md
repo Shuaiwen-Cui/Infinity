@@ -143,3 +143,75 @@ On Linux, you can install conda using the following command:
 sudo apt-get install conda
 ```
 
+### UWF (firewall)
+
+#### What is UWF?
+
+UFW, or Uncomplicated Firewall, is an interface to iptables that is geared towards simplifying the process of configuring a firewall. While iptables is a solid and flexible tool, it can be difficult for beginners to learn how to use it to properly configure a firewall. If you're looking to get started securing your network, and you're not sure which tool to use, UFW may be the right choice for you.
+
+#### How to Install UWF? (Linux as an example)
+
+On Linux, you can install UWF using the following command:
+
+```bash
+sudo apt-get install ufw
+```
+Activate UWF using the following command:
+
+```bash
+sudo ufw enable
+```
+
+#### How to check the port status using UWF? (Linux as an example)
+
+On Linux, you can check the port status using UWF using the following command:
+
+```bash
+sudo ufw status
+```
+
+check which ports are open using the following command:
+
+```bash
+sudo ufw status verbose
+```
+
+you can also use netstat to check the port status using the following command:
+
+```bash
+sudo netstat -tulpn
+```
+
+or
+    
+```bash
+sudo ss -tulpn
+```
+
+you can also use iptables to check the port status using the following command:
+
+```bash
+sudo iptables -L
+```
+
+#### How to use uwf to enable ports? (Linux as an example)
+
+First, you need to enable the ports in the cloud service provider's firewall, and then you need to enable the ports in the UWF.
+
+On Linux, you can use UWF to enable ports using the following command:
+
+```bash
+sudo ufw allow <port>/<protocol>
+```
+or you can ignore the protocol for simplicity:
+
+```bash
+sudo ufw allow <port>
+```
+
+for example port 80 for http, this is usually the default port for http, so you can use the following command:
+
+```bash
+sudo ufw allow 80/tcp 
+```
+

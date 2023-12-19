@@ -75,6 +75,8 @@ Most cases, for cloud server, you will choose Linux. Popular choices are Ubuntu 
 
 After creating the instance, you can connect to the cloud server. Usually, the provider will provide a wizard to help you connect to the cloud server. You can also connect to the cloud server by yourself.
 
+If you use Aliyun like me, you need to setup the password inside the instance management page, and then you can connect to the cloud server.
+
 !!! tip
     For terminal tools, you can you the web-based SSH provided by the provider, or you can use third-party tools. On windows, you can use [PuTTY](https://www.putty.org/), or [MobaXterm](https://mobaxterm.mobatek.net/) (My Favorite!). On Mac, you can use third-party tools such as [Termius](https://termius.com/). They can help you remember the IP address, username and password of your cloud server, and you can connect to your cloud server with one click. Also, you can use them to transfer files between your local computer and your cloud server. Most of them are free or have free plans.
 
