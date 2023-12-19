@@ -152,6 +152,8 @@ plugins:
             GAN: 生成对抗网络
             RL: 强化学习
             FL: 联邦学习
+            NOTE-D2L: 动手学深度学习
+            CH1-INTRO: CH1-引言
             SHM: 结构健康监测
             DEV: 开发
             DEVENV: 开发环境
