@@ -4,6 +4,9 @@
 # Clean the site files
 rm -r site
 
+# Get the latest version of the site
+git pull
+
 # Build the site - and nginx / apache will serve it
 mkdocs build
 
