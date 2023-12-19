@@ -81,6 +81,37 @@ comments: false
 
 </div>
 
+## 🌐 在线学习平台
+
+<div class="grid cards" markdown>
+-  :simple-coursera:{ .lg .middle } __Coursera 🏆__
+
+    ---
+
+    Coursera 是一个非常好的在线学习平台。它提供了很多免费的课程。你也可以付费获得证书。
+
+    [:octicons-arrow-right-24: <a href="https://www.coursera.org/" target="_blank"> 传送门 </a>](#)
+
+
+- :simple-edx:{ .lg .middle } __edX__
+
+    ---
+
+    edX 是另一个非常好的在线学习平台。它提供了很多免费的课程。你也可以付费获得证书。
+
+    [:octicons-arrow-right-24: <a href="https://www.edx.org/" target="_blank"> 传送门 </a>](#)
+
+
+- :simple-udemy:{ .lg .middle } __Udemy__
+
+    ---
+
+    Udemy 是另一个非常好的在线学习平台。它提供了很多免费的课程。你也可以付费获得证书。
+
+    [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 ## 🏆 热帖
 
 <div class="grid cards" markdown>

@@ -8,7 +8,7 @@ comments: true
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course 🏆__
+-   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course ✅ 🏆__
 
     ---
 
@@ -39,7 +39,7 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://csdiy.wiki/" target="_blank"> 传送门 </a>](#)
 
--   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo 🏆__
+-   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo ✅ 🏆__
 
     ---
 
@@ -52,7 +52,7 @@ comments: true
 ### 经典书籍
 <div class="grid cards" markdown>
 
--   :material-book:{ .lg .middle } __Foundations of Computer Science__
+-   :material-book:{ .lg .middle } __Foundations of Computer Science ✅__
 
     ---
 

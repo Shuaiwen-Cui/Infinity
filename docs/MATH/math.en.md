@@ -10,9 +10,9 @@ comments: false
 
 - :fontawesome-brands-youtube: <a href="https://www.youtube.com/@3blue1brown" target="_blank">__3Blue1Brown__</a> – A YouTube channel about math and programming
 
-- :material-book: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank">__Python For Beginners__</a> – in Chinese, Visual ML Series 1
+- :material-book: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank">__Python For Beginners ✅__</a> – in Chinese, Visual ML Series 1
 
-- :material-book: <a href="https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization" target="_blank">__Beauty of Data Visualization__</a> – in Chinese, Visual ML Series 2
+- :material-book: <a href="https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization" target="_blank">__Beauty of Data Visualization ✅__</a> – in Chinese, Visual ML Series 2
 
 - :material-book: <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics" target="_blank">__Elements of Mathematics__</a> – in Chinese, Visual ML Series 3
 

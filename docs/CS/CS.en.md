@@ -8,7 +8,7 @@ comments: true
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course 🏆__
+-   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course ✅ 🏆__
 
     ---
 
@@ -39,7 +39,7 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://csdiy.wiki/" target="_blank"> Portal </a>](#)
 
--   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo 🏆__
+-   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo ✅ 🏆__
 
     ---
 

@@ -122,6 +122,13 @@ plugins:
             MATH: 数学
             CS: 计算机
             CODING: 编程
+            C/C++: C/C++
+            PYTHON: Python
+            ROADMAP: 路线图
+            HTML/CSS/JS: HTML/CSS/JS
+            HTML: 超文本标记语言
+            CSS: 级联样式表
+            JAVASCRIPT: JAVASCRIPT
             EMBEDDED-SYS: 嵌入式系统
             DSP: 数字信号处理
             PERCEPTION: 感知
@@ -214,8 +221,9 @@ extra:
   #     make our documentation better.
 
 # Extra Configuration 
-# extra_javascript:
-#   - https://giscus.app/client.js
+extra_javascript:
+  # - https://giscus.app/client.js
+  - /CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf
 
 
 # Extensions
@@ -284,7 +292,13 @@ nav:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
           - C++: "./CODING/C-C++/C++/c++.md"
-      - PYTHON: "./CODING/PYTHON/python.md"
+      - PYTHON: 
+          - "./CODING/PYTHON/python.md"
+          - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
+      - HTML/CSS/JS: 
+          - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
+          - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
+          - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
   - EMBEDDED-SYS: 
       - "./EMBEDDED-SYS/embedded-sys.md"
   - DSP: 
@@ -296,9 +310,6 @@ nav:
   - ACTUATION: 
       - "./ACTUATION/actuation.md"
       - ROS: "./ACTUATION/ROS/ros.md"
-  - VISUALIZATION: 
-      - 2D: "./VISUALIZATION/2D/2d-visualization.md"
-      - 3D: "./VISUALIZATION/3D/3d-visualization.md"
   - IOT: 
       - "./IOT/iot.md"
   - CLOUD: 
@@ -319,6 +330,8 @@ nav:
       - GAN: "./AI/GAN/gan.md"
       - RL: "./AI/RL/rl.md"
       - FL: "./AI/FL/fl.md"
+      - NOTE-D2L: 
+          - CH1-INTRO: "./AI/NOTE-D2L/CH1-INTRO/ch1-intro.md"
   - SHM: 
       - "./SHM/shm.md"
   - DEV: 
@@ -326,6 +339,9 @@ nav:
       - DEVENV: "./DEV/DEVENV/devenv.md"
       - FRONT-END: "./DEV/FRONT-END/front-end.md"
       - BACK-END: "./DEV/BACK-END/back-end.md"
+      - VISUALIZATION:
+          - 2D: "./DEV/VISUALIZATION/2D/2d-visualization.en.md"
+          - 3D: "./DEV/VISUALIZATION/3D/3d-visualization.en.md"
   - RESEARCH: 
       - "./RESEARCH/research.md"
   - PROJECT: 

@@ -80,6 +80,37 @@ Welcome to my personal tech blog! This website serves as a roadmap for my person
 
 </div>
 
+
+## 🌐 Online Study Platforms
+
+<div class="grid cards" markdown>
+-  :simple-coursera:{ .lg .middle } __Coursera 🏆__
+
+    ---
+
+    Coursera is a very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
+
+    [:octicons-arrow-right-24: <a href="https://www.coursera.org/" target="_blank"> Portal </a>](#)
+
+- :simple-edx:{ .lg .middle } __edX__
+
+    ---
+
+    edX is another very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
+
+    [:octicons-arrow-right-24: <a href="https://www.edx.org/" target="_blank"> Portal </a>](#)
+
+- :simple-udemy:{ .lg .middle } __Udemy__
+
+    ---
+
+    Udemy is another very good online study platform. It provides a lot of courses for free. You can also pay for the certificate.
+
+    [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> Portal </a>](#)
+
+</div>
+
+
 ## 🏆 Featured Posts
 
 <div class="grid cards" markdown>
