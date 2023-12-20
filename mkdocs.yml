@@ -229,7 +229,6 @@ extra_javascript:
   # - https://giscus.app/client.js
   - /CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf
 
-
 # Extensions
 markdown_extensions:
   - abbr
