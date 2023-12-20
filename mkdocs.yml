@@ -136,6 +136,9 @@ plugins:
             ACTUATION: 执行
             VISUALIZATION: 可视化            
             IOT: 物联网
+            MQTT: 消息队列遥测传输协议
+            BROKER: 代理
+            CLIENT: 客户端
             CLOUD: 云
             CLOUD-TECH: 云技术
             HANDS-ON: 上手实践
@@ -315,6 +318,10 @@ nav:
       - ROS: "./ACTUATION/ROS/ros.md"
   - IOT: 
       - "./IOT/iot.md"
+      - MQTT: 
+          - "./IOT/MQTT/mqtt.md"
+          - BROKER: "./IOT/MQTT/BROKER/broker.md"
+          - CLIENT: "./IOT/MQTT/CLIENT/client.md"
   - CLOUD: 
       - "./CLOUD/cloud.md"
       - CLOUD-TECH: "./CLOUD/CLOUD-TECH/cloud-tech.md"
