@@ -51,7 +51,7 @@ comments: true
 ### Classic Books
 
 <div class="grid cards" markdown>
--   :material-book:{ .lg .middle } __Foundations of Computer Science__
+-   :material-book:{ .lg .middle } __Foundations of Computer Science ✅__
 
     ---
 

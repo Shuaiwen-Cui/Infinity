@@ -52,7 +52,7 @@ comments: true
 ### 经典书籍
 <div class="grid cards" markdown>
 
--   :material-book:{ .lg .middle } __Foundations of Computer Science ✅__
+-   :material-book:{ .lg .middle } __计算机科学基础 ✅__
 
     ---
 
@@ -60,7 +60,7 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://github.com/acmbpdc/openlib.cs" target="_blank"> 传送门 </a>](#)
 
--  :material-book:{ .lg .middle } __Computer System: APP 🏆__
+-  :material-book:{ .lg .middle } __计算机系统：程序员视角 🏆__
 
     ---
 
@@ -104,7 +104,7 @@ comments: true
 ## 成为开发者
 
 <div class="grid cards" markdown>
--   :simple-roadmapdotsh:{ .lg .middle } __Roadmap 🏆__
+-   :simple-roadmapdotsh:{ .lg .middle } __路线图 🏆__
 
     ---
 
