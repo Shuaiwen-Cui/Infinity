@@ -2,7 +2,7 @@
 comments: true
 --- -->
 
-# 🔭 About Me And This Website
+# 🔭 About
 
 ## About Me
 

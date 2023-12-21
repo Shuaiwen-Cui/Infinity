@@ -2,7 +2,7 @@
 comments: false
 --- -->
 
-# 🔭 吾生也有涯，而知也无涯
+# 🔭 潜心修学，务精求进。
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
 ![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Shuaiwen-Cui/Infinity?style=social)
@@ -11,7 +11,7 @@ comments: false
 ![Cover](./static/images/Cover.jpg)
 
 !!! quote
-    I have places to go, things to do, and people to impress.
+    海纳百川，有容乃大；壁立千仞，无欲则刚。
 
 ## 🎙️ 扉语
 
