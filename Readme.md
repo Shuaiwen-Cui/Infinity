@@ -27,7 +27,62 @@
 
 ```
 
-## How To Get Started
+## How To Get Started ON Local Machine
+
+- Step 1: Find a folder that you want to store the project, and clone the repo to your local machine
+
+```bash
+git clone https://github.com/Shuaiwen-Cui/Infinity.git
+```
+
+- Step 2: Change directory to the root directory of the website
+
+```bash
+cd Infinity
+```
+
+- Step 3: Install MkDocs and Material Theme
+
+```bash
+pip install mkdocs
+pip install mkdocs-material
+```
+
+- Step 4: Install the required python packages
+
+```bash
+pip install -r requirements.txt
+```
+
+note: if other modules are required, please google for solutions.
+
+known issues: for package - rss, minify, i18n. You can use the follow command to install them
+
+```bash
+pip install mkdocs-minify-plugin
+pip install mkdocs-rss-plugin
+pip install mkdocs-static-i18n
+```
+
+- Step 5: Build the website
+
+```bash
+mkdocs build
+```
+
+- Step 6: Run the website
+
+```bash
+mkdocs serve
+```
+
+- Step 7: Open the website in your browser
+
+```bash
+http://127.0.0.1:8000
+```
+
+## How To Deploy The Website To The Server
 
 - For uploading
 
