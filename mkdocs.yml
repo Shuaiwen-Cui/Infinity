@@ -155,6 +155,7 @@ plugins:
             GAN: 生成对抗网络
             RL: 强化学习
             FL: 联邦学习
+            CV: 计算机视觉
             NOTE-D2L: 动手学深度学习
             CH1-INTRO: CH1-引言
             SHM: 结构健康监测
@@ -340,6 +341,7 @@ nav:
       - GAN: "./AI/GAN/gan.md"
       - RL: "./AI/RL/rl.md"
       - FL: "./AI/FL/fl.md"
+      - CV: "./AI/CV/cv.md"
       - NOTE-D2L: 
           - CH1-INTRO: "./AI/NOTE-D2L/CH1-INTRO/ch1-intro.md"
   - SHM: 

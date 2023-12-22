@@ -14,7 +14,7 @@ comments: false
 
     一个关于数学和编程的 YouTube 频道。
 
-    [:octicons-arrow-right-24: <a href="ttps://www.youtube.com/@3blue1brown" target="_blank"> 传送门 </a>](#)  
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/@3blue1brown" target="_blank"> 传送门 </a>](#)  
 
 -   :material-book:{ .lg .middle } __编程不难 ✅__
 
@@ -22,7 +22,7 @@ comments: false
 
     中文，机器学习可视化系列 1
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners“ target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> 传送门 </a>](#)
 
 -  :material-book:{ .lg .middle } __可视之美 ✅__
 
@@ -30,7 +30,7 @@ comments: false
 
     中文，机器学习可视化系列 2
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization” target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization" target="_blank"> 传送门 </a>](#)
 
 -  :material-book:{ .lg .middle } __数学元素__
 
@@ -38,7 +38,7 @@ comments: false
 
     中文，机器学习可视化系列 3
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics“ target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics" target="_blank"> 传送门 </a>](#)
 
 </div>
 
@@ -71,7 +71,7 @@ comments: false
 
     中文版，机器学习可视化系列 4
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix“ target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix" target="_blank"> 传送门 </a>](#)
 
 </div>
 

@@ -14,7 +14,7 @@ comments: false
 
     A YouTube channel about math and programming。
 
-    [:octicons-arrow-right-24: <a href="ttps://www.youtube.com/@3blue1brown" target="_blank"> Portal </a>](#)  
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/@3blue1brown" target="_blank"> Portal </a>](#)  
 
 -   :material-book:{ .lg .middle } __Python For Beginners ✅__
 
@@ -22,7 +22,7 @@ comments: false
 
     in Chinese, Visual ML Series 1
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners“ target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> Portal </a>](#)
 
 -  :material-book:{ .lg .middle } __Beauty of Data Visualization ✅__
 
@@ -30,7 +30,8 @@ comments: false
 
     in Chinese, Visual ML Series 2
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization” target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization" target="_blank"> Portal </a>](#)
+    
 
 -  :material-book:{ .lg .middle } __Elements of Mathematics__
 
@@ -38,7 +39,7 @@ comments: false
 
     in Chinese, Visual ML Series 3
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics“ target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book3_Elements-of-Mathematics" target="_blank"> Portal </a>](#)
 
 </div>
 
@@ -72,7 +73,7 @@ comments: false
 
     in Chinese, Visual ML Series 4
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix“ target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book4_Power-of-Matrix" target="_blank"> Portal </a>](#)
 
 </div>
 
