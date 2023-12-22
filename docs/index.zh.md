@@ -110,6 +110,14 @@ comments: false
 
     [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> 传送门 </a>](#)
 
+- :material-book:{ .lg .middle } __O'Reilly__
+
+    ---
+
+    O'Reilly 在线图书馆。
+
+    [:octicons-arrow-right-24: <a href="https://www.oreilly.com/" target="_blank"> 传送门 </a>](#)
+
 </div>
 
 ## 🏆 热帖

@@ -108,6 +108,15 @@ Welcome to my personal tech blog! This website serves as a roadmap for my person
 
     [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> Portal </a>](#)
 
+- :material-book:{ .lg .middle } __O'Reilly__
+
+    ---
+
+    O'Reilly online library.
+
+    [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/playlists/" target="_blank"> Portal </a>](#)
+
+
 </div>
 
 
