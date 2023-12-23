@@ -134,6 +134,9 @@ plugins:
             PERCEPTION: 感知
             CONTROL: 控制
             ACTUATION: 执行
+            ROS: 机器人操作系统
+            HANDSON-ROS: 动手学ROS
+            P1-GET-STARTED: P1-入门
             VISUALIZATION: 可视化            
             IOT: 物联网
             MQTT: 消息队列遥测传输协议
@@ -325,6 +328,9 @@ nav:
   - ACTUATION: 
       - "./ACTUATION/actuation.md"
       - ROS: "./ACTUATION/ROS/ros.md"
+      - HANDSON-ROS: 
+          - "./ACTUATION/HANDSON-ROS/handson-ros.md"
+          - P1-GET-STARTED: "./ACTUATION/HANDSON-ROS/P1-GET-STARTED/p1-get-started.md"
   - IOT: 
       - "./IOT/iot.md"
       - MQTT: 
