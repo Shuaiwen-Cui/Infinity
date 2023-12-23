@@ -159,6 +159,7 @@ plugins:
             NOTE-D2L: 动手学深度学习
             CH1-INTRO: CH1-引言
             CH2-PRE: CH2-预备知识
+            CH3-LNN: CH3-线性神经网络
             SHM: 结构健康监测
             DEV: 开发
             DEVENV: 开发环境
@@ -233,6 +234,12 @@ extra:
 extra_javascript:
   # - https://giscus.app/client.js
   - /CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf
+  # - javascripts/katex.js 
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Extensions
 markdown_extensions:
@@ -346,6 +353,7 @@ nav:
       - NOTE-D2L: 
           - CH1-INTRO: "./AI/NOTE-D2L/CH1-INTRO/ch1-intro.md"
           - CH2-PRE: "./AI/NOTE-D2L/CH2-PRE/ch2-pre.md"
+          - CH3-LNN: "./AI/NOTE-D2L/CH3-LNN/ch3-lnn.md"
   - SHM: 
       - "./SHM/shm.md"
   - DEV: 
