@@ -8,7 +8,7 @@ comments: true
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course ✅ 🏆__
+-   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course 🎯✅🏆__
 
     ---
 
@@ -39,7 +39,7 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://csdiy.wiki/" target="_blank"> Portal </a>](#)
 
--   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo ✅ 🏆__
+-   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo 🎯✅🏆__
 
     ---
 
@@ -51,7 +51,7 @@ comments: true
 ### Classic Books
 
 <div class="grid cards" markdown>
--   :material-book:{ .lg .middle } __Foundations of Computer Science ✅__
+-   :material-book:{ .lg .middle } __Foundations of CS 🎯✅__
 
     ---
 
@@ -59,7 +59,7 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://github.com/acmbpdc/openlib.cs" target="_blank"> Portal </a>](#)
 
--  :material-book:{ .lg .middle } __Computer System: APP 🏆__
+-  :material-book:{ .lg .middle } __Computer System: APP 🎯🏆__
 
     ---
 

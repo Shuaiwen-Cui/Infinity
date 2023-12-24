@@ -8,7 +8,7 @@ comments: true
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course ✅ 🏆__
+-   :fontawesome-brands-youtube:{ .lg .middle } __CS Crash Course 🎯✅🏆__
 
     ---
 
@@ -39,7 +39,7 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://csdiy.wiki/" target="_blank"> 传送门 </a>](#)
 
--   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo ✅ 🏆__
+-   :fontawesome-brands-square-github:{ .lg .middle } __Hello Algo 🎯✅🏆__
 
     ---
 
@@ -52,7 +52,7 @@ comments: true
 ### 经典书籍
 <div class="grid cards" markdown>
 
--   :material-book:{ .lg .middle } __计算机科学基础 ✅__
+-   :material-book:{ .lg .middle } __计算机科学基础 🎯✅__
 
     ---
 
@@ -60,7 +60,7 @@ comments: true
 
     [:octicons-arrow-right-24: <a href="https://github.com/acmbpdc/openlib.cs" target="_blank"> 传送门 </a>](#)
 
--  :material-book:{ .lg .middle } __计算机系统：程序员视角 🏆__
+-  :material-book:{ .lg .middle } __计算机系统：程序员视角 🎯🏆__
 
     ---
 

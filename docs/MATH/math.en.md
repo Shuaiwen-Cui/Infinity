@@ -16,21 +16,25 @@ comments: false
 
     [:octicons-arrow-right-24: <a href="https://www.youtube.com/@3blue1brown" target="_blank"> Portal </a>](#)  
 
--   :material-book:{ .lg .middle } __Python For Beginners ✅__
+-   :material-book:{ .lg .middle } __Python For Beginners 🎯✅🏆__
 
     ---
 
     in Chinese, Visual ML Series 1
 
+    Reading Progress: [36/36]
+
     Code Practice: [8/36]
 
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> Portal </a>](#)
 
--  :material-book:{ .lg .middle } __Beauty of Data Visualization ✅__
+-  :material-book:{ .lg .middle } __Beauty of Data Visualization 🎯✅🏆__
 
     ---
 
     in Chinese, Visual ML Series 2
+
+    Reading Progress: [36/36]
 
     Code Practice: [0/36]
 
