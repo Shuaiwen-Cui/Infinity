@@ -22,6 +22,8 @@ comments: false
 
     in Chinese, Visual ML Series 1
 
+    Code Practice: [8/36]
+
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> Portal </a>](#)
 
 -  :material-book:{ .lg .middle } __Beauty of Data Visualization ✅__
@@ -29,6 +31,8 @@ comments: false
     ---
 
     in Chinese, Visual ML Series 2
+
+    Code Practice: [0/36]
 
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book2_Beauty-of-Data-Visualization" target="_blank"> Portal </a>](#)
     

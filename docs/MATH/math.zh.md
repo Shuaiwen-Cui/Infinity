@@ -22,6 +22,8 @@ comments: false
 
     中文，机器学习可视化系列 1
 
+    代码实践：[8/36]
+
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> 传送门 </a>](#)
 
 -  :material-book:{ .lg .middle } __可视之美 ✅__
