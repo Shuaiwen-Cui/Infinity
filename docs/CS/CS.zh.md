@@ -66,8 +66,15 @@ comments: true
 
     Computer System: A Programmer's Perspectiv - 这是经典，但是不容易读。不管怎样，它绝对值得你花时间去读。
 
-    [:octicons-arrow-right-24: <a href="https://github.com/iWangMu/Book-CSAPP/blob/master/_Attachments/Computer_Systems_A_Programmers_Perspective(3rd).pdf" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/iWangMu/Book-CSAPP/blob/master/_Attachments/Computer_Systems_A_Programmers_Perspective(3rd).pdf" target="_blank"> 下载 </a>](#)
 
+    [:octicons-arrow-right-24: <a href="https://csapp.cs.cmu.edu/" target="_blank"> 官方网址 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=ScMxnXq6fbI&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem" target="_blank"> 课程视频(Youtube) </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Vh411r7ef?p=1" target="_blank"> 中文导读 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV19v41167nr?p=1" target="_blank"> 中文导读 </a>](#)
 </div>
 
 ## 在线学习平台
@@ -97,7 +104,7 @@ comments: true
 
     Udemy 是另一个非常好的在线学习平台。它提供了很多免费的课程。你也可以付费获得证书。
 
-    [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.udemy.com/" target="_blank"> 下载 </a>](#)
 
 </div>
 

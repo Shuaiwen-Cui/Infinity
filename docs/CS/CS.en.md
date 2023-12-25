@@ -65,7 +65,11 @@ comments: true
 
     Computer System: A Programmer's Perspectiv - This is classic, but it is not easy to read. Anyway, it deserves your time.
 
-    [:octicons-arrow-right-24: <a href="https://github.com/iWangMu/Book-CSAPP/blob/master/_Attachments/Computer_Systems_A_Programmers_Perspective(3rd).pdf" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/iWangMu/Book-CSAPP/blob/master/_Attachments/Computer_Systems_A_Programmers_Perspective(3rd).pdf" target="_blank"> Book Download </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://csapp.cs.cmu.edu/" target="_blank"> Official Website </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=ScMxnXq6fbI&list=PL22J-I2Pi-Gf0s1CGDVtt4vuvlyjLxfem" target="_blank"> Course Videos (Youtube) </a>](#)
 
 </div>
 
