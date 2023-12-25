@@ -16,8 +16,6 @@
 
 
 
-
-
 ## Simulation
 
 <div class="grid cards" markdown>
