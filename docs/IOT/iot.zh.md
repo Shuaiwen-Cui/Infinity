@@ -98,6 +98,9 @@ TCP/IP模型的应用层为应用程序提供了访问其他层服务的能力�
 
 </div>
 
+![protocol](protocol.gif)
+[🔗 图源](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8948470/9090208/almas1-2993363-large.gif)
+
 这里我们以OSI模型层次来划分协议。
 
 #### 第五层：会话层 & 第六层：表示层 & 第七层：应用层
@@ -155,6 +158,24 @@ TCP/IP模型的应用层为应用程序提供了访问其他层服务的能力�
 ##### Ethernet🔌
 
 ##### USB🔌
+
+### IoT 协议比较
+
+![comparison](comparison.png)
+
+<div class="grid cards" markdown>
+-  :material-file:{ .lg .middle } __6种无线通信技术对比（WiFi，Zigbee，蓝牙，Lora，NB-lot，4G）。__
+
+    ---
+
+    作者: 点灯大师
+
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/614305240" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+
+
 
 
 

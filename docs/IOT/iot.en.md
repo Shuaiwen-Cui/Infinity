@@ -87,20 +87,10 @@ Network access layer (or link layer) is responsible for placing the TCP/IP packe
 
 ### Protocol Stack
 
-<div class="grid cards" markdown>
--  :material-file:{ .lg .middle } __Communication Protocol__
+![protocol](protocol.gif)
+[🔗 image source](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8948470/9090208/almas1-2993363-large.gif)
 
-    ---
-
-    In Chinese
-
-    Arthor: 大师兄的小杂铺
-
-    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/qq_39543984/article/details/122292628" target="_blank"> Portal </a>](#)
-
-</div>
-
-I will use the OSI model layer to classify the protocols. 🎯✅🏆
+I will use the OSI model layer to classify the protocols. 
 
 #### Layer 5: Session Layer & Layer 6: Presentation Layer & Layer 7: Application Layer
 
@@ -158,9 +148,9 @@ I will use the OSI model layer to classify the protocols. 🎯✅🏆
 
 ##### USB🔌
 
+### IoT Protocol Comparison
 
-
-
+![comparison](comparison.png)
 
 
 
