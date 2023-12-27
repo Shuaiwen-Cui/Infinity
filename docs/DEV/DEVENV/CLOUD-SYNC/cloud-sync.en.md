@@ -58,7 +58,7 @@ Steps to use iCloud on Windows to sync with MacOS:
 
 - Step 5: Done
 
-?> One can actually access the files on iCloud Drive on Windows. However, the files are not downloaded to the local computer. One can opt to always keep the files locally.
+> One can actually access the files on iCloud Drive on Windows. However, the files are not downloaded to the local computer. One can opt to always keep the files locally.
 
 ### Use OneDrive on MacOS to sync with Windows
 > How to use OneDrive on MacOS to sync with Windows?
