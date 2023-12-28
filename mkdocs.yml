@@ -374,8 +374,8 @@ nav:
       - FRONT-END: "./DEV/FRONT-END/front-end.md"
       - BACK-END: "./DEV/BACK-END/back-end.md"
       - VISUALIZATION:
-          - 2D: "./DEV/VISUALIZATION/2D/2d-visualization.en.md"
-          - 3D: "./DEV/VISUALIZATION/3D/3d-visualization.en.md"
+          - 2D: "./DEV/VISUALIZATION/2D/2d-visualization.md"
+          - 3D: "./DEV/VISUALIZATION/3D/3d-visualization.md"
   - RESEARCH: 
       - "./RESEARCH/research.md"
   - PROJECT: 
