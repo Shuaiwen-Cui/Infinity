@@ -335,6 +335,8 @@ nav:
           - P1-GET-STARTED: "./ACTUATION/HANDSON-ROS/P1-GET-STARTED/p1-get-started.md"
   - IOT: 
       - "./IOT/iot.md"
+      - WSN: 
+          - "./IOT/WSN/wsn.md"
       - MQTT: 
           - "./IOT/MQTT/mqtt.md"
           - BROKER: "./IOT/MQTT/BROKER/broker.md"
