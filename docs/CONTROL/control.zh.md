@@ -14,7 +14,7 @@
 
     [:octicons-arrow-right-24: <a href="https://engineeringmedia.com/" target="_blank"> 传送门 </a>](#)
 
--   :simple-roadmapdotsh:{ .lg .middle } __控制理论基础 🎯✅🏆__
+-   :material-book:{ .lg .middle } __控制理论基础 🎯✅🏆__
 
     ---
 

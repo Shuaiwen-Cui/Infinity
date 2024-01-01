@@ -13,7 +13,7 @@
 
     [:octicons-arrow-right-24: <a href="https://engineeringmedia.com/" target="_blank"> Portal </a>](#)
 
--   :simple-roadmapdotsh:{ .lg .middle } __Fundamentals of Control Theory 🎯✅🏆__
+-   :material-book:{ .lg .middle } __Fundamentals of Control Theory 🎯✅🏆__
 
     ---
 
