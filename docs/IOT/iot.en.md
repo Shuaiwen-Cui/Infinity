@@ -174,3 +174,5 @@ I will use the OSI model layer to classify the protocols.
 ## Framework
 
 Home Assistant
+
+ThingsBoard
