@@ -4,6 +4,8 @@ comments: true
 
 # 计算机科学
 
+![CS](cs.jpg){ width=100% }
+
 ## 计算机基础
 
 <div class="grid cards" markdown>

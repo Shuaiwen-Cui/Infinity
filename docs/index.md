@@ -141,3 +141,6 @@ Welcome to my personal tech blog! This website serves as a roadmap for my person
     [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8000/PROJECT/TECH-BLOG/mkdocs_and_material/" target="_blank"> Portal </a>](#)
 
 </div>
+
+![Map of Engineering](./static/images/map-of-engineering.jpeg)
+[@Dominic Walliman](https://twitter.com/DominicWalliman/status/1522525405391036427)

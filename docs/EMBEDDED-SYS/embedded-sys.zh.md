@@ -1,10 +1,12 @@
 # 嵌入式系统
 
-![BOARD](embedded-sys.jpg)
+![BOARD](embedded-sys.png){ : style="height:400px;width:800px" }
 
 ## 理论
 
 ### 电子电路
+
+![Electrical Engineering](electrical-engineering.png){ : style="height:450px;width:800px" }
 
 <div class="grid cards" markdown>
 -  :material-book:{ .lg .middle } __初学者电子学：电路图、电路与微控制器实用介绍__

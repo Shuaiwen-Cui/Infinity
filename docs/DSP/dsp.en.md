@@ -31,7 +31,7 @@
 
     Author：Mr.看海
 
-    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/138141521" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/138141521" target="_blank"> Portal </a>](#)
 
 
 </div>

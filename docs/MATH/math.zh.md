@@ -4,6 +4,8 @@ comments: false
 
 # 数学
 
+![MATH](math.jpg){ width=100% }
+
 ## 通用
 
 <div class="grid cards" markdown>

@@ -4,6 +4,8 @@ comments: true
 
 # Computer Science
 
+![CS](cs.jpg){ width=100% }
+
 ## Computer Basics
 
 <div class="grid cards" markdown>

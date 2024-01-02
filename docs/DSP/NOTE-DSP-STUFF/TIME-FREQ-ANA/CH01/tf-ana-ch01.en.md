@@ -1,7 +1,7 @@
 # Time Domain Analysis - Features with Units
 
 !!! info
-    Original article: [🔗 Time Domain Analysis — Unraveling the Meaning of Dimensional Feature Values](https://zhuanlan.zhihu.com/p/57153601)
+    Original article: [🔗 DSP-STUFF](https://zhuanlan.zhihu.com/p/138141521)
 
     This article serves as study notes.
 

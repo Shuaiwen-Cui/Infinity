@@ -4,6 +4,8 @@ comments: false
 
 # Math
 
+![MATH](math.jpg){ width=100% }
+
 ## Generic
 
 <div class="grid cards" markdown>

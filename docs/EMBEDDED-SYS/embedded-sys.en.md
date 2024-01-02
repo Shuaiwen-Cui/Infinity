@@ -1,10 +1,12 @@
 # Embedded Systems
 
-![BOARD](embedded-sys.jpg)
+![BOARD](embedded-sys.png){ : style="height:400px;width:800px" }
 
 ## Theory
 
 ### Electronics
+
+![Electrical Engineering](electrical-engineering.png){ : style="height:450px;width:800px" }
 
 <div class="grid cards" markdown>
 -  :material-book:{ .lg .middle } __Electronics for Beginners: A Practical Introduction to Schematics, Circuits, and Microcontrollers__

@@ -310,7 +310,7 @@ nav:
   - CS: 
       - "./CS/CS.md"
   - CODING: 
-      # - "./CODING/coding.md"
+      - "./CODING/coding.md"
       - C/C++:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
@@ -330,6 +330,11 @@ nav:
       - NOTE-DSP-STUFF:
           - TIME-FREQ-ANA:
               - CH01: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH01/tf-ana-ch01.md"
+              - CH02: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH02/tf-ana-ch02.md"
+              - CH03: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH03/tf-ana-ch03.md"
+              - CH04: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH04/tf-ana-ch04.md"
+              - CH05: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH05/tf-ana-ch05.md"
+              - CH06: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH06/tf-ana-ch06.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
   - CONTROL: 
