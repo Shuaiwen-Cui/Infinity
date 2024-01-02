@@ -327,6 +327,9 @@ nav:
       - "./EMBEDDED-SYS/embedded-sys.md"
   - DSP: 
       - "./DSP/dsp.md"
+      - NOTE-DSP-STUFF:
+          - TIME-FREQ-ANA:
+              - CH01: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH01/tf-ana-ch01.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
   - CONTROL: 

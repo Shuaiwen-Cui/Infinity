@@ -1,5 +1,7 @@
 # Embedded Systems
 
+![BOARD](embedded-sys.jpg)
+
 ## Theory
 
 ### Electronics

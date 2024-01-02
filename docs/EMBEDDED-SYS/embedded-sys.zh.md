@@ -1,5 +1,7 @@
 # 嵌入式系统
 
+![BOARD](embedded-sys.jpg)
+
 ## 理论
 
 ### 电子电路

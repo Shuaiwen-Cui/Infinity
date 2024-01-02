@@ -1,5 +1,7 @@
 # Digital Signal Processing
 
+![DSP](DSP.png)
+
 ## Theory
 
 <div class="grid cards" markdown>
@@ -20,5 +22,16 @@
     Made by EPFL
 
     [:octicons-arrow-right-24: <a href="https://www.coursera.org/specializations/digital-signal-processing#courses" target="_blank"> Portal </a>](#)
+
+-  :fontawesome-solid-blog:{ .lg .middle } __DSP Stuff 🎯__
+
+    ---
+
+    In Chinese
+
+    Author：Mr.看海
+
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/138141521" target="_blank"> 传送门 </a>](#)
+
 
 </div>
