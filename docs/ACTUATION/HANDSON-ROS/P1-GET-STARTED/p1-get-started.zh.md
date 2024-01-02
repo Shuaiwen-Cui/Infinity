@@ -462,25 +462,153 @@ DDS的应用层通过DDS进行数据订阅发布，DDS通过传输层进行数�
 打开终端，创建chapt2/basic目录，用VSCODE打开d2lros2目录。
 
 ##### 1.2.2 编译
+一定要记住这个错误 No such file or directory，这将是你接下来机器人学习工作生涯中最常见的错误之一。原因我们在代码里包含了"rclcpp/rclcpp.hpp"头文件，但是g++找不到这个头文件，解决方法就是告诉g++这个头文件的目录。
+
+请记住上面错误中的undefined reference to xxxxx，这将是你接下来机器人学习工作生涯中另一个最常见的错误。原因在于g++找不到库文件，解决方法就是我们帮助它定位到库文件的位置，并通过-L参数指定库目录，-l（小写L）指定库的名字。
 
 ##### 1.3 运行
 
 #### 2.使用make编译ROS2节点
+1. 安装make
+```bash
+sudo apt install make
+```
 
+2. 编写Makefile文件
+```txt
+# Makefile文件
+...
+```
 
+3. 编译
+在make同级目录下打开终端，输入命令：
+```bash
+make build
+```
 
+4. 运行
+```bash
+./first_node
+```
 
+打开新终端，输入命令：
+```bash
+ros2 node list
+```
 #### 3.使用CMakeLists.txt编译ROS2节点
+虽然通过make调用Makefile编译代码非常的方便，但是还是需要我们手写gcc指令来编译，那有没有什么办法可以自动生成Makefile呢？
 
+答案是有的，那就是cmake工具。
 
+cmake通过调用CMakeLists.txt直接生成Makefile。
 
+1. 安装cmake
+```bash
+sudo apt install cmake
+```
+
+2. 编写CMakeLists.txt文件
+```txt
+...
+```
+
+3. 编译
+我们一般会创建一个新的目录，运行cmake并进行编译，这样的好处是不会显得那么乱。
+```bash
+mkdir build
+cd build
+```
+创建好文件夹，接着运行cmake指令，..代表到上级目录找CMakeLists.txt。
+
+```bash
+cmake ..
+```
+运行完cmake你应该可以在build目录下看到cmake自动生成的Makefile了，接着就可以运行make指令进行编译
+
+```bash
+make
+```
+
+4. 运行
+```bash
+./first_node
+```
 
 #### 4.使用CMake依赖查找流程
+上面我们用g++、make、cmake三种方式来编译ros2的C++节点。用cmake虽然成功了，但是CMakeLists.txt的内容依然非常的臃肿，我们需要将其进一步的简化。
 
+1. 优化CMakeLists.txt
+```txt
+cmake_minimum_required(VERSION 3.22)
+project(first_node)
 
+find_package(rclcpp REQUIRED)
+add_executable(first_node first_ros2_node.cpp)
+target_link_libraries(first_node rclcpp::rclcpp)
+```
+接着继续生成和编译
+```bash
+cmake ..
+make
+```
+是不是非常的神奇，为什么可以浓缩成那么短的几句指令呢？
 
+2.find_package查找路径
+find_package查找路径对应的环境变量如下。
 
+```bash
+<package>_DIR
+CMAKE_PREFIX_PATH
+CMAKE_FRAMEWORK_PATH
+CMAKE_APPBUNDLE_PATH
+PATH
+```
+打开终端，输入指令：
+```bash
+echo $PATH
+```
 #### 5.Python依赖查找流程
+python的打包和引入依赖的方式相比C++要容易太多。本节小鱼带你来通过几个实例学习下Python的路径查找机制。
+1.编写ROS2的Python节点
+在d2lros2/d2lros2/chapt2/basic新建second_ros2_node.py，输入下面的内容
+```python
+# 导入rclpy库，如果Vscode显示红色的波浪线也没关系
+# 我们只是把VsCode当记事本而已，谁会在意记事本对代码的看法呢，不是吗？
+import rclpy
+from rclpy.node import Node
+# 调用rclcpp的初始化函数
+rclpy.init() 
+# 调用rclcpp的循环运行我们创建的second_node节点
+rclpy.spin(Node("second_node"))
+```
+2.运行Python节点
+打开终端，输入指令
+
+```bash
+ls
+python3 second_ros2_node.py
+```
+
+打开新的终端，输入指令
+
+```bash
+ros2 node list
+```
+
+3. Python包查找流程
+Python3运行import rclpy时候如何找到它的呢？答案是通过环境变量PYTHONPATH
+
+Ctrl+C打断节点运行，接着输入下面指令
+    
+```bash
+echo $PYTHONPATH
+```
+4.删除路径实验
+
+请你记住这个报错信息ModuleNotFoundError: No module named 'xxx'，这也是你未来学习过程中可能会经常会遇到的。
+
+
+
 
 
 
