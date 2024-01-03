@@ -1,6 +1,7 @@
 # AI 基础
 
-![AI-ML-DL](ai-ml-dl.png)
+![AI-ML-DL](ai-ml-dl.png){: width="100%"}
+
 AI 进化史: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/](https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/)
 
 ## 机器学习

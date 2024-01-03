@@ -1,176 +1,28 @@
-# ROS2-Humble Guide
+# ROS2-Humble Guide - Tutorial - Beginner: CLI Tools
+Last Updated: Jan 03, 2024
 
 [🌐 Link to the original page](https://docs.ros.org/en/humble/index.html)
 
-## 1. Installation 
-Last Updated: Jan 03, 2024
-
-### Ubuntu
-Table of Contents
-
-#### Resources
-#### Set locale
-Make sure you have a locale which supports UTF-8. If you are in a minimal environment (such as a docker container), the locale may be something minimal like POSIX. We test with the following settings. However, it should be fine if you’re using a different UTF-8 supported locale.
-
-```bash
-locale  # check for UTF-8
-
-sudo apt update && sudo apt install locales
-sudo locale-gen en_US en_US.UTF-8
-sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-export LANG=en_US.UTF-8
-
-locale  # verify settings
-```
-#### Setup Sources
-You will need to add the ROS 2 apt repository to your system.
-
-First ensure that the Ubuntu Universe repository is enabled.
-
-```bash
-sudo apt install software-properties-common
-sudo add-apt-repository universe
-```
-Now add the ROS 2 GPG key with apt.
-
-```bash
-sudo apt update && sudo apt install curl -y
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
-```
-Then add the repository to your sources list.
-
-```bash
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
-```
-
-#### Install ROS 2 packages
-
-Update your apt repository caches after setting up the repositories.
-
-```bash
-sudo apt update
-```
-ROS 2 packages are built on frequently updated Ubuntu systems. It is always recommended that you ensure your system is up to date before installing new packages.
-
-```bash
-sudo apt upgrade
-```
-
-Desktop Install (Recommended): ROS, RViz, demos, tutorials.
-
-```bash
-sudo apt install ros-humble-desktop
-```
-ROS-Base Install (Bare Bones): Communication libraries, message packages, command line tools. No GUI tools.
-
-```bash
-sudo apt install ros-humble-ros-base
-```
-Development tools: Compilers and other tools to build ROS packages
-
-```bash
-sudo apt install ros-dev-tools
-```
-#### Environment setup
-
-**Sourcing the setup script**
-
-Set up your environment by sourcing the following file.
-
-```bash
-# Replace ".bash" with your shell if you're not using bash
-# Possible values are: setup.bash, setup.sh, setup.zsh
-source /opt/ros/humble/setup.bash
-```
-
-If you want to automatically source this script you can add it to your bash session.
-
-```bash
-echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-```
-#### Try some examples
-
-**Talker-listener**
-
-If you installed ros-humble-desktop above you can try some examples.
-
-In one terminal, source the setup file and then run a C++ talker:
-
-```bash
-source /opt/ros/humble/setup.bash
-ros2 run demo_nodes_cpp talker
-```
-In another terminal source the setup file and then run a Python listener:
-
-```bash
-source /opt/ros/humble/setup.bash
-ros2 run demo_nodes_py listener
-```
-You should see the talker saying that it is Publishing messages and the listener saying I heard those messages.
-
-#### Next steps after installing
-#### Using the ROS 1 bridge
-#### Additional RMW implementations (optional)
-#### Troubleshooting
-#### Uninstall
-If you need to uninstall ROS 2 or switch to a source-based install once you have already installed from binaries, run the following command:
-
-```bash
-sudo apt remove ~nros-humble-* && sudo apt autoremove
-```
-You may also want to remove the repository:
-
-```bash
-sudo rm /etc/apt/sources.list.d/ros2.list
-sudo apt update
-sudo apt autoremove
-# Consider upgrading for packages previously shadowed.
-sudo apt upgrade
-```
-### Windows
-skipped
-### RHEL
-skipped
-### Alternatives
-skipped
-A list of alternative ways to install ROS 2 – whether it’s by building from source or installing a binary.
-
-### Maintaining Source Checkout
-If you installled ROS 2 from source, you can update your source checkout according to this section. Please check the original link.
-
-skipped
-### Testing with Pre-release Binaries
-skipped
-
-### DDS Implementations
-
-By default, ROS 2 uses DDS as its middleware. It is compatible with multiple DDS or RTPS (the DDS wire protocol) vendors. There is currently support for eProsima’s Fast DDS, RTI’s Connext DDS, Eclipse Cyclone DDS, and GurumNetworks GurumDDS. See https://ros.org/reps/rep-2000.html for supported DDS vendors by distribution.
-
-## 2. Distributions
-skipped
-
-## 3. Tutorials
-
-### Beginner: CLI Tools
-#### Configuring environment
+## I Configuring environment
 Goal: This tutorial will show you how to prepare your ROS 2 environment.
-##### Background
+
+### Background
 ROS 2 relies on the notion of combining workspaces using the shell environment. “Workspace” is a ROS term for the location on your system where you’re developing with ROS 2. The core ROS 2 workspace is called the underlay. Subsequent local workspaces are called overlays. When developing with ROS 2, you will typically have several workspaces active concurrently.
 
 Combining workspaces makes developing against different versions of ROS 2, or against different sets of packages, easier. It also allows the installation of several ROS 2 distributions (or “distros”, e.g. Dashing and Eloquent) on the same computer and switching between them.
 
 This is accomplished by sourcing setup files every time you open a new shell, or by adding the source command to your shell startup script once. Without sourcing the setup files, you won’t be able to access ROS 2 commands, or find or use ROS 2 packages. In other words, you won’t be able to use ROS 2.
 
-##### Prerequisites
+### Prerequisites
 Before starting these tutorials, install ROS 2 by following the instructions on the ROS 2 Installation page.
 
 The commands used in this tutorial assume you followed the binary packages installation guide for your operating system (Debian packages for Linux). You can still follow along if you built from source, but the path to your setup files will likely be different. You also won’t be able to use the sudo apt install ros-<distro>-<package> command (used frequently in the beginner level tutorials) if you install from source.
 
 If you are using Linux or macOS, but are not already familiar with the shell, this tutorial will help.
 
-##### Tasks
+### Tasks
 
-> Source the setup file
+#### 1 Source the setup file
 
 You will need to run this command on every new shell you open to have access to the ROS 2 commands, like so:
 
@@ -195,7 +47,7 @@ You will need to run this command on every new shell you open to have access to 
 !!! note
     The exact command depends on where you installed ROS 2. If you’re having problems, ensure the file path leads to your installation.
 
-> Add sourcing to your shell startup script
+#### 2 Add sourcing to your shell startup script
 
 If you don’t want to have to source the setup file every time you open a new shell (skipping task 1), then you can add the command to your shell startup script:
 
@@ -225,7 +77,7 @@ If you don’t want to have to source the setup file every time you open a new s
 
     To undo this, remove the new ‘Microsoft.PowerShell_profile.ps1’ file.
 
-> Check Environment Variables
+#### 3 Check Environment Variables
 
 Sourcing ROS 2 setup files will set several environment variables necessary for operating ROS 2. If you ever have problems finding or using your ROS 2 packages, make sure that your environment is properly set up using the following command:
 
@@ -296,7 +148,7 @@ Once you have determined a unique integer for your group of ROS 2 nodes, you can
     setx ROS_DOMAIN_ID <your_domain_id>
     ```
 
-[3.2 The ROS_LOCALHOST_ONLY variable]
+[The ROS_LOCALHOST_ONLY variable]
 
 By default, ROS 2 communication is not limited to localhost. ROS_LOCALHOST_ONLY environment variable allows you to limit ROS 2 communication to localhost only. This means your ROS 2 system, and its topics, services, and actions will not be visible to other computers on the local network. Using ROS_LOCALHOST_ONLY is helpful in certain settings, such as classrooms, where multiple robots may publish to the same topic causing strange behaviors. You can set the environment variable with the following command:
 
@@ -331,16 +183,16 @@ By default, ROS 2 communication is not limited to localhost. ROS_LOCALHOST_ONLY 
     ```bash
     setx ROS_LOCALHOST_ONLY 1
     ```
-##### Summary
+### Summary
 
 The ROS 2 development environment needs to be correctly configured before use. This can be done in two ways: either sourcing the setup files in every new shell you open, or adding the source command to your startup script.
 
 If you ever face any problems locating or using packages with ROS 2, the first thing you should do is check your environment variables and ensure they are set to the version and distro you intended.
 
-#### Using turtlesim, ros2, and rqt
+## II Using turtlesim, ros2, and rqt
 Goal: Install and use the turtlesim package and rqt tools to prepare for upcoming tutorials.
 
-##### Background
+### Background
 Turtlesim is a lightweight simulator for learning ROS 2. It illustrates what ROS 2 does at the most basic level to give you an idea of what you will do with a real robot or a robot simulation later on.
 
 The ros2 tool is how the user manages, introspects, and interacts with a ROS system. It supports multiple commands that target different aspects of the system and its operation. One might use it to start a node, set a parameter, listen to a topic, and many more. The ros2 tool is part of the core ROS 2 installation.
@@ -349,12 +201,12 @@ rqt is a graphical user interface (GUI) tool for ROS 2. Everything done in rqt c
 
 This tutorial touches upon core ROS 2 concepts, like nodes, topics, and services. All of these concepts will be elaborated on in later tutorials; for now, you will simply set up the tools and get a feel for them.
 
-##### Prerequisites
+### Prerequisites
 ~
 
-##### Tasks
+### Tasks
 
-> 1 Install turtlesim
+#### 1 Install turtlesim
 
 As always, start by sourcing your setup files in a new terminal, as described in the previous tutorial.
 
@@ -388,7 +240,7 @@ turtlesim mimic
 turtlesim turtle_teleop_key
 turtlesim turtlesim_node
 ```
-> 2 Start turtlesim
+#### 2 Start turtlesim
 
 To start turtlesim, enter the following command in your terminal:
 
@@ -403,7 +255,7 @@ In the terminal, under the command, you will see messages from the node:
 [INFO] [turtlesim]: Starting turtlesim with node name /turtlesim
 [INFO] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
 ```
-> 3 Use turtlesim
+#### 3 Use turtlesim
 
 Open a new terminal and source ROS 2 again.
 
@@ -429,7 +281,7 @@ ros2 action list
 ```
 You will learn more about these concepts in the coming tutorials. Since the goal of this tutorial is only to get a general overview of turtlesim, you will use rqt to call some of the turtlesim services and interact with turtlesim_node.
 
-> 4 Install rqt
+#### 4 Install rqt
 
 Open a new terminal to install rqt and its plugins:
 
@@ -446,7 +298,7 @@ To run rqt
 rqt
 ```
 
-> 5 Use rqt
+#### 5 Use rqt
 
 When running rqt for the first time, the window will be blank. No worries; just select Plugins > Services > Service Caller from the menu bar at the top.
 
@@ -457,7 +309,7 @@ Use the refresh button to the left of the Service dropdown list to ensure all th
 
 Click on the Service dropdown list to see turtlesim’s services, and select the /spawn service.
 
-[5.1 Try the spawn service]
+[Try the spawn service]
 Let’s use rqt to call the /spawn service. You can guess from its name that /spawn will create another turtle in the turtlesim window.
 
 Give the new turtle a unique name, like turtle2, by double-clicking between the empty single quotes in the Expression column. You can see that this expression corresponds to the value of name and is of type string.
@@ -476,7 +328,7 @@ If the service call was successful, you should see a new turtle (again with a ra
 
 If you refresh the service list in rqt, you will also see that now there are services related to the new turtle, /turtle2/..., in addition to /turtle1/....
 
-[5.2 Try the set_pen service]
+[Try the set_pen service]
 
 Now let’s give turtle1 a unique pen using the /set_pen service:
 
@@ -488,7 +340,7 @@ If you return to the terminal where turtle_teleop_key is running and press the a
 
 You’ve probably also noticed that there’s no way to move turtle2. That’s because there is no teleop node for turtle2.
 
-[6 Remapping]
+#### 6 Remapping
 ou need a second teleop node in order to control turtle2. However, if you try to run the same command as before, you will notice that this one also controls turtle1. The way to change this behavior is by remapping the cmd_vel topic.
 
 In a new terminal, source ROS 2, and run:
@@ -499,38 +351,38 @@ ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2
 
 Now, you can move turtle2 when this terminal is active, and turtle1 when the other terminal running turtle_teleop_key is active.
 
-[7 Close turtlesim]
+#### 7 Close turtlesim
 To stop the simulation, you can enter Ctrl + C in the turtlesim_node terminal, and q in the turtle_teleop_key terminals.
 
-##### Summary
+### Summary
 Using turtlesim and rqt is a great way to learn the core concepts of ROS 2.
 
-#### Understanding nodes
+## III Understanding nodes
 Goal: Learn about the function of nodes in ROS 2, and the tools to interact with them.
 
-##### Background
-[1 The ROS 2 graph]
+### Background
+#### 1 The ROS 2 graph
 Over the next few tutorials, you will learn about a series of core ROS 2 concepts that make up what is referred to as the “ROS (2) graph”.
 
 The ROS graph is a network of ROS 2 elements processing data together at the same time. It encompasses all executables and the connections between them if you were to map them all out and visualize them.
 
-[2 Nodes in ROS 2]
+#### 2 Nodes in ROS 2
 Each node in ROS should be responsible for a single, modular purpose, e.g. controlling the wheel motors or publishing the sensor data from a laser range-finder. Each node can send and receive data from other nodes via topics, services, actions, or parameters.
 
 A full robotic system is comprised of many nodes working in concert. In ROS 2, a single executable (C++ program, Python program, etc.) can contain one or more nodes.
 
 ![Nodes-TopicandService](Nodes-TopicandService.gif)
 
-##### Prerequisites
+### Prerequisites
 The previous tutorial shows you how to install the turtlesim package used here.
 
 As always, don’t forget to source ROS 2 in every new terminal you open.
 
-##### Tasks
+### Tasks
 
-> 1 ros2 run
+#### 1 ros2 run
 
-he command ros2 run launches an executable from a package.
+the command `ros2 run` launches an executable from a package.
 
 ```bash
 ros2 run <package_name> <executable_name>
@@ -546,7 +398,7 @@ Here, the package name is turtlesim and the executable name is turtlesim_node.
 
 We still don’t know the node name, however. You can find node names by using ros2 node list
 
-> 2 ros2 node list
+#### 2 ros2 node list
 
 ros2 node list will show you the names of all running nodes. This is especially useful when you want to interact with a node, or when you have a system running many nodes and need to keep track of them.
 
@@ -590,7 +442,7 @@ Since you’re calling ros2 run on turtlesim again, another turtlesim window wil
 /teleop_turtle
 ```
 
-> 3 ros2 node info
+#### 3 ros2 node info
 
 Now that you know the names of your nodes, you can access more information about them with:
 
@@ -641,17 +493,17 @@ Now try running the same command on the /teleop_turtle node, and see how its con
 You will learn more about the ROS graph connection concepts including the message types in the upcoming tutorials.
 
 
-##### Summary
+### Summary
 A node is a fundamental ROS 2 element that serves a single, modular purpose in a robotics system.
 
 In this tutorial, you utilized nodes created in the turtlesim package by running the executables turtlesim_node and turtle_teleop_key.
 
 You learned how to use ros2 node list to discover active node names and ros2 node info to introspect a single node. These tools are vital to understanding the flow of data in a complex, real-world robot system.
 
-#### Understanding topics
+## IV Understanding topics
 Goal: Use rqt_graph and command line tools to introspect ROS 2 topics.
 
-##### Background
+### Background
 
 ROS 2 breaks complex systems down into many modular nodes. Topics are a vital element of the ROS graph that act as a bus for nodes to exchange messages.
 
@@ -663,13 +515,13 @@ A node may publish data to any number of topics and simultaneously have subscrip
 
 Topics are one of the main ways in which data is moved between nodes and therefore between different parts of the system.
 
-##### Pre-requisites
+### Pre-requisites
 
 The previous tutorial provides some useful background information on nodes that is built upon here.
 
 As always, don’t forget to source ROS 2 in every new terminal you open.
 
-##### Tasks
+### Tasks
 
 > 1 Setup
 
@@ -902,28 +754,28 @@ Recall that you set the rate of turtle1/cmd_vel to publish at a steady 1 Hz usin
 At this point you’ll have a lot of nodes running. Don’t forget to stop them by entering Ctrl+C in each terminal.
 
 
-##### Summary
+### Summary
 Nodes publish information over topics, which allows any number of other nodes to subscribe to and access that information. In this tutorial you examined the connections between several nodes over topics using rqt_graph and command line tools. You should now have a good idea of how data moves around a ROS 2 system.
 
-#### Understanding services
+## V Understanding services
 Goal: Learn about services in ROS 2 using command line tools.
 
-##### Background
+### Background
 Services are another method of communication for nodes in the ROS graph. Services are based on a call-and-response model versus the publisher-subscriber model of topics. While topics allow nodes to subscribe to data streams and get continual updates, services only provide data when they are specifically called by a client.
 
 ![Service-SingleServiceClient.gif](Service-SingleServiceClient.gif)
 
 ![Service-MultipleServiceClient.gif](Service-MultipleServiceClient.gif)
 
-##### Prerequisites
+### Prerequisites
 Some concepts mentioned in this tutorial, like Nodes and Topics, were covered in previous tutorials in the series.
 
 You will need the turtlesim package.
 
 As always, don’t forget to source ROS 2 in every new terminal you open.
-##### Tasks
+### Tasks
 
-###### 1 Setup
+#### 1 Setup
 Start up the two turtlesim nodes, /turtlesim and /teleop_turtle.
 
 Open a new terminal and run:
@@ -937,7 +789,7 @@ Open another terminal and run:
 ```bash
 ros2 run turtlesim turtle_teleop_key
 ```
-###### 2 ros2 service list
+#### 2 ros2 service list
 Running the ros2 service list command in a new terminal will return a list of all the services currently active in the system:
 
 ```bash
@@ -970,7 +822,7 @@ You will see that both nodes have the same six services with parameters in their
 
 For now, let’s focus on the turtlesim-specific services, /clear, /kill, /reset, /spawn, /turtle1/set_pen, /turtle1/teleport_absolute, and /turtle1/teleport_relative. You may recall interacting with some of these services using rqt in the Use turtlesim, ros2, and rqt tutorial.
 
-###### 3 ros2 service type
+#### 3 ros2 service type
 Services have types that describe how the request and response data of a service is structured. Service types are defined similarly to topic types, except service types have two parts: one message for the request and another for the response.
 
 To find out the type of a service, use the command:
@@ -1014,7 +866,7 @@ which will return:
 ```
 
 
-###### 4 ros2 service find
+#### 4 ros2 service find
 If you want to find all the services of a specific type, you can use the command:
 
 ```bash
@@ -1032,7 +884,7 @@ Which will return:
 /reset
 ```
 
-###### 5 ros2 interface show
+#### 5 ros2 interface show
 You can call services from the command line, but first you need to know the structure of the input arguments.
 
 ```bash
@@ -1075,7 +927,7 @@ The information above the --- line tells us the arguments needed to call /spawn.
 
 The information below the line isn’t something you need to know in this case, but it can help you understand the data type of the response you get from the call.
 
-###### 6 ros2 service call
+#### 6 ros2 service call
 
 Now that you know what a service type is, how to find a service’s type, and how to find the structure of that type’s arguments, you can call a service using:
 
@@ -1106,23 +958,23 @@ turtlesim.srv.Spawn_Response(name='turtle2')
 ```
 Your turtlesim window will update with the newly spawned turtle right away:
 
-##### Summary
+### Summary
 Nodes can communicate using services in ROS 2. Unlike a topic - a one way communication pattern where a node publishes information that can be consumed by one or more subscribers - a service is a request/response pattern where a client makes a request to a node providing the service and the service processes the request and generates a response.
 
 You generally don’t want to use a service for continuous calls; topics or even actions would be better suited.
 
 In this tutorial you used command line tools to identify, introspect, and call services.
 
-#### Understanding parameters
+## VI Understanding parameters
 Goal: Learn how to get, set, save and reload parameters in ROS 2.
 
-##### Background
+### Background
 A parameter is a configuration value of a node. You can think of parameters as node settings. A node can store parameters as integers, floats, booleans, strings, and lists. In ROS 2, each node maintains its own parameters. For more background on parameters, please see the concept document.
-##### Prerequisites
+### Prerequisites
 This tutorial uses the turtlesim package.
 As always, don’t forget to source ROS 2 in every new terminal you open.
-##### Tasks
-###### 1 Setup
+### Tasks
+#### 1 Setup
 Start up the two turtlesim nodes, /turtlesim and /teleop_turtle.
 
 Open a new terminal and run:
@@ -1136,7 +988,7 @@ Open another terminal and run:
 ```bash
 ros2 run turtlesim turtle_teleop_key
 ```
-###### 2 ros2 param list
+#### 2 ros2 param list
 To see the parameters belonging to your nodes, open a new terminal and enter the command:
 ```bash
 ros2 param list
@@ -1169,7 +1021,7 @@ Every node has the parameter use_sim_time; it’s not unique to turtlesim.
 Based on their names, it looks like /turtlesim’s parameters determine the background color of the turtlesim window using RGB color values.
 
 To determine a parameter’s type, you can use ros2 param get.
-###### 3 ros2 param get
+#### 3 ros2 param get
 To display the type and current value of a parameter, use the command:
 ```bash
 ros2 param get <node_name> <parameter_name>
@@ -1186,7 +1038,7 @@ Now you know background_g holds an integer value.
 
 If you run the same command on background_r and background_b, you will get the values 69 and 255, respectively.
 
-###### 4 ros2 param set
+#### 4 ros2 param set
 To change a parameter’s value at runtime, use the command:
 ```bash
 ros2 param set <node_name> <parameter_name> <value>
@@ -1202,7 +1054,7 @@ Set parameter successful
 And the background of your turtlesim window should change colors
 
 Setting parameters with the set command will only change them in your current session, not permanently. However, you can save your settings and reload them the next time you start a node.
-###### 5 ros2 param dump
+#### 5 ros2 param dump
 You can view all of a node’s current parameter values by using the command:
 ```bash
 ros2 param dump <node_name>
@@ -1234,7 +1086,7 @@ You will find a new file in the current working directory your shell is running 
 
 Dumping parameters comes in handy if you want to reload the node with the same parameters in the future.
 
-###### 6 ros2 param load
+#### 6 ros2 param load
 You can load parameters from a file to a currently running node using the command:
 ```bash
 ros2 param load <node_name> <parameter_file>
@@ -1262,7 +1114,7 @@ Set parameter use_sim_time successful
 !!! note
     Read-only parameters can only be modified at startup and not afterwards, that is why there are some warnings for the “qos_overrides” parameters.
 
-###### 7 Load parameters on node startup
+#### 7 Load parameters on node startup
 To start the same node using your saved parameter values, use:
 ```bash
 ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
@@ -1281,13 +1133,13 @@ The turtlesim window should appear as usual, but with the purple background you 
 !!! note
     When a parameter file is used at node startup, all parameters, including the read-only ones, will be updated.
 
-##### Summary
+### Summary
 Nodes have parameters to define their default configuration values. You can get and set parameter values from the command line. You can also save the parameter settings to a file to reload them in a future session.
 
-#### Understanding actions
+## VII Understanding actions
 Goal: Introspect actions in ROS 2.
 
-##### Background
+### Background
 Actions are one of the communication types in ROS 2 and are intended for long running tasks. They consist of three parts: a **goal**, **feedback**, and a **result**.
 
 **Actions are built on topics and services.** Their functionality is similar to services, except actions can be canceled. They also provide steady feedback, as opposed to services which return a single response.
@@ -1296,16 +1148,16 @@ Actions are one of the communication types in ROS 2 and are intended for long ru
 
 ![Action-SingleActionClient.gif](Action-SingleActionClient.gif)
 
-##### Prerequisites
+### Prerequisites
 This tutorial builds off concepts, like nodes and topics, covered in previous tutorials.
 
 This tutorial uses the turtlesim package.
 
 As always, don’t forget to source ROS 2 in every new terminal you open.
 
-##### Tasks
+### Tasks
 
-###### 1 Setup
+#### 1 Setup
 Start up the two turtlesim nodes, /turtlesim and /teleop_turtle.
 
 Open a new terminal and run:
@@ -1319,7 +1171,7 @@ Open another terminal and run:
 ```bash
 ros2 run turtlesim turtle_teleop_key
 ```
-###### 2 Use actions
+#### 2 Use actions
 When you launch the /teleop_turtle node, you will see the following message in your terminal:
 
 ```bash
@@ -1355,7 +1207,7 @@ Try hitting the `D` key, then the `G` key before the first rotation can complete
 
 This action server chose to abort the first goal because it got a new one. It could have chosen something else, like reject the new goal or execute the second goal after the first one finished. Don’t assume every action server will choose to abort the current goal when it gets a new one.
 
-###### 3 ros2 node info
+#### 3 ros2 node info
 To see the list of actions a node provides, `/turtlesim` in this case, open a new terminal and run the command:
 
 ```bash
@@ -1428,7 +1280,7 @@ Which will return:
     /turtle1/rotate_absolute: turtlesim/action/RotateAbsolute
 ```
 
-###### 4 ros2 action list
+#### 4 ros2 action list
 To identify all the actions in the ROS graph, run the command:
 ```bash
 ros2 action list
@@ -1458,7 +1310,7 @@ Which will return:
 
 In brackets to the right of each action name (in this case only /turtle1/rotate_absolute) is the action type, turtlesim/action/RotateAbsolute. You will need this when you want to execute an action from the command line or from code.
 
-###### 5 ros2 action info
+#### 5 ros2 action info
 You can further introspect the `/turtle1/rotate_absolute` action with the command:
 
 ```bash
@@ -1477,7 +1329,7 @@ Action servers: 1
 
 This tells us what we learned earlier from running `ros2 node info` on each node: The `/teleop_turtle` node has an action client and the `/turtlesim` node has an action server for the `/turtle1/rotate_absolute` action.
 
-###### 6 ros2 interface show
+#### 6 ros2 interface show
 One more piece of information you will need before sending or executing an action goal yourself is the structure of the action type.
 
 Recall that you identified `/turtle1/rotate_absolute`’s type when running the command `ros2 action list -t`. Enter the following command with the action type in your terminal:
@@ -1501,7 +1353,7 @@ float32 remaining
 
 The section of this message above the first `---` is the structure (data type and name) of the **goal request**. The next section is the structure of the **result**. The last section is the structure of the **feedback**.
 
-###### 7 ros2 action send_goal
+#### 7 ros2 action send_goal
 Now let’s send an action goal from the command line with the following syntax:
 
 ```bash
@@ -1562,82 +1414,385 @@ Goal finished with status: SUCCEEDED
 
 You will continue to receive feedback, the remaining radians, until the goal is complete.
 
-##### Summary
+### Summary
 Actions are like services that allow you to execute **long running tasks**, provide regular feedback, and are cancelable.
 
 A robot system would likely use actions for navigation. An action goal could tell a robot to travel to a position. While the robot navigates to the position, it can send updates along the way (i.e. feedback), and then a final result message once it’s reached its destination.
 
 Turtlesim has an action server that action clients can send goals to for rotating turtles. In this tutorial, you introspected that action, `/turtle1/rotate_absolute`, to get a better idea of what actions are and how they work.
 
-#### Using rqt_console to view logs
+## VIII Using rqt_console to view logs
 Goal: Get to know rqt_console, a tool for introspecting log messages.
 
-##### Background
+### Background
+`rqt_console` is a GUI tool used to introspect log messages in ROS 2. Typically, log messages show up in your terminal. With `rqt_console`, you can collect those messages over time, view them closely and in a more organized manner, filter them, save them and even reload the saved files to introspect at a different time.
 
-##### Prerequisites
+Nodes use logs to output messages concerning events and status in a variety of ways. Their content is usually informational, for the sake of the user.
 
-##### Tasks
+### Prerequisites
+You will need rqt_console and turtlesim installed.
 
-###### 1 Setup
+As always, don’t forget to source ROS 2 in every new terminal you open.
 
-###### 2 Messages on rqt_console
+### Tasks
 
-###### 3 Logger levels
+#### 1 Setup
+Start `rqt_console` in a new terminal with the following command:
+
+```bash
+ros2 run rqt_console rqt_console
+```
+
+The `rqt_console` window will open:
+
+![rqt-console.png](rqt-console.png)
+
+The first section of the console is where log messages from your system will display.
+
+In the middle you have the option to filter messages by excluding severity levels. You can also add more exclusion filters using the plus-sign button to the right.
+
+The bottom section is for highlighting messages that include a string you input. You can add more filters to this section as well.
+
+Now start `turtlesim` in a new terminal with the following command:
+
+```bash
+ros2 run turtlesim turtlesim_node
+```
+
+#### 2 Messages on rqt_console
+To produce log messages for `rqt_console` to display, let’s have the turtle run into the wall. In a new terminal, enter the `ros2 topic pub` command (discussed in detail in the topics tutorial) below:
+
+```bash
+ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}"
+```
+
+Since the above command is publishing the topic at a steady rate, the turtle is continuously running into the wall. In `rqt_console` you will see the same message with the `Warn` severity level displayed over and over, like so:
+
+![warn.png](warn.png)
+
+Press Ctrl+C in the terminal where you ran the ros2 topic pub command to stop your turtle from running into the wall.
+
+
+#### 3 Logger levels
+ROS 2’s logger levels are ordered by severity:
+
+```bash
+Fatal
+Error
+Warn
+Info
+Debug
+```
+
+There is no exact standard for what each level indicates, but it’s safe to assume that:
+
+- Fatal messages indicate the system is going to terminate to try to protect itself from detriment.
+
+- Error messages indicate significant issues that won’t necessarily damage the system, but are preventing it from functioning properly.
+
+- Warn messages indicate unexpected activity or non-ideal results that might represent a deeper issue, but don’t harm functionality outright.
+
+- Info messages indicate event and status updates that serve as a visual verification that the system is running as expected.
+
+- Debug messages detail the entire step-by-step process of the system execution.
+
+The default level is Info. You will only see messages of the default severity level and more-severe levels.
+
+Normally, only Debug messages are hidden because they’re the only level less severe than Info. For example, if you set the default level to Warn, you would only see messages of severity Warn, Error, and Fatal.
+
 [Set the default logger level]
 
-##### Summary
+You can set the default logger level when you first run the `/turtlesim` node using remapping. Enter the following command in your terminal:
+
+```bash
+ros2 run turtlesim turtlesim_node --ros-args --log-level WARN
+```
+
+Now you won’t see the initial Info level messages that came up in the console last time you started turtlesim. That’s because Info messages are lower priority than the new default severity, Warn.
+
+### Summary
 `rqt_console` can be very helpful if you need to closely examine the log messages from your system. You might want to examine log messages for any number of reasons, usually to find out where something went wrong and the series of events leading up to that.
 
+## IX Launching nodes
+Goal: Use a command line tool to launch **multiple nodes at once**.
+
+### Background
+In most of the introductory tutorials, you have been opening new terminals for every new node you run. As you create more complex systems with more and more nodes running simultaneously, opening terminals and reentering configuration details becomes tedious.
+
+Launch files allow you to start up and configure a number of executables containing ROS 2 nodes simultaneously.
+
+Running a single launch file with the `ros2 launch`·` command will start up your entire system - all nodes and their configurations - at once.
+
+### Prerequisites
+Before starting these tutorials, install ROS 2 by following the instructions on the ROS 2 Installation page.
+
+The commands used in this tutorial assume you followed the binary packages installation guide for your operating system (Debian packages for Linux). You can still follow along if you built from source, but the path to your setup files will likely be different. You also won’t be able to use the `sudo apt install ros-<distro>-<package>` command (used frequently in the beginner level tutorials) if you install from source.
+
+If you are using Linux and are not already familiar with the shell, this tutorial will help.
+
+### Tasks
+
+#### Running a Launch File
+Open a new terminal and run:
+
+```bash
+ros2 launch turtlesim multisim.launch.py
+```
+
+This command will run the following launch file:
+
+```python
+# turtlesim/launch/multisim.launch.py
+
+from launch import LaunchDescription
+import launch_ros.actions
+
+def generate_launch_description():
+    return LaunchDescription([
+        launch_ros.actions.Node(
+            namespace= "turtlesim1", package='turtlesim', executable='turtlesim_node', output='screen'),
+        launch_ros.actions.Node(
+            namespace= "turtlesim2", package='turtlesim', executable='turtlesim_node', output='screen'),
+    ])
+```
+
+!!! note
+    The launch file above is written in Python, but you can also use XML and YAML to create launch files. You can see a comparison of these different ROS 2 launch formats in Using Python, XML, and YAML for ROS 2 Launch Files.
+This will run two turtlesim nodes
+
+For now, don’t worry about the contents of this launch file. You can find more information on ROS 2 launch in the ROS 2 launch tutorials.
+
+#### (Optional) Control the Turtlesim Nodes
+Now that these nodes are running, you can control them like any other ROS 2 nodes. For example, you can make the turtles drive in opposite directions by opening up two additional terminals and running the following commands:
+
+In the second terminal:
+
+```bash
+ros2 topic pub  /turtlesim1/turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+```
+
+In the third terminal:
+
+```
+ros2 topic pub  /turtlesim2/turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -1.8}}"
+```
+
+After running these commands, you should see something like the following:
+
+### Summary
+The significance of what you’ve done so far is that you’ve run two turtlesim nodes with one command. Once you learn to write your own launch files, you’ll be able to run multiple nodes - and set up their configuration - in a similar way, with the ros2 launch command.
+
+For more tutorials on ROS 2 launch files, see the main launch file tutorial page.
+
+## X Recording and playing back data
+
+### Background
+`ros2 bag` is a command line tool for recording data published on topics in your system. It accumulates the data passed on any number of topics and saves it in a database. You can then replay the data to reproduce the results of your tests and experiments. Recording topics is also a great way to share your work and allow others to recreate it.
+
+### Prerequisites
+You should have ros2 bag installed as a part of your regular ROS 2 setup.
+
+If you need to install ROS 2, see the Installation instructions.
+
+This tutorial talks about concepts covered in previous tutorials, like nodes and topics. It also uses the turtlesim package.
+
+As always, don’t forget to source ROS 2 in every new terminal you open.
+
+### Tasks
+
+#### 1 Setup
+You’ll be recording your keyboard input in the turtlesim system to save and replay later on, so begin by starting up the `/turtlesim` and `/teleop_turtle` nodes.
+
+Open a new terminal and run:
+
+```bash
+ros2 run turtlesim turtlesim_node
+```
+
+Open another terminal and run:
+
+```bash
+ros2 run turtlesim turtle_teleop_key
+```
+
+Let’s also make a new directory to store our saved recordings, just as good practice:
+
+=== "Linux"
+
+    ```bash
+    mkdir bag_files
+    cd bag_files
+    ```
+
+=== “MacOS”
+
+    ```bash
+    mkdir bag_files
+    cd bag_files
+    ```
+
+=== “Windows”
+
+    ```bash
+    md bag_files
+    cd bag_files
+    ```
+
+#### 2 Choose a topic
+`ros2 bag` can only record data from published messages in topics. To see the list of your system’s topics, open a new terminal and run the command:
+
+```bash
+ros2 topic list
+```
+
+Which will return:
+
+```bash
+/parameter_events
+/rosout
+/turtle1/cmd_vel
+/turtle1/color_sensor
+/turtle1/pose
+```
+
+In the topics tutorial, you learned that the `/turtle_teleop` node publishes commands on the `/turtle1/cmd_vel` topic to make the turtle move in turtlesim.
+
+To see the data that `/turtle1/cmd_vel` is publishing, run the command:
+
+```bash
+ros2 topic echo /turtle1/cmd_vel
+```
+
+Nothing will show up at first because no data is being published by the teleop. Return to the terminal where you ran the teleop and select it so it’s active. Use the arrow keys to move the turtle around, and you will see data being published on the terminal running `ros2 topic echo`.
+
+```bash
+linear:
+  x: 2.0
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  ---
+```
+
+#### 3 ros2 bag record
+
+**[Record a single topic]**
+To record the data published to a topic use the command syntax:
+
+```bash
+ros2 bag record <topic_name>
+```
+
+Before running this command on your chosen topic, open a new terminal and move into the bag_files directory you created earlier, because the rosbag file will save in the directory where you run it.
+
+Run the command:
+
+```bash
+ros2 bag record /turtle1/cmd_vel
+```
+
+You will see the following messages in the terminal (the date and time will be different):
+
+```bash
+[INFO] [rosbag2_storage]: Opened database 'rosbag2_2019_10_11-05_18_45'.
+[INFO] [rosbag2_transport]: Listening for topics...
+[INFO] [rosbag2_transport]: Subscribed to topic '/turtle1/cmd_vel'
+[INFO] [rosbag2_transport]: All requested topics are subscribed. Stopping discovery...
+```
+
+Now `ros2 bag` is recording the data published on the `/turtle1/cmd_vel` topic. Return to the teleop terminal and move the turtle around again. The movements don’t matter, but try to make a recognizable pattern to see when you replay the data later.
+
+Press `Ctrl+C` to stop recording.
+
+The data will be accumulated in a new bag directory with a name in the pattern of `rosbag2_year_month_day-hour_minute_second`. This directory will contain a `metadata.yaml` along with the bag file in the recorded format.
+
+**[Record multiple topics]**
+You can also record multiple topics, as well as change the name of the file ros2 bag saves to.
+
+Run the following command:
+
+```bash
+ros2 bag record -o subset /turtle1/cmd_vel /turtle1/pose
+```
+
+The `-o` option allows you to choose a unique name for your bag file. The following string, in this case subset, is the file name.
+
+To record more than one topic at a time, simply list each topic separated by a space.
+
+You will see the following message, confirming that both topics are being recorded.
+
+```bash
+[INFO] [rosbag2_storage]: Opened database 'subset'.
+[INFO] [rosbag2_transport]: Listening for topics...
+[INFO] [rosbag2_transport]: Subscribed to topic '/turtle1/cmd_vel'
+[INFO] [rosbag2_transport]: Subscribed to topic '/turtle1/pose'
+[INFO] [rosbag2_transport]: All requested topics are subscribed. Stopping discovery...
+```
+
+You can move the turtle around and press `Ctrl+C` when you’re finished.
+
+!!! note
+    There is another option you can add to the command, `-a`, which records all the topics on your system.
+
+#### 4 ros2 bag info
+You can see details about your recording by running:
+
+```bash
+ros2 bag info <bag_file_name>
+```
+
+Running this command on the subset bag file will return a list of information on the file:
+
+```bash
+ros2 bag info subset
+```
+
+```bash
+Files:             subset.db3
+Bag size:          228.5 KiB
+Storage id:        sqlite3
+Duration:          48.47s
+Start:             Oct 11 2019 06:09:09.12 (1570799349.12)
+End                Oct 11 2019 06:09:57.60 (1570799397.60)
+Messages:          3013
+Topic information: Topic: /turtle1/cmd_vel | Type: geometry_msgs/msg/Twist | Count: 9 | Serialization Format: cdr
+                 Topic: /turtle1/pose | Type: turtlesim/msg/Pose | Count: 3004 | Serialization Format: cdr
+```
+
+#### 5 ros2 bag play
+Before replaying the bag file, enter `Ctrl+C` in the terminal where the teleop is running. Then make sure your turtlesim window is visible so you can see the bag file in action.
+
+Enter the command:
+
+```bash
+ros2 bag play subset
+```
+
+The terminal will return the message:
+
+```bash
+[INFO] [rosbag2_storage]: Opened database 'subset'.
+```
+
+Your turtle will follow the same path you entered while recording (though not 100% exactly; turtlesim is sensitive to small changes in the system’s timing).
 
 
+Because the subset file recorded the `/turtle1/pose` topic, the `ros2 bag play` command won’t quit for as long as you had turtlesim running, even if you weren’t moving.
+
+This is because as long as the `/turtlesim` node is active, it publishes data on the `/turtle1/pose` topic at regular intervals. You may have noticed in the ros2 bag info example result above that the `/turtle1/cmd_vel` topic’s Count information was only 9; that’s how many times we pressed the arrow keys while recording.
+
+Notice that `/turtle1/pose` has a Count value of over 3000; while we were recording, data was published on that topic 3000 times.
+
+To get an idea of how often position data is published, you can run the command:
+
+```bash
+ros2 topic hz /turtle1/pose
+```
+
+### Summary
+You can record data passed on topics in your ROS 2 system using the ros2 bag command. Whether you’re sharing your work with others or introspecting your own experiments, it’s a great tool to know about.
 
 
-
-
-
-#### Launching nodes
-
-
-
-
-
-
-
-
-
-
-#### Recording and playing back data
-
-
-
-
-
-
-
-
-
-### Beginner: Client Libraries
-
-### Intermediate
-
-### Advanced
-
-### Demos
-
-### Miscellaneous
-
-## 4. How-to Guides
-
-## 5. Concepts
-
-## 6. Contact
-
-## 7. The ROS2 Project
-
-## 8. API Documentation
-
-## 9. Related Projects
-
-## 10. Glossary
-
-## 11. Citations

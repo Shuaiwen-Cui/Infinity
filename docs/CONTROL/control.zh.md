@@ -1,7 +1,6 @@
 # 控制
 
-![Map of Contorl](map-zh.png)
-
+![Control](control.jpg)
 
 ## 理论
 
@@ -32,3 +31,5 @@
 
 
 </div>
+
+![Map of Contorl](map-zh.png)

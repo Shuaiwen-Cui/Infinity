@@ -1,6 +1,6 @@
 # Control
 
-![Map of Contorl](map-en.png)
+![Control](control.jpg)
 
 ## Theory
 
@@ -30,3 +30,5 @@
     [:octicons-arrow-right-24: <a href="https://engineeringmedia.com/videos" target="_blank"> Portal </a>](#)
 
 </div>
+
+![Map of Contorl](map-en.png)

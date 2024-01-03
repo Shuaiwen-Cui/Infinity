@@ -1,5 +1,7 @@
 # Actuation
 
+![robot](robot.jpg)
+
 ## Links
 
 <div class="grid cards" markdown>

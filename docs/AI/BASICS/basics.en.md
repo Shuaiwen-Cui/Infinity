@@ -1,6 +1,7 @@
 # AI Basics
 
-![AI-ML-DL](ai-ml-dl.png)
+![AI-ML-DL](ai-ml-dl.png){: width="100%"}
+
 Evolution of AI: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/](https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml-dl-ashwin-kumar/)
 
 ## Machine Learning

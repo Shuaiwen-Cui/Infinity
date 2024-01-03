@@ -343,7 +343,12 @@ nav:
       - "./ACTUATION/actuation.md"
       - ROS: 
           - "./ACTUATION/ROS/ros.md"
-          - OFFICIAL-GUIDE: "./ACTUATION/ROS/OFFICIAL-GUIDE/guide.md"
+          - OFFICIAL-GUIDE:
+              - INSTALLATION: "./ACTUATION/ROS/OFFICIAL-GUIDE/INSTALLATION/installation.md"
+              - DISTRIBUTION: "./ACTUATION/ROS/OFFICIAL-GUIDE/DISTRIBUTION/distribution.md"
+              - TUTORIALS: 
+                  - CLI-TOOLS: "./ACTUATION/ROS/OFFICIAL-GUIDE/TUTORIALS/CLI-TOOLS/cli-tools.md"
+                  
       - HANDSON-ROS: 
           - "./ACTUATION/HANDSON-ROS/handson-ros.md"
           - P1-GET-STARTED: "./ACTUATION/HANDSON-ROS/P1-GET-STARTED/p1-get-started.md"
