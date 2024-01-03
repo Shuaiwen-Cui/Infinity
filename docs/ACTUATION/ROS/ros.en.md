@@ -11,6 +11,14 @@
 
     [:octicons-arrow-right-24: <a href="http://wiki.ros.org/" target="_blank"> Portal </a>](#)
 
+-   :simple-ros:{ .lg .middle } __ROS Humble__
+
+    ---
+
+    ROS Humble Guide
+
+    [:octicons-arrow-right-24: <a href="https://docs.ros.org/en/humble/index.html" target="_blank"> Portal </a>](#)
+
 -   :material-robot-industrial:{ .lg .middle } __古月居__
 
     ---
