@@ -9,7 +9,7 @@
 ![Electrical Engineering](electrical-engineering.png){ : style="height:450px;width:800px" }
 
 <div class="grid cards" markdown>
--  :material-book:{ .lg .middle } __Electronics for Beginners: A Practical Introduction to Schematics, Circuits, and Microcontrollers__
+-  :material-book:{ .lg .middle } __Electronics for Beginners: A Practical Introduction to Schematics, Circuits, and Microcontrollers 🎯✅🏆__
 
     ---
 
@@ -68,3 +68,46 @@
 ### ESP32
 
 ### Raspberry Pi
+
+## IDE
+
+<div class="grid cards" markdown>
+
+-  :material-microsoft-visual-studio-code:{ .lg .middle } __Visual Studio Code 🎯✅🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://code.visualstudio.com/" target="_blank"> Portal </a>](#)
+
+-  :material-file-code:{ .lg .middle } __Ecilpse IDE__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.eclipse.org/downloads/" target="_blank"> Portal </a>](#)
+
+-  :simple-arduino:{ .lg .middle } __Arduino IDE ✅__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.arduino.cc/en/software" target="_blank"> Portal </a>](#)
+
+-  :simple-platformio:{ .lg .middle } __PlatformIO IDE 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://platformio.org/platformio-ide" target="_blank"> Portal </a>](#)
+
+-  :simple-armkeil:{ .lg .middle } __Arm Keil MDK 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.keil.com/demo/eval/arm.htm" target="_blank"> Portal </a>](#)
+
+-  :simple-stmicroelectronics:{ .lg .middle } __STM32CubeIDE 🎯🏆__
+
+    ---
+
+    STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. 
+
+    [:octicons-arrow-right-24: <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank"> Portal </a>](#)
+</div>

@@ -9,7 +9,7 @@
 ![Electrical Engineering](electrical-engineering.png){ : style="height:450px;width:800px" }
 
 <div class="grid cards" markdown>
--  :material-book:{ .lg .middle } __初学者电子学：电路图、电路与微控制器实用介绍__
+-  :material-book:{ .lg .middle } __初学者电子学：电路图、电路与微控制器实用介绍 🎯✅🏆__
 
     ---
 
@@ -71,3 +71,47 @@
 ### ESP32
 
 ### Raspberry Pi
+
+## 集成开发环境
+
+<div class="grid cards" markdown>
+
+-  :material-microsoft-visual-studio-code:{ .lg .middle } __Visual Studio Code 🎯✅🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://code.visualstudio.com/" target="_blank"> 传送门 </a>](#)
+
+-  :material-file-code:{ .lg .middle } __Ecilpse IDE__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.eclipse.org/downloads/" target="_blank"> 传送门 </a>](#)
+
+-  :simple-arduino:{ .lg .middle } __Arduino IDE ✅__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.arduino.cc/en/software" target="_blank"> 传送门 </a>](#)
+
+-  :simple-platformio:{ .lg .middle } __PlatformIO IDE 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://platformio.org/platformio-ide" target="_blank"> 传送门 </a>](#)
+
+-  :simple-armkeil:{ .lg .middle } __Arm Keil MDK 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.keil.com/demo/eval/arm.htm" target="_blank"> 传送门 </a>](#)
+
+-  :simple-stmicroelectronics:{ .lg .middle } __STM32CubeIDE 🎯🏆__
+
+    ---
+
+    STM32CubeIDE是一种先进的C / C ++开发平台，具有外设配置，代码生成，代码编译和调试功能，可用于STM32微控制器和微处理器。
+
+    [:octicons-arrow-right-24: <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank"> 传送门 </a>](#)
+
+</div>

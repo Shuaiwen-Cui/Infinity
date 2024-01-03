@@ -120,7 +120,9 @@ plugins:
             ABOUT: 关于
             SPONSORSHIP: 赞助
             MATH: 数学
-            CS: 计算机
+            CS: 计算机科学
+            OS: 操作系统
+            DATA-BASE: 数据库
             CODING: 编程
             C/C++: C/C++
             C: C
@@ -133,15 +135,30 @@ plugins:
             CSS: 级联样式表
             JAVASCRIPT: JAVASCRIPT
             EMBEDDED-SYS: 嵌入式系统
+            THEORY: 理论
+            ELECTRONICS: 电子学
+            FREERTOS: 实时操作系统
+            LINUX: LINUX
+            IDE: 集成开发环境
+            KEIL: KEIL
+            PLATFORMIO: PLATFORMIO
             DSP: 数字信号处理
+            NOTE-DSP-STUFF: “DSP相关内容”笔记
+            TIME-FREQ-ANA: 时频分析
             PERCEPTION: 感知
             CONTROL: 控制
             ACTUATION: 执行
             ROS: 机器人操作系统
+            OFFICIAL-GUIDE: 官方指南
+            INSTALLATION: 安装
+            DISTRIBUTION: 发行版
+            TUTORIALS: 教程
+            CLI-TOOLS: 命令行工具
             HANDSON-ROS: 动手学ROS
             P1-GET-STARTED: P1-入门
             VISUALIZATION: 可视化            
             IOT: 物联网
+            WSN: 无线传感器网络
             MQTT: 消息队列遥测传输协议
             BROKER: 代理
             CLIENT: 客户端
@@ -309,6 +326,8 @@ nav:
       - "./MATH/math.md"
   - CS: 
       - "./CS/CS.md"
+      - OS: "./CS/OS/os.md"
+      - DATA-BASE: "./CS/DATA-BASE/data-base.md"
   - CODING: 
       - "./CODING/coding.md"
       - C/C++:
@@ -325,6 +344,15 @@ nav:
           - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
   - EMBEDDED-SYS: 
       - "./EMBEDDED-SYS/embedded-sys.md"
+      - THEORY:
+          - ELECTRONICS: "./EMBEDDED-SYS/THEORY/ELECTRONICS/electronics.md"
+          - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
+          - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
+      - IDE: 
+          - "./EMBEDDED-SYS/IDE/ide.md"
+          - KEIL: "./EMBEDDED-SYS/IDE/KEIL/keil.md"
+          - PLATFORMIO: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
+
   - DSP: 
       - "./DSP/dsp.md"
       - NOTE-DSP-STUFF:
