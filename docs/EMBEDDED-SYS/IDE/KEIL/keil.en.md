@@ -65,3 +65,25 @@
 
 [📄 Download Link](https://www.keil.com/support/man/docs/mdk_gs/){:target="_blank"}
 
+## Updates
+
+### Keil 6 Community
+
+<iframe width="800" height="450" src="https://armkeil.blob.core.windows.net/developer/Files/videos/KeilMDK/MDK-CommunityIntro.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[🎬️ Video Link](https://armkeil.blob.core.windows.net/developer/Files/videos/KeilMDK/MDK-CommunityIntro.mp4){:target="_blank"}
+
+## Online Study
+<div class="grid cards" markdown>
+
+-  :simple-arm:{ .lg .middle } __ARM KEIL MDK__
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/Tools%20and%20Software/Keil%20MDK" target="_blank"> Portal </a>](#)
+
+-  :video_camera:{ .lg .middle } __ARM KEIL MDK Video Tutorials__
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/search#q=keil&f-navigationhierarchiescontenttype=Video%20Tutorial" target="_blank"> Portal </a>](#)
+
+</div>

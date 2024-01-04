@@ -141,6 +141,14 @@ plugins:
             LINUX: LINUX
             IDE: 集成开发环境
             KEIL: KEIL
+            OFFICIAL-GUIDE: 官方指南
+            PREFACE: 前言
+            MDK-INTRODUCTION: MDK简介
+            CMSIS: CMSIS库
+            SOFTWARE-COMPONENTS: 软件组件
+            CREATE-APP: 创建应用
+            DEBUG-APP: 调试应用
+            MDK-MIDDLEWARE: MDK中间件
             PLATFORMIO: PLATFORMIO
             DSP: 数字信号处理
             NOTE-DSP-STUFF: “DSP相关内容”笔记
@@ -350,7 +358,16 @@ nav:
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
       - IDE: 
           - "./EMBEDDED-SYS/IDE/ide.md"
-          - KEIL: "./EMBEDDED-SYS/IDE/KEIL/keil.md"
+          - KEIL: 
+              - "./EMBEDDED-SYS/IDE/KEIL/keil.md"
+              - OFFICIAL-GUIDE: 
+                  - PREFACE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/PREFACE/preface.md"
+                  - MDK-INTRODUCTION: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/MDK-INTRODUCTION/mdk-introduction.md"
+                  - CMSIS: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/CMSIS/cmsis.md"
+                  - SOFTWARE-COMPONENTS: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/SOFTWARE-COMPONENTS/software-components.md"
+                  - CREATE-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/CREATE-APP/create-app.md"
+                  - DEBUG-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/DEBUG-APP/debug-app.md"
+                  - MDK-MIDDLEWARE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/MDK-MIDDLEWARE/mdk-middleware.md"
           - PLATFORMIO: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
 
   - DSP: 

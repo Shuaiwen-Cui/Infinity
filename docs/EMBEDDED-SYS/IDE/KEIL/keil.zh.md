@@ -63,3 +63,25 @@
 <!-- 在空白页打开 -->
 [📄 下载链接](https://www.keil.com/support/man/docs/mdk_gs/){:target="_blank"}
 
+## Updates
+
+### Keil 6 社区版
+
+<iframe width="800" height="450" src="https://armkeil.blob.core.windows.net/developer/Files/videos/KeilMDK/MDK-CommunityIntro.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[🎬️ 视频链接](https://armkeil.blob.core.windows.net/developer/Files/videos/KeilMDK/MDK-CommunityIntro.mp4){:target="_blank"}
+
+## 在线学习
+<div class="grid cards" markdown>
+
+-  :simple-arm:{ .lg .middle } __ARM KEIL MDK__
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/Tools%20and%20Software/Keil%20MDK" target="_blank"> 传送门 </a>](#)
+
+-  :video_camera:{ .lg .middle } __ARM KEIL MDK 视频教程__
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/search#q=keil&f-navigationhierarchiescontenttype=Video%20Tutorial" target="_blank"> 传送门 </a>](#)
+
+</div>
