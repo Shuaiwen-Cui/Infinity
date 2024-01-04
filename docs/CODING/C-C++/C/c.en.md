@@ -11,7 +11,7 @@
     ---
     Authors: Brian W. Kernighan and Dennis M. Ritchie
 
-    Reading Progress: [2/8]
+    Reading Progress: [3/8]
 
     [:octicons-arrow-right-24: <a href="https://kremlin.cc/k&r.pdf" target="_blank"> Download PDF </a>](#)
 

@@ -22,9 +22,43 @@ comments: true
 
 ## Computer Theories
 
+### CS Encyclopedia
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-square-github:{ .lg .middle } __Free Programming Books__
+
+    ---
+
+    Almost every thing.
+
+    [:octicons-arrow-right-24: <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank"> Github </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank"> Website </a>](#)
+
+-   :fontawesome-brands-square-github:{ .lg .middle } __OpenLib.cs__
+
+    ---
+
+    📚 A Collection of Free & Open Resources for University Coursework in Computer Science.
+
+    [:octicons-arrow-right-24: <a href="https://github.com/acmbpdc/openlib.cs" target="_blank"> Github </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://openlib-cs.acmbpdc.org/" target="_blank"> Website </a>](#)
+
+-  :fontawesome-brands-square-github:{ .lg .middle } __CS-Books__
+
+    ---
+
+    In Chinese, a collection of CS books.
+
+    [:octicons-arrow-right-24: <a href="https://github.com/forthespada/CS-Books" target="_blank"> Portal </a>](#)
+
+</div>
+
 ### Self-Learning Guides
 
 <div class="grid cards" markdown>
+
 -   :fontawesome-brands-square-github:{ .lg .middle } __Teach Yourself CS__
 
     ---

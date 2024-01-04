@@ -21,6 +21,39 @@ comments: true
 </div>
 
 ## 计算机理论
+### CS 百科全书
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-square-github:{ .lg .middle } __Free Programming Books__
+
+    ---
+
+    几乎包含了所有的计算机科学知识。
+
+    [:octicons-arrow-right-24: <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank"> Github </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://ebookfoundation.github.io/free-programming-books/" target="_blank"> 网页 </a>](#)
+
+-   :fontawesome-brands-square-github:{ .lg .middle } __OpenLib.cs__
+
+    ---
+
+    📚 A Collection of Free & Open Resources for University Coursework in Computer Science.
+
+    [:octicons-arrow-right-24: <a href="https://github.com/acmbpdc/openlib.cs" target="_blank"> Github </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://openlib-cs.acmbpdc.org/" target="_blank"> 网页 </a>](#)
+
+-  :fontawesome-brands-square-github:{ .lg .middle } __CS-Books__
+
+    ---
+
+    In Chinese, a collection of CS books.
+
+    [:octicons-arrow-right-24: <a href="https://github.com/forthespada/CS-Books" target="_blank"> 传送门 </a>](#)
+
+</div>
 
 ### 自学指南
 

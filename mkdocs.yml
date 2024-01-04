@@ -120,6 +120,8 @@ plugins:
             ABOUT: 关于
             SPONSORSHIP: 赞助
             MATH: 数学
+            GEOMETRY-GRAPHICS: 几何与图形学
+            COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
             CS: 计算机科学
             OS: 操作系统
             DATA-BASE: 数据库
@@ -342,6 +344,8 @@ nav:
       - SPONSORSHIP: "./HOME/sponsorship.md"
   - MATH:
       - "./MATH/math.md"
+      - GEOMETRY-GRAPHICS: 
+          - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
   - CS: 
       - "./CS/CS.md"
       - OS: "./CS/OS/os.md"
