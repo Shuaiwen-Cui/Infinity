@@ -257,3 +257,341 @@ The precedence of operators determines the order in which parts of an expression
 | ?: | Conditional expression | Right to left |
 | = += -= *= /= %= <<= >>= &= ^= \|= | Assignment | Right to left |
 | , | Comma | Left to right |
+
+## Chapter 3 - Control Flow
+Control flow statements in programming languages are used to manage the sequence of execution for various computational operations.
+
+### 3.1 Statements and Code Blocks
+
+#### Statements
+Expressions like `x = 0`, `i++`, or `printf(...)` become statements when followed by a semicolon (`;`). In the C language, the semicolon serves as the statement terminator, while other languages like Pascal use it as a separator between statements.
+
+#### Code Blocks
+A group of declarations and statements enclosed in curly braces `{` and `}` forms a compound statement (also known as a code block). A compound statement is syntactically equivalent to a single statement. The right curly brace marks the end of the code block and does not require a semicolon.
+
+### 3.2 if-else Statement
+
+```c
+if {expression} 
+  statement1
+else 
+  statement2
+```
+The `else` part is optional in this statement. When the statement is executed, the expression is first evaluated. If the expression is true (i.e., the value is non-zero), then statement 1 is executed. If the expression is false (i.e., the value is 0), and the statement contains an `else` part, then statement 2 is executed.
+
+Since the `if` statement simply tests the numerical value of the expression, the code can be simplified in some cases. For example, using the form:
+```c
+if (expression)
+```
+is equivalent to:
+```c
+if (expression != 0)
+```
+In some cases, this form is naturally clear, but in others, it may be less clear in meaning.
+
+Because the else part of the if-else statement is optional, omitting the else part in nested if statements can lead to ambiguity. The solution is to match each else with the nearest preceding if that does not have an else. Curly braces can be used to explicitly specify which if the else corresponds to.
+
+### 3.3 else-if Statement
+
+```c
+if (expression1)
+  statement1
+else if (expression2)
+  statement2
+else if (expression3)
+  statement3
+else
+  statement4
+```
+
+Therefore, we explain this separately here. This kind of `if` statement sequence is the most commonly used method for writing multi-way decisions. The expressions within it are evaluated sequentially, and once a certain expression evaluates to true, the associated statement is executed, and the execution of the entire statement sequence is terminated. Similarly, the statements within it can be either single statements or compound statements enclosed in curly braces.
+
+The last `else` part is used to handle the case when "none of the above conditions are true" or the default case, which is when none of the above conditions are satisfied. Sometimes, it is not necessary to perform explicit operations for the default case. In such cases, the `else` statement at the end of this structure can be omitted. This part can also be used to check for errors and capture "impossible" conditions.
+
+### 3.4 switch Statement
+!!! note "switch Statement"
+    The switch statement is a multi-way decision statement that tests whether an expression matches one of several constant integer values and executes the corresponding branch action.
+
+```c
+switch (expression) {
+  case constant1:
+    statement1
+    break;
+  case constant2:
+    statement2
+    break;
+  ...
+  default:
+    statement
+}
+```
+Each branch is marked by one or more **integer constants** or **constant expressions**. If a branch matches the value of the expression, execution begins from that branch. The expressions for each branch must be mutually exclusive. If none of the branches matches the expression's value, the branch marked as `default` is executed. The `default` branch is optional. If there is no `default` branch and no other branch matches the expression's value, the switch statement takes no action. The arrangement order of branches and the `default` branch is arbitrary.
+
+Example:
+```c
+#include <stdio.h>
+main() /* count digits, white space, others */
+{
+    int c, i, nwhite, nother, ndigit[10];
+    nwhite = nother = 0;
+    for (i = 0; i < 10; i++)
+        ndigit[i] = 0;
+    while ((c = getchar()) != EOF)
+    {
+        switch (c)
+        {
+        case '0':
+        case '1':
+        case '2':
+        case '3':
+        case '4':
+        case '5':
+        case '6':
+        case '7':
+        case '8':
+        case '9':
+            ndigit[c - '0']++;
+            break;
+        case ' ':
+        case '\n':
+        case '\t':
+            nwhite++;
+            break;
+        default:
+            nother++;
+            break;
+        }
+    }
+    printf("digits =");
+    for (i = 0; i < 10; i++)
+        printf(" %d", ndigit[i]);
+    printf(", white space = %d, other = %d\n",
+           nwhite, nother);
+    return 0;
+}
+```
+
+The `break` statement causes an immediate exit from the switch statement. **In a switch statement, the role of a `case` is merely a label. Therefore, after the code in a branch is executed, the program proceeds to the next branch unless explicitly redirected in the program.** The most common ways to exit a switch statement are using the `break` and `return` statements. The `break` statement can also be used to force an immediate exit from `while`, `for`, and `do` loop statements.
+
+Executing branches sequentially has both advantages and disadvantages. The benefit is that it allows combining several branches to accomplish a task, such as handling numbers in the example above. However, to prevent directly entering the next branch in normal circumstances, each branch must end with a `break` statement. Directly entering the next branch without a `break` statement is not a sound practice and can lead to errors during program modification. Except in cases where a calculation requires multiple labels, this usage of moving directly from one branch to the next should be minimized, and if necessary, appropriate program comments should be added.
+
+As a good programming practice, it is advisable to include a `break` statement after the last branch (i.e., the `default` branch) in a switch statement. While this is not logically necessary, it serves as a preventive measure against potential errors when adding other branches after this switch statement.
+
+### 3.5 Loops - while and for
+
+In while loop
+
+```c
+while (expression)
+  statement
+```
+First, evaluate the expression. If its value is non-zero, execute the statement and then reevaluate the expression. This looping process continues until the value of the expression becomes 0, after which the execution proceeds to the rest of the statement.
+
+```c
+for loopexpressions;
+for (expr1; expr2; expr3)
+  statement
+```
+
+is equivalent to:
+
+```c
+expr1;
+while (expr2) {
+  statement
+  expr3;
+}
+```
+
+!!! warning "注意"
+    When the `continue` statement is present within a `while` or `for` loop statement, the equivalence between the two is not guaranteed.
+
+From a syntax perspective, the three components of the `for` loop statement are expressions. The most common scenario is that expressions 1 and 3 are assignment expressions or function calls, and
+
+```c
+for (;;)
+  statement
+```
+
+is an "infinite" loop statement, and such a statement requires other means (such as the `break` statement or `return` statement) to terminate its execution.
+
+Whether to use a `while` loop statement or a `for` loop statement in program design primarily depends on the personal preference of the programmer.
+
+For example, in the following statements:
+```c
+ while ((c = getchar()) == ' ' || c == '\n' || c = '\t') 
+ ; /* skip white space characters */ 
+```
+Because there is no initialization or reinitialization operation in it, using a `while` loop statement is more natural.
+
+If the statement requires simple initialization and variable increment, using a `for` statement is more appropriate. It consolidates the loop control statements at the beginning of the loop, making the structure more concise and clear. This is evident in the following statement:
+
+```c
+ for (i = 0; i < n; i++) 
+ ...
+```
+
+let's rewrite the atoi function:
+
+```c
+#include <ctype.h>
+/* atoi: convert s to integer; version 2 */
+int atoi(char s[])
+{
+    int i, n, sign;
+    for (i = 0; isspace(s[i]); i++) /* skip white space */
+        ;
+    sign = (s[i] == '-') ? -1 : 1;
+    if (s[i] == '+' || s[i] == '-') /* skip sign */
+        i++;
+    for (n = 0; isdigit(s[i]); i++)
+        n = 10 * n + (s[i] - '0');
+    return sign * n;
+}
+```
+
+To consolidate the control flow for loops, especially in the case of nested loops, it is advantageous to centralize the control section. The following function demonstrates the Shell Sort algorithm for sorting an array of integers. Shell Sort was invented by D. L. Shell in 1959, and its basic idea is to initially compare elements that are far apart, rather than adjacent elements as in simple exchange sorting algorithms. This approach quickly reduces a significant amount of disorder, thereby easing subsequent work. The distance between the compared elements gradually decreases until it becomes 1, at which point the sorting turns into the exchange of adjacent elements.
+
+```c
+/* shellsort: sort v[0]...v[n-1] into increasing order */
+void shellsort(int v[], int n)
+{
+    int gap, i, j, temp;
+    for (gap = n / 2; gap > 0; gap /= 2)
+        for (i = gap; i < n; i++)
+            for (j = i - gap; j >= 0 && v[j] > v[j + gap]; j -= gap)
+            {
+                temp = v[j];
+                v[j] = v[j + gap];
+                v[j + gap] = temp;
+            }
+}
+```
+
+The comma operator "," is also the lowest precedence operator in the C language and is often used in for statements. A pair of expressions separated by a comma are evaluated from left to right, and the type and value of the right operand determine the type and value of the result.
+```c
+#include <string.h>
+/* reverse: reverse string s in place */
+void reverse(char s[])
+{
+    int c, i, j;
+    for (i = 0, j = strlen(s) - 1; i < j; i++, j--)
+    {
+        c = s[i];
+        s[i] = s[j];
+        s[j] = c;
+    }
+}
+```
+
+In certain situations, the comma is not the comma operator, such as when separating function parameters or variables in declarations. In these cases, the commas do not guarantee that the expressions will be evaluated from left to right.
+
+Caution should be exercised when using the comma operator. It is most suitable for tightly related structures, such as the for statement inside the reverse function mentioned earlier. It is also well-suited for macros that require multi-step calculations wi
+
+### 3.6 do-while Loop
+
+As mentioned in Chapter 1, both the while and for loops in C test the termination condition before executing the loop body. In contrast, the third type of loop in the C language—the do-while loop—tests the termination condition after executing the loop body, ensuring that the loop body is executed at least once. The syntax of the do-while loop is as follows:
+
+```c
+do
+  statement
+while (expression);
+```
+
+In this structure, the statements in the loop body are executed first, followed by the evaluation of the expression. If the expression evaluates to true, the statements are executed again, and this process continues. The loop terminates when the expression evaluates to false.
+
+Experience indicates that do-while loops are used much less frequently than while and for loops. Nevertheless, the do-while loop statement can be useful in certain situations. We illustrate this throug
+
+```c
+/* itoa: convert n to characters in s */
+void itoa(int n, char s[])
+{
+    int i, sign;
+    if ((sign = n) < 0) /* record sign */
+        n = -n;         /* make n positive */
+    i = 0;
+    do
+    {                          /* generate digits in reverse order */
+        s[i++] = n % 10 + '0'; /* get next digit */
+    } while ((n /= 10) > 0);   /* delete it */
+    if (sign < 0)
+        s[i++] = '-';
+    s[i] = '\0';
+    reverse(s);
+}
+```
+### 3.7 break and continue Statements
+
+Breaking out of a loop without waiting for the condition at the loop header or footer to be tested can be convenient. The break statement is used to prematurely exit loops such as for, while, and do-while, similar to prematurely exiting a switch statement. The break statement allows the program to immediately exit from the switch statement or the innermost loop.
+
+The following trim function is used to remove trailing spaces, tabs, and newline characters from a string. The break statement is employed to exit the loop when a non-space, non-tab, non-newline character is encountered at the rightmost position.
+
+```c
+/* trim: remove trailing blanks, tabs, newlines */
+int trim(char s[])
+{
+    int n;
+    for (n = strlen(s) - 1; n >= 0; n--)
+        if (s[n] != ' ' && s[n] != '\t' && s[n] != '\n')
+            break;
+    s[n + 1] = '\0';
+    return n;
+}
+```
+
+The strlen function returns the length of a string. The for loop scans in reverse from the end of the string to find the first character that is not a space, tab, or newline. The loop terminates when the first satisfying character is found or when the loop control variable n becomes negative (indicating that the entire string has been scanned). Readers can verify that even if the string is empty or contains only whitespace characters, the function works correctly.
+
+The continue statement is related to the break statement but is less commonly used. The continue statement is used to skip the rest of the current iteration and start the next iteration of a for, while, or do-while loop. In while and do-while loops, the execution of the continue statement means immediately evaluating the test part; in a for loop, it means transferring control to the incrementing loop variable part. **The continue statement is only used within loop statements and not within switch statements.** The use of continue in a switch statement within a loop leads to the next iteration of the loop.
+
+When the later part of a loop is relatively complex, the continue statement is often used. In such cases, without using the continue statement, it might be necessary to reverse the test or indent another loop layer, resulting in deeper program nesting.
+
+### 3.8 goto Statement and Labels
+
+C language provides the goto statement and labels for arbitrary jumps. In theory, the goto statement is unnecessary, and in practice, it's possible to write code easily without using goto. Up to this point in the book, goto statements have not been used.
+
+However, there are situations where the goto statement can be useful. The most common use is to terminate the processing in a deeply nested structure, such as breaking out of two or more layers of loops at once. In such cases, using the break statement is insufficient as it only exits the innermost loop. Here is an example using the goto statement:
+
+```c
+for (...)
+    for (...)
+    {
+        ... if (disaster) goto error;
+    }
+... error:
+    /* clean up the mess */
+```
+
+Labels are named in the same way as variables, followed immediately by a colon. Labels can be placed before any statement in the function where the corresponding goto statement is present. The scope of a label is the entire function.
+
+Let's consider another example. Suppose we want to determine whether two arrays, a and b, have the same elements. One possible solution is:
+
+```c
+for (i = 0; i < n; i++)
+    for (j = 0; j < m; j++)
+        if (a[i] == b[j])
+            goto found;
+/* didn't find any common element */
+... found :
+    /* got one: a[i] == b[j] */
+    ...
+```
+
+All programs using the goto statement can be rewritten without goto, although this may lead to additional redundant tests or variables. For example, the segment of code determining whether two arrays have the same elements, as shown above, can be rewritten as follows:
+
+```c
+found = 0;
+for (i = 0; i < n && !found; i++)
+    for (j = 0; j < m && !found; j++)
+        if (a[i] == b[j])
+            found = 1;
+if (found)
+/* got one: a[i-1] == b[j-1] */
+... else
+    /* didn't find any common element */
+    ...
+```
+
+In most cases, code segments using the goto statement are harder to understand and maintain compared to those without goto, with few exceptions, such as the examples mentioned earlier. While this issue may not be severe, it is still recommended to use the goto statement sparingly.
+
+!!! note
+    In general, avoid using the goto statement.
