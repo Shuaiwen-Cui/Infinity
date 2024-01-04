@@ -60,6 +60,13 @@
 [🎬️ Video Link](https://www.youtube.com/embed/d_O2tu5CMbQ){:target="_blank"}
 
 - [ ] Keil MDK-ARM Version 5 Getting Started Guide
+- [x] Preface 
+- [x] MDK Introduction
+- [x] CMSIS 
+- [ ] Software Components
+- [ ] Create Applications
+- [ ] Debug Applications
+- [ ] MDK Middleware
 
 <iframe src="https://www.keil.com//support/man/docs/mdk_gs/gs_MDK5_5_en.pdf" width="100%" height="600px"></iframe>
 

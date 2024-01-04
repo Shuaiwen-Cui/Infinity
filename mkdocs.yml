@@ -354,6 +354,7 @@ nav:
       - "./EMBEDDED-SYS/embedded-sys.md"
       - THEORY:
           - ELECTRONICS: "./EMBEDDED-SYS/THEORY/ELECTRONICS/electronics.md"
+          - CIRCUITS: "./EMBEDDED-SYS/THEORY/CIRCUITS/circuits.md"
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
       - IDE: 
