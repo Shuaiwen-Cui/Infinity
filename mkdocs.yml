@@ -140,6 +140,13 @@ plugins:
             CIRCUITS: 电路
             FREERTOS: 实时操作系统
             LINUX: LINUX
+            SIMULATION: 仿真
+            DEVKIT: 开发板
+            ARDUINO: ARDUINO
+            STM32: STM32
+            ESP32: ESP32
+            RASPBERRYPI: 树莓派
+            JETSON: JETSON
             IDE: 集成开发环境
             KEIL: KEIL
             OFFICIAL-GUIDE: 官方指南
@@ -158,7 +165,7 @@ plugins:
             CONTROL: 控制
             ACTUATION: 执行
             ROS: 机器人操作系统
-            OFFICIAL-GUIDE: 官方指南
+            # OFFICIAL-GUIDE: 官方指南
             INSTALLATION: 安装
             DISTRIBUTION: 发行版
             TUTORIALS: 教程
@@ -358,6 +365,13 @@ nav:
           - CIRCUITS: "./EMBEDDED-SYS/THEORY/CIRCUITS/circuits.md"
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
+      - SIMULATION: "./EMBEDDED-SYS/SIMULATION/simulation.md"
+      - DEVKIT: 
+          - ARDUINO: "./EMBEDDED-SYS/DEVKIT/ARDUINO/arduino.md"
+          - STM32: "./EMBEDDED-SYS/DEVKIT/STM32/stm32.md"
+          - ESP32: "./EMBEDDED-SYS/DEVKIT/ESP32/esp32.md"
+          - RASPBERRYPI: "./EMBEDDED-SYS/DEVKIT/RASPBERRYPI/raspberrypi.md"
+          - JETSON: "./EMBEDDED-SYS/DEVKIT/JETSON/jetson.md"
       - IDE: 
           - "./EMBEDDED-SYS/IDE/ide.md"
           - KEIL: 

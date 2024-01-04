@@ -54,6 +54,14 @@
 
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/library/view/arduino-cookbook-3rd/9781491903513/" target="_blank"> Portal </a>](#)
 
+</div>
+
+### STM32
+
+### ESP32
+
+### Raspberry Pi
+<div class="grid cards" markdown>
 - :material-book:{ .lg .middle } __Raspberry Pi Cookbook, 4th Edition__
 
     ---
@@ -62,13 +70,6 @@
 
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/library/view/raspberry-pi-cookbook/9781098130916/" target="_blank"> Portal </a>](#)
 </div>
-
-### STM32
-
-### ESP32
-
-### Raspberry Pi
-
 ## IDE
 
 <div class="grid cards" markdown>
