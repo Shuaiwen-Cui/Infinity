@@ -180,7 +180,7 @@ All definitions in the header file are prefixed with os to give a unique name sp
 
 All definitions and functions that belong to a module are grouped and have a common prefix, for example, osThread for threads.
 
-Refer to section Reference: CMSIS-RTOS2 API of the online documentation at arm-software.github.io/CMSIS_5/RTOS2/html/index.html, for more information.
+Refer to section Reference: CMSIS-RTOS2 API of the online documentation at [arm-software.github.io/CMSIS_5/RTOS2/html/index.html](https://arm-software.github.io/CMSIS_5/RTOS2/html/index.html), for more information.
 
 #### Keil RTX5 Configuration
 The file RTX_Config.h contains configuration parameters for Keil RTX5. A copy of this file is part of every project using the RTX component.
@@ -190,7 +190,7 @@ The file RTX_Config.h contains configuration parameters for Keil RTX5. A copy of
 You can set various system parameters such as the Tick Timer frequency, Round - Robin time slice, specify configurations for specific RTOS objects, such as threads, timers, event flags, mutexes, semaphores, memory pools, and message 
 queues, as well configure Event Recorder operation.
 
-For more information about configuration options, open the RTX documentation from the Manage Run-Time Environment window. The section Configure RTX v5 describes all available settings: arm-software.github.io/CMSIS_5/RTOS2/html/config_rtx5.html
+For more information about configuration options, open the RTX documentation from the Manage Run-Time Environment window. The section Configure RTX v5 describes all available settings: [arm-software.github.io/CMSIS_5/RTOS2/html/config_rtx5.html](https://arm-software.github.io/CMSIS_5/RTOS2/html/config_rtx5.html)
 
 #### CMSIS-RTOS User Code Templates
 
@@ -293,7 +293,7 @@ int main(void)
         ;
 }
 ```
-For more information, refer to the CMSIS-DSP documentation on arm-software.github.io/CMSIS_5/DSP/html/index.html.
+For more information, refer to the CMSIS-DSP documentation on [arm-software.github.io/CMSIS_5/DSP/html/index.html](https://arm-software.github.io/CMSIS_5/DSP/html/index.html).
 
 ## CMSIS-Driver
 
@@ -307,7 +307,7 @@ Middleware components usually have various configuration files that connect to t
 The middleware/application code connects to a driver instance via a control struct. The name of this control struct reflects the peripheral interface of the device. Drivers for most of the communication peripherals are part of the software packs that provide device support.
 
 Use traditional C source code to implement missing drivers according the CMSIS-Driver standard. 
-Refer to arm-software.github.io/CMSIS_5/Driver/html/index.html for detailed information about the API interface of these CMSIS drivers. 
+Refer to [arm-software.github.io/CMSIS_5/Driver/html/index.html](https://arm-software.github.io/CMSIS_5/Driver/html/index.html) for detailed information about the API interface of these CMSIS drivers. 
 
 **ARM::CMSIS-Driver** pack contains example CMSIS-Driver implementations for such interfaces as WiFi, Ethernet, Flash, I2C and SPI.
 
@@ -342,8 +342,8 @@ The CMSIS-Driver validation suite performs the following tests:
 - Validation of communication parameters such as baudrate
 - Validation of event functions
 
-The test results can be printed to a console, output via ITM printf, or output to a memory buffer. Refer to the Driver Validation section in the documentation at arm-software.github.io/CMSIS_5/Driver/html/driverValidation.html.
+The test results can be printed to a console, output via ITM printf, or output to a memory buffer. Refer to the Driver Validation section in the documentation at [arm-software.github.io/CMSIS_5/Driver/html/driverValidation.html](https://arm-software.github.io/CMSIS_5/Driver/html/driverValidation.html).
 
 The CMSIS-RTOS validation suite performs generic validation of various RTOS features. The test cases verify the functional behavior, test invalid parameters and call management functions from ISR.
 
-The validation output can be printed to a console, output via ITM printf, or output to a memory buffer. Refer to the section RTOS Validation in the documentation at arm-software.github.io/CMSIS_5/RTOS2/html/rtosValidation.html.
+The validation output can be printed to a console, output via ITM printf, or output to a memory buffer. Refer to the section RTOS Validation in the documentation at [arm-software.github.io/CMSIS_5/RTOS2/html/rtosValidation.html](https://arm-software.github.io/CMSIS_5/RTOS2/html/rtosValidation.html).

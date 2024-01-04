@@ -103,7 +103,7 @@ int main(void)
     }
 }
 ```
-要获取更多信息，请右键单击项目窗口中的CMSIS组，选择打开文档，或参考 CMSIS-CORE 文档 arm-software.[github.io/CMSIS_5/Core/html/index.html](github.io/CMSIS_5/Core/html/index.html)。
+要获取更多信息，请右键单击项目窗口中的CMSIS组，选择打开文档，或参考 CMSIS-CORE 文档 arm-software.[github.io/CMSIS_5/Core/html/index.html](https://github.io/CMSIS_5/Core/html/index.html)。
 
 ## CMSIS-RTOS2
 
@@ -283,7 +283,7 @@ int main(void)
 }
 ```
 
-有关更多信息，请参阅CMSIS-DSP文档 arm-software.github.io/CMSIS_5/DSP/html/index.html。
+有关更多信息，请参阅CMSIS-DSP文档 [https://arm-software.github.io/CMSIS_5/DSP/html/index.html](https://arm-software.github.io/CMSIS_5/DSP/html/index.html)。
 
 ## CMSIS-Driver
 

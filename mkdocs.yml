@@ -137,6 +137,7 @@ plugins:
             EMBEDDED-SYS: 嵌入式系统
             THEORY: 理论
             ELECTRONICS: 电子学
+            CIRCUITS: 电路
             FREERTOS: 实时操作系统
             LINUX: LINUX
             IDE: 集成开发环境
@@ -448,3 +449,16 @@ nav:
   - PROJECT: 
       - "./PROJECT/project.md"
       - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
+    
+# if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
+
+# example
+
+# [incorrect use]
+# - CLOUD: "./CLOUD/cloud.md"
+#     - CLOUD-TECH: "./CLOUD/CLOUD-TECH/cloud-tech.md"
+
+# [correct use]
+# - CLOUD: 
+#     - "./CLOUD/cloud.md"
+#     - CLOUD-TECH: "./CLOUD/CLOUD-TECH/cloud-tech.md"
