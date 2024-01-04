@@ -107,7 +107,5 @@
 
     ---
 
-    STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. 
-
     [:octicons-arrow-right-24: <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank"> Portal </a>](#)
 </div>

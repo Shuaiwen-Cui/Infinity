@@ -110,8 +110,6 @@
 
     ---
 
-    STM32CubeIDE是一种先进的C / C ++开发平台，具有外设配置，代码生成，代码编译和调试功能，可用于STM32微控制器和微处理器。
-
     [:octicons-arrow-right-24: <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank"> 传送门 </a>](#)
 
 </div>

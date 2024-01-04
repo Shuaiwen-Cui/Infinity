@@ -53,8 +53,15 @@
 
 ## Installation and Getting Started
 
+- [x] Getting Started with Keil MDK-ARM Version 5
+
 <iframe width="800" height="450" src="https://www.youtube.com/embed/d_O2tu5CMbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[🎬️ Video Link](https://www.youtube.com/embed/d_O2tu5CMbQ)
+[🎬️ Video Link](https://www.youtube.com/embed/d_O2tu5CMbQ){:target="_blank"}
 
-- [ ] To be finished
+- [ ] Keil MDK-ARM Version 5 Getting Started Guide
+
+<iframe src="https://www.keil.com//support/man/docs/mdk_gs/gs_MDK5_5_en.pdf" width="100%" height="600px"></iframe>
+
+[📄 Download Link](https://www.keil.com/support/man/docs/mdk_gs/){:target="_blank"}
+

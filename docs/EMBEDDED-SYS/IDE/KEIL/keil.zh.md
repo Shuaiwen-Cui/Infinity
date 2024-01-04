@@ -50,8 +50,16 @@
 !!! tip
     首先尝试编程器，如果不起作用，请下载并安装驱动程序。 Jlink或ST-LINK都可以将程序烧录到微控制器中。
 
+- [x] Keil MDK-ARM Version 5 入门
+
 <iframe width="800" height="450" src="https://www.youtube.com/embed/d_O2tu5CMbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[🎬️ 视频链接](https://www.youtube.com/embed/d_O2tu5CMbQ)
+[🎬️ 视频链接](https://www.youtube.com/embed/d_O2tu5CMbQ){:target="_blank"}
 
-- [ ] 待完成
+- [ ] Keil MDK-ARM Version 5 入门指南
+
+<iframe src="https://www.keil.com//support/man/docs/mdk_gs/gs_MDK5_5_en.pdf" width="100%" height="600px"></iframe>
+
+<!-- 在空白页打开 -->
+[📄 下载链接](https://www.keil.com/support/man/docs/mdk_gs/){:target="_blank"}
+
