@@ -16,7 +16,7 @@
 - [x] Introduction
 - [x] Chapter 1: Introductory Concepts
 - [ ] PART I: RAYTRACING
-- [ ] Chapter 2: Basic Raytracing
+- [x] Chapter 2: Basic Raytracing
 - [ ] Chapter 3: Light
 - [ ] Chapter 4: Shadows and Reflections
 - [ ] Chapter 5: Extending the Raytracer
