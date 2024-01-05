@@ -152,7 +152,8 @@ plugins:
             JETSON: JETSON
             IDE: 集成开发环境
             KEIL: KEIL
-            OFFICIAL-GUIDE: 官方指南
+            OFFICIAL-GUIDE-MDK4: MDK4官方指南
+            OFFICIAL-GUIDE-MDK5: MDK5官方指南
             PREFACE: 前言
             MDK-INTRODUCTION: MDK简介
             CMSIS: CMSIS库
@@ -168,7 +169,7 @@ plugins:
             CONTROL: 控制
             ACTUATION: 执行
             ROS: 机器人操作系统
-            # OFFICIAL-GUIDE: 官方指南
+            OFFICIAL-GUIDE: 官方指南
             INSTALLATION: 安装
             DISTRIBUTION: 发行版
             TUTORIALS: 教程
@@ -384,14 +385,16 @@ nav:
           - "./EMBEDDED-SYS/IDE/ide.md"
           - KEIL: 
               - "./EMBEDDED-SYS/IDE/KEIL/keil.md"
-              - OFFICIAL-GUIDE: 
-                  - PREFACE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/PREFACE/preface.md"
-                  - MDK-INTRODUCTION: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/MDK-INTRODUCTION/mdk-introduction.md"
-                  - CMSIS: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/CMSIS/cmsis.md"
-                  - SOFTWARE-COMPONENTS: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/SOFTWARE-COMPONENTS/software-components.md"
-                  - CREATE-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/CREATE-APP/create-app.md"
-                  - DEBUG-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/DEBUG-APP/debug-app.md"
-                  - MDK-MIDDLEWARE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE/MDK-MIDDLEWARE/mdk-middleware.md"
+              - OFFICIAL-GUIDE-MDK4: 
+                  - "EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK4/guide-mdk4.md"
+              - OFFICIAL-GUIDE-MDK5: 
+                  - PREFACE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/PREFACE/preface.md"
+                  - MDK-INTRODUCTION: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/MDK-INTRODUCTION/mdk-introduction.md"
+                  - CMSIS: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/CMSIS/cmsis.md"
+                  - SOFTWARE-COMPONENTS: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/SOFTWARE-COMPONENTS/software-components.md"
+                  - CREATE-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/CREATE-APP/create-app.md"
+                  - DEBUG-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/DEBUG-APP/debug-app.md"
+                  - MDK-MIDDLEWARE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/MDK-MIDDLEWARE/mdk-middleware.md"
           - PLATFORMIO: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
 
   - DSP: 
