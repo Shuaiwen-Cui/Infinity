@@ -110,3 +110,19 @@
 
     [:octicons-arrow-right-24: <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank"> Portal </a>](#)
 </div>
+
+## Useful Links
+
+<div class="grid cards" markdown>
+
+-  :material-file-code:{ .lg .middle } __正点原子 🎯🏆__
+
+    ---
+
+    Note： In Chinese
+
+    [:octicons-arrow-right-24: <a href="http://www.alientek.com/" target="_blank"> Official </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.openedv.com/docs/" target="_blank"> Docs </a>](#)
+
+</div>

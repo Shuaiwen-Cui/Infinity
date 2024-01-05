@@ -114,3 +114,17 @@
     [:octicons-arrow-right-24: <a href="https://www.st.com/en/development-tools/stm32cubeide.html" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+## 常用链接
+
+<div class="grid cards" markdown>
+
+-  :material-file-code:{ .lg .middle } __正点原子 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.alientek.com/" target="_blank"> 官网 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="http://www.openedv.com/docs/" target="_blank"> 文档 </a>](#)
+
+</div>
