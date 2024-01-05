@@ -130,6 +130,7 @@ plugins:
             C: C
             C-NOTES: C笔记
             C++: C++
+            C++-NOTES: C++笔记
             PYTHON: Python
             ROADMAP: 路线图
             HTML/CSS/JS: HTML/CSS/JS
@@ -357,6 +358,7 @@ nav:
           - C: "./CODING/C-C++/C/c.md"
           - C-NOTES: "./CODING/C-C++/C-NOTES/c-notes.md" 
           - C++: "./CODING/C-C++/C++/c++.md"
+          - C++-NOTES: "./CODING/C-C++/C++-NOTES/c++-notes.md"
       - PYTHON: 
           - "./CODING/PYTHON/python.md"
           - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"

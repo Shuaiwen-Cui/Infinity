@@ -63,8 +63,8 @@
 - [x] Preface 
 - [x] MDK Introduction
 - [x] CMSIS 
-- [ ] Software Components
-- [ ] Create Applications
+- [x] Software Components
+- [x] Create Applications
 - [ ] Debug Applications
 - [ ] MDK Middleware
 

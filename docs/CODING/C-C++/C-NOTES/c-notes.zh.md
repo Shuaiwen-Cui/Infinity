@@ -1,15 +1,26 @@
 # C 语言学习笔记
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-book:{ .lg .middle } __C语言🎯__
+
+    ---
+    作者: Brian W. Kernighan & Dennis M. Ritchie
+
+    [:octicons-arrow-right-24: <a href="https://kremlin.cc/k&r.pdf" target="_blank"> Download PDF </a>](#)
+
+</div>
+
 ## 目录
 
-CH1 - 导言
-CH2 - 类型、运算符与表达式
-CH3 - 控制流
-CH4 - 函数与程序结构
-CH5 - 指针与数组
-CH6 - 结构
-CH7 - 输入与输出
-CH8 - UNIX 系统接口
+- [x] CH1 导言
+- [x] CH2 类型、运算符与表达式
+- [x] CH3 控制流
+- [ ] CH4 函数与程序结构
+- [ ] CH5 指针与数组
+- [ ] CH6 结构
+- [ ] CH7 输入与输出
+- [ ] CH8 UNIX 系统接口
 
 ## CH1 - 导言
 

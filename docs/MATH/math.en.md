@@ -103,6 +103,8 @@ comments: false
 
     in English, by Gabriel Gambetta
 
+    Reading Progress: [2/15]
+
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/library/view/computer-graphics-from/9781098128968/" target="_blank"> Portal </a>](#)
 
 -   :material-book:{ .lg .middle } __Fundamentals of Computer Graphics, 5th Edition__

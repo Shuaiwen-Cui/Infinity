@@ -102,6 +102,8 @@ comments: false
 
     Gabriel Gambetta著
 
+    阅读进度：[2/15]
+
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/library/view/computer-graphics-from/9781098128968/" target="_blank"> 传送门 </a>](#)
 
 -   :material-book:{ .lg .middle } __计算机图形学基础，第五版__

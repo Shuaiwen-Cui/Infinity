@@ -1,15 +1,26 @@
 # C Language Study Notes
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-book:{ .lg .middle } __The C Programming Language🎯__
+
+    ---
+    Authors: Brian W. Kernighan and Dennis M. Ritchie
+
+    [:octicons-arrow-right-24: <a href="https://kremlin.cc/k&r.pdf" target="_blank"> Download PDF </a>](#)
+
+</div>
+
 ## Table of Contents
 
-CH1 - A Tutorial Introduction
-CH2 - Types, Operators, and Expressions
-CH3 - Control Flow
-CH4 - Functions and Program Structure
-CH5 - Pointers and Arrays
-CH6 - Structures
-CH7 - Input and Output
-CH8 - The UNIX System Interface
+- [x] CH1 A Tutorial Introduction
+- [x] CH2 Types, Operators, and Expressions
+- [x] CH3 Control Flow
+- [ ] CH4 Functions and Program Structure
+- [ ] CH5 Pointers and Arrays
+- [ ] CH6 Structures
+- [ ] CH7 Input and Output
+- [ ] CH8 The UNIX System Interface
 
 ## CH1 - A Tutorial Introduction
 
