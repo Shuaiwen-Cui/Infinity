@@ -1,6 +1,6 @@
 # Repo Instruction
 
-![Cover](./static/images/Cover.jpg)
+![Cover](/docs/static/images/Cover.jpg)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
 ![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)
