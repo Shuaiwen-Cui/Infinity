@@ -56,7 +56,7 @@
 
 [🎬️ 视频链接](https://www.youtube.com/embed/d_O2tu5CMbQ){:target="_blank"}
 
-- [ ] Keil MDK-ARM Version 5 入门指南 
+- [ ] Keil MDK-ARM Version 5 入门指南 🎯🏆
 - [x] 前言 
 - [x] MDK 介绍
 - [x] CMSIS库

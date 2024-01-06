@@ -59,7 +59,7 @@
 
 [🎬️ Video Link](https://www.youtube.com/embed/d_O2tu5CMbQ){:target="_blank"}
 
-- [ ] Keil MDK-ARM Version 5 Getting Started Guide
+- [ ] Keil MDK-ARM Version 5 Getting Started Guide 🎯🏆
 - [x] Preface 
 - [x] MDK Introduction
 - [x] CMSIS 
