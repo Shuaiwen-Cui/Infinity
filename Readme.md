@@ -1,5 +1,12 @@
 # Repo Instruction
 
+![Cover](./static/images/Cover.jpg)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
+![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Shuaiwen-Cui/Infinity?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Shuaiwen-Cui/Infinity?style=social)
+
 ## Project Structure
 ```bash
 ├── README.md : project instructions and guide
@@ -28,7 +35,7 @@
 
 ```
 
-## How To Get Started ON Local Machine
+## How To Get Started On Local Machine
 
 - Step 1: Find a folder that you want to store the project, and clone the repo to your local machine. To do so, open your terminal and type the following command:
 
