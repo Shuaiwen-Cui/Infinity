@@ -409,6 +409,8 @@ nav:
               - CH04: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH04/tf-ana-ch04.md"
               - CH05: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH05/tf-ana-ch05.md"
               - CH06: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH06/tf-ana-ch06.md"
+              - CH07: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH07/tf-ana-ch07.md"
+              - CH08: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH08/tf-ana-ch08.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
   - CONTROL: 
