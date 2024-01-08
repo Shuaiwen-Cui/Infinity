@@ -48,6 +48,14 @@
 
 ### Arduino
 <div class="grid cards" markdown>
+
+-  :simple-arduino:{ .lg .middle } __Arduino 官方网站__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.arduino.cc/" target="_blank"> Portal </a>](#)
+
+
 -  :material-book:{ .lg .middle } __Arduino食用指南，第三版__
 
     ---
@@ -59,18 +67,58 @@
 </div>
 
 ### STM32
+<div class="grid cards" markdown>
+
+-  :simple-stmicroelectronics:{ .lg .middle } __意法半导体官方网站__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.st.com/" target="_blank"> Portal </a>](#)
+
+
+</div>
 
 ### ESP32
 
+<div class="grid cards" markdown>
+
+-  :simple-espressif:{ .lg .middle } __乐鑫官方网站__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.espressif.com/" target="_blank"> Portal </a>](#)
+
+</div>
+
+
 ### Raspberry Pi
 <div class="grid cards" markdown>
-- :material-book:{ .lg .middle } __Raspberry Pi食用指南，第四版__
+
+-  :simple-raspberrypi:{ .lg .middle } __树莓派官方网站__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.raspberrypi.org/" target="_blank"> Portal </a>](#)
+
+-  :material-book:{ .lg .middle } __Raspberry Pi食用指南，第四版__
   
     ---
 
     作者: Simon Monk
 
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/library/view/raspberry-pi-cookbook/9781098130916/" target="_blank"> 传送门 </a>](#)
+</div>
+
+### NVIDIA Jetson
+
+<div class="grid cards" markdown>
+
+-  :simple-nvidia:{ .lg .middle } __英伟达Jetson官方网站__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/" target="_blank"> Portal </a>](#)
+
 </div>
 
 ## 集成开发环境

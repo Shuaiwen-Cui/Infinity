@@ -46,6 +46,13 @@
 ### Arduino
 
 <div class="grid cards" markdown>
+
+-  :simple-arduino:{ .lg .middle } __Arduino Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.arduino.cc/" target="_blank"> Portal </a>](#)
+
 -  :material-book:{ .lg .middle } __Arduino Cookbook, 3rd Edition__
 
     ---
@@ -57,12 +64,39 @@
 </div>
 
 ### STM32
+<div class="grid cards" markdown>
+
+-  :simple-stmicroelectronics:{ .lg .middle } __ST Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.st.com/" target="_blank"> Portal </a>](#)
+
+
+</div>
 
 ### ESP32
 
+<div class="grid cards" markdown>
+
+-  :simple-espressif:{ .lg .middle } __Espressif Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.espressif.com/" target="_blank"> Portal </a>](#)
+
+</div>
+
 ### Raspberry Pi
 <div class="grid cards" markdown>
-- :material-book:{ .lg .middle } __Raspberry Pi Cookbook, 4th Edition__
+
+-  :simple-raspberrypi:{ .lg .middle } __Raspberry Pi Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.raspberrypi.org/" target="_blank"> Portal </a>](#)
+
+-  :material-book:{ .lg .middle } __Raspberry Pi Cookbook, 4th Edition__
 
     ---
 
@@ -70,6 +104,19 @@
 
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/library/view/raspberry-pi-cookbook/9781098130916/" target="_blank"> Portal </a>](#)
 </div>
+
+### NVIDIA Jetson
+
+<div class="grid cards" markdown>
+
+-  :simple-nvidia:{ .lg .middle } __Nvidia Jetson Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/" target="_blank"> Portal </a>](#)
+
+</div>
+
 ## IDE
 
 <div class="grid cards" markdown>
