@@ -10,8 +10,6 @@
     ---
     作者: Brian W. Kernighan & Dennis M. Ritchie
 
-    阅读进度: [3/8]
-
     [:octicons-arrow-right-24: <a href="https://kremlin.cc/k&r.pdf" target="_blank"> Download PDF </a>](#)
 
 </div>

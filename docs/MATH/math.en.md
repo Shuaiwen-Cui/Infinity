@@ -26,7 +26,7 @@ comments: false
 
     Reading Progress: [36/36]
 
-    Code Practice: [12/36]
+    Code Practice: [15/36]
 
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> Portal </a>](#)
 

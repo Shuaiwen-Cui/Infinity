@@ -16,7 +16,7 @@
 - [x] CH1 A Tutorial Introduction
 - [x] CH2 Types, Operators, and Expressions
 - [x] CH3 Control Flow
-- [ ] CH4 Functions and Program Structure
+- [x] CH4 Functions and Program Structure
 - [ ] CH5 Pointers and Arrays
 - [ ] CH6 Structures
 - [ ] CH7 Input and Output
@@ -606,3 +606,534 @@ In most cases, code segments using the goto statement are harder to understand a
 
 !!! note
     In general, avoid using the goto statement.
+
+## Chapter 4 - Functions and Program Structure
+
+Functions enable the decomposition of large computing tasks into smaller, more manageable ones. Programmers can further construct programs based on functions without the need to rewrite code. Well-designed functions can abstract away specific operational details, making the overall program structure clearer and reducing the difficulty of modifying the program. In the design of the C language, both the efficiency and usability of functions were taken into consideration. C language programs typically consist of numerous small functions rather than a few large ones, emphasizing modularity and code organization.
+
+### 4.1 Basics of Functions
+
+```c
+#include <stdio.h>
+#define MAXLINE 1000 /* maximum input line length */
+int getline(char line[], int max) int strindex(char source[], char searchfor[]);
+char pattern[] = "ould"; /* pattern to search for */
+/* find all lines matching pattern */
+main()
+{
+    char line[MAXLINE];
+    int found = 0;
+    while (getline(line, MAXLINE) > 0)
+        if (strindex(line, pattern) >= 0)
+        {
+            printf("%s", line);
+            found++;
+        }
+    return found;
+}
+/* getline: get line into s, return length */
+int getline(char s[], int lim)
+{
+    int c, i;
+    i = 0;
+    while (--lim > 0 && (c = getchar()) != EOF && c != '\n')
+        s[i++] = c;
+    if (c == '\n')
+        s[i++] = c;
+    s[i] = '\0';
+    return i;
+}
+/* strindex: return index of t in s, -1 if none */
+int strindex(char s[], char t[])
+{
+    int i, j, k;
+    for (i = 0; s[i] != '\0'; i++)
+    {
+        for (j = i, k = 0; t[k] != '\0' && s[j] == t[k]; j++, k++)
+            ;
+        if (k > 0 && t[k] == '\0')
+            return i;
+    }
+    return -1;
+}
+```
+
+The format for defining a function is as follows:
+
+```c
+return_type function_name(parameter_declaration_list) 
+{
+    declarations and statements
+}
+```
+
+Each component in the function definition can be omitted. The simplest function looks like this:
+
+```c
+void dummy() {}
+```
+The function `dummy` does not perform any operation and does not return any value. Such functions, which do not execute any specific operations, are sometimes useful during program development to reserve a space for future code additions. If the return type is omitted in the function definition, it defaults to the `int` type.
+
+A program can be considered as a collection of variable definitions and function definitions. Communication between functions can occur through parameters, return values, and external variables. The order of function appearances in the source file can be arbitrary, as long as each function is not split across multiple files. The source program can be divided into multiple files.
+
+A called function returns a value to the caller through the `return` statement, where the statement can be followed by any expression:
+```c
+return expression;
+```
+If necessary, the expression will be converted to the return value type of the function. Parentheses are typically placed around the expression on both sides, though they are optional.
+
+Calling functions can ignore the return value. Additionally, the `return` statement may not necessarily require an expression. When there is no expression following the `return` statement, the function does not return a value to the caller. When a called function reaches the final right curly brace and completes execution, control is also returned to the caller (without returning a value). If a function returns a value from one point and not from another, it is not illegal but may indicate a potential issue. In any case, if a function fails to return a value successfully, its "value" is certainly useless.
+
+### 4.2 Functions Returning Non-integers
+
+```c
+#include <ctype.h>
+/* atof: convert string s to double */
+double atof(char s[])
+{
+    double val, power;
+    int i, sign;
+    for (i = 0; isspace(s[i]); i++) /* skip white space */
+        ;
+    sign = (s[i] == '-') ? -1 : 1;
+    if (s[i] == '+' || s[i] == '-')
+        i++;
+    for (val = 0.0; isdigit(s[i]); i++)
+        val = 10.0 * val + (s[i] - '0');
+    if (s[i] == '.')
+        i++;
+    for (power = 1.0; isdigit(s[i]); i++)
+    {
+        val = 10.0 * val + (s[i] - '0');
+        power *= 10;
+    }
+    return sign * val / power;
+}
+```
+
+```c
+#include <stdio.h>
+#define MAXLINE 100
+/* rudimentary calculator */
+main()
+{
+    double sum, atof(char[]);
+    char line[MAXLINE];
+    int getline(char line[], int max);
+    sum = 0;
+    while (getline(line, MAXLINE) > 0)
+        printf("\t%g\n", sum += atof(line));
+    return 0;
+}
+```
+
+!!! tip
+    If a function has parameters, they should be declared; if there are no parameters, declare using `void`.
+
+### 4.3 External Variables
+
+C language programs can be viewed as a series of external objects, which can be variables or functions. The adjectives "external" and "internal" are used in contrast, with "internal" describing function parameters and variables defined within a function. External variables are defined outside functions, allowing them to be used in multiple functions. Since C does not permit the definition of other functions within a function, functions themselves are considered "external." By default, external variables and functions share the property that **all references to an external variable by the same name (even if these references come from different functions compiled separately) actually refer to the same object (referred to as external linkage in the standard)**.
+
+Because external variables can be accessed globally, they provide an alternative way for data exchange between functions instead of using function parameters and return values. Any function can access an external variable by name, which needs to be declared in some way.
+
+!!! warning
+    External variables can increase coupling between programs, so their usage should be minimized.
+
+The utility of external variables is also evident in their larger scope and longer lifespan compared to internal variables. Automatic variables can only be used within a function, existing from the moment the function is called until it exits. In contrast, external variables persist permanently, and their values remain unchanged from one function call to the next. Therefore, if two functions need to share certain data and do not call each other, the most convenient approach is to define these shared data as **external variables** rather than passing them as **function parameters**.
+
+!!! info
+    Reverse Polish Notation (RPN), also known as postfix notation (operators are written after their operands). RPN does not require parentheses; it only needs to know how many operands each operator requires to avoid ambiguity.
+
+!!! note
+    Calculator Implementation: The implementation of a calculator program is straightforward. Each operand is sequentially pushed onto the stack. When an operator is encountered, the corresponding number of operands (two operands for binary operators) are popped from the stack, the operator is applied to the popped operands, and the result is pushed back onto the stack.
+
+```c
+while (next operator or operand is not the end-of-file indicator)
+{
+    if (it is a number)
+    {
+        push the number onto the stack;
+    }
+    else if (it is an operator)
+    {
+        pop the required number of operands;
+        perform the operation;
+        push the result onto the stack;
+    }
+    else if (it is a newline character)
+    {
+        pop and print the value at the top of the stack;
+    }
+    else
+    {
+        // Handle error
+    }
+}
+```
+The push and pop operations for the stack are relatively simple, but if error detection and recovery operations are included, the program can become lengthy. It is advisable to design independent functions for error handling and recovery, rather than using them as repetitive code segments in the program. Additionally, a separate function is needed to fetch the next input operator or operand.
+
+So far, we haven't discussed a crucial aspect of the design: where to place the stack? In other words, which routines can directly access it? One possibility is to place it in the main function, passing the stack and its current position as parameters to functions that perform push or pop operations on it. However, the main function doesn't need to be aware of the stack's variable details; it only performs push and pop operations. Therefore, the stack and related information can be stored in external variables, accessible only to the push and pop functions, not to the main function.
+
+Translating the above paragraph into code is straightforward. If the program is in a single source file, it might look something like the following:
+
+```c
+```c
+#include <...>   // Some included header files
+#define ...      // Some define definitions
+
+// Function declarations used by main
+main() {
+    // ...
+
+    void push(double f);
+    double pop(void);
+    int getop(char s[]);
+
+    // ...
+}
+
+// External variables used by push and pop
+void push(double f) {
+    // ...
+}
+
+double pop(void) {
+    // ...
+}
+
+// Function called by getop
+int someFunction(void) {
+    // ...
+}
+```
+In the later sections, we will discuss how to split this program into two or more source files.
+
+The `main` function includes a large `switch` loop, which controls the program flow based on the type of operator or operand. The usage of the `switch` statement here is more typical than the example in Section 3.4.
+```c
+#include <stdio.h>
+#include <stdlib.h> /* for atof() */
+#define MAXOP 100   /* max size of operand or operator */
+#define NUMBER '0'  /* signal that a number was found */
+int getop(char[]);
+void push(double);
+double pop(void);
+/* reverse Polish calculator */
+main()
+{
+    int type;
+    double op2;
+    char s[MAXOP];
+    while ((type = getop(s)) != EOF)
+    {
+        switch (type)
+        {
+        case NUMBER:
+            push(atof(s));
+            break;
+        case '+':
+            push(pop() + pop());
+            break;
+        case '*':
+            push(pop() * pop());
+            break;
+        case '-':
+            op2 = pop();
+            push(pop() - op2);
+            break;
+        case '/':
+            op2 = pop();
+            if (op2 != 0.0)
+                push(pop() / op2);
+            else
+                printf("error: zero divisor\n");
+            break;
+        case '\n':
+            printf("\t%.8g\n", pop());
+            break;
+        default:
+            printf("error: unknown command %s\n", s);
+            break;
+        }
+    }
+    return 0;
+}
+```
+Because the `+` and `*` operators satisfy the commutative property, the order of popping operands is not crucial. However, for the `-` and `/` operators, the left and right operands must be distinguished. The order of evaluation for the two `pop` calls is not defined in a function call. To ensure the correct order, the first value must be popped into a temporary variable, similar to what is done in the `main` function.
+
+```c
+push(pop() - pop()); /* WRONG */
+```
+```c
+#define MAXVAL 100  /* maximum depth of val stack */
+int sp = 0;         /* next free stack position */
+double val[MAXVAL]; /* value stack */
+/* push: push f onto value stack */
+void push(double f)
+{
+    if (sp < MAXVAL)
+        val[sp++] = f;
+    else
+        printf("error: stack full, can't push %g\n", f);
+}
+/* pop: pop and return top value from stack */
+double pop(void)
+{
+    if (sp > 0)
+        return val[--sp];
+    else
+    {
+        printf("error: stack empty\n");
+        return 0.0;
+    }
+}
+```
+If a variable is defined outside of any function, it is an external variable. Therefore, we define the stack and stack pointer, which must be shared by the `push` and `pop` functions, externally.
+
+Now, let's take a look at the implementation of the `getop` function. This function retrieves the next operator or operand. The task is relatively straightforward. It needs to skip spaces and tabs. If the next character is not a digit or a decimal point, it returns; otherwise, it collects the string of digits (which may include a decimal point) and returns `NUMBER` to indicate that a number has been collected.
+
+```c
+#include <ctype.h>
+int getch(void);
+void ungetch(int);
+/* getop: get next character or numeric operand */
+int getop(char s[])
+{
+    int i, c;
+    while ((s[0] = c = getch()) == ' ' || c == '\t')
+        ;
+    s[1] = '\0';
+    if (!isdigit(c) && c != '.')
+        return c; /* not a number */
+    i = 0;
+    if (isdigit(c)) /* collect integer part */
+        while (isdigit(s[++i] = c = getch()))
+            ;
+    if (c == '.') /* collect fraction part */
+        while (isdigit(s[++i] = c = getch()))
+            ;
+    s[i] = '\0';
+    if (c != EOF)
+        ungetch(c);
+    return NUMBER;
+}
+```
+The `getch` and `ungetch` functions in this program serve a specific purpose. Often in programs, there is a situation where the program cannot determine if it has read enough input unless it reads a bit more ahead. One example is when reading characters to compose a number: before encountering the first non-digit character, the completeness of the read number cannot be guaranteed. Since the program needs to read one extra character ahead, it leads to having one character that doesn't belong to the current number being read.
+
+This problem can be addressed by "unreading" the unnecessary characters. Whenever a program reads an extra character, it can push it back into the input stream, making it as if the character was not read for the rest of the code. We can write a pair of collaborating functions to conveniently simulate this "ungetting" operation. The `getch` function is used to read the next character to be processed, while the `ungetch` function is used to put a character back into the input stream. Subsequently, when calling the `getch` function, it returns the character put back by the `ungetch` function before reading new input.
+
+```c
+#define BUFSIZE 100
+char buf[BUFSIZE]; /* buffer for ungetch */
+int bufp = 0;      /* next free position in buf */
+int getch(void)    /* get a (possibly pushed-back) character */
+{
+    return (bufp > 0) ? buf[--bufp] : getchar();
+}
+void ungetch(int c) /* push character back on input */
+{
+    if (bufp >= BUFSIZE)
+        printf("ungetch: too many characters\n");
+    else
+        buf[bufp++] = c;
+}
+```
+
+### 4.4 Scope Rules
+
+Functions and external variables that constitute a C language program can be compiled separately. A program can be stored in multiple files, and precompiled functions can be loaded from libraries.
+
+- How should declarations be made to ensure that variables are correctly declared at compile time?
+
+- How should the positions of declarations be arranged to ensure that different parts of the program can be correctly linked when loaded?
+
+- How should declarations in the program be organized to ensure that there is only one copy?
+
+- How are external variables initialized?
+
+The **scope** of a name refers to the part of the program where that name can be used. For automatic variables declared at the beginning of a function, their scope is the function where the variable is declared. There is no relationship between local variables with the same name declared in different functions. The same applies to function parameters; they can be considered as **local variables**.
+
+The scope of an **external variable** or function begins where it is declared and ends at the end of the (to-be-compiled) file in which it resides.
+
+For example, if `main`, `sp`, `val`, `push`, and `pop` are sequentially defined as 5 functions or external variables in a file, it might look like this:
+```c
+main() { ... }
+int sp = 0;
+double val[MAXVAL];
+void push(double f) { ... }
+double pop(void) { ... }
+```
+So, in the `push` and `pop` functions, variables `sp` and `val` can be accessed by name without any declarations. However, these variable names cannot be used in the `main` function, and the `push` and `pop` functions cannot be used in the `main` function.
+
+On the other hand, if you want to use a variable before its external variable definition or if the external variable definition and usage are not in the same source file, you must forcefully use the `extern` keyword in the respective variable declarations.
+
+!!! note Variables
+
+    Local variables
+
+    External variables (Global variables)
+
+    External external variables (Declared using `extern`)
+
+It is crucial to strictly distinguish between the **declaration** and **definition** of external variables. A **variable declaration** is used to specify the **attributes of the variable** (primarily the variable's type), while a **variable definition** not only does this but also causes **memory allocation**.
+
+In all source files of a source program, **an external variable can only be defined once in a specific file**, and other files can access it through an `extern` declaration. The source file defining the external variable may also include an `extern` declaration for that variable. The definition of an external variable must specify the array's length, but an `extern` declaration does not necessarily need to specify the array's length.
+
+!!! note
+    `extern` is used in two scenarios:
+
+    (1) Use before definition (can also be omitted in the same file)
+
+    (2) Sharing variables across multiple files (most common case)
+
+**Initialization of external variables must occur in their definition.**
+
+### 4.5 Header Files
+Now, let's consider the scenario of splitting the calculator program into several source files. If various components of the program are lengthy, it becomes necessary to do so. Here's how we split it:
+
+- Place the main function `main` in a separate file `main.c`.
+- Place the `push` and `pop` functions along with their external variables in a second file `stack.c`.
+- Place the `getop` function in a third file `getop.c`.
+- Place the `getch` and `ungetch` functions in a fourth file `getch.c`.
+
+The reason for splitting into multiple files is primarily considering that, in real-world programs, these components might come from separately compiled libraries.
+
+Additionally, we must consider the issue of sharing definitions and declarations between these files. We try to concentrate shared portions as much as possible so that only one copy is needed, making it easier to ensure correctness when improving the program.
+
+![code organization](CH4-5-code-organization.png)
+
+We make a compromise between two factors: on one hand, we want each file to access only the information it needs to complete its task; on the other hand, maintaining many header files in reality can be challenging. A conclusion we can draw is that for medium-sized programs, it's best to use a single header file to store objects shared among different parts of the program. Larger programs may require more header files, and careful organization is needed.
+
+For certain variables, such as the variables `sp` and `val` defined in the file `stack.c`, and the variables `buf` and `bufp` defined in the file `getch.c`, they are intended for use only by functions within their respective source files, and other functions should not have access to them. Using the `static` declaration to qualify external variables and functions **can restrict the scope of objects declared later to the remaining part of the compiled source file**. **By using `static` to qualify external objects, the goal of hiding external objects can be achieved**, for example, the composite structure of `getch-ungetch` needs to share the variables `buf` and `bufp`. Thus, `buf` and `bufp` must be external variables, but these two objects should not be accessible to callers of the `getch` and `ungetch` functions.
+
+To designate an object as having static storage duration, you can add the `static` keyword as a prefix before the regular object declaration. If these two functions and two variables are compiled in one file, it would look like this:
+
+```c
+static char buf[BUFSIZE]; /* buffer for ungetch */
+static int bufp = 0;      /* next free position in buf */
+
+int getch(void) { ... }
+void ungetch(int c) { ... }
+```
+
+Now, other functions cannot access the variables `buf` and `bufp`. Therefore, these two names will not conflict with the same names in other files within the same program. Similarly, the variables `sp` and `val` can be declared as static to hide these variables used by the `push` and `pop` functions, which manipulate the execution stack.
+
+External static declarations are commonly used for variables, and they can also be used for function declarations. Generally, function names are globally accessible and visible to all parts of the program. **However, if a function is declared as static, the function name is visible only in the file where the declaration is made, and other files cannot access it.**
+
+### 4.7 Register Variables
+The `register` declaration informs the compiler that the declared variable is frequently used in the program. The idea is to place register variables in the machine's registers, making the program smaller and faster. However, the compiler may ignore this option.
+
+### 4.8 Program Block Structure
+In a function, variables can be defined using a program block structure. Variable declarations (including initialization) can follow not only immediately after the opening brace of the function but also after the opening brace of any other compound statement. Variables declared in this way can hide variables with the same name outside the program block, and there is no relationship between them. They exist until the right brace matching the left brace appears.
+
+Each time a program block is entered, automatic variables declared and initialized within the block will be initialized. Static variables are initialized only once when entering the program block for the first time.
+
+Automatic variables (including formal parameters) can also hide external variables and functions with the same name.
+
+!!! tip
+    In good programming style, one should avoid situations where variable names in a local scope hide names from an external scope. Otherwise, confusion and errors are likely to occur.
+
+### 4.9 Initialization
+Without explicit initialization, external and static variables are initialized to 0, while the initial value of automatic and register variables is undefined (i.e., contains garbage values).
+
+When defining a scalar variable, you can initialize it by placing an equal sign and an expression immediately after the variable name.
+
+For external and static variables, the initialization expression must be a constant expression, and it is initialized only once (conceptually at the beginning of program execution). For automatic and register variables, it is initialized every time the function or program block is entered.
+
+For automatic and register variables, the initialization expression does not have to be a constant expression; the expression can include any values defined before this expression, including function calls.
+
+In practice, the initialization of automatic variables is equivalent to a shorthand assignment statement.
+
+Arrays can be initialized by following the declaration with an initializer list enclosed in braces, with each initialization expression separated by commas.
+
+Initialization of character arrays is special: you can use a string instead of an initializer list enclosed in braces and separated by commas.
+
+### 4.10 Recursion
+In the C programming language, functions can be recursively called, meaning a function can directly or indirectly invoke itself.
+
+```c
+#include <stdio.h>
+/* printd: print n in decimal */
+void printd(int n)
+{
+    if (n < 0)
+    {
+        putchar('-');
+        n = -n;
+    }
+    if (n / 10)
+        printd(n / 10);
+    putchar(n % 10 + '0');
+}
+```
+When a function recursively calls itself, each invocation creates a new set of automatic variables distinct from the previous ones. Therefore, when calling `printd(123)`, the first invocation of `printd` has the parameter `n=123`. It passes 12 to the second invocation of `printd`, which in turn passes 1 to the third invocation of `printd`. In the third invocation, it first prints 1 and then returns to the second invocation. After returning from the third invocation, the second invocation will print 2 and then return to the first invocation. Upon returning to the first invocation, it prints 3 and completes the execution of the function.
+
+Recursion does not save memory overhead because there must be a stack to maintain the values during the recursive calls. Recursive execution is not necessarily fast, but recursive code is more compact and often easier to write and understand than the corresponding non-recursive code.
+
+### 4.11 The C Preprocessor
+
+### 4.11 C Language Preprocessor
+
+C language provides certain language functionalities through the preprocessor. Conceptually, the preprocessor is the initial step executed independently in the compilation process. The two most commonly used preprocessor directives are `#include` (used to include the content of a specified file into the current file during compilation) and `#define` (used to substitute any character sequence for a token). This section will also cover some other features of the preprocessor, such as conditional compilation and parameterized macros.
+
+
+#### 4.11.1 File Inclusion
+The file inclusion directive (`#include`) makes it more convenient to deal with a large amount of `#define` statements and declarations. In a source file, any line like `#include "filename"` or `#include <filename>` will be replaced by the content of the file specified by `filename`. If the filename is enclosed in double quotes, the file is searched for at the location of the source file; if the file is not found there, or if the filename is enclosed in angle brackets `<` and `>`, the file is searched for according to specific rules, depending on the implementation. The included file itself can also contain `#include` directives.
+
+Usually, multiple `#include` directives appear at the beginning of a source file, containing common `#define` statements and `extern` declarations, or function prototype declarations for library functions accessed from header files like `<stdio.h>`.
+
+
+#### 4.11.2 Macro Substitution
+Macro definitions have the form `#define name replacement_text`. This is the simplest form of macro substitution—every subsequent occurrence of the token `name` will be replaced by `replacement_text`.
+
+In general, a `#define` directive occupies one line, and the replacement text is the remaining content at the end of the `#define` directive line. However, a longer macro definition can be split into several lines, in which case a backslash `\` is placed at the end of lines to be continued. The scope of the name defined by a `#define` directive starts at the point of definition and extends to the end of the source file being compiled.
+
+Macro definitions can also use previously defined macros. The replacement only applies to tokens, and strings enclosed in quotes are not affected. For example, if `YES` is a name defined by a `#define` directive, it will not be replaced in statements like `printf("YES")` or `YESMAN`.
+
+Replacement text can be anything; for example, `#define forever for (;;) /* infinite loop */` defines a new name `forever` for an infinite loop.
+
+Macro definitions can also have parameters, allowing different replacement texts for different macro invocations. For instance, the following macro definition defines a `max` macro: `#define max(A, B) ((A) > (B) ? (A) : (B))`
+
+Using the `max` macro looks similar to a function call, but the macro invocation directly inserts the replacement text into the code. Each occurrence of formal parameters (here, A or B) will be replaced with the corresponding actual parameters. Thus, the statement `x = max(p+q, r+s);` will be replaced with: `x = ((p+q) > (r+s) ? (p+q) : (r+s));`
+
+Some flaws exist in the expanded form of `max`. Expressions acting as parameters need to be evaluated twice, and if expressions have side effects (e.g., involving increment operators or I/O), incorrect results may occur. For example, `max(i++, j++) /* WRONG */` leads to two increment operations for each parameter. Additionally, it is crucial to use parentheses properly to ensure correct order of evaluation. Consider the following macro definition: `#define square(x) x * x /* WRONG */`—what happens when the macro `square(z+1)` is called?
+
+The `#undef` directive can be used to cancel the definition of a macro, ensuring that subsequent calls are treated as function calls rather than macro calls.
+
+Parameters cannot be replaced with quoted strings. However, if the parameter name is prefixed with `#` in the replacement text, the result will be expanded to the quoted string of the actual parameter.
+
+
+#### 4.11.3 Conditional Inclusion
+Conditional statements can also be used to control the preprocessor itself, and these conditional statements are evaluated during preprocessing. This allows selective inclusion of different code based on calculated conditional values during compilation.
+
+The `#if` statement evaluates constant integer expressions (which cannot contain `sizeof`, type cast operators, or enum constants). If the value of this expression is non-zero, the lines following the `#if` statement up to encountering `#endif`, `#elif`, or `#else` will be included (the `#elif` statement is similar to `else if`). The `defined(name)` expression can be used in `#if` statements. The value of this expression follows these rules: when the name is already defined, its value is 1; otherwise, its value is 0.
+
+To ensure that the contents of the `hdr.h` file are only included once, you can place the content of that file within a conditional statement as follows:
+```c
+#if !defined(HDR)
+#define HDR
+/* Content of hdr.h goes here */
+#endif
+```
+The code snippet test the system variable SYSTME first, and determine which header file to use accordingly.
+
+```c
+#if SYSTEM == SYSV
+    #define HDR "sysv.h"
+#elif SYSTEM == BSD
+    #define HDR "bsd.h"
+#elif SYSTEM == MSDOS
+    #define HDR "msdos.h"
+#else
+    #define HDR "default.h"
+#endif
+#include HDR
+```
+
+There are two special preprocess syntaxes, `#ifdef` and `#ifndef` to check whether a macro has be defined. The `#ifdef` statement is equivalent to `#if defined(name)`, and the `#ifndef` statement is equivalent to `#if !defined(name)`.
+
+```c
+#ifndef HDR 
+#define EDR 
+/* hdr.h goes here */ 
+#endif
+```

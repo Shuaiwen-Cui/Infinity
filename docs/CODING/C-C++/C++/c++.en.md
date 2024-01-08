@@ -7,8 +7,6 @@
     ---
     Authors: Stephen Prata
 
-    Reading Progress: [0/18]
-
     [:octicons-arrow-right-24: <a href="https://zhjwpku.com/assets/pdf/books/C++.Primer.Plus.6th.Edition.Oct.2011.pdf" target="_blank"> Download PDF </a>](#)
 
 </div>

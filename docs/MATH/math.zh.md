@@ -26,7 +26,7 @@ comments: false
 
     阅读进度：[36/36]
 
-    代码实践：[12/36]
+    代码实践：[15/36]
 
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> 传送门 </a>](#)
 
