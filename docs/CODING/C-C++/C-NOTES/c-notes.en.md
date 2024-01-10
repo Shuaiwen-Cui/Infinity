@@ -1137,3 +1137,7 @@ There are two special preprocess syntaxes, `#ifdef` and `#ifndef` to check wheth
 /* hdr.h goes here */ 
 #endif
 ```
+
+## Chapter 5 - Pointers and Arrays
+
+![pointer and array](CH5-1.png)
