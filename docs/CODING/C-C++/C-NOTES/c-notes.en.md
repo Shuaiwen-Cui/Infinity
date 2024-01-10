@@ -17,7 +17,7 @@
 - [x] CH2 Types, Operators, and Expressions
 - [x] CH3 Control Flow
 - [x] CH4 Functions and Program Structure
-- [ ] CH5 Pointers and Arrays
+- [x] CH5 Pointers and Arrays
 - [ ] CH6 Structures
 - [ ] CH7 Input and Output
 - [ ] CH8 The UNIX System Interface
