@@ -1141,3 +1141,150 @@ There are two special preprocess syntaxes, `#ifdef` and `#ifndef` to check wheth
 ## Chapter 5 - Pointers and Arrays
 
 ![pointer and array](CH5-1.png)
+
+A pointer is a variable that **stores the address of a variable**. In the C programming language, pointers are widely used for several reasons. One reason is that pointers are often the **sole means of expressing certain computations**, and another reason is that, compared to other methods, using pointers can often result in **more efficient and compact code**. The relationship between pointers and arrays is very close.
+
+Pointers, much like the `goto` statement, can make programs difficult to understand. If used carelessly, pointers can easily point to the wrong location. However, with careful use, pointers can be employed to write simple and clear programs.
+
+One of the most significant changes introduced by ANSI C is the explicit specification of rules for manipulating pointers. Additionally, ANSI C uses the `void *` type (a pointer to void) instead of `char *` as the type for generic pointers.
+
+### 5.1 Pointers and Addresses
+
+Firstly, let's illustrate how memory is organized through a simple diagram. Typically, machines have a series of consecutively numbered or addressed storage units. These storage units can be manipulated individually or in contiguous groups. Usually, one byte of a machine can store a data type like char, two adjacent bytes can store a short integer, and four adjacent bytes can store a long integer. A pointer is a group of storage units (usually two or four bytes) that can store an address.
+
+The unary operator **&** is used to **obtain the address of an object**. Therefore, the statement `p = &c;` assigns the address of c to the variable p, and we call p a "pointer to" c.
+
+!!! note
+    The address operator & can only be applied to objects in memory, namely **variables** and **array elements**. It cannot be applied to expressions, constants, or variables of the register type.
+
+The unary operator **\*** is the **indirection or dereference operator**. When applied to a pointer, it accesses the object pointed to by the pointer.
+
+!!! note
+    It's important to note that a pointer can only point to a specific type of object, meaning each pointer must point to a specific data type. (One exception is a pointer to the void type, which can hold a pointer to any type, but it cannot be dereferenced itself.)
+
+Lastly, since pointers are also variables, they can be directly used in the program without always dereferencing them.
+
+### 5.2 Pointers and Function Parameters
+
+As C language passes parameter values to a called function in a **call-by-value manner**, the called function cannot directly modify the values of variables in the calling function.
+
+!!! note
+    Pointer parameters allow the called function to access and modify the values of objects in the calling function.
+
+Generally, when defining function parameters, you can use *pointers*, and when calling the function, you can use &. 
+
+### 5.3 Pointers and Arrays
+
+In the C language, the relationship between **pointers and arrays is very close**, so in the following section, we will discuss pointers and arrays together. Any operation that can be done using array subscripts can also be achieved using pointers. Generally, programs written with **pointers execute faster** than those written with array subscripts, but on the other hand, programs implemented with pointers can be **slightly more challenging to understand**.
+
+!!! note
+    There is a close correspondence between array subscripts and pointer operations. By definition, the value of a variable or expression of an array type is the address of the 0th element of that array. The array name represents the address of the first element of the array. Therefore, if `pa` is a pointer to an array `a`, the statements `pa = &a[0];` and `pa = a;` are equivalent. References to the array element `a[i]` can also be written as `*(a+i)`.
+
+!!! warning
+    It's important to remember that there is a difference between array names and pointers. Pointers are variables, so statements like `pa = a;` and `pa++;` are legal in C. However, array names are not variables, so statements like `a = pa;` and `a++;` are illegal.
+
+When passing an array name to a function, the address of the first element of the array is actually passed. In the called function, this parameter is a local variable; therefore, **array name parameters must be pointers**, which are variables that store address values.
+
+In function definitions, the formal parameters `char s[];` and `char *s;` are equivalent. We usually prefer the latter form because it more intuitively indicates that the parameter is a pointer. If an array name is passed to a function, the function can determine whether to treat it as an array or a pointer, and then operate on the parameter accordingly. To describe functions more intuitively, both array and pointer representations can be used simultaneously in the function.
+
+If you are certain that the corresponding element exists, you can access elements before the first element of an array using subscripts. Expressions like `p[-1]` and `p[-2]` are syntactically legal and refer to the elements two and one positions before `p[0]`, respectively. Of course, referencing objects beyond the array boundaries is illegal.
+
+### 5.4 Address Arithmetic
+
+The method of address arithmetic in the C language is consistent and systematic. Integrating pointer, array, and address arithmetic is a major advantage of this language.
+
+Generally, like other types of variables, pointers can also be initialized. Typically, the meaningful initialization value for a pointer is either 0 or an expression representing an address. For the latter, the address represented by the expression must be of a data type previously defined with the appropriate type.
+
+**Pointers and integers cannot be mutually converted**, except for 0, which is the only exception. The constant 0 can be assigned to a pointer, and pointers can be compared with the constant 0. In programs, the symbolic constant `NULL` is often used instead of the constant 0, making it clear that 0 is a special value for pointers. The symbolic constant `NULL` is defined in the standard header file `<stddef.h>`, and it is frequently used later in this section.
+
+Firstly, in some cases, comparisons can be made between pointers. For example, if pointers `p` and `q` point to members of the same array, they can be subjected to relational comparison operations similar to `==`, `!=`, `<`, and `>=`.
+
+Any comparison between a pointer and 0, either for equality or inequality, is meaningful.
+
+However, arithmetic or comparison operations between pointers pointing to elements of different arrays are undefined. (There is one exception: in pointer arithmetic, the address of the element following the last element of an array can be used.)
+
+**Pointer arithmetic is consistent**: if the data type being processed is a floating-point type that occupies more storage space than a character type, and `p` is a pointer to a floating-point type, then after executing `p++`, `p` will point to the address of the next floating-point number. **All pointer operations automatically take into account the length of the object they point to.**
+
+Valid pointer operations include assignment between pointers of the same type; addition or subtraction operations between pointers and integers; subtraction or comparison operations between two pointers pointing to elements of the same array; and assignment of a pointer to 0 or comparison operations between a pointer and 0. All other forms of pointer operations are illegal, such as addition, multiplication, division, shift, or masking operations between two pointers; addition operations between a pointer and float or double types; and operations that directly assign a pointer to an object of one type to a pointer to an object of another type without explicit type conversion (except when one of the pointers is of type void *).
+
+### 5.5 Character Pointers and Functions
+
+String constants are character arrays. In the internal representation of a string, the character array is terminated by the null character **'\0'**, so programs can find the end of the character array by checking for the null character. As a result, the number of storage units occupied by string constants is one more than the number of characters within double quotes.
+
+The most common usage of string constants is perhaps as function parameters, for example: `printf("hello, world\n");`. When a string like this appears in a program, it is actually accessed through a character pointer. In the above statement, `printf` receives a pointer to the first character of the character array. In other words, **string constants can be accessed through a pointer to their first element**.
+
+Apart from being used as function parameters, string constants have other uses. Assuming the pointer `pmessage` is declared as follows: `char *pmessage;`, the statement `pmessage = "now is the time";` assigns a pointer to this character array to `pmessage`. This process does not involve copying the string but only pointer operations. **C language does not provide an operator to handle the entire string as a whole**.
+
+There is a significant difference between the following two definitions:
+
+```c
+char amessage[] = "now is the time"; /* Defines an array */
+char *pmessage = "now is the time"; /* Defines a pointer */
+```
+
+In the given statement, `amessage` is a one-dimensional array that is only large enough to hold an initialized string and an empty character '\0'. Individual characters in the array can be modified, but `amessage` always points to the same storage location. On the other hand, `pmessage` is a pointer whose initial value points to a string constant. Later, it can be modified to point to other addresses, but attempting to modify the content of the string is undefined (see the diagram below).
+
+![character array vs pointer](arrayvspointer.png)
+
+Standard usage for pushing and popping from the stack.
+
+```c
+*p++ = val; /* push */
+val = *--p; /* pop */
+```
+
+### 5.6 Pointer Arrays and Pointers to Pointers
+
+Since pointers are variables themselves, they can be stored in arrays like other variables.
+
+!!! tip
+    In general, it's best to divide a program into several functions that naturally correspond to the problem, controlling the execution of other functions through the main function.
+
+### 5.7 Multidimensional Arrays
+
+C language provides multidimensional arrays similar to matrices, but they are not as widely used as pointer arrays. This section introduces the characteristics of multidimensional arrays.
+
+A two-dimensional array is denoted as `array[i][j]`. Elements are stored by rows, so when accessing the array in storage order, the rightmost array subscript (i.e., column) changes fastest.
+
+Arrays can be initialized using an initial value table enclosed in curly braces, with each row of the two-dimensional array initialized by the corresponding sub-list.
+
+!!! note
+    If you pass a two-dimensional array as a parameter to a function, the number of columns in the array must be specified in the function parameter declaration.
+
+### 5.8 Initialization of Pointer Arrays
+
+The initialization syntax for pointer arrays is similar to the initialization syntax for other types of objects discussed earlier.
+
+### 5.9 Pointers and Multidimensional Arrays
+
+For beginners in C, it's easy to confuse the difference between two-dimensional arrays and pointer arrays. Initialization of pointer arrays must be done explicitly, either through static initialization or by code.
+
+An important advantage of pointer arrays is that the length of each row in the array can be different.
+
+!!! note
+    Pointer arrays are most commonly used to store strings of different lengths.
+
+### 5.10 Command Line Arguments
+
+In environments supporting the C language, command line arguments can be passed to a program at the start of execution. When calling the main function, it takes two parameters. The value of the first parameter (usually called argc, for argument count) represents the number of arguments in the command line when running the program. The second parameter (called argv, for argument vector) is a pointer to an array of strings, where each string corresponds to an argument. We typically use multi-level pointers to handle these strings.
+
+According to the C language convention, the value of argv[0] is the name of the program that launched it, so argc is at least 1. If argc is 1, it means there are no command line arguments after the program name. In the example above, argc is 3, and the values of argv[0], argv[1], and argv[2] are "echo", "hello,", and "world," respectively. The first optional parameter is argv[1], and the last optional parameter is argv[argc-1]. Additionally, the ANSI standard requires that the value of argv[argc] must be a null pointer.
+
+### 5.11 Pointers to Functions
+
+In the C language, functions themselves are not variables, but pointers to functions can be defined. This type of pointer can be assigned, stored in arrays, passed to functions, and used as a return value.
+
+Note the difference between `int (*comp)(void *, void *)` and `int *comp(void *, void *)`. The former is a pointer to a function, while the latter is a function that returns a pointer to int.
+
+### 5.12 Complex Declarations
+
+C language is often criticized for its syntax regarding declarations, especially when dealing with function pointers. The syntax aims to make declarations and usage consistent. For simple cases, C language practices are effective, but for more complex situations, confusion can arise because C language declarations are not read from left to right and involve many parentheses.
+
+Consider the following two declarations:
+
+```c
+int *f(); /* f: function returning pointer to int */
+int (*pf)(); /* pf: pointer to function returning int */
+```
+
+While complex declarations are rarely used in practice, understanding and, if necessary, using them is important. A good approach to creating complex declarations is to use typedef to synthesize them step by step.
