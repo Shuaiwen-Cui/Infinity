@@ -163,6 +163,10 @@ plugins:
             DEBUG-APP: 调试应用
             MDK-MIDDLEWARE: MDK中间件
             PLATFORMIO: PLATFORMIO
+            DEV-FRAMEWORK: 开发框架
+            CMSIS 🎯: Cortex微控制器软件接口标准 🎯
+            ESP-IDF: 乐鑫物联网开发框架(ESP-IDF)
+            USEFUL-LIB 🎯: 常用嵌入式开发库 🎯
             DSP: 数字信号处理
             NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
             TIME-FREQ-ANA: 时频分析
@@ -401,6 +405,10 @@ nav:
                   - DEBUG-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/DEBUG-APP/debug-app.md"
                   - MDK-MIDDLEWARE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/MDK-MIDDLEWARE/mdk-middleware.md"
           - PLATFORMIO: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
+      - DEV-FRAMEWORK:
+          - CMSIS 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/CMSIS/cmsis.md"
+          - ESP-IDF: "./EMBEDDED-SYS/DEV-FRAMEWORK/ESP-IDF/esp-idf.md"  
+      - USEFUL-LIB 🎯: "./EMBEDDED-SYS/USEFUL-LIB/useful-lib.md"
 
   - DSP: 
       - "./DSP/dsp.md"
@@ -414,6 +422,8 @@ nav:
               - CH06: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH06/tf-ana-ch06.md"
               - CH07: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH07/tf-ana-ch07.md"
               - CH08: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH08/tf-ana-ch08.md"
+              - CH09: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH09/tf-ana-ch09.md"
+              - CH10: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH10/tf-ana-ch10.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
   - CONTROL: 
