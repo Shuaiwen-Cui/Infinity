@@ -17,6 +17,9 @@ comments: false
 
 欢迎来到我的个人技术博客！ 本网站作为我个人学习、研究和开发的规划图。 请点击顶部或左侧的导航栏开始探索本站。
 
+!!! info
+    🎯 记号代表我当前正在努力学习的方向。被标记的话题将会动态调整。
+
 ## 🔗 链接
 
 <!-- to search icons, go to https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/ -->

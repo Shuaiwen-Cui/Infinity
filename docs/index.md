@@ -16,6 +16,9 @@ comments: flase
 ## 🎙️ Foreword
 Welcome to my personal tech blog! This website serves as a roadmap for my personal study, research and development. Explore this site by clicking the navigation bar on the top or the left.
 
+!!! info
+    🎯 mark means I am currently actively learning related knowledge. The marked topics will be dynamically modified.
+
 ## 🔗 Useful Links
 
 <!-- to search icons, go to https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/ -->

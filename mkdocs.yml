@@ -122,11 +122,12 @@ plugins:
             MATH: 数学
             GEOMETRY-GRAPHICS: 几何与图形学
             COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
+            OPTIMIZATION 🎯: 最优化 🎯
             CS: 计算机科学
             OS: 操作系统
-            DATA-BASE: 数据库
+            DATA-BASE 🎯: 数据库 🎯
             CODING: 编程
-            C/C++: C/C++
+            C/C++ 🎯: C/C++ 🎯
             C: C
             C-NOTES: C笔记
             C++: C++
@@ -144,13 +145,13 @@ plugins:
             FREERTOS: 实时操作系统
             LINUX: LINUX
             SIMULATION: 仿真
-            DEVKIT: 开发板
+            DEVKIT 🎯: 开发板 🎯
             ARDUINO: ARDUINO
             STM32: STM32
             ESP32: ESP32
             RASPBERRYPI: 树莓派
             JETSON: JETSON
-            IDE: 集成开发环境
+            IDE 🎯: 集成开发环境 🎯
             KEIL: KEIL
             OFFICIAL-GUIDE-MDK4: MDK4官方指南
             OFFICIAL-GUIDE-MDK5: MDK5官方指南
@@ -163,12 +164,12 @@ plugins:
             MDK-MIDDLEWARE: MDK中间件
             PLATFORMIO: PLATFORMIO
             DSP: 数字信号处理
-            NOTE-DSP-STUFF: “DSP相关内容”笔记
+            NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
             TIME-FREQ-ANA: 时频分析
             PERCEPTION: 感知
             CONTROL: 控制
             ACTUATION: 执行
-            ROS: 机器人操作系统
+            ROS 🎯: 机器人操作系统 🎯
             OFFICIAL-GUIDE: 官方指南
             INSTALLATION: 安装
             DISTRIBUTION: 发行版
@@ -180,31 +181,32 @@ plugins:
             WEB-BASED: WEB端
             CLIENT-BASED: 客户端        
             IOT: 物联网
-            WSN: 无线传感器网络
+            WSN 🎯: 无线传感器网络 🎯
             MQTT: 消息队列遥测传输协议
             BROKER: 代理
             CLIENT: 客户端
             CLOUD: 云
-            CLOUD-TECH: 云技术
-            HANDS-ON: 上手实践
+            CLOUD-TECH 🎯: 云技术 🎯
+            HANDS-ON 🎯: 上手实践 🎯
             Have A Server: 拥有一台服务器
             Server Configuration: 服务器配置
             Get A Domain Name: 获得一个域名
             AI: 人工智能
-            BASICS: 基础
-            FRAMEWORKS: 框架
+            BASICS 🎯: 基础 🎯
+            FRAMEWORKS 🎯: 框架 🎯
             MLP: 多层感知机
             CNN: 卷积神经网络
             RNN: 循环神经网络
             TRANSFORMER: “变形金刚”
             GAN: 生成对抗网络
-            RL: 强化学习
-            FL: 联邦学习
-            CV: 计算机视觉
-            NOTE-D2L: 动手学深度学习
+            RL 🎯: 强化学习 🎯
+            FL 🎯: 联邦学习 🎯
+            MULTI-AGENT 🎯: 多智能体 🎯
+            CV 🎯: 计算机视觉 🎯
+            NOTE-D2L 🎯: 动手学深度学习 🎯
             CH1-INTRO: CH1-引言
             CH2-PRE: CH2-预备知识
-            CH3-LNN: CH3-线性神经网络
+            CH3-LNN 🎯: CH3-线性神经网络 🎯
             SHM: 结构健康监测
             DEV: 开发
             DEVENV: 开发环境
@@ -348,13 +350,14 @@ nav:
       - "./MATH/math.md"
       - GEOMETRY-GRAPHICS: 
           - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
+      - OPTIMIZATION 🎯: "./MATH/OPTIMIZATION/optimization.md"
   - CS: 
       - "./CS/CS.md"
       - OS: "./CS/OS/os.md"
-      - DATA-BASE: "./CS/DATA-BASE/data-base.md"
+      - DATA-BASE 🎯: "./CS/DATA-BASE/data-base.md"
   - CODING: 
       - "./CODING/coding.md"
-      - C/C++:
+      - C/C++ 🎯:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
           - C-NOTES: "./CODING/C-C++/C-NOTES/c-notes.md" 
@@ -377,13 +380,13 @@ nav:
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
       - SIMULATION: "./EMBEDDED-SYS/SIMULATION/simulation.md"
-      - DEVKIT: 
+      - DEVKIT 🎯: 
           - ARDUINO: "./EMBEDDED-SYS/DEVKIT/ARDUINO/arduino.md"
           - STM32: "./EMBEDDED-SYS/DEVKIT/STM32/stm32.md"
           - ESP32: "./EMBEDDED-SYS/DEVKIT/ESP32/esp32.md"
           - RASPBERRYPI: "./EMBEDDED-SYS/DEVKIT/RASPBERRYPI/raspberrypi.md"
           - JETSON: "./EMBEDDED-SYS/DEVKIT/JETSON/jetson.md"
-      - IDE: 
+      - IDE 🎯: 
           - "./EMBEDDED-SYS/IDE/ide.md"
           - KEIL: 
               - "./EMBEDDED-SYS/IDE/KEIL/keil.md"
@@ -401,7 +404,7 @@ nav:
 
   - DSP: 
       - "./DSP/dsp.md"
-      - NOTE-DSP-STUFF:
+      - NOTE-DSP-STUFF 🎯:
           - TIME-FREQ-ANA:
               - CH01: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH01/tf-ana-ch01.md"
               - CH02: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH02/tf-ana-ch02.md"
@@ -417,7 +420,7 @@ nav:
       - "./CONTROL/control.md"
   - ACTUATION: 
       - "./ACTUATION/actuation.md"
-      - ROS: 
+      - ROS 🎯: 
           - "./ACTUATION/ROS/ros.md"
           - OFFICIAL-GUIDE:
               - INSTALLATION: "./ACTUATION/ROS/OFFICIAL-GUIDE/INSTALLATION/installation.md"
@@ -430,7 +433,7 @@ nav:
           - P1-GET-STARTED: "./ACTUATION/HANDSON-ROS/P1-GET-STARTED/p1-get-started.md"
   - IOT: 
       - "./IOT/iot.md"
-      - WSN: 
+      - WSN 🎯: 
           - "./IOT/WSN/wsn.md"
       - MQTT: 
           - "./IOT/MQTT/mqtt.md"
@@ -438,27 +441,28 @@ nav:
           - CLIENT: "./IOT/MQTT/CLIENT/client.md"
   - CLOUD: 
       - "./CLOUD/cloud.md"
-      - CLOUD-TECH: "./CLOUD/CLOUD-TECH/cloud-tech.md"
-      - HANDS-ON:
+      - CLOUD-TECH 🎯: "./CLOUD/CLOUD-TECH/cloud-tech.md"
+      - HANDS-ON 🎯:
           - Have A Server: "./CLOUD/HANDS-ON/001-HAVE-A-SERVER/have-a-server.md"
           - Server Configuration: "./CLOUD/HANDS-ON/002-SERVER-CONFIG/server-config.md"
           - Get A Domain Name: "./CLOUD/HANDS-ON/003-DOMAIN-NAME/domain-name.md"
   - AI: 
       # - "./AI/ai.md"
-      - BASICS: "./AI/BASICS/basics.md"
-      - FRAMEWORKS: "./AI/FRAMEWORKS/frameworks.md"
+      - BASICS 🎯: "./AI/BASICS/basics.md"
+      - FRAMEWORKS 🎯: "./AI/FRAMEWORKS/frameworks.md"
       - MLP: "./AI/MLP/mlp.md"
       - CNN: "./AI/CNN/cnn.md"
       - RNN: "./AI/RNN/rnn.md"
       - TRANSFORMER: "./AI/TRANSFORMER/transformer.md"
       - GAN: "./AI/GAN/gan.md"
-      - RL: "./AI/RL/rl.md"
-      - FL: "./AI/FL/fl.md"
-      - CV: "./AI/CV/cv.md"
-      - NOTE-D2L: 
+      - RL 🎯: "./AI/RL/rl.md"
+      - FL 🎯: "./AI/FL/fl.md"
+      - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
+      - CV 🎯: "./AI/CV/cv.md"
+      - NOTE-D2L 🎯: 
           - CH1-INTRO: "./AI/NOTE-D2L/CH1-INTRO/ch1-intro.md"
           - CH2-PRE: "./AI/NOTE-D2L/CH2-PRE/ch2-pre.md"
-          - CH3-LNN: "./AI/NOTE-D2L/CH3-LNN/ch3-lnn.md"
+          - CH3-LNN 🎯: "./AI/NOTE-D2L/CH3-LNN/ch3-lnn.md"
   - SHM: 
       - "./SHM/shm.md"
   - DEV: 
