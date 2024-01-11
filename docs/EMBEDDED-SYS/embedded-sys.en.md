@@ -46,6 +46,12 @@
 ### Arduino
 
 <div class="grid cards" markdown>
+-  :simple-arduino:{ .lg .middle } __Arduino Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.arduino.cc/" target="_blank"> Portal </a>](#)
+
 -  :material-book:{ .lg .middle } __Arduino Cookbook, 3rd Edition__
 
     ---
@@ -58,11 +64,39 @@
 
 ### STM32
 
+<div class="grid cards" markdown>
+
+-   :simple-stmicroelectronics:{ .lg .middle } __STM32 Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html" target="_blank"> Portal </a>](#)
+
+</div>
+
+
 ### ESP32
+
+<div class="grid cards" markdown>
+
+-   :simple-espressif:{ .lg .middle } __ESP32 Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"> Portal </a>](#)
+
+</div>
 
 ### Raspberry Pi
 <div class="grid cards" markdown>
-- :material-book:{ .lg .middle } __Raspberry Pi Cookbook, 4th Edition__
+
+-   :material-raspberry-pi:{ .lg .middle } __Raspberry Pi Official Website__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.raspberrypi.org/" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __Raspberry Pi Cookbook, 4th Edition__
 
     ---
 

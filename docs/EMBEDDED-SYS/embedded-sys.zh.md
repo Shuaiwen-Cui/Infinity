@@ -21,8 +21,6 @@
 
 
 
-
-
 ## 仿真
 
 <div class="grid cards" markdown>
@@ -48,6 +46,12 @@
 
 ### Arduino
 <div class="grid cards" markdown>
+-  :simple-arduino:{ .lg .middle } __Arduino官网__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.arduino.cc/" target="_blank"> 传送门 </a>](#)
+
 -  :material-book:{ .lg .middle } __Arduino食用指南，第三版__
 
     ---
@@ -60,11 +64,38 @@
 
 ### STM32
 
+<div class="grid cards" markdown>
+
+-   :simple-stmicroelectronics:{ .lg .middle } __STM32官网__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.st.com/zh/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 ### ESP32
+
+<div class="grid cards" markdown>
+
+-   :simple-espressif:{ .lg .middle } __ESP32官网__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.espressif.com/zh-hans/products/socs/esp32" target="_blank"> 传送门 </a>](#)
+
+</div>
 
 ### Raspberry Pi
 <div class="grid cards" markdown>
-- :material-book:{ .lg .middle } __Raspberry Pi食用指南，第四版__
+
+-  :material-raspberry-pi:{ .lg .middle } __Raspberry Pi官网__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.raspberrypi.org/" target="_blank"> 传送门 </a>](#)
+
+-  :material-book:{ .lg .middle } __Raspberry Pi食用指南，第四版__
   
     ---
 
