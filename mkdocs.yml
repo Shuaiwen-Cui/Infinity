@@ -217,6 +217,8 @@ plugins:
             LATEX: LATEX
             REMOTE-CONTROL: 远程控制
             CLOUD-SYNC: 云同步
+            EMBEDDED: 嵌入式
+            STM32MP157: 正点原子STM32MP157
             FRONT-END: 前端
             BACK-END: 后端
             RESEARCH: 研究
@@ -386,7 +388,9 @@ nav:
       - SIMULATION: "./EMBEDDED-SYS/SIMULATION/simulation.md"
       - DEVKIT 🎯: 
           - ARDUINO: "./EMBEDDED-SYS/DEVKIT/ARDUINO/arduino.md"
-          - STM32: "./EMBEDDED-SYS/DEVKIT/STM32/stm32.md"
+          - STM32: 
+              - "./EMBEDDED-SYS/DEVKIT/STM32/stm32.md"
+              - STM32MP157: "./EMBEDDED-SYS/DEVKIT/STM32/STM32MP157/stm32mp157.md"
           - ESP32: "./EMBEDDED-SYS/DEVKIT/ESP32/esp32.md"
           - RASPBERRYPI: "./EMBEDDED-SYS/DEVKIT/RASPBERRYPI/raspberrypi.md"
           - JETSON: "./EMBEDDED-SYS/DEVKIT/JETSON/jetson.md"
@@ -404,6 +408,7 @@ nav:
                   - CREATE-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/CREATE-APP/create-app.md"
                   - DEBUG-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/DEBUG-APP/debug-app.md"
                   - MDK-MIDDLEWARE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/MDK-MIDDLEWARE/mdk-middleware.md"
+          - STM32CUBE: "./EMBEDDED-SYS/IDE/STM32CUBE/stm32cube.md"
           - PLATFORMIO: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
       - DEV-FRAMEWORK:
           - CMSIS 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/CMSIS/cmsis.md"
@@ -482,6 +487,8 @@ nav:
           - LATEX: "./DEV/DEVENV/LATEX/latex.md"
           - REMOTE-CONTROL: "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
           - CLOUD-SYNC: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
+      - EMBEDDED:
+          - STM32MP157: "./DEV/EMBEDDED/STM32MP157/stm32mp157.md"
       - FRONT-END: "./DEV/FRONT-END/front-end.md"
       - BACK-END: "./DEV/BACK-END/back-end.md"
       - VISUALIZATION:
