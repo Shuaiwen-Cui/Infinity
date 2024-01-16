@@ -18,7 +18,7 @@
 - [x] CH3 Control Flow
 - [x] CH4 Functions and Program Structure
 - [x] CH5 Pointers and Arrays
-- [ ] CH6 Structures
+- [x] CH6 Structures
 - [ ] CH7 Input and Output
 - [ ] CH8 The UNIX System Interface
 
@@ -1288,3 +1288,103 @@ int (*pf)(); /* pf: pointer to function returning int */
 ```
 
 While complex declarations are rarely used in practice, understanding and, if necessary, using them is important. A good approach to creating complex declarations is to use typedef to synthesize them step by step.
+
+## Chapter 6: Structures
+
+A structure is a collection of one or more variables, possibly of different types, organized under a name for convenient handling. Since structures consider a group of related variables as a unit rather than individual entities, they help organize complex data, especially in large programs.
+
+The most significant change in the ANSI standard regarding structures is the definition of assignment operations for structures. Structures can be copied, assigned, passed to functions, and functions can also return values of structure types.
+
+### 6.1 Basics of Structures
+
+The keyword `struct` introduces a structure declaration. A structure declaration consists of a series of declarations enclosed in curly braces. The name following the `struct` keyword is optional and is called a structure tag. The structure tag is used to name the structure and, after definition, represents the declarations within curly braces, serving as a shorthand for those declarations.
+
+Variables defined within a structure are called members. Structure members, structure tags, and regular variables (non-members) can share the same name without conflicts, as they can be distinguished through context analysis. Additionally, members in different structures can have the same names, but it is typically preferred to use unique names for clarity in programming style.
+
+A `struct` declaration defines a data type. A variable list can follow the right brace ending the structure member table, similar to variable declarations for other basic types, e.g., `struct { ... } x, y, z;`.
+
+If no variable list follows the structure declaration, no storage space is allocated for it. It merely describes a template or outline of a structure. However, if a structure tag is present, it can be used when defining instances of the structure, like `struct point pt;`. Structure initialization can be done with an initializer list following the definition. The initializer list must consist of constant expressions corresponding to each member.
+
+Automatic structures can be initialized through assignment and by calling functions that return the corresponding structure type.
+
+In expressions, a specific member of a structure can be referenced as `structure_name.member_name`.
+
+Structures can be nested, meaning members within a structure can be structures themselves, and structures can contain members of the same type as other structures.
+
+### 6.2 Structures and Functions
+
+The legal operations for structures are limited to copying and assigning as a whole, taking the address with the `&` operator, and accessing its members. These operations include passing as function parameters and returning as function values. Structures cannot be directly compared. A structure can be initialized with a list of constant member values, and automatic structures can also be initialized through assignment.
+
+Structures can be passed to functions in three possible ways: passing individual members separately, passing the entire structure, or passing a pointer to the structure. Each method has its advantages and disadvantages.
+
+Note that having parameter names and structure member names the same does not cause conflicts. In fact, using the same names can emphasize the relationship between them.
+
+Structure type parameters, like parameters of other types, are passed by value.
+
+If a large structure is passed to a function, using a pointer is usually more efficient than copying the entire structure. Structure pointers are similar to pointers to regular variables.
+
+To enhance usability, C provides a shorthand for structure pointers. Assuming `p` is a pointer to a structure, you can use `p->member` instead of `(*p).member`. This shorthand has high precedence, so `*p->member` is interpreted as `*(p->member)`, not `(*p)->member`.
+
+!!! note
+    Among all operators, the following four operators have the highest precedence: structure operators "." and "->", parentheses for function calls "()", and square brackets for subscripts "[]". Therefore, their association with operands is the tightest.
+
+### 6.3 Structure Arrays
+
+Each element of an array can be a structure, forming a structure array. Initialization of a structure array is similar to initializing a regular array, with each element being a structure.
+
+!!! info
+    C provides a compile-time unary operator `sizeof`, which can be used to calculate the size of any object.
+
+!!! note
+    The `sizeof` operator cannot be used in the `#if` conditional compilation statement because the preprocessor does not analyze type names. However, using `sizeof` in a `#define` statement is legal because the preprocessor does not evaluate expressions in `#define`.
+
+### 6.4 Pointers to Structures
+
+!!! note
+    Addition between two pointers is illegal, but subtraction is legal for pointers.
+
+The most crucial modification to algorithms is to ensure no illegal pointers are generated or attempts are made to access elements beyond the array bounds.
+
+!!! warning
+    Never assume that the length of a structure is equal to the sum of the lengths of its members. Different objects have different alignment requirements, leading to potential "holes" in the structure. Using the `sizeof` operator can return the correct object length.
+
+### 6.5 Self-Referential Structures
+
+~
+
+### 6.6 Table Lookup
+
+~
+
+### 6.7 Type Definitions
+
+C provides a feature called `typedef` to establish new data type names.
+
+!!! note
+    It is essential to emphasize that a `typedef` declaration does not create a new type in any sense. It merely adds a new name to an existing type. A `typedef` declaration does not introduce any new semantics; variables declared through `typedef` have the same attributes as those declared through the regular method. In essence, `typedef` is similar to a `#define` statement, but because `typedef` is interpreted by the compiler, its text replacement capabilities surpass those of the preprocessor.
+
+Besides being more concise, using `typedef` has two other important reasons.
+- Firstly, it allows parameterizing programs to enhance portability.
+- Secondly, `typedef` provides better explanatory power to the program—`Treeptr` type is evidently easier to understand than declaring a pointer to a complex structure.
+
+### 6.8 Unions
+
+A union is a variable that can (at different times) hold objects of different types and lengths. The compiler tracks the length and alignment requirements of objects. Unions offer a way to manage different types of data in a single storage area without embedding any machine-specific information in the program.
+
+!!! note
+    The essence of a union is that a variable can legitimately hold any one type of object from multiple types.
+
+Members of a union can be accessed using the following syntax:
+- `union-name.member-name`
+- `union-pointer->member-name`
+
+Unions can be used within structures and arrays, and vice versa. Accessing a member of a union within a structure (or vice versa) follows the same notation as accessing nested structures.
+
+In reality, a union is essentially a structure. All members have an offset of 0 relative to the base address. The union space must be large enough to accommodate the "widest" member, and its alignment must suit all types of members. Operations allowed on unions are the same as those allowed on structures: assignment, copying, taking the address, and accessing any member.
+
+!!! note
+    A union can only be initialized with a value of the first member type. Therefore, the union u mentioned earlier can only be initialized with an integer value.
+
+### 6.9 Bit-Fields
+
+In situations where storage space is at a premium, it may be necessary to store multiple objects in a single machine word. A common approach is to use a single set of binary bit flags similar to the compiler's symbol table. Externally imposed data formats (such as hardware device interfaces) also often require reading data from partial values ​​of words.
