@@ -99,6 +99,15 @@
 
 <div class="grid cards" markdown>
 
+-  :simple-youtube:{ .lg .middle } __KEIL Brief Intro__
+
+    ---
+
+    A brief intro about the Keil MDK IDE.
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=TO85lArN1B8" target="_blank"> Portal </a>](#)
+
+
 -  :simple-youtube:{ .lg .middle } __KEIL Quick Start (version 5 as example)__
 
     ---

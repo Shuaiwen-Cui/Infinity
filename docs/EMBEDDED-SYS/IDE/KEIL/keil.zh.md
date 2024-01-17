@@ -96,6 +96,12 @@
 
 <div class="grid cards" markdown>
 
+-  :simple-youtube:{ .lg .middle } __KEIL 简介__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=ZQ8uMCYh0Xg" target="_blank"> 传送门 </a>](#)
+
 -  :simple-youtube:{ .lg .middle } __KEIL 快速入门 (以版本5为例)__
 
     ---
