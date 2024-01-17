@@ -91,3 +91,15 @@
     [:octicons-arrow-right-24: <a href="https://developer.arm.com/search#q=keil&f-navigationhierarchiescontenttype=Video%20Tutorial" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+## 快速入门
+
+<div class="grid cards" markdown>
+
+-  :simple-youtube:{ .lg .middle } __KEIL 快速入门 (以版本5为例)__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=ZQ8uMCYh0Xg" target="_blank"> 传送门 </a>](#)
+
+</div>

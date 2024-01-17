@@ -94,3 +94,17 @@
     [:octicons-arrow-right-24: <a href="https://developer.arm.com/search#q=keil&f-navigationhierarchiescontenttype=Video%20Tutorial" target="_blank"> Portal </a>](#)
 
 </div>
+
+## Quick Start
+
+<div class="grid cards" markdown>
+
+-  :simple-youtube:{ .lg .middle } __KEIL Quick Start (version 5 as example)__
+
+    ---
+
+    Using STM32F407 as an example, this video shows how to quickly get started with Keil MDK version 5.
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=U5lVnrtbkXo" target="_blank"> Portal </a>](#)
+
+</div>
