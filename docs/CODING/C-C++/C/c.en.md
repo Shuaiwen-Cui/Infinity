@@ -11,8 +11,8 @@
     ---
     Authors: Brian W. Kernighan and Dennis M. Ritchie
 
-    [:octicons-arrow-right-24: <a href="https://kremlin.cc/k&r.pdf" target="_blank"> Download PDF </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.cimat.mx/ciencia_para_jovenes/bachillerato/libros/%5BKernighan-Ritchie%5DThe_C_Programming_Language.pdf" target="_blank"> Download PDF </a>](#)
 
 </div>
 
-<iframe src="https://kremlin.cc/k&r.pdf" width="100%" height="600px"></iframe>
+<iframe src="https://www.cimat.mx/ciencia_para_jovenes/bachillerato/libros/%5BKernighan-Ritchie%5DThe_C_Programming_Language.pdf" width="100%" height="600px"></iframe>

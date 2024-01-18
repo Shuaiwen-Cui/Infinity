@@ -385,7 +385,10 @@ nav:
           - CIRCUITS: "./EMBEDDED-SYS/THEORY/CIRCUITS/circuits.md"
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
-      - SIMULATION: "./EMBEDDED-SYS/SIMULATION/simulation.md"
+      - SIMULATION: 
+          # - "./EMBEDDED-SYS/SIMULATION/simulation.md"
+          - RENODE: "./EMBEDDED-SYS/SIMULATION/RENODE/renode.md"
+          - WOKWI: "./EMBEDDED-SYS/SIMULATION/WOKWI/wokwi.md"
       - DEVKIT 🎯: 
           - ARDUINO: "./EMBEDDED-SYS/DEVKIT/ARDUINO/arduino.md"
           - STM32: 
@@ -485,7 +488,9 @@ nav:
       - DEVENV: 
           # - "./DEV/DEVENV/devenv.md"
           - LATEX: "./DEV/DEVENV/LATEX/latex.md"
-          - REMOTE-CONTROL: "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
+          - REMOTE-CONTROL:
+              - "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
+              - RUSTDESK: "./DEV/DEVENV/REMOTE-CONTROL/RUSTDESK/rustdesk.md"
           - CLOUD-SYNC: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
       - EMBEDDED:
           - STM32MP157: "./DEV/EMBEDDED/STM32MP157/stm32mp157.md"
