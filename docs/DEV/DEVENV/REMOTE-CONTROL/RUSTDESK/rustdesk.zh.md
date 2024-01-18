@@ -4,7 +4,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-remote-desktop:{ .lg .middle } __ RustDesk __
+-   :material-remote-desktop:{ .lg .middle } __RustDesk__
 
     ---
 
@@ -183,7 +183,7 @@ screen -R hbbr
 ./hbbr
 ```
 
-然后看，我们可以看到一些输出，意味着中继服务器正在运行。然后按下`Ctrl+A`，然后按下`D`，以断开Screen会话。
+然后我们可以看到一些输出，意味着中继服务器正在运行。然后按下`Ctrl+A`，然后按下`D`，以断开Screen会话。
 
 然后，我们可以运行另一个Screen会话，用于信令服务器。
 
@@ -191,7 +191,7 @@ screen -R hbbr
 screen -R hbbs
 ```
 
-然后，我们使用以下命令运行信令服务器：
+然后，我们使用以下命令运行注册服务器：
 
 ```bash
 ./hbbs
@@ -291,7 +291,7 @@ more id_ed25519.pub
 1. 使用pm2
 2. 使用systemd
 
-### 使用pm2
+#### 使用pm2
 
 我个人没有使用pm2，但是如果你想使用pm2，可以参考以下步骤：
 

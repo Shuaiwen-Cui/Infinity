@@ -4,7 +4,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-remote-desktop:{ .lg .middle } __ RustDesk __
+-   :material-remote-desktop:{ .lg .middle } __RustDesk__
 
     ---
 
