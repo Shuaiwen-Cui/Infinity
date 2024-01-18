@@ -91,7 +91,7 @@ cd RUSTDESK-Sever
 
 ## 下载RustDesk服务器
 
-![RustDesk Server](rustdesk-server.png)
+![RustDesk Server](rustdesk-release.png)
 
 前往[🌐 RustDesk Server 发布页面](https://github.com/rustdesk/rustdesk-server/releases) 选择合适的版本下载。我选择的是`rustdesk-server-linux-amd64.zip`。
 
