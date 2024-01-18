@@ -85,3 +85,10 @@ This file is for reference uses.
     [:octicons-arrow-right-24: <a href="https://teachyourselfcs.com/" target="_blank"> Portal </a>](#)
 
 </div>
+
+## icons
+
+:fontawesome-brands-bilibili:
+:material-youtube:
+:material-web:
+:fontawesome-solid-blog:
