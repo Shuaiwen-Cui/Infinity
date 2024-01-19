@@ -449,4 +449,11 @@ ExecStop=/bin/kill -TERM $MAINPID
 WantedBy=multi-user.target
 ```
 
+## Additional Client Configuration
+
+Sometimes, you need to grant access to Rustdesk to enable some functions. 
+On Mac, you may need to enable accessibility for Rustdesk in `System Preferences` -> `Security & Privacy` -> `Privacy` -> `Accessibility`.
+On windows, you may need to install a full version of Rustdesk to enable some functions.
+In both cases, there will be a reminder at the left part of the Rustdesk GUI.
+
 The End.

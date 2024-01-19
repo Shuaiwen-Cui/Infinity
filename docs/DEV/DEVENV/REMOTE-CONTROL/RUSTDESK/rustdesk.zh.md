@@ -444,4 +444,11 @@ ExecStop=/bin/kill -TERM $MAINPID
 WantedBy=multi-user.target
 ```
 
+## 额外配置
+
+有些时候，你需要给予Rustdesk权限来使用某些功能。
+在Mac上，需要启用Rustdesk的accessibility权限。
+在Windows上，要安装特定版本的Rustdesk，而不是便携版。
+这两种情况，Rustdesk都会在界面左侧部分给予提示，按照提示操作即可。
+
 到此结束。
