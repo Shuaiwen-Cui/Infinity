@@ -4,6 +4,10 @@
 
 ## 理论
 
+### 控制理论概览
+![Map of Contorl](map-zh.png)
+
+### 资源
 <div class="grid cards" markdown>
 -   :material-hub-outline:{ .lg .middle } __工程资源库（Engineering Media）🏆__
   
@@ -32,4 +36,3 @@
 
 </div>
 
-![Map of Contorl](map-zh.png)

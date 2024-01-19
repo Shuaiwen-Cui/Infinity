@@ -4,6 +4,10 @@
 
 ## Theory
 
+### All of Control Theory
+![Map of Contorl](map-en.png)
+
+### Resources
 <div class="grid cards" markdown>
 -   :material-hub-outline:{ .lg .middle } __Engineering Media 🏆__
   
@@ -31,4 +35,3 @@
 
 </div>
 
-![Map of Contorl](map-en.png)

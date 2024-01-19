@@ -1,6 +1,6 @@
 # 电子学
 
-![Electrical Engineering](../electrical-engineering.png){ : style="height:450px;width:800px" }
+![Electrical Engineering](../../electrical-engineering.png){ : style="height:450px;width:800px" }
 
 <div class="grid cards" markdown>
 -  :material-book:{ .lg .middle } __初学者电子学：电路图、电路与微控制器实用介绍 🎯✅🏆__
