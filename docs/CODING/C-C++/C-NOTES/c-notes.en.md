@@ -19,7 +19,7 @@
 - [x] CH4 Functions and Program Structure
 - [x] CH5 Pointers and Arrays
 - [x] CH6 Structures
-- [ ] CH7 Input and Output
+- [x] CH7 Input and Output
 - [ ] CH8 The UNIX System Interface
 
 ## CH1 - A Tutorial Introduction
@@ -1388,3 +1388,239 @@ In reality, a union is essentially a structure. All members have an offset of 0 
 ### 6.9 Bit-Fields
 
 In situations where storage space is at a premium, it may be necessary to store multiple objects in a single machine word. A common approach is to use a single set of binary bit flags similar to the compiler's symbol table. Externally imposed data formats (such as hardware device interfaces) also often require reading data from partial values ​​of words.
+
+## Chapter 7: Input and Output
+
+Input and output are not part of the C language itself, so we have not emphasized them in ourpresentation thus far. Nonetheless, programs interact with their environment in much morecomplicated ways than those we have shown before. In this chapter we will describe thestandard library, a set of functions that provide input and output, string handling, storagemanagement, mathematical routines, and a variety of other services for C programs. We willconcentrate on input and output
+
+The ANSI standard defines these library functions precisely, so that they can exist incompatible form on any system where C exists. Programs that confine their system
+interactions to facilities provided by the standard library can be moved from one system toanother without change.
+
+### 7.1 Standard Input and Output
+
+In Chapter 1, we discussed that the standard library implements a simple text input/output mode. Text streams consist of a series of lines, with each line ending in a newline character. If the system does not follow this pattern, the standard library takes measures to adapt the system to this pattern. For example, the standard library may convert both carriage return and newline characters to newline characters on the input side, and perform the reverse conversion on the output side.
+
+In many environments, the `<` symbol can be used for input redirection, replacing keyboard input with file input.
+
+### 7.2 Formatted Output - `printf` Function
+
+The `printf` function converts internal values to character form.
+
+The format string contains two types of objects: ordinary characters and conversion specifications. During output, ordinary characters are copied unchanged to the output stream, while conversion specifications are not directly output to the stream but are used to control the conversion and printing of parameters in `printf`. Each conversion specification starts with a percent character (`%`) and ends with a conversion character. Between the percent character and the conversion character, there may be the following components in order:
+
+- A minus sign, used to specify that the converted parameter is output in left-aligned form.
+- A number used to specify the minimum field width. The converted parameter will be printed in a field of at least the minimum field width. If necessary, the extra character positions to the left (or right if using left alignment) are filled with spaces to ensure the minimum field width.
+- A decimal point used to separate field width and precision.
+- A number used to specify precision, indicating the maximum number of characters to print in a string, the number of digits after the decimal point in a floating-point number, or the minimum number of digits to output for an integer.
+- The letters 'h' or 'l', where 'h' indicates printing an integer as a short type and 'l' indicates printing an integer as a long type.
+
+Common conversion characters table:
+
+| Conversion | Meaning |
+| :---: | :---: |
+| d or i | Signed decimal integer |
+| o | Unsigned octal integer |
+| x | Unsigned hexadecimal integer |
+| u | Unsigned decimal integer |
+| c | Single character |
+| s | String |
+| f | Floating-point number |
+| e, E | Floating-point number (exponential notation) |
+| g, G | Floating-point number (use e or f depending on the value) |
+| p | Pointer |
+| % | Percent sign |
+
+In conversion specifications, width or precision can be represented by the asterisk (*) character. In this case, the value of width or precision is calculated by converting the next argument (must be of type int).
+
+!!! note
+    The `sprintf` function performs the same conversions as the `printf` function, but it saves the output to a string instead of printing it to standard output.
+
+The `sprintf` function, like `printf`, formats the argument sequence arg1, arg2, ... according to the format string and stores the output in the string. Of course, the string must be large enough to hold the output.
+
+### 7.3 Variable Argument Lists
+～
+
+### 7.4 Formatted Input - `scanf` Function
+The `scanf` function corresponds to the `printf` function, providing the same conversion functionality but in the opposite direction.
+
+The `scanf` function reads a character sequence from standard input, interprets it according to the format specified in the format string, and saves the result in the remaining parameters. The format parameter will be discussed in the following content. All other parameters must be pointers, specifying the locations where the converted input will be saved.
+
+When the `scanf` function scans the entire format string or encounters a situation where some input cannot match the format control specification, the function terminates. The number of successfully matched and assigned input items is returned as the function value. Therefore, the return value of the function can be used to determine the number of matched input items. If the end of the file is reached, the function will return EOF. Note that returning EOF is different from 0; 0 indicates that the next input character does not match the first format specification in the format string.
+
+There is also an input function `sscanf`, which is used to read character sequences from a string (not standard input).
+
+The format string usually contains conversion specifications, which control the input conversion. The format string may contain the following parts:
+
+- Spaces or tabs that will be ignored during processing.
+- Ordinary characters (excluding %), used to match the next non-whitespace character in the input stream.
+- Conversion specifications, consisting of a %, an optional assignment suppression character *, an optional number (specifying the maximum field width), an optional h, l, or L character (specifying the width of the target object), and a conversion character.
+
+The conversion specification controls the interpretation of the next input field. In general, the conversion result is stored in the variable pointed to by the corresponding argument. However, if there is an assignment suppression character * in the conversion specification, the input field is skipped without assignment. The input field is defined as a string that does not include whitespace characters, and its boundary is defined as reaching the next whitespace character or reaching the specified field width. This implies that the `scanf` function will skip over line boundaries to read input because newline characters are also whitespace characters (including spaces, tabs, newline characters, carriage return characters, vertical tabs, and form feed characters).
+
+The conversion character specifies the interpretation of the input field. The corresponding parameter must be a pointer, as required by the call-by-value semantics of the C language.
+
+Basic conversion specifications for the `scanf` function are as follows:
+
+| Conversion | Meaning |
+| :---: | :---: |
+| d | Decimal integer |
+| i | Decimal, octal, or hexadecimal integer |
+| o | Octal integer |
+| u | Unsigned decimal integer |
+| x | Hexadecimal integer |
+| c | Character |
+| s | String |
+| e, f, g | Floating-point number |
+
+Conversion specifications d, i, o, u, and x can be prefixed with the characters h or l. The prefix h indicates that the corresponding parameter in the argument list is a pointer to a short type, not an int type. The prefix l indicates that the corresponding parameter in the argument list is a pointer to a long type. Similarly, the prefixes l for e, f, and g indicate that the corresponding parameter in the argument list is a pointer to a double type, not a float type.
+
+The `scanf` function ignores spaces and tabs in the format string. Additionally, when reading input values, it skips whitespace characters (spaces, tabs, newline characters, etc.). If you want to read input with an unpredictable format, it's best to read one line at a time and then use `sscanf` to separate the appropriate format for reading.
+
+Note that all parameters for `scanf` and `sscanf` functions must be pointers.
+
+### 7.5 File Access
+
+So far, the examples we've discussed involve reading data from standard input and outputting data to standard output. Standard input and standard output are automatically provided by the operating system for program access.
+
+The `fopen` function returns a file pointer, which is a pointer to the `FILE` type object. The `FILE` type is a structure that contains the information needed for the program to access the file. The first parameter of the `fopen` function is a string containing the file name and access mode. The second parameter is a string specifying the access mode of the file. The `fopen` function returns a pointer to the `FILE` type object, and if the file opening fails, it returns a null pointer.
+
+The allowed access modes for `fopen` are as follows:
+
+| Mode | Meaning |
+| :---: | :---: |
+| r | Open an existing text file for reading. |
+| w | Open a text file for writing. If the file does not exist, create a new file. If the file already exists, clear its contents. |
+| a | Open a text file for writing. If the file does not exist, create a new file. If the file already exists, append to the end of the file. |
+| r+ | Open a text file for reading and writing. |
+| w+ | Open a text file for reading and writing. If the file already exists, clear its contents. |
+| a+ | Open a text file for reading and writing. If the file does not exist, create a new file. If the file already exists, append to the end of the file. |
+| rb | Open an existing binary file for reading. |
+| wb | Open a binary file for writing. If the file does not exist, create a new file. If the file already exists, clear its contents. |
+| ab | Open a binary file for writing. If the file does not exist, create a new file. If the file already exists, append to the end of the file. |
+| rb+ | Open a binary file for reading and writing. |
+| wb+ | Open a binary file for reading and writing. If the file already exists, clear its contents. |
+| ab+ | Open a binary file for reading and writing. If the file does not exist, create a new file. If the file already exists, append to the end of the file. |
+
+When a C program is launched, the operating system environment is responsible for opening three files and providing their pointers to the program. These three files are standard input, standard output, and standard error, with corresponding file pointers `stdin`, `stdout`, and `stderr` declared in `<stdio.h>`. In most environments, `stdin` points to the keyboard, while `stdout` and `stderr` point to the display. As discussed in Section 7.1, `stdin` and `stdout` can be redirected to files or pipes.
+
+For formatted input or output of files, you can use the `fscanf` and `fprintf` functions. The only difference between them and the `scanf` and `printf` functions is that their first parameter is a pointer to the file to be read or written, and the second parameter is the format string.
+
+The `fclose` function performs the opposite of `fopen`. It disconnects the connection between the file pointer established by `fopen` and the external name and releases the file pointer for use by other files. Because most operating systems restrict the number of files a program can open simultaneously, it is a good programming practice to release file pointers when they are no longer needed. There is another reason to execute `fclose` for an output file: it will write the output collected by the `putc` function in the buffer to the file. When the program terminates normally, the `fclose` function is automatically called for each open file. (If `stdin` and `stdout` are not needed, they can be closed. They can also be redirected using the `freopen` library function.)
+
+### 7.6 Error Handling - `stderr` and `exit`
+
+～
+
+### 7.7 Line Input and Line Output
+
+The `fgets` function reads the next input line (including the newline character) from the file pointed to by `fp` and stores it in the character array `line`. It can read up to `maxline-1` characters. The read line will be terminated with '\0'. Normally, `fgets` returns `line`, but if the end of the file is encountered or an error occurs, it returns `NULL` (our `getline` function returns the length of the line, which is more useful, and a length of 0 means that the end of the file has been reached).
+
+The output function `fputs` writes a string (without a newline character) to a file. If successful, it returns a non-negative value; otherwise, it returns `EOF`.
+
+The library functions `gets` and `puts` operate on `stdin` and `stdout`. One thing to note is that the `gets` function removes the trailing newline character ('\n') when reading a string, while the `puts` function adds a newline character at the end when writing a string.
+
+### 7.8 Other Functions
+
+#### 7.8.1 String Handling Functions
+
+Commonly used string handling functions are as follows:
+
+| Function | Meaning |
+| :---: | :---: |
+| strcpy(s, t) | Copy string `t` to string `s`, including '\0'. |
+| strncpy(s, t, n) | Copy the first `n` characters of string `t` to string `s`, excluding '\0'. |
+| strcat(s, t) | Concatenate string `t` to the end of string `s`, including '\0'. |
+| strncat(s, t, n) | Concatenate the first `n` characters of string `t` to the end of string `s`, excluding '\0'. |
+| strcmp(s, t) | If `s < t`, return a negative number; if `s == t`, return 0; if `s > t`, return a positive number. |
+| strncmp(s, t, n) | If `s < t`, return a negative number; if `s == t`, return 0; if `s > t`, return a positive number. |
+| strchr(s, c) | Return a pointer to the first occurrence of character `c` in string `s`. If the character is not found, return `NULL`. |
+| strrchr(s, c) | Return a pointer to the last occurrence of character `c` in string `s`. If the character is not found, return `NULL`. |
+| strstr(s, t) | Return a pointer to the first occurrence of string `t` in string `s`. If the string is not found, return `NULL`. |
+| strlen(s) | Return the length of string `s`, excluding '\0'. |
+
+#### 7.8.2 Character Classification and Conversion Functions
+
+The commonly used character classification and conversion functions are as follows:
+
+| Function | Meaning |
+| :---: | :---: |
+| isalpha(c) | True if `c` is a letter. |
+| isupper(c) | True if `c` is an uppercase letter. |
+| islower(c) | True if `c` is a lowercase letter. |
+| isdigit(c) | True if `c` is a digit. |
+| isalnum(c) | True if `c` is a letter or digit. |
+| isspace(c) | True if `c` is a whitespace character. |
+| toupper(c) | If `c` is a lowercase letter, return its uppercase equivalent; otherwise, return `c`. |
+| tolower(c) | If `c` is an uppercase letter, return its lowercase equivalent; otherwise, return `c`. |
+
+#### 7.8.3 `ungetc` Function
+The `ungetc` function pushes the character `c` back into the input stream. It can only push back one character, and it must be pushed back before the last character read. If no input function has been called before calling `ungetc`, `ungetc` cannot be called.
+
+#### 7.8.4 Command Execution Function
+The `system` function allows one program to execute another program. Its parameter is a string containing the command to be executed. If the command execution is successful, the `system` function returns the exit status of the command; otherwise, it returns a non-zero value.
+
+#### 7.8.5 Storage Management Functions
+
+| Function | Meaning |
+| :---: | :---: |
+| malloc(n) | Allocate a storage area of size `n` bytes. |
+| calloc(n, size) | Allocate `n` storage areas of size `size`, initialized to 0. |
+| free(p) | Release the storage area allocated by `malloc` or `calloc`. |
+| realloc(p, n) | Change the size of the storage area pointed to by `p` to `n` bytes. |
+
+There are no strict rules for the order of releasing storage space. However, if you release a pointer that does not point to the storage space allocated by calling `malloc` or `calloc`, it will be a serious error.
+
+#### 7.8.6 Mathematical Functions
+The header file `<math.h>` defines a large number of mathematical functions, with parameters and return values of type `double`. Commonly used mathematical functions include:
+
+| Function | Meaning |
+| :---: | :---: |
+| sin(x) | Sine of `x`. |
+| cos(x) | Cosine of `x`. |
+| tan(x) | Tangent of `x`. |
+| asin(x) | Arcsine of `x`. |
+| acos(x) | Arccosine of `x`. |
+| atan(x) | Arctangent of `x`. |
+| atan2(y, x) | Arctangent of `y/x`. |
+| sinh(x) | Hyperbolic sine of `x`. |
+| cosh(x) | Hyperbolic cosine of `x`. |
+| tanh(x) | Hyperbolic tangent of `x`. |
+| exp(x) | Exponential function `e^x`. |
+| log(x) | Natural logarithm of `x`. |
+| log10(x) | Common logarithm of `x`. |
+| pow(x, y) | `x^y`. |
+| sqrt(x) | Square root of `x`. |
+| ceil(x) | Smallest integer not less than `x`. |
+| floor(x) | Largest integer not greater than `x`. |
+| fabs(x) | Absolute value of `x`. |
+
+#### 7.8.7 Random Number Generator
+
+The `rand()` function generates a pseudo-random integer sequence between 0 and `RAND_MAX`. `RAND_MAX` is a symbolic constant defined in the `<stdlib.h>` header file.
+
+The `srand(unsigned)` function sets the seed for the `rand` function.
+
+
+### 7.9 Brief Summary
+
+In this chapter, the functions we mentioned are:
+
+| Function | Meaning |
+| :---: | :---: |
+| `printf` | Print formatted output on standard output. |
+| `fprintf` | Print formatted output on a file. |
+| `sprintf` | Print formatted output on a string. |
+| `fopen` | Open a file. |
+| `fclose` | Close a file. |
+| `scanf` | Read formatted input from standard input. |
+| `fscanf` | Read formatted input from a file. |
+| `sscanf` | Read formatted input from a string. |
+| `getc` | Read a character from a file. |
+| `putc` | Write a character to a file. |
+| `getchar` | Read a character from standard input. |
+| `putchar` | Write a character to standard output. |
+| `fgets` | Read a line from a file. |
+| `fputs` | Write a line to a file. |
+| `gets` | Read a line from standard input. |
+| `puts` | Write a line to standard output. |
+| `ungetc` | Push a character back into the input stream. |
