@@ -20,7 +20,7 @@
 - [x] CH5 Pointers and Arrays
 - [x] CH6 Structures
 - [x] CH7 Input and Output
-- [ ] CH8 The UNIX System Interface
+- [x] CH8 The UNIX System Interface
 
 ## CH1 - A Tutorial Introduction
 
@@ -1624,3 +1624,6 @@ In this chapter, the functions we mentioned are:
 | `gets` | Read a line from standard input. |
 | `puts` | Write a line to standard output. |
 | `ungetc` | Push a character back into the input stream. |
+
+## Chapter 8: The UNIX System Interface
+~
