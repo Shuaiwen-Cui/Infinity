@@ -64,3 +64,27 @@
     [:octicons-arrow-right-24: <a href="https://www.st.com/content/st_com/zh/stm32-mpu-developer-zone.html" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+## 正点原子
+
+<div class="grid cards" markdown>
+
+-  :material-web:{ .lg .middle } __正点原子官方网站__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.openedv.com/" target="_blank"> 传送门 </a>](#)
+
+-  :material-web:{ .lg .middle } __正点原子官方论坛 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.openedv.com/forum.php" target="_blank"> 传送门 </a>](#)
+
+-  :material-web:{ .lg .middle } __正点原子官方文档 🎯🏆__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.openedv.com/docs/" target="_blank"> 传送门</a>](#)
+
+</div>

@@ -379,7 +379,7 @@ nav:
           - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
           - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
   - EMBEDDED-SYS: 
-      - "./EMBEDDED-SYS/embedded-sys.md"
+      # - "./EMBEDDED-SYS/embedded-sys.md"
       - THEORY:
           - ELECTRONICS: "./EMBEDDED-SYS/THEORY/ELECTRONICS/electronics.md"
           - CIRCUITS: "./EMBEDDED-SYS/THEORY/CIRCUITS/circuits.md"

@@ -81,3 +81,27 @@ In short, MCU is usually less powerful and cheaper than MPU. MCU is designed for
     [:octicons-arrow-right-24: <a href="https://www.st.com/content/st_com/en/stm32-mpu-developer-zone/developer-resources.html" target="_blank"> Portal </a>](#)
 
 </div>
+
+## 正点原子
+
+<div class="grid cards" markdown>
+
+-  :material-web:{ .lg .middle } __Alientec Official__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.alientek.com/" target="_blank"> Portal </a>](#)
+
+-  :material-web:{ .lg .middle } __Alientec Doc 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://www.openedv.com/docs/" target="_blank"> Portal </a>](#)
+
+-  :fontawesome-brands-bilibili:{ .lg .middle } __Alientek Bilibili 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/394620890/channel/series" target="_blank"> Portal </a>](#)
+
+</div>
