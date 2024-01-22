@@ -2,7 +2,7 @@
 comments: false
 --- -->
 
-# 🔭 潜心修学，务精求进。
+# 🔭 海纳百川，有容乃大
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
 ![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Shuaiwen-Cui/Infinity?style=social)
