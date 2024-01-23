@@ -17,7 +17,7 @@
 <div class="grid cards" markdown>
 
 
--   :material-book:{ .lg .middle } __Structural Health Monitoring Using Smart Sensors__
+-   :material-book:{ .lg .middle } __🎯 Structural Health Monitoring Using Smart Sensors__
 
     ---
 

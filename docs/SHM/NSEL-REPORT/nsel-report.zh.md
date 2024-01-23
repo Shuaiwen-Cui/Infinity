@@ -15,7 +15,7 @@
 ## 报告列表
 
 <div class="grid cards" markdown>
--   :material-book:{ .lg .middle } __利用智能传感器进行结构健康监测__
+-   :material-book:{ .lg .middle } __🎯 利用智能传感器进行结构健康监测__
 
     ---
 
