@@ -1,7 +1,7 @@
 # Newmark Structural Engineering Laboratory - Reports
 
 <div class="grid cards" markdown>
--   :material-book:{ .lg .middle } __NSEL Report Series🎯__
+-   :material-book:{ .lg .middle } __🎯 NSEL Report Series__
 
     ---
 
