@@ -159,7 +159,7 @@
 
     [:octicons-arrow-right-24: <a href="https://www.ideals.illinois.edu/items/13607" target="_blank"> 传送门 </a>](#)
 
--   :material-book:{ .lg .middle } __🎯 使用无线智能传感器网络监测结构的分散策略__
+-   :material-book:{ .lg .middle } __🎯✅ 使用无线智能传感器网络监测结构的去中心化策略__
 
     ---
 

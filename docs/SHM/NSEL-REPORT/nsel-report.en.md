@@ -161,7 +161,7 @@
 
     [:octicons-arrow-right-24: <a href="https://www.ideals.illinois.edu/items/13607" target="_blank"> Portal </a>](#)
 
--   :material-book:{ .lg .middle } __🎯 Decentralized Strategies for Monitoring Structures using Wireless Smart Sensor Networks__
+-   :material-book:{ .lg .middle } __🎯✅ Decentralized Strategies for Monitoring Structures using Wireless Smart Sensor Networks__
 
     ---
 
