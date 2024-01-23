@@ -2,6 +2,10 @@
 
 ![BOARD](embedded-sys.png){ : style="height:400px;width:800px" }
 
+## 快速入门
+
+<iframe width="800" height="450" src="https://www.bilibili.com/video/BV1BV41197rY/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 理论
 
 ### 电子电路
@@ -17,8 +21,6 @@
 
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/library/view/electronics-for-beginners/9781484259795/" target="_blank"> 传送门 </a>](#)
 </div>
-
-
 
 
 ## 仿真
