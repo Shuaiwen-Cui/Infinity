@@ -106,6 +106,12 @@ If you use Windows, you can use the following command to upload the website to t
 ./upload.sh
 ```
 
+if it does not work, you can use win-upload.bat
+
+```bash
+./win-upload.bat
+```
+
 - For server side operations
 
 First, if this is the first time for deployment, you need to clone the repo to the server, use the following command
