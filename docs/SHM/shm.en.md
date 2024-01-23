@@ -4,6 +4,8 @@ comments: false
 
 # Structural Health Monitoring
 
+![SHM](shm.png)
+
 <div class="grid cards" markdown>
 -   :material-book:{ .lg .middle } __NSEL Report Series🎯__
 

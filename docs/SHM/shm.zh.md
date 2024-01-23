@@ -4,6 +4,8 @@ comments: false
 
 # 结构健康监测
 
+![SHM](shm.png)
+
 <div class="grid cards" markdown>
 -   :material-book:{ .lg .middle } __NSEL 报告系列__
 

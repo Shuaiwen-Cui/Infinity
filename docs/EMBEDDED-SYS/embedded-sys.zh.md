@@ -4,7 +4,13 @@
 
 ## 快速入门
 
-<iframe width="800" height="450" src="https://www.bilibili.com/video/BV1BV41197rY/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="grid cards" markdown>
+-  :material-youtube:{ .lg .middle } __收藏向！零基础10分钟入门嵌入式！ 🎯✅🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1BV41197rY?t=24.1" target="_blank"> 传送门 </a>](#)
+</div>
 
 ## 理论
 
