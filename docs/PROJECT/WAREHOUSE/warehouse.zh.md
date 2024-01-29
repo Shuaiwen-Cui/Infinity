@@ -16,26 +16,26 @@
 
 部署流程如下：
 
-1. 在云服务器中安装git。
+- 在云服务器中安装git。
 ```bash
 sudo apt-get install git
 ```
 
-2. 切换到你想要存储仓库的位置，将仓库克隆到你的云服务器。
+- 切换到你想要存储仓库的位置，将仓库克隆到你的云服务器。
 ```bash
 git clone https://github.com/Shuaiwen-Cui/Warehouse.git
 ```
 
-3. 在云服务器中安装nginx。
+- 在云服务器中安装nginx。
 ```bash
 sudo apt-get install nginx
 ```
 
-4. 在云服务器的管理页面中，开启xxxx端口。
+- 在云服务器的管理页面中，开启xxxx端口。
 
-5. 如果需要，你还需要在你的操作系统防火墙中开启xxxx端口。（先不要开启这一步，先试试不开启这一步）
+- 如果需要，你还需要在你的操作系统防火墙中开启xxxx端口。（先不要开启这一步，先试试不开启这一步）
 
-6. 配置nginx.conf文件，开启xxxx端口。
+- 配置nginx.conf文件，开启xxxx端口。
 ```bash
 sudo vim /etc/nginx/sites-available/default
 ```
@@ -50,7 +50,7 @@ server {
 }
 ```
 
-7. 重启nginx。
+- 重启nginx。
 ```bash
 sudo service nginx restart
 ```
@@ -59,4 +59,4 @@ sudo service nginx restart
 sudo systemctl restart nginx
 ```
 
-1. 现在你可以访问你的网页了，或者在其他项目中使用链接来访问你的资源。注意，如果你的端口号不是80，你需要在链接中指定端口号。比如，我的端口号是7500，那么我的链接就是：http://www.cuishuaiwen.com:7500/。
+现在你可以访问你的网页了，或者在其他项目中使用链接来访问你的资源。注意，如果你的端口号不是80，你需要在链接中指定端口号。比如，我的端口号是7500，那么我的链接就是：http://www.cuishuaiwen.com:7500/。

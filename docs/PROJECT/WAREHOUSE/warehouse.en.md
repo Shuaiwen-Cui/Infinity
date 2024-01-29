@@ -16,29 +16,29 @@ The deployment follows common github pages deployment procedures.
 
 Deployment follows the following steps:
 
-1. Install git in your cloud server.
+- Install git in your cloud server.
 
 ```bash
 sudo apt-get install git
 ```
 
-2. Change directory to the location you want to store the repo, clone the warehouse repository to your cloud server.
+- Change directory to the location you want to store the repo, clone the warehouse repository to your cloud server.
 
 ```bash
 git clone https://github.com/Shuaiwen-Cui/Warehouse.git
 ```
 
-3. Install nginx in your cloud server.
+- Install nginx in your cloud server.
 
 ```bash
 sudo apt-get install nginx
 ```
 
-4. Enable the port xxxx in your cloud server, in the management page provided by your cloud service provider. 
+- Enable the port xxxx in your cloud server, in the management page provided by your cloud service provider. 
    
-5. If necessary, you also need to enable the port in your OS firewall. (try without this step first)
+- If necessary, you also need to enable the port in your OS firewall. (try without this step first)
 
-6. Configure the nginx.conf file to enable the port xxxx.
+- Configure the nginx.conf file to enable the port xxxx.
 
 ```bash
 sudo vim /etc/nginx/sites-available/default
@@ -54,7 +54,7 @@ server {
 }
 ```
 
-7. Restart nginx.
+- Restart nginx.
 
 ```bash
 sudo service nginx restart
@@ -66,6 +66,6 @@ if you registered nginx as a service, you can also use the following command:
 sudo systemctl restart nginx
 ```
 
-1. Now you can visit the website, or use link to visit the file in this repo in other projects, for example, your personal tech blog. Note that, the port number is necessary if it is not 80 (default port). For example, my port number is 7500, then my link is: http://www.cuishuaiwen.com:7500/.
+Now you can visit the website, or use link to visit the file in this repo in other projects, for example, your personal tech blog. Note that, the port number is necessary if it is not 80 (default port). For example, my port number is 7500, then my link is: http://www.cuishuaiwen.com:7500/.
 
 
