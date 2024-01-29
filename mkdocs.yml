@@ -513,7 +513,7 @@ nav:
   - PROJECT: 
       - "./PROJECT/project.md"
       - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
-      - WAREHOUSE: "./WAREHOUSE/warehouse.md"
+      - WAREHOUSE: "./PROJECT/WAREHOUSE/warehouse.md"
     
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
 
