@@ -220,6 +220,9 @@ plugins:
             CLOUD-SYNC: 云同步
             EMBEDDED: 嵌入式
             STM32MP157: 正点原子STM32MP157
+            XNODE 🎯: XNODE 🎯
+            XNODE-DOCS: XNODE文档
+            BASIC-VERSION: 基础版本
             FRONT-END: 前端
             BACK-END: 后端
             RESEARCH: 研究
@@ -496,6 +499,9 @@ nav:
           - CLOUD-SYNC: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
       - EMBEDDED:
           - STM32MP157: "./DEV/EMBEDDED/STM32MP157/stm32mp157.md"
+      - XNODE 🎯:
+          - XNODE-DOCS: "./DEV/XNODE/XNODE-DOCS/xnode-docs.md"
+          - BASIC-VERSION: "./DEV/XNODE/BASIC-VERSION/basic-version.md"
       - FRONT-END: "./DEV/FRONT-END/front-end.md"
       - BACK-END: "./DEV/BACK-END/back-end.md"
       - VISUALIZATION:
