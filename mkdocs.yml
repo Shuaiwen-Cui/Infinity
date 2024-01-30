@@ -368,6 +368,7 @@ nav:
       - DATA-BASE 🎯: "./CS/DATA-BASE/data-base.md"
   - CODING: 
       - "./CODING/coding.md"
+      - CODING-ENV: "./CODING/CODING-ENV/coding-env.md"
       - C/C++ 🎯:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
