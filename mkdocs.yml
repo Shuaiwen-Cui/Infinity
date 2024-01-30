@@ -376,6 +376,7 @@ nav:
           - C++-NOTES: 
               - "./CODING/C-C++/C++-NOTES/c++-notes.md"
               - CH01: "./CODING/C-C++/C++-NOTES/CH01/ch01.md"
+              - CH02: "./CODING/C-C++/C++-NOTES/CH02/ch02.md"
       - PYTHON: 
           - "./CODING/PYTHON/python.md"
           - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"

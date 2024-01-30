@@ -10,10 +10,9 @@
     ---
     作者: Brian W. Kernighan & Dennis M. Ritchie
 
-    [:octicons-arrow-right-24: <a href="https://www.cimat.mx/ciencia_para_jovenes/bachillerato/libros/%5BKernighan-Ritchie%5DThe_C_Programming_Language.pdf" target="_blank"> Download PDF </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:7500/CODING/C-C++/C/The_C_Programming_Language_2_ch.pdf" target="_blank"> 下载 PDF </a>](#)
 
 </div>
 
-<iframe src="https://www.cimat.mx/ciencia_para_jovenes/bachillerato/libros/%5BKernighan-Ritchie%5DThe_C_Programming_Language.pdf" width="100%" height="600px"></iframe>
-
+<iframe src="http://www.cuishuaiwen.com:7500/CODING/C-C++/C/The_C_Programming_Language_2_ch.pdf" width="100%" height="600px"></iframe>
 
