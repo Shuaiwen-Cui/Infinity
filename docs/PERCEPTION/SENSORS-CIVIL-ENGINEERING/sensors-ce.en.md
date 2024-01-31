@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-book:{ .lg .middle } __Sensor Technologies for Civil Infrastructures, Volume 1🎯__
+-   :material-book:{ .lg .middle } __Sensor Technologies for Civil Infrastructures, Volume 1🎯🏆__
 
     ---
 
@@ -11,7 +11,7 @@
 
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/api/v1/continue/9780857094322/" target="_blank"> Portal </a>](#)
 
--   :material-book:{ .lg .middle } __Sensor Technologies for Civil Infrastructures, Volume 2🎯__
+-   :material-book:{ .lg .middle } __Sensor Technologies for Civil Infrastructures, Volume 2🎯🏆__
 
     ---
 

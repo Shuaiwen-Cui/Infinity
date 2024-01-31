@@ -1,7 +1,7 @@
 # 土木工程中的传感器
 
 <div class="grid cards" markdown>
--   :material-book:{ .lg .middle } __土木基础设施传感器技术，第1卷🎯__
+-   :material-book:{ .lg .middle } __土木基础设施传感器技术，第1卷🎯🏆__
     
     ---
     
@@ -10,7 +10,7 @@
     
     [:octicons-arrow-right-24: <a href="https://learning.oreilly.com/api/v1/continue/9780857094322/" target="_blank"> 传送门 </a>](#)
 
--   :material-book:{ .lg .middle } __土木基础设施传感器技术，第2卷🎯__
+-   :material-book:{ .lg .middle } __土木基础设施传感器技术，第2卷🎯🏆__
     
     ---
     
