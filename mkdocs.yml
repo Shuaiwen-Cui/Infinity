@@ -171,6 +171,7 @@ plugins:
             NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
             TIME-FREQ-ANA: 时频分析
             PERCEPTION: 感知
+            SENSORS-CIVIL-ENGINEERING: 土木工程中的传感器
             CONTROL: 控制
             ACTUATION: 执行
             ROS 🎯: 机器人操作系统 🎯
@@ -441,6 +442,7 @@ nav:
               - CH10: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH10/tf-ana-ch10.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
+      - SENSORS-CIVIL-ENGINEERING: "./PERCEPTION/SENSORS-CIVIL-ENGINEERING/sensors-ce.md"
   - CONTROL: 
       - "./CONTROL/control.md"
   - ACTUATION: 
