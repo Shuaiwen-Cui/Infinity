@@ -135,6 +135,8 @@ GPIOC->Speed
 
 ![peripheral_clock_enabling](peripheral_clock_enabling.png)
 
+大部分外设的使用，需要同时用到外设总线时钟（rcc_perx_bus_ck）和外设内核时钟（rcc_perx_ker_ck），一般情况下，这两个时钟都是由 PERxEN 控制使能。
+
 ## 4.4 IO 引脚复用器和映射
 
 
