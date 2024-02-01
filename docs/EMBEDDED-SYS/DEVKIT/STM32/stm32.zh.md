@@ -88,3 +88,11 @@
     [:octicons-arrow-right-24: <a href="http://www.openedv.com/docs/" target="_blank"> 传送门</a>](#)
 
 </div>
+
+## MCU 学习
+
+点击左侧STM32H743IIT查看更多内容。
+
+## MPU 学习
+
+点击左侧STM32MP157查看更多内容。

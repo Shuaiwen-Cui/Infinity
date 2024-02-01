@@ -105,3 +105,11 @@ In short, MCU is usually less powerful and cheaper than MPU. MCU is designed for
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/394620890/channel/series" target="_blank"> Portal </a>](#)
 
 </div>
+
+## MCU Study
+
+Refer to STM32H743IIT tab for more details.
+
+## MPU Study
+
+Refer to STM32MP157 tab for more details.
