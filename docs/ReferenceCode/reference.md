@@ -92,6 +92,7 @@ This file is for reference uses.
 :material-youtube:
 :material-web:
 :fontawesome-solid-blog:
+:material-file:
 
 ## Warehouse
 http://www.cuishuaiwen.com:7500/

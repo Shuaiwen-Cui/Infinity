@@ -1,5 +1,19 @@
 # IDE for Embedded Systems
 
+## Reference Links
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Embedded Systems IDE 🎯✅🏆__
+
+    ---
+
+    This article introduces the general, special, and DIY integrated development environments for embedded development. Experts are experts.
+
+    In Chinese.
+
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/506796495" target="_blank"> Portal </a>](#)
+
 ## Popular IDEs
 
 <div class="grid cards" markdown>

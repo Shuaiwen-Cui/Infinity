@@ -1,5 +1,17 @@
 # 嵌入式系统集成开发环境
 
+## 参考连接
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __单片机常用集成开发环境 🎯✅🏆__
+
+    ---
+
+    介绍了嵌入式开发的通用、专用和DIY集成开发环境。专家就是专家。
+
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/506796495" target="_blank"> 传送门 </a>](#)
+</div>
+
 ## 流行的IDE
 
 <div class="grid cards" markdown>

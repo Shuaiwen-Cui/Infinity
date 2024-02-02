@@ -23,10 +23,10 @@
     - [x] CH04 STM32H7 基础知识入门
     - [x] CH05 SYSTEM 文件夹介绍
 - [ ] PART III 实战篇
-    - [ ] CH06
-    - [ ] CH07
-    - [ ] CH08
-    - [ ] CH09
+    - [x] CH06
+    - [x] CH07
+    - [x] CH08
+    - [x] CH09
     - [ ] CH10
     - [ ] CH11
     - [ ] CH12

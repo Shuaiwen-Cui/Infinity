@@ -167,3 +167,33 @@
     [:octicons-arrow-right-24: <a href="http://www.openedv.com/docs/" target="_blank"> 文档 </a>](#)
 
 </div>
+
+## 值得关注的人
+
+<div class="grid cards" markdown>
+
+-  :fontawesome-brands-youtube:{ .lg .middle } __StrongerHuang__
+
+    ---
+
+    嵌入式博主
+
+    [:octicons-arrow-right-24: <a href="[https:xxxxx.xxxxxxx.xxxx@xxxxxxxxxxx](https://www.zhihu.com/people/strongerHuang.com/columns)" target="_blank"> 传送门 </a>](#)
+
+-  :fontawesome-brands-youtube:{ .lg .middle } __正点原子__
+
+    ---
+
+    嵌入式硬件制造商
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/394620890/channel/series" target="_blank"> 传送门 </a>](#)
+
+-  :fontawesome-brands-youtube:{ .lg .middle } __韦东山__
+
+    ---
+
+    嵌入式博主
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/275908810/channel/seriesdetail?sid=3810713" target="_blank"> 传送门 </a>](#)
+
+</div>
