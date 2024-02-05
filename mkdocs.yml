@@ -144,6 +144,8 @@ plugins:
             CIRCUITS: 电路
             FREERTOS: 实时操作系统
             LINUX: LINUX
+            BASICS: 基础
+            EMBED-BASICS: 嵌入式基础
             SIMULATION: 仿真
             DEVKIT 🎯: 开发板 🎯
             ARDUINO: ARDUINO
@@ -397,6 +399,8 @@ nav:
           - CIRCUITS: "./EMBEDDED-SYS/THEORY/CIRCUITS/circuits.md"
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
+      - BASICS: 
+          - EMBED-BASICS: "./EMBEDDED-SYS/BASICS/embed-basics.md"
       - SIMULATION: 
           # - "./EMBEDDED-SYS/SIMULATION/simulation.md"
           - RENODE: "./EMBEDDED-SYS/SIMULATION/RENODE/renode.md"
