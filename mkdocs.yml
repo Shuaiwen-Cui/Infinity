@@ -132,6 +132,7 @@ plugins:
             C-NOTES: C笔记
             C++: C++
             C++-NOTES: C++笔记
+            MAKE-SERIES: MAKE系列
             PYTHON: Python
             ROADMAP: 路线图
             HTML/CSS/JS: HTML/CSS/JS
@@ -385,6 +386,7 @@ nav:
               - "./CODING/C-C++/C++-NOTES/c++-notes.md"
               - CH01: "./CODING/C-C++/C++-NOTES/CH01/ch01.md"
               - CH02: "./CODING/C-C++/C++-NOTES/CH02/ch02.md"
+          - MAKE-SERIES: "./CODING/C-C++/MAKE-SERIES/make-series.md"
       - PYTHON: 
           - "./CODING/PYTHON/python.md"
           - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
