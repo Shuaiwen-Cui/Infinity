@@ -55,3 +55,22 @@
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/277276709" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+- [x] CH01 ARM, RSIC, 32bit
+- [x] CH02 STM32 官方网站探索
+- [x] CH03 芯片的制造原理
+- [x] CH04 如何读数据手册
+- [ ] CH05
+- [ ] CH06
+- [ ] CH07
+- [ ] CH08
+- [ ] CH09
+- [ ] CH10
+- [ ] CH11
+- [ ] CH12
+- [ ] CH13
+- [ ] CH14
+- [ ] CH15
+- [ ] CH16
+- [ ] CH17
+- [ ] CH18

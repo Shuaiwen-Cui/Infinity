@@ -56,3 +56,22 @@
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/277276709" target="_blank"> Portal </a>](#)
 
 </div>
+
+- [x] CH01 ARM, RSIC, 32bit
+- [x] CH02 STM32 Official Website
+- [x] CH03 Chip Manufacturing Introduction
+- [x] CH04 How to Read Datasheets
+- [ ] CH05
+- [ ] CH06
+- [ ] CH07
+- [ ] CH08
+- [ ] CH09
+- [ ] CH10
+- [ ] CH11
+- [ ] CH12
+- [ ] CH13
+- [ ] CH14
+- [ ] CH15
+- [ ] CH16
+- [ ] CH17
+- [ ] CH18
