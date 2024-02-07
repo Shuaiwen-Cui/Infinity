@@ -28,6 +28,15 @@
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1th411z7sn/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 </div>
+- [x] P1 [1-1] Course Introduction
+- [ ] P2 [1-2] STM32Introduction
+- [ ] P3 [2-1] Software Installation
+- [ ] P4 [2-2] New Project
+- [ ] P5 [3-1] GPIO Output
+- [ ] P6 [3-2] LED Blinking & LED Running Light & Buzzer
+- [ ] P7 [3-3] GPIO Input
+- [ ] P8 [3-4] Button Control LED & Photosensitive Resistor Sensor Control Buzzer
+
 
 ## Young Talk 🎯
 
@@ -62,7 +71,7 @@
 - [x] CH03 Chip Manufacturing Introduction
 - [x] CH04 How to Read Datasheets
 - [x] CH05 IO Ports
-- [ ] CH06 Circuit Basics
+- [x] CH06 Circuit Basics
 - [ ] CH07
 - [ ] CH08
 - [ ] CH09
@@ -71,7 +80,7 @@
 - [ ] CH12
 - [ ] CH13
 - [ ] CH14
-- [ ] CH15
-- [ ] CH16
-- [ ] CH17
-- [ ] CH18
+- [x] CH15 How does software control hardware? software = address + status -> hardware
+- [x] CH16 Microcontroller Address and Status
+- [x] CH17 Engineering File Call Relationship
+- [ ] CH18 I2C Bus Protocol Analysis 
