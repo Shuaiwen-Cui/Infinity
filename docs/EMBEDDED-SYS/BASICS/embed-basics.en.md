@@ -61,8 +61,8 @@
 - [x] CH02 STM32 Official Website
 - [x] CH03 Chip Manufacturing Introduction
 - [x] CH04 How to Read Datasheets
-- [ ] CH05
-- [ ] CH06
+- [x] CH05 IO Ports
+- [ ] CH06 Circuit Basics
 - [ ] CH07
 - [ ] CH08
 - [ ] CH09
