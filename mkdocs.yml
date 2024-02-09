@@ -386,6 +386,7 @@ nav:
               - "./CODING/C-C++/C++-NOTES/c++-notes.md"
               - CH01: "./CODING/C-C++/C++-NOTES/CH01/ch01.md"
               - CH02: "./CODING/C-C++/C++-NOTES/CH02/ch02.md"
+              - CH03: "./CODING/C-C++/C++-NOTES/CH03/ch03.md"
           - MAKE-SERIES: "./CODING/C-C++/MAKE-SERIES/make-series.md"
       - PYTHON: 
           - "./CODING/PYTHON/python.md"

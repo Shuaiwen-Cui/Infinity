@@ -32,10 +32,11 @@
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1th411z7sn/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 </div>
+
 - [x] P1 [1-1] Course Introduction
-- [ ] P2 [1-2] STM32Introduction
-- [ ] P3 [2-1] Software Installation
-- [ ] P4 [2-2] New Project
+- [x] P2 [1-2] STM32Introduction
+- [x] P3 [2-1] Software Installation
+- [x] P4 [2-2] New Project 🎯
 - [ ] P5 [3-1] GPIO Output
 - [ ] P6 [3-2] LED Blinking & LED Running Light & Buzzer
 - [ ] P7 [3-3] GPIO Input
