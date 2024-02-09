@@ -15,6 +15,10 @@
 
 </div>
 
+- [x] P1 [1-1] Course Introduction
+- [x] P2 [1-2] Development Tools and Software Installation
+- [ ] P3 [1-3] MCU and Dev Board Introduction
+
 ### STM32 
 
 <div class="grid cards" markdown>
