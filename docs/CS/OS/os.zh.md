@@ -2,9 +2,17 @@
 
 ## 理论
 
-## 资源
+## Linux
 
 <div class="grid cards" markdown>
+
+-  :material-book:{ .lg .middle } __Linux101 🎯🏆__
+
+    ---
+
+    来自中国科大 (中文)
+
+    [:octicons-arrow-right-24: <a href="https://101.lug.ustc.edu.cn/" target="_blank"> 传送门 </a>](#)
 
 -   :material-book:{ .lg .middle } __Linux就该这么学 🎯✅🏆__
 
@@ -19,5 +27,7 @@
     ---
 
     [:octicons-arrow-right-24: <a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php" target="_blank"> 传送门 </a>](#)
+
+
 
 </div>

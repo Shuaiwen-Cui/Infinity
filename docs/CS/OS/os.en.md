@@ -2,8 +2,16 @@
 
 ## Theory
 
-## Resources
+## Linux
 <div class="grid cards" markdown>
+
+-  :material-book:{ .lg .middle } __Linux101 🎯🏆__
+
+    ---
+
+    From USTC China (In Chinese)
+
+    [:octicons-arrow-right-24: <a href="https://101.lug.ustc.edu.cn/" target="_blank"> Portal </a>](#)
 
 -   :material-book:{ .lg .middle } __Linux就该这么学 🎯✅🏆__
 
@@ -18,5 +26,7 @@
     ---
 
     [:octicons-arrow-right-24: <a href="http://cn.linux.vbird.org/linux_basic/linux_basic.php" target="_blank"> Portal </a>](#)
+
+
 
 </div>

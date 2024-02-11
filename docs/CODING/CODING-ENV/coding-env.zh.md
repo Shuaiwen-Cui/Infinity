@@ -1,5 +1,31 @@
 # 编程环境设置
 
+## 命令行/终端
+
+### Vim
+
+<div class="grid cards" markdown>
+
+-  :fontawesome-brands-github:{ .lg .middle }  __Vim 官方指南__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.vim.org/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+### Emacs
+
+<div class="grid cards" markdown>
+
+-  :fontawesome-brands-github:{ .lg .middle } __Emacs 官方指南__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.gnu.org/software/emacs/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 ## 集成开发环境/文本编辑器
 
 ### Visual Studio Code

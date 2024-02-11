@@ -21,3 +21,27 @@ Reference Articles:
     [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/111110992" target="_blank"> Portal </a>](#)
 
 </div>
+
+## GNU Make
+
+<div class="grid cards" markdown>
+
+-   :material-book:{ .lg .middle } __GNU Make Official Guide__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.gnu.org/software/make/" target="_blank"> Portal </a>](#)
+
+</div>
+
+## CMake
+
+<div class="grid cards" markdown>
+
+-   :material-book:{ .lg .middle } __CMake Official Guide__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://cmake.org/" target="_blank"> Portal </a>](#)
+
+</div>

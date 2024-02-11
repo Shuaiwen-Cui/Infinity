@@ -22,4 +22,27 @@
 
 </div>
 
+## GNU Make
+
+<div class="grid cards" markdown>
+
+-   :material-book:{ .lg .middle } __GNU Make 官方指南__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.gnu.org/software/make/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+## CMake
+
+<div class="grid cards" markdown>
+
+-   :material-book:{ .lg .middle } __CMake 官方指南__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://cmake.org/" target="_blank"> 传送门 </a>](#)
+
+</div>
 

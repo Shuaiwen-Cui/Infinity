@@ -16,7 +16,10 @@
 
 - [x] P1 [1-1] 课程简介
 - [x] P2 [1-2] 开发工具和软件安装
-- [ ] P3 [1-3] MCU和开发板介绍
+- [x] P3 [1-3] MCU和开发板介绍
+- [ ] P4 [2-1] 点亮一个LED
+- [ ] P5 [2-2] LED闪烁
+- [ ] P6 [2-3] LED流水灯
 
 ### STM32
 
@@ -35,8 +38,8 @@
 - [x] P2 [1-2] STM32简介
 - [x] P3 [2-1] 软件安装
 - [x] P4 [2-2] 新建工程 🎯
-- [ ] P5 [3-1] GPIO输出
-- [ ] P6 [3-2] LED闪烁&LED流水灯&蜂鸣器
+- [x] P5 [3-1] GPIO输出
+- [x] P6 [3-2] LED闪烁&LED流水灯&蜂鸣器
 - [ ] P7 [3-3] GPIO输入
 - [ ] P8 [3-4] 按键控制LED&光敏电阻传感器控制蜂鸣器
 - [ ] P9 [4-1] OLED调试工具
@@ -47,7 +50,19 @@
 
 
 
+## Keysking
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keysking
+
+    ---
+
+    一个关于嵌入式系统和编程的 Bilibili 频道。
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/6100925" target="_blank"> 传送门 </a>](#)
+
+</div>
 
 
 

@@ -15,7 +15,7 @@
 
 - [x] CH01 Getting Started with C++
 - [x] CH02 Setting Out to C++
-- [ ] CH03 Dealing with Data
+- [x] CH03 Dealing with Data
 - [ ] CH04 Compound Types
 - [ ] CH05 Loops and Relational Expressions
 - [ ] CH06 Branching Statements and Logical Operators

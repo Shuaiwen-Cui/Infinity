@@ -120,13 +120,24 @@ plugins:
             ABOUT: 关于
             SPONSORSHIP: 赞助
             MATH: 数学
+            ANALYSIS: 分析
+            ALGEBRA: 代数
+            PROBABILITY-STATISTICS: 概率与统计
+            COMPLEX-VARIABLE-FUNCTIONS: 复变函数
+            DIFFERENTIAL-EQUATION: 微分方程
+            OPTIMIZATION 🎯: 最优化 🎯
+            DISCRETE-MATH: 离散数学
+            INFORMATION-THEORY 🎯: 信息论 🎯
+            NUMERICAL-ANALYSIS: 数值分析
             GEOMETRY-GRAPHICS: 几何与图形学
             COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
-            OPTIMIZATION 🎯: 最优化 🎯
             CS: 计算机科学
+            THE-MISSING-SEMESTER 🎯: 计算机必学工具 🎯
             OS: 操作系统
             DATA-BASE 🎯: 数据库 🎯
             CODING: 编程
+            CODING-ENV: 编程环境
+            COMMAND-LINE: 命令行
             C/C++ 🎯: C/C++ 🎯
             C: C
             C-NOTES: C笔记
@@ -366,17 +377,28 @@ nav:
       - ABOUT: "./HOME/about.md"
       - SPONSORSHIP: "./HOME/sponsorship.md"
   - MATH:
-      - "./MATH/math.md"
-      - GEOMETRY-GRAPHICS: 
-          - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
+      - MATH: "./MATH/math.md"
+      - ANALYSIS: "./MATH/ANALYSIS/analysis.md"
+      - ALGEBRA: "./MATH/ALGEBRA/algebra.md"
+      - PROBABILITY-STATISTICS: "./MATH/PROBABILITY-STATISTICS/probability-statistics.md"
+      - COMPLEX-VARIABLE-FUNCTIONS: "./MATH/COMPLEX-VARIABLE-FUNCTIONS/complex-variable-functions.md"
+      - DIFFERENTIAL-EQUATION: "./MATH/DIFFERENTIAL-EQUATION/differential-equation.md"
       - OPTIMIZATION 🎯: "./MATH/OPTIMIZATION/optimization.md"
+      - DISCRETE-MATH: "./MATH/DISCRETE-MATH/discrete-math.md"
+      - INFORMATION-THEORY 🎯: "./MATH/INFORMATION-THEORY/information-theory.md"
+      - NUMERICAL-ANALYSIS: "./MATH/NUMERICAL-ANALYSIS/numerical-analysis.md"
+      - GEOMETRY-GRAPHICS: 
+          - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
+          - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
   - CS: 
-      - "./CS/CS.md"
+      - CS: "./CS/CS.md"
+      - THE-MISSING-SEMESTER 🎯: "./CS/THE-MISSING-SEMESTER/the-missing-semester.md"
       - OS: "./CS/OS/os.md"
       - DATA-BASE 🎯: "./CS/DATA-BASE/data-base.md"
   - CODING: 
       - "./CODING/coding.md"
       - CODING-ENV: "./CODING/CODING-ENV/coding-env.md"
+      - COMMAND-LINE: "./CODING/COMMAND-LINE/command-line.md"
       - C/C++ 🎯:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
@@ -526,6 +548,9 @@ nav:
               - "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
               - RUSTDESK: "./DEV/DEVENV/REMOTE-CONTROL/RUSTDESK/rustdesk.md"
           - CLOUD-SYNC: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
+          - GIT: "./DEV/DEVENV/GIT/git.md"
+          - GITHUB: "./DEV/DEVENV/GITHUB/github.md"
+          - DOCKER: "./DEV/DEVENV/DOCKER/docker.md"
       - EMBEDDED:
           - STM32MP157: "./DEV/EMBEDDED/STM32MP157/stm32mp157.md"
       - XNODE 🎯:

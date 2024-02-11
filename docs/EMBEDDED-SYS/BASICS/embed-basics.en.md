@@ -17,7 +17,10 @@
 
 - [x] P1 [1-1] Course Introduction
 - [x] P2 [1-2] Development Tools and Software Installation
-- [ ] P3 [1-3] MCU and Dev Board Introduction
+- [x] P3 [1-3] MCU and Dev Board Introduction
+- [ ] P4 [2-1] Enlighten a LED
+- [ ] p5 [2-2] LED Blinking
+- [ ] P6 [2-3] LED Running Light
 
 ### STM32 
 
@@ -37,10 +40,24 @@
 - [x] P2 [1-2] STM32Introduction
 - [x] P3 [2-1] Software Installation
 - [x] P4 [2-2] New Project 🎯
-- [ ] P5 [3-1] GPIO Output
-- [ ] P6 [3-2] LED Blinking & LED Running Light & Buzzer
+- [x] P5 [3-1] GPIO Output
+- [x] P6 [3-2] LED Blinking & LED Running Light & Buzzer
 - [ ] P7 [3-3] GPIO Input
 - [ ] P8 [3-4] Button Control LED & Photosensitive Resistor Sensor Control Buzzer
+
+## Keysking
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keysking__
+
+    ---
+
+    A Bilibili channel about embedded systems and programming.
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/6100925" target="_blank"> Portal </a>](#)
+
+</div>
 
 
 ## Young Talk 🎯

@@ -93,6 +93,8 @@ This file is for reference uses.
 :material-web:
 :fontawesome-solid-blog:
 :material-file:
+:simple-github:
+:fontawesome-brands-github:
 
 ## Warehouse
 http://www.cuishuaiwen.com:7500/
