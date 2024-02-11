@@ -351,6 +351,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/CS/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CS/COMPUTER-SYS/computer-sys/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/COMPUTER-SYS/computer-sys/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/COMPUTER-SYS/computer-sys/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CS/CSAPP/csapp/</loc>
         <lastmod>2024-02-11</lastmod>
         <changefreq>daily</changefreq>
@@ -365,11 +372,46 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/DATA-BASE/data-base/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CS/DATA-STRUCTURE-ALGO/data-structure-algo/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/DATA-STRUCTURE-ALGO/data-structure-algo/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/DATA-STRUCTURE-ALGO/data-structure-algo/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CS/DISTRIBUTED-SYS/distributed-sys/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/DISTRIBUTED-SYS/distributed-sys/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/DISTRIBUTED-SYS/distributed-sys/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CS/NETWORK/network/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/NETWORK/network/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/NETWORK/network/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CS/OS/os/</loc>
         <lastmod>2024-02-11</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/OS/os/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/OS/os/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CS/PARALLEL-COMPUTING/parallel-computing/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/PARALLEL-COMPUTING/parallel-computing/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/PARALLEL-COMPUTING/parallel-computing/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CS/SOFTWARE-ENG/software-eng/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/SOFTWARE-ENG/software-eng/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/SOFTWARE-ENG/software-eng/"/>
     </url>
     <url>
         <loc>https://localhost:8000/CS/THE-MISSING-SEMESTER/the-missing-semester/</loc>
@@ -930,6 +972,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/EMBEDDED-SYS/THEORY/LINUX/linux/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/EMBEDDED-SYS/THEORY/LINUX/linux/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system/"/>
     </url>
     <url>
         <loc>https://localhost:8000/EMBEDDED-SYS/USEFUL-LIB/useful-lib/</loc>
@@ -1513,6 +1562,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/CS/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/zh/CS/COMPUTER-SYS/computer-sys/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/COMPUTER-SYS/computer-sys/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/COMPUTER-SYS/computer-sys/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/zh/CS/CSAPP/csapp/</loc>
         <lastmod>2024-02-11</lastmod>
         <changefreq>daily</changefreq>
@@ -1527,11 +1583,46 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/DATA-BASE/data-base/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/zh/CS/DATA-STRUCTURE-ALGO/data-structure-algo/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/DATA-STRUCTURE-ALGO/data-structure-algo/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/DATA-STRUCTURE-ALGO/data-structure-algo/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CS/DISTRIBUTED-SYS/distributed-sys/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/DISTRIBUTED-SYS/distributed-sys/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/DISTRIBUTED-SYS/distributed-sys/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CS/NETWORK/network/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/NETWORK/network/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/NETWORK/network/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/zh/CS/OS/os/</loc>
         <lastmod>2024-02-11</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/OS/os/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/OS/os/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CS/PARALLEL-COMPUTING/parallel-computing/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/PARALLEL-COMPUTING/parallel-computing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/PARALLEL-COMPUTING/parallel-computing/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CS/SOFTWARE-ENG/software-eng/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CS/SOFTWARE-ENG/software-eng/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CS/SOFTWARE-ENG/software-eng/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/CS/THE-MISSING-SEMESTER/the-missing-semester/</loc>
@@ -2098,6 +2189,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/EMBEDDED-SYS/THEORY/LINUX/linux/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/EMBEDDED-SYS/THEORY/LINUX/linux/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system/</loc>
+        <lastmod>2024-02-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/EMBEDDED-SYS/USEFUL-LIB/useful-lib/</loc>
