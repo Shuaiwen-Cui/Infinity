@@ -14,6 +14,21 @@
 
     [:octicons-arrow-right-24: <a href="https://101.lug.ustc.edu.cn/" target="_blank"> 传送门 </a>](#)
 
+</div>
+
+- [x] CH01 初识Linux
+- [x] CH02 个性化配置与建站体验¶
+- [x] CH03 软件安装与文件操作
+- [ ] CH04
+- [ ] CH05
+- [ ] CH06
+- [ ] CH07
+- [ ] CH08
+- [ ] CH09
+
+### Linux 101
+
+<div class="grid cards" markdown>
 -   :material-book:{ .lg .middle } __Linux就该这么学 🎯✅🏆__
 
     ---
@@ -22,6 +37,11 @@
 
     [:octicons-arrow-right-24: <a href="https://www.linuxprobe.com/basic-learning-00.html" target="_blank"> 传送门 </a>](#)
 
+</div>
+
+### 鸟哥的LINUX私房菜
+
+<div class="grid cards" markdown>
 -  :material-book:{ .lg .middle } __鸟哥的LINUX私房菜 🏆__
 
     ---
