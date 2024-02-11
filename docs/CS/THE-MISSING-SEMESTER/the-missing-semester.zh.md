@@ -17,3 +17,15 @@
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/518734451?spm_id_from=333.337.search-card.all.click" target="_blank"> Bilibili 中文翻译 </a>](#)
 
 </div>
+
+- [x] 课程概述 + shell
+- [ ] Shell工具和脚本
+- [ ] 编辑器 (Vim)
+- [ ] 数据整理
+- [ ] 命令行环境
+- [ ] 版本控制 (Git)
+- [ ] 调试和性能分析
+- [ ] 元编程
+- [ ] 安全和加密
+- [ ] 杂项
+- [ ] 问答

@@ -138,6 +138,7 @@ plugins:
             CODING: 编程
             CODING-ENV: 编程环境
             COMMAND-LINE: 命令行
+            SHELL: 终端解释器SHELL
             C/C++ 🎯: C/C++ 🎯
             C: C
             C-NOTES: C笔记
@@ -399,6 +400,7 @@ nav:
       - "./CODING/coding.md"
       - CODING-ENV: "./CODING/CODING-ENV/coding-env.md"
       - COMMAND-LINE: "./CODING/COMMAND-LINE/command-line.md"
+      - SHELL: "./CODING/SHELL/shell.md"
       - C/C++ 🎯:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
