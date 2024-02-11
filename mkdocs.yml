@@ -133,8 +133,14 @@ plugins:
             COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
             CS: 计算机科学
             THE-MISSING-SEMESTER 🎯: 计算机必学工具 🎯
+            COMPUTER-SYSTEM: 计算机系统
             OS: 操作系统
             DATA-BASE 🎯: 数据库 🎯
+            NETWORK: 计算机网络
+            DATA-STRUCTURE-ALGO: 数据结构与算法
+            SOFTWARE-ENGINEERING: 软件工程
+            PARALLEL-COMPUTING: 并行计算
+            DISTRIBUTED-SYSTEM: 分布式系统
             CODING: 编程
             CODING-ENV: 编程环境
             COMMAND-LINE: 命令行
@@ -394,8 +400,14 @@ nav:
   - CS: 
       - CS: "./CS/CS.md"
       - THE-MISSING-SEMESTER 🎯: "./CS/THE-MISSING-SEMESTER/the-missing-semester.md"
+      - COMPUTER-SYSTEM: "./CS/COMPUTER-SYS/computer-sys.md"
       - OS: "./CS/OS/os.md"
       - DATA-BASE 🎯: "./CS/DATA-BASE/data-base.md"
+      - NETWORK: "./CS/NETWORK/network.md"
+      - DATA-STRUCTURE-ALGO: "./CS/DATA-STRUCTURE-ALGO/data-structure-algo.md"
+      - SOFTWARE-ENGINEERING: "./CS/SOFTWARE-ENG/software-eng.md"
+      - PARALLEL-COMPUTING: "./CS/PARALLEL-COMPUTING/parallel-computing.md"
+      - DISTRIBUTED-SYSTEM: "./CS/DISTRIBUTED-SYS/distributed-sys.md"
   - CODING: 
       - "./CODING/coding.md"
       - CODING-ENV: "./CODING/CODING-ENV/coding-env.md"
