@@ -130,7 +130,7 @@ plugins:
             INFORMATION-THEORY 🎯: 信息论 🎯
             NUMERICAL-ANALYSIS: 数值分析
             GEOMETRY-GRAPHICS: 几何与图形学
-            COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
+            # COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
             CS: 计算机科学
             THE-MISSING-SEMESTER 🎯: 计算机必学工具 🎯
             COMPUTER-SYSTEM: 计算机系统
@@ -138,6 +138,7 @@ plugins:
             DATA-BASE 🎯: 数据库 🎯
             NETWORK: 计算机网络
             DATA-STRUCTURE-ALGO: 数据结构与算法
+            COMPILER-THEORY: 编译原理
             SOFTWARE-ENGINEERING: 软件工程
             PARALLEL-COMPUTING: 并行计算
             DISTRIBUTED-SYSTEM: 分布式系统
@@ -157,6 +158,7 @@ plugins:
             HTML: 超文本标记语言
             CSS: 级联样式表
             JAVASCRIPT: JAVASCRIPT
+            WEB-DEV: WEB开发
             EMBEDDED-SYS: 嵌入式系统
             THEORY: 理论
             ELECTRONICS: 电子学
@@ -229,10 +231,12 @@ plugins:
             CNN: 卷积神经网络
             RNN: 循环神经网络
             TRANSFORMER: “变形金刚”
+            GNN: 图神经网络
             GAN: 生成对抗网络
             RL 🎯: 强化学习 🎯
             FL 🎯: 联邦学习 🎯
             MULTI-AGENT 🎯: 多智能体 🎯
+            NLP: 自然语言处理
             CV 🎯: 计算机视觉 🎯
             NOTE-D2L 🎯: 动手学深度学习 🎯
             CH1-INTRO: CH1-引言
@@ -394,9 +398,9 @@ nav:
       - DISCRETE-MATH: "./MATH/DISCRETE-MATH/discrete-math.md"
       - INFORMATION-THEORY 🎯: "./MATH/INFORMATION-THEORY/information-theory.md"
       - NUMERICAL-ANALYSIS: "./MATH/NUMERICAL-ANALYSIS/numerical-analysis.md"
-      - GEOMETRY-GRAPHICS: 
-          - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
-          - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
+      - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
+          # - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
+          # - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
   - CS: 
       - CS: "./CS/CS.md"
       - THE-MISSING-SEMESTER 🎯: "./CS/THE-MISSING-SEMESTER/the-missing-semester.md"
@@ -405,6 +409,7 @@ nav:
       - DATA-BASE 🎯: "./CS/DATA-BASE/data-base.md"
       - NETWORK: "./CS/NETWORK/network.md"
       - DATA-STRUCTURE-ALGO: "./CS/DATA-STRUCTURE-ALGO/data-structure-algo.md"
+      - COMPILER-THEORY: "./CS/COMPILER-THEORY/compiler-theory.md"
       - SOFTWARE-ENGINEERING: "./CS/SOFTWARE-ENG/software-eng.md"
       - PARALLEL-COMPUTING: "./CS/PARALLEL-COMPUTING/parallel-computing.md"
       - DISTRIBUTED-SYSTEM: "./CS/DISTRIBUTED-SYS/distributed-sys.md"
@@ -431,6 +436,7 @@ nav:
           - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
           - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
           - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
+          - WEB-DEV: "./CODING/HTML-CSS-JS/WEB-DEV/web-dev.md"
   - EMBEDDED-SYS: 
       - "./EMBEDDED-SYS/embedded-sys.md"
       - THEORY:
@@ -541,17 +547,19 @@ nav:
       - CNN: "./AI/CNN/cnn.md"
       - RNN: "./AI/RNN/rnn.md"
       - TRANSFORMER: "./AI/TRANSFORMER/transformer.md"
+      - GNN: "./AI/GNN/gnn.md"
       - GAN: "./AI/GAN/gan.md"
       - RL 🎯: "./AI/RL/rl.md"
       - FL 🎯: "./AI/FL/fl.md"
       - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
+      - NLP: "./AI/NLP/nlp.md"
       - CV 🎯: "./AI/CV/cv.md"
       - NOTE-D2L 🎯: 
           - CH1-INTRO: "./AI/NOTE-D2L/CH1-INTRO/ch1-intro.md"
           - CH2-PRE: "./AI/NOTE-D2L/CH2-PRE/ch2-pre.md"
           - CH3-LNN 🎯: "./AI/NOTE-D2L/CH3-LNN/ch3-lnn.md"
   - SHM: 
-      - "./SHM/shm.md"
+      - "./SHM/shm.md" 
       - NSEL-REPORT: "./SHM/NSEL-REPORT/nsel-report.md"
   - DEV: 
       # - "./DEV/dev.md"

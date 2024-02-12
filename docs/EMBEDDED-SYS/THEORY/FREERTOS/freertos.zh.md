@@ -12,7 +12,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="
+    [:octicons-arrow-right-24: <a href="https://github.com/FreeRTOS" target="_blank"> 传送门 </a>](#)
 
 -   :fontawesome-brands-square-github:{ .lg .middle } __FreeRTOS Official Documentation__
 

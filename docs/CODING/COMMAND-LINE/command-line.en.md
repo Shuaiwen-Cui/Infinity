@@ -14,6 +14,19 @@
 
 </div>
 
+- [x] Preface
+- [x] Basics
+- [ ] Everyday use
+- [ ] File and data processing
+- [ ] System debugging
+- [ ] Single line script
+- [ ] Obscure but useful
+- [ ] OS X only
+- [ ] Windows only
+- [ ] More resources
+- [ ] Disclaimer
+
+
 ## Shell Scripting
 
 <div class="grid cards" markdown>
