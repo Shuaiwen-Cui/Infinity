@@ -97,13 +97,28 @@ To see why this matters so much, let’s consider two methods for adding vectors
 In this section, we introduced traditional linear regression, where the parameters of a linear function are chosen to minimize squared loss on the training set. We also motivated this choice of objective both via some practical considerations and through an interpretation of linear regression as maximimum likelihood estimation under an assumption of linearity and Gaussian noise. After discussing both computational considerations and connections to statistics, we showed how such linear models could be expressed as simple neural networks where the inputs are directly wired to the output(s). While we will soon move past linear models altogether, they are sufficient to introduce most of the components that all of our models require: parametric forms, differentiable objectives, optimization via minibatch stochastic gradient descent, and ultimately, evaluation on previously unseen data.
 
 ## 3.2. Object-Oriented Design for Implementation
-### 3.2.1. Utilities
-### 3.2.2. Models
-### 3.2.3. Data
-### 3.2.4. Training
-### 3.2.5. Summary
+In our introduction to linear regression, we walked through various components including the **data**, the **model**, the **loss function**, and the **optimization algorithm**. Indeed, linear regression is one of the simplest machine learning models. Training it, however, uses many of the same components that other models in this book require. Therefore, before diving into the implementation details it is worth designing some of the APIs that we use throughout. Treating components in deep learning as objects, we can start by defining classes for these objects and their interactions. This object-oriented design for implementation will greatly streamline the presentation and you might even want to use it in your projects.
 
-## 3.3. Synthetic Regression Data
+Inspired by open-source libraries such as PyTorch Lightning, at a high level we wish to have three classes: (i) **Module** contains models, losses, and optimization methods; (ii) **DataModule** provides data loaders for training and validation; (iii) both classes are combined using the **Trainer** class, which allows us to train models on a variety of hardware platforms. Most code in this book adapts Module and DataModule. We will touch upon the Trainer class only when we discuss GPUs, CPUs, parallel training, and optimization algorithms.
+
+### 3.2.1. Utilities
+We need a few utilities to simplify object-oriented programming in Jupyter notebooks. One of the challenges is that class definitions tend to be fairly long blocks of code. Notebook readability demands short code fragments, interspersed with explanations, a requirement incompatible with the style of programming common for Python libraries. The first utility function allows us to register functions as methods in a class after the class has been created. In fact, we can do so even after we have created instances of the class! It allows us to split the implementation of a class into multiple code blocks.
+
+### 3.2.2. Models
+The Module class is the base class of all models we will implement. At the very least we need three methods. The first, __init__, stores the learnable parameters, the training_step method accepts a data batch to return the loss value, and finally, configure_optimizers returns the optimization method, or a list of them, that is used to update the learnable parameters. Optionally we can define validation_step to report the evaluation measures. Sometimes we put the code for computing the output into a separate forward method to make it more reusable.
+### 3.2.3. Data
+The DataModule class is the base class for data. Quite frequently the __init__ method is used to prepare the data. This includes downloading and preprocessing if needed. The train_dataloader returns the data loader for the training dataset. A data loader is a (Python) generator that yields a data batch each time it is used. This batch is then fed into the training_step method of Module to compute the loss. There is an optional val_dataloader to return the validation dataset loader. It behaves in the same manner, except that it yields data batches for the validation_step method in Module.
+
+### 3.2.4. Training
+The Trainer class trains the learnable parameters in the Module class with data specified in DataModule. The key method is fit, which accepts two arguments: model, an instance of Module, and data, an instance of DataModule. It then iterates over the entire dataset max_epochs times to train the model. As before, we will defer the implementation of this method to later chapters.
+
+### 3.2.5. Summary
+To highlight the object-oriented design for our future deep learning implementation, the above classes simply show how their objects store data and interact with each other. We will keep enriching implementations of these classes, such as via @add_to_class, in the rest of the book. Moreover, these fully implemented classes are saved in the D2L library, a lightweight toolkit that makes structured modeling for deep learning easy. In particular, it facilitates reusing many components between projects without changing much at all. For instance, we can replace just the optimizer, just the model, just the dataset, etc.; this degree of modularity pays dividends throughout the book in terms of conciseness and simplicity (this is why we added it) and it can do the same for your own projects.
+
+
+The rest part, please refer to the Chinese version.
+
+<!-- ## 3.3. Synthetic Regression Data
 ### 3.3.1. Generating the Dataset
 ### 3.3.2. Reading the Dataset
 ### 3.3.3. Concise Implementation of the Data Loader
@@ -134,4 +149,4 @@ In this section, we introduced traditional linear regression, where the paramete
 ### 3.7.2. High-Dimensional Linear Regression
 ### 3.7.3. Implementation from Scratch
 ### 3.7.4. Concise Implementation
-### 3.7.5. Summary
+### 3.7.5. Summary -->
