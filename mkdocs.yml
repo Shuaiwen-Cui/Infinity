@@ -234,6 +234,8 @@ plugins:
             GNN: 图神经网络
             GAN: 生成对抗网络
             RL 🎯: 强化学习 🎯
+            LHY-RL: 李宏毅强化学习
+            EASY-RL: 蘑菇书强化学习
             FL 🎯: 联邦学习 🎯
             MULTI-AGENT 🎯: 多智能体 🎯
             NLP: 自然语言处理
@@ -242,6 +244,8 @@ plugins:
             CH1-INTRO: CH1-引言
             CH2-PRE: CH2-预备知识
             CH3-LNN 🎯: CH3-线性神经网络 🎯
+            CH4-MLP: CH4-多层感知机
+            CH5-DL-COMPUTING: CH5-深度学习计算
             SHM: 结构健康监测
             NSEL-REPORT: NSEL报告
             DEV: 开发
@@ -549,7 +553,10 @@ nav:
       - TRANSFORMER: "./AI/TRANSFORMER/transformer.md"
       - GNN: "./AI/GNN/gnn.md"
       - GAN: "./AI/GAN/gan.md"
-      - RL 🎯: "./AI/RL/rl.md"
+      - RL 🎯: 
+          - "./AI/RL/rl.md"
+          - LHY-RL: "./AI/RL/LHY-RL/lhy-rl.md"
+          - EASY-RL: "./AI/RL/EASY-RL/easy-rl.md"
       - FL 🎯: "./AI/FL/fl.md"
       - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
       - NLP: "./AI/NLP/nlp.md"
@@ -559,6 +566,7 @@ nav:
           - CH2-PRE: "./AI/NOTE-D2L/CH2-PRE/ch2-pre.md"
           - CH3-LNN 🎯: "./AI/NOTE-D2L/CH3-LNN/ch3-lnn.md"
           - CH4-MLP: "./AI/NOTE-D2L/CH4-MLP/ch4-mlp.md"
+          - CH5-DL-COMPUTING: "./AI/NOTE-D2L/CH5-DL-COMPUTING/ch5-dl-computing.md"
   - SHM: 
       - "./SHM/shm.md" 
       - NSEL-REPORT: "./SHM/NSEL-REPORT/nsel-report.md"

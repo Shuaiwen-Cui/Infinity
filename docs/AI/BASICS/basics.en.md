@@ -45,7 +45,7 @@ Evolution of AI: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs
 
     --- 
 
-    **Status:** [✅ Finished 1,2,18] [🚧 Ongoing 17]
+    **Status:** [✅ Finished 1,2,3,4,5,6,18] [🚧 Ongoing 17]
 
     **Comments:** A very good book for deep learning beginners. It is free and open source. It is also available in Chinese. The book is still under development, but it is already very good. Highly recommended.
 
