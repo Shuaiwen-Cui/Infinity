@@ -558,6 +558,7 @@ nav:
           - CH1-INTRO: "./AI/NOTE-D2L/CH1-INTRO/ch1-intro.md"
           - CH2-PRE: "./AI/NOTE-D2L/CH2-PRE/ch2-pre.md"
           - CH3-LNN 🎯: "./AI/NOTE-D2L/CH3-LNN/ch3-lnn.md"
+          - CH4-MLP: "./AI/NOTE-D2L/CH4-MLP/ch4-mlp.md"
   - SHM: 
       - "./SHM/shm.md" 
       - NSEL-REPORT: "./SHM/NSEL-REPORT/nsel-report.md"
