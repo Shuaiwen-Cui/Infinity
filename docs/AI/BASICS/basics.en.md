@@ -52,3 +52,20 @@ Evolution of AI: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs
     [:octicons-arrow-right-24: <a href="https://d2l.ai/" target="_blank"> Portal </a>](#) 
 
 </div>
+
+## Topics In This Section
+
+- AI Basics - This Page
+- AI Frameworks
+- Linear Neural Network (LNN)
+- Multi-Layer Perceptron (MLP)
+- Convolutional Neural Network (CNN)
+- Recurrent Neural Network (RNN)
+- Transformer
+- Graph Neural Network (GNN)
+- Generative Adversarial Network (GAN)
+- Reinforcement Learning (RL)
+- Federated Learning (FL)
+- Multi-Agent Learning (MAL)
+- Natural Language Processing (NLP)
+- Computer Vision (CV)

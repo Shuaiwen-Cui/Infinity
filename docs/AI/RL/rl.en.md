@@ -1,4 +1,4 @@
-# Reinforcement Learning
+# REINFORCEMENT LEARNING
 
 ## Theory
 

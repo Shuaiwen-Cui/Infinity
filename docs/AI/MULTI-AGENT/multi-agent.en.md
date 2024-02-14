@@ -1,4 +1,4 @@
-# Multi-Agent AI
+# MULTI-AGENT AI
 
 ## Review Paper
 

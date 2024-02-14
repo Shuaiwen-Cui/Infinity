@@ -1,1 +1,1 @@
-# Recursive Neural Networks (RNN)
+# RECURSIVE NEURAL NETWORK (RNN)
