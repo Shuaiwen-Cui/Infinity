@@ -78,7 +78,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __Reinforcement Learning🎯🏆__ 
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Reinforcement Learning__ 
 
     ---
 

@@ -6,7 +6,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __李宏毅-强化学习__ 
+-   :fontawesome-brands-bilibili:{ .lg .middle } __李宏毅-强化学习🎯🏆__ 
 
     ---
 
@@ -30,7 +30,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __UCL 强化学习课程__ 
+-   :material-web:{ .lg .middle } __UCL 强化学习课程🎯🏆__ 
 
     ---
 
@@ -69,7 +69,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __强化学习🎯🏆__ 
+-   :fontawesome-brands-bilibili:{ .lg .middle } __强化学习__ 
 
     ---
 

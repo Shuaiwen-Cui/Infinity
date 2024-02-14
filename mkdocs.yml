@@ -236,6 +236,9 @@ plugins:
             RL 🎯: 强化学习 🎯
             LHY-RL: 李宏毅强化学习
             EASY-RL: 蘑菇书强化学习
+            CH01 RL Basics: CH01 强化学习基础
+            CH02 Markov Decision Process (MDP): CH02 马尔可夫决策过程
+            CH03 Tabular Methods: CH03 表格方法
             FL 🎯: 联邦学习 🎯
             MULTI-AGENT 🎯: 多智能体 🎯
             NLP: 自然语言处理
@@ -556,7 +559,11 @@ nav:
       - RL 🎯: 
           - "./AI/RL/rl.md"
           - LHY-RL: "./AI/RL/LHY-RL/lhy-rl.md"
-          - EASY-RL: "./AI/RL/EASY-RL/easy-rl.md"
+          - EASY-RL: 
+              - "./AI/RL/EASY-RL/easy-rl.md"
+              - CH01 RL Basics: "./AI/RL/EASY-RL/CH01/ch01.md"
+              - CH02 Markov Decision Process (MDP): "./AI/RL/EASY-RL/CH02/ch02.md"
+              - CH03 Tabular Methods: "./AI/RL/EASY-RL/CH03/ch03.md"
       - FL 🎯: "./AI/FL/fl.md"
       - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
       - NLP: "./AI/NLP/nlp.md"
