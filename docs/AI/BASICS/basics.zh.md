@@ -58,16 +58,16 @@ AI 进化史: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml
 
 ## 本节主题
 
-- AI 基础 - 本页
-- AI 框架
-- 线性神经网络 (LNN)
-- 多层感知机 (MLP)
-- 卷积神经网络 (CNN)
-- 循环神经网络 (RNN)
-- Transformer
-- 图神经网络 (GNN)
-- 对抗生成网络 (GAN)
-- 强化学习 (RL)
-- 联邦学习 (FL)
-- 自然语言处理 (NLP)
-- 计算机视觉 (CV)
+- [AI 基础 - 本页](http://www.cuishuaiwen.com:8000/zh/AI/BASICS/basics/)
+- [AI 框架](http://www.cuishuaiwen.com:8000/zh/AI/FRAMEWORKS/frameworks/)
+- [线性神经网络 (LNN)](http://www.cuishuaiwen.com:8000/zh/AI/LNN/lnn/)
+- [多层感知机 (MLP)](http://www.cuishuaiwen.com:8000/zh/AI/MLP/mlp/)
+- [卷积神经网络 (CNN)](http://www.cuishuaiwen.com:8000/zh/AI/CNN/cnn/)
+- [循环神经网络 (RNN)](http://www.cuishuaiwen.com:8000/zh/AI/RNN/rnn/)
+- [“变形金刚(Transformer)"](http://www.cuishuaiwen.com:8000/zh/AI/TRANSFORMER/transformer/)
+- [图神经网络 (GNN)](http://www.cuishuaiwen.com:8000/zh/AI/GNN/gnn/)
+- [对抗生成网络 (GAN)](http://www.cuishuaiwen.com:8000/zh/AI/GAN/gan/)
+- [强化学习 (RL)](http://www.cuishuaiwen.com:8000/zh/AI/RL/rl/)
+- [联邦学习 (FL)](http://www.cuishuaiwen.com:8000/zh/AI/FL/fl/)
+- [自然语言处理 (NLP)](http://www.cuishuaiwen.com:8000/zh/AI/NLP/nlp/)
+- [计算机视觉 (CV)](http://www.cuishuaiwen.com:8000/zh/AI/CV/cv/)

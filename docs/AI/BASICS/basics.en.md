@@ -55,17 +55,17 @@ Evolution of AI: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs
 
 ## Topics In This Section
 
-- AI Basics - This Page
-- AI Frameworks
-- Linear Neural Network (LNN)
-- Multi-Layer Perceptron (MLP)
-- Convolutional Neural Network (CNN)
-- Recurrent Neural Network (RNN)
-- Transformer
-- Graph Neural Network (GNN)
-- Generative Adversarial Network (GAN)
-- Reinforcement Learning (RL)
-- Federated Learning (FL)
-- Multi-Agent Learning (MAL)
-- Natural Language Processing (NLP)
-- Computer Vision (CV)
+- [AI Basics - This Page](http://www.cuishuaiwen.com:8000/AI/BASICS/basics/)
+- [AI Frameworks](http://www.cuishuaiwen.com:8000/AI/FRAMEWORKS/frameworks/)
+- [Linear Neural Network (LNN)](http://www.cuishuaiwen.com:8000/AI/LNN/lnn/)
+- [Multi-Layer Perceptron (MLP)](http://www.cuishuaiwen.com:8000/AI/MLP/mlp/)
+- [Convolutional Neural Network (CNN)](http://www.cuishuaiwen.com:8000/AI/CNN/cnn/)
+- [Recurrent Neural Network (RNN)](http://www.cuishuaiwen.com:8000/AI/RNN/rnn/)
+- [Transformer](http://www.cuishuaiwen.com:8000/AI/TRANSFORMER/transformer/)
+- [Graph Neural Network (GNN)](http://www.cuishuaiwen.com:8000/AI/GNN/gnn/)
+- [Generative Adversarial Network (GAN)](http://www.cuishuaiwen.com:8000/AI/GAN/gan/)
+- [Reinforcement Learning (RL)](http://www.cuishuaiwen.com:8000/AI/RL/rl/)
+- [Federated Learning (FL)](http://www.cuishuaiwen.com:8000/AI/FL/fl/)
+- [Multi-Agent Learning (MAL)](http://www.cuishuaiwen.com:8000/AI/MULTI-AGENT/multi-agent/)
+- [Natural Language Processing (NLP)](http://www.cuishuaiwen.com:8000/AI/NLP/nlp/)
+- [Computer Vision (CV)](http://www.cuishuaiwen.com:8000/AI/CV/cv/)
