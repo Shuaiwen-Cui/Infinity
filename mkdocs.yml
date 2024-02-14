@@ -198,6 +198,8 @@ plugins:
             DSP: 数字信号处理
             NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
             TIME-FREQ-ANA: 时频分析
+            EMD: 经验模态分解
+            EMD-BASICS: 经验模态分解基础
             PERCEPTION: 感知
             SENSORS-CIVIL-ENGINEERING: 土木工程中的传感器
             CONTROL: 控制
@@ -514,6 +516,17 @@ nav:
               - CH08: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH08/tf-ana-ch08.md"
               - CH09: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH09/tf-ana-ch09.md"
               - CH10: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH10/tf-ana-ch10.md"
+              - CH11: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH11/tf-ana-ch11.md"
+              - CH12: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH12/tf-ana-ch12.md"
+              - CH13: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH13/tf-ana-ch13.md"
+              - CH14: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH14/tf-ana-ch14.md"
+              - CH15: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH15/tf-ana-ch15.md"
+              - CH16: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH16/tf-ana-ch16.md"
+              - CH17: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH17/tf-ana-ch17.md"
+              - CH18: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH18/tf-ana-ch18.md" 
+          - EMD: 
+              - EMD-BASICS: "./DSP/NOTE-DSP-STUFF/EMD/BASICS/basics.md"
+              - IMF: "./DSP/NOTE-DSP-STUFF/EMD/IMF/imf.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
       - SENSORS-CIVIL-ENGINEERING: "./PERCEPTION/SENSORS-CIVIL-ENGINEERING/sensors-ce.md"
