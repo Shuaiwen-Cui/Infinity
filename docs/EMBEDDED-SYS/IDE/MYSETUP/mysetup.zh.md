@@ -214,7 +214,7 @@ VSCode中用于嵌入式开发的重要插件：
 
 [Initializer *] + [Editor] + [Compiler] + [Debugger] + [Flasher]
 
-### VSCode + KEIL MDK 6 (VSCode 插件 - 官方)🎯🏆
+### VSCode + KEIL MDK 6 (VSCode 插件 - 官方)🎯✅🏆
 
 初始化工具：手动 / STM32CubeMX / PlatformIO / 其他
 编辑器：VSCode
@@ -224,7 +224,7 @@ VSCode中用于嵌入式开发的重要插件：
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __Keil MDK 6 🎯🏆__
+-   :material-web:{ .lg .middle } __Keil MDK 6 🎯✅🏆__
     
     ---
 
@@ -238,7 +238,7 @@ VSCode中用于嵌入式开发的重要插件：
     
     [:octicons-arrow-right-24: <a href="https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project" target="_blank"> Portal </a>](#)
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - 教程__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - 教程✅__
     
     ---
     

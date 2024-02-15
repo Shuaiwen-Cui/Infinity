@@ -211,7 +211,7 @@ The toolchain is a combination of different tools. It is used to develop embedde
 
 [Initializer *] + [Editor] + [Compiler] + [Debugger] + [Flasher]
 
-### VSCode + KEIL MDK 6 (VSCode Extension - Official Support)🎯🏆
+### VSCode + KEIL MDK 6 (VSCode Extension - Official Support)🎯✅🏆
 
 Initializer: STM32CubeMX
 Editor: VSCode
@@ -221,7 +221,7 @@ Flasher: VSCode + KEIL MDK
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __Keil MDK 6 🎯🏆__
+-   :material-web:{ .lg .middle } __Keil MDK 6 🎯✅🏆__
     
     ---
 
@@ -236,7 +236,7 @@ Flasher: VSCode + KEIL MDK
     
     [:octicons-arrow-right-24: <a href="https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project" target="_blank"> Portal </a>](#)
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial✅__
     
     ---
     
