@@ -43,7 +43,7 @@ This file is for reference uses.
 
     [:octicons-arrow-right-24: <a href="https://www.youtube.com/@3blue1brown" target="_blank"> Portal </a>](#)  
 
--   :material-book:{ .lg .middle } __Python For Beginners 🎯✅🏆__
+-   :material-book:{ .lg .middle } __Python For Beginners  ✅🏆__
 
     ---
 

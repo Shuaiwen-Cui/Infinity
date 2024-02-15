@@ -12,6 +12,15 @@
 
     [:octicons-arrow-right-24: <a href="https://code.visualstudio.com/" target="_blank"> 传送门 </a>](#)
 
+-   :material-web:{ .lg .middle } __嵌入式IDE (EIDE)__
+
+    ---
+
+    用于嵌入式系统开发的VSCode扩展。
+
+    [:octicons-arrow-right-24: <a href="https://em-ide.com/" target="_blank"> 传送门 </a>](#)
+
+
 -  :simple-vim:{ .lg .middle } __Vim__
 
     ---

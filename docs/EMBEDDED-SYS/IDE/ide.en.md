@@ -12,6 +12,14 @@
 
     [:octicons-arrow-right-24: <a href="https://code.visualstudio.com/" target="_blank"> Portal </a>](#)
 
+-   :material-web:{ .lg .middle } __Embedded IDE (EIDE)__
+    
+    ---
+
+    A VSCode extension for embedded system development.
+
+    [:octicons-arrow-right-24: <a href="https://em-ide.com/" target="_blank"> Portal </a>](#)
+
 -  :simple-vim:{ .lg .middle } __Vim__
 
     ---

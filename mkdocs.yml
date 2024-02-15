@@ -180,7 +180,8 @@ plugins:
             RASPBERRYPI: 树莓派
             JETSON: 英伟达JETSON
             IDE 🎯: 集成开发环境 🎯
-            KEIL: KEIL
+            MYSETUP 🎯: 我的工具链 🎯
+            KEIL 🎯: KEIL 🎯
             OFFICIAL-GUIDE-MDK4: MDK4官方指南
             OFFICIAL-GUIDE-MDK5: MDK5官方指南
             PREFACE: 前言
@@ -259,6 +260,7 @@ plugins:
             LATEX: LATEX
             REMOTE-CONTROL: 远程控制
             CLOUD-SYNC: 云同步
+            EMBEDDED-SYS-DEV: 嵌入式系统开发
             EMBEDDED: 嵌入式
             XNODE 🎯: XNODE 🎯
             XNODE-DOCS: XNODE文档
@@ -483,7 +485,8 @@ nav:
           - JETSON: "./EMBEDDED-SYS/DEVKIT/JETSON/jetson.md"
       - IDE 🎯: 
           - "./EMBEDDED-SYS/IDE/ide.md"
-          - KEIL: 
+          - MYSETUP 🎯: "./EMBEDDED-SYS/IDE/MYSETUP/mysetup.md"
+          - KEIL 🎯: 
               - "./EMBEDDED-SYS/IDE/KEIL/keil.md"
               - OFFICIAL-GUIDE-MDK4: 
                   - "EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK4/guide-mdk4.md"
@@ -604,6 +607,7 @@ nav:
           - GIT: "./DEV/DEVENV/GIT/git.md"
           - GITHUB: "./DEV/DEVENV/GITHUB/github.md"
           - DOCKER: "./DEV/DEVENV/DOCKER/docker.md"
+          - EMBEDDED-SYS-DEV: "./DEV/DEVENV/EMBEDDED-SYS-DEV/embedded-sys-dev.md"
       - EMBEDDED:
           - STM32MP157: "./DEV/EMBEDDED/STM32MP157/stm32mp157.md"
       - XNODE 🎯:
