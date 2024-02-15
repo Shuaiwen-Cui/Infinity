@@ -146,6 +146,52 @@ VSCode中用于嵌入式开发的重要插件：
 
 </div>
 
+#### KEIL 6 (VSCode 插件)
+
+(1) 官方网站
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __Keil MDK 6__
+    
+    ---
+
+    Keil MDK 6 是一款为广泛的 Arm Cortex-M 微控制器设备提供的完整软件开发环境。MDK 包括 µVision IDE/Debugger、Arm C/C++ 编译器和必要的中间件组件。它易于学习和使用，但足够强大，可以满足最苛刻的嵌入式应用需求。
+
+    [:octicons-arrow-right-24: <a href="https://www.keil.arm.com/community/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+(2) 文档
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - Documentation__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+(3) 教程
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - Tutorial__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> 传送门 </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 ### 编译器
 
 嵌入式系统开发有开源和商业编译器。在日常使用中，编译器通常集成到 IDE 中。例如，Keil MDK 使用 ARMCC，IAR 使用 IAR Embedded Workbench，STM32CubeIDE 使用 GCC。PlatformIO 也使用 GCC。

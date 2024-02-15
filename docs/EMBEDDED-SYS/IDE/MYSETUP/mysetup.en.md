@@ -144,6 +144,53 @@ Some great extension for embedded systems development in VSCode:
 
 </div>
 
+#### KEIL 6 (VSCode Extension - Official Support)
+
+(1) Official Website
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __Keil MDK 6__
+    
+    ---
+
+    Keil MDK 6 is a complete software development environment for a wide range of Arm Cortex-M based microcontroller devices. MDK includes the µVision IDE/Debugger, Arm C/C++ Compiler, and essential middleware components. It's easy to learn and use, yet powerful enough for the most demanding embedded applications.
+
+    [:octicons-arrow-right-24: <a href="https://www.keil.arm.com/community/" target="_blank"> Portal </a>](#)
+
+</div>
+
+(2) Documentation
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - Documentation__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> Portal </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+
+</div>
+
+(3) Tutorial
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - Tutorial__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+</div>
+
 ### Compiler
 
 There are open source and commercial compilers for embedded systems development. When it comes to daily use, the compliers are usually integrated into the IDEs. For example, Keil MDK uses ARMCC, IAR uses IAR Embedded Workbench, and STM32CubeIDE uses GCC. PlatformIO uses GCC too.

@@ -498,6 +498,7 @@ nav:
                   - CREATE-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/CREATE-APP/create-app.md"
                   - DEBUG-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/DEBUG-APP/debug-app.md"
                   - MDK-MIDDLEWARE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/MDK-MIDDLEWARE/mdk-middleware.md"
+              - MDK6: "./EMBEDDED-SYS/IDE/KEIL/MDK6/mdk6.md"
           - STM32CUBE: "./EMBEDDED-SYS/IDE/STM32CUBE/stm32cube.md"
           - PLATFORMIO: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
       - DEV-FRAMEWORK:
