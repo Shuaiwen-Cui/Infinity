@@ -26,7 +26,7 @@ STM32CubeMX is such a GUI tool for project initialization. However, note that is
 
     ---
 
-    STM32CubeMX is a graphical tool that allows a very easy configuration of STM32 microcontrollers and microprocessors, as well as the generation of the corresponding initialization C code for the Arm® Cortex®-M core or a partial Linux® Device Tree for Arm® Cortex®-A core), through a step-by-step process.
+    STM32CubeMX is a graphical tool that allows a very easy configuration of STM32 microcontrollers and microprocessors, as well as the generation of the corresponding initialization C code for the Arm® Cortex®-M core or a partial Linux® Device Tree for Arm® Cortex®-A core, through a step-by-step process.
 
     [:octicons-arrow-right-24: <a href="https://www.st.com/en/development-tools/stm32cubemx.html" target="_blank"> Portal </a>](#)
 
@@ -122,7 +122,7 @@ Some great extension for embedded systems development in VSCode:
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __Embedded IDE (EIDE)__
+-   :material-web:{ .lg .middle } __Embedded IDE (EIDE)🎯🏆__
     
     ---
 
@@ -132,7 +132,7 @@ Some great extension for embedded systems development in VSCode:
 
     [:octicons-arrow-right-24: <a href="https://em-ide.com/" target="_blank"> Portal </a>](#)
 
--   :material-web:{ .lg .middle } __STM32CubeMX + VSCode + Embedded IDE__
+-   :material-web:{ .lg .middle } __STM32CubeMX + VSCode + Embedded IDE🎯🏆__
     
     ---
 
@@ -140,9 +140,11 @@ Some great extension for embedded systems development in VSCode:
     VSCode: Code editor
     VSCode - Embedded IDE: Extension of VSCode to realize embedded development functions, such as compilation, download, debugging, etc.
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1re4y1H7nw?p=1&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nr4y1R7Jb/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 </div>
+
+Note that in this setup, the complier are imported from outside. In tutorial, the author used AC5 (ARMCC) and AC6 (ARMCLANG) as the complier. If you already installed Keil, you can use the complier from Keil.
 
 #### KEIL 6 (VSCode Extension - Official Support)
 
@@ -168,14 +170,7 @@ Some great extension for embedded systems development in VSCode:
     
     ---
     
-    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> Portal </a>](#)
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial__
-    
-    ---
-    
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
-
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project" target="_blank"> Portal </a>](#)
 
 </div>
 
@@ -183,12 +178,17 @@ Some great extension for embedded systems development in VSCode:
 
 <div class="grid cards" markdown>
 
--   :material-file:{ .lg .middle } __Keil MDK 6 - Tutorial__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial__
     
     ---
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
+-   :material-file:{ .lg .middle } __Keil MDK 6 - Tutorial__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> Portal </a>](#)
 </div>
 
 ### Compiler
@@ -211,7 +211,65 @@ The toolchain is a combination of different tools. It is used to develop embedde
 
 [Initializer *] + [Editor] + [Compiler] + [Debugger] + [Flasher]
 
-### STM32CubeMX + VSCode/Keil Assistant + KEIL MDK
+### VSCode + KEIL MDK 6 (VSCode Extension - Official Support)🎯🏆
+
+Initializer: STM32CubeMX
+Editor: VSCode
+Compiler: VSCode + KEIL MDK
+Debugger: VSCode + KEIL MDK
+Flasher: VSCode + KEIL MDK
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __Keil MDK 6 🎯🏆__
+    
+    ---
+
+    Keil MDK 6 is a complete software development environment for a wide range of Arm Cortex-M based microcontroller devices. MDK includes the µVision IDE/Debugger, Arm C/C++ Compiler, and essential middleware components. It's easy to learn and use, yet powerful enough for the most demanding embedded applications.
+
+    [:octicons-arrow-right-24: <a href="https://www.keil.arm.com/community/" target="_blank"> Portal </a>](#)
+
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - Documentation__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project" target="_blank"> Portal </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - Tutorial__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> Portal </a>](#)
+
+</div>
+
+### VSCode + EIDE🎯✅🏆
+
+Initializer: Manually / STM32CubeMX / PlatformIO / Others
+Editor: VSCode + Embedded IDE (EIDE)
+Compiler: Configurable: GCC / ARMCC / IAR / Others
+Debugger: Configurable: OpenOCD / J-Link / ST-Link / Others
+Flasher: Configurable
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __VSCode + EIDE🎯✅🏆__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nr4y1R7Jb/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+</div>
+
+### STM32CubeMX + VSCode/Keil Assistant + KEIL MDK🎯✅🏆
 
 Initializer: STM32CubeMX
 Editor: VSCode + Keil Assistant
@@ -229,23 +287,8 @@ Flasher: KEIL MDK
 
 </div>
 
-### VSCode + EIDE
-
-Initializer: Manually / STM32CubeMX / PlatformIO / Others
-Editor: VSCode + Embedded IDE (EIDE)
-Compiler: Configurable: GCC / ARMCC / IAR / Others
-Debugger: Configurable: OpenOCD / J-Link / ST-Link / Others
-Flasher: Configurable
-
-<div class="grid cards" markdown>
-
--   :material-web:{ .lg .middle } __VSCode + EIDE__
-    
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nr4y1R7Jb/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
-
-</div>
+!!! tip
+    Note that, in this solution, the Keil Assistant relies on Keil to function. Some functions can not be down in VSCode.
 
 ### HAL-makefile + Arm-GCC + VSCode + OpenOCD + ST-Link
 
@@ -264,3 +307,7 @@ Flasher: ST-Link
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Hi4y1r7b3/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 </div>
+
+### Linux + Makefile + GCC + OpenOCD + DAP-Link
+
+All Open Source.

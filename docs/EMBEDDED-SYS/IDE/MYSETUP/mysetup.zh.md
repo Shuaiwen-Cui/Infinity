@@ -124,7 +124,7 @@ VSCode中用于嵌入式开发的重要插件：
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __Embedded IDE (EIDE)__
+-   :material-web:{ .lg .middle } __Embedded IDE (EIDE)🎯🏆__
     
     ---
 
@@ -134,7 +134,7 @@ VSCode中用于嵌入式开发的重要插件：
 
     [:octicons-arrow-right-24: <a href="https://em-ide.com" target="_blank"> 传送门 </a>](#)
 
--   :material-web:{ .lg .middle } __STM32CubeMX + VSCode + Embedded IDE__
+-   :material-web:{ .lg .middle } __STM32CubeMX + VSCode + Embedded IDE🎯🏆__
 
     ---
 
@@ -142,9 +142,11 @@ VSCode中用于嵌入式开发的重要插件：
     VSCode: 代码编辑器
     VSCode - Embedded IDE: 扩展VSCode实现嵌入式开发功能，如编译，下载，调试等。
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1re4y1H7nw?p=1&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nr4y1R7Jb/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+注意，在此设置中，编译器是从外部导入的。在教程中，作者使用了AC5 (ARMCC)和AC6 (ARMCLANG)作为编译器。如果您已经安装了Keil，您可以使用Keil中的编译器。
 
 #### KEIL 6 (VSCode 插件)
 
@@ -182,13 +184,13 @@ VSCode中用于嵌入式开发的重要插件：
     
     ---
 
-    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 -   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - Tutorial__
     
     ---
     
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> 传送门 </a>](#)
 
 </div>
 
@@ -212,7 +214,63 @@ VSCode中用于嵌入式开发的重要插件：
 
 [Initializer *] + [Editor] + [Compiler] + [Debugger] + [Flasher]
 
-### STM32CubeMX + VSCode/Keil Assistant + KEIL MDK
+### VSCode + KEIL MDK 6 (VSCode 插件 - 官方)🎯🏆
+
+初始化工具：手动 / STM32CubeMX / PlatformIO / 其他
+编辑器：VSCode
+编译器：VSCode + KEIL MDK
+调试器：VSCode + KEIL MDK
+下载器：VSCode + KEIL MDK
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __Keil MDK 6 🎯🏆__
+    
+    ---
+
+    Keil MDK 6 is a complete software development environment for a wide range of Arm Cortex-M based microcontroller devices. MDK includes the µVision IDE/Debugger, Arm C/C++ Compiler, and essential middleware components. It's easy to learn and use, yet powerful enough for the most demanding embedded applications.
+
+    [:octicons-arrow-right-24: <a href="https://www.keil.arm.com/community/" target="_blank"> 传送门 </a>](#)
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - 官方文档__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://developer.arm.com/documentation/108029/0000/Get-started-with-an-example-project" target="_blank"> Portal </a>](#)
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keil MDK 6 - 教程__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Zp421R7Gr/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+
+-   :material-file:{ .lg .middle } __Keil MDK 6 - 教程配套文档__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://sdutvincirobot.feishu.cn/docx/SJ9FdnLXwoR3cTx93eOc4lZfnzh" target="_blank"> Portal </a>](#)
+</div>
+
+### VSCode + EIDE🎯✅🏆
+
+初始化工具：手动 / STM32CubeMX / PlatformIO / 其他
+编辑器：VSCode + Embedded IDE (EIDE)
+编译器：可配置：GCC / ARMCC / IAR / 其他
+调试器：可配置：OpenOCD / J-Link / ST-Link / 其他
+下载器：可配置
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __VSCode + EIDE🎯✅🏆__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nr4y1R7Jb/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+### STM32CubeMX + VSCode/Keil Assistant + KEIL MDK🎯✅🏆
 
 初始化工具：STM32CubeMX
 编辑器：VSCode + Keil Assistant
@@ -230,23 +288,8 @@ VSCode中用于嵌入式开发的重要插件：
 
 </div>
 
-### VSCode + EIDE
-
-初始化工具：手动 / STM32CubeMX / PlatformIO / 其他
-编辑器：VSCode + Embedded IDE (EIDE)
-编译器：可配置：GCC / ARMCC / IAR / 其他
-调试器：可配置：OpenOCD / J-Link / ST-Link / 其他
-下载器：可配置
-
-<div class="grid cards" markdown>
-
--   :material-web:{ .lg .middle } __VSCode + EIDE__
-    
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1nr4y1R7Jb/?spm_id_from=333.788.recommend_more_video.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
-</div>
+!!! tip
+    注意，在这个方案中，Keil Assistant 依赖Keil来发挥作用，有些功能在VSCode中是无法实现的。
 
 ### HAL-makefile + Arm-GCC + VSCode + OpenOCD + ST-Link
 
@@ -265,3 +308,7 @@ VSCode中用于嵌入式开发的重要插件：
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Hi4y1r7b3/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+### Linux + Makefile + GCC + OpenOCD + DAP-Link
+
+完全开源的方案。
