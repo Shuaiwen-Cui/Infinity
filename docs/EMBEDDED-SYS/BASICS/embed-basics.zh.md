@@ -5,11 +5,11 @@
 ### 51
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __江科大51 🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __江科大51 🎯🏆🏆🏆__
 
     ---
 
-    保姆级教学。
+    保姆级教学, 讲解非常细致，小白极度友好，强烈强烈强烈推荐。
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Mb411e7re/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 </div>
@@ -17,19 +17,19 @@
 - [x] P1 [1-1] 课程简介
 - [x] P2 [1-2] 开发工具和软件安装
 - [x] P3 [1-3] MCU和开发板介绍
-- [ ] P4 [2-1] 点亮一个LED
-- [ ] P5 [2-2] LED闪烁
-- [ ] P6 [2-3] LED流水灯
+- [x] P4 [2-1] 点亮一个LED
+- [x] P5 [2-2] LED闪烁
+- [x] P6 [2-3] LED流水灯
 
 ### STM32
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯🏆🏆🏆___
 
     ---
 
-    保姆级教学。
+    保姆级教学, 讲解非常细致，小白极度友好，强烈强烈强烈推荐。
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1th411z7sn/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 </div>

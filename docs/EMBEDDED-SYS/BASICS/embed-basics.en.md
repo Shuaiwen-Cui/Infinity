@@ -5,11 +5,11 @@
 ### 51
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __江科大51 🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __江科大51 🎯🏆🏆🏆__
 
     ---
 
-    A Bilibili channel about embedded systems and programming.
+    A Bilibili channel about embedded systems and programming， beginner-friendly, I strongly recommend it!
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Mb411e7re/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
@@ -18,19 +18,19 @@
 - [x] P1 [1-1] Course Introduction
 - [x] P2 [1-2] Development Tools and Software Installation
 - [x] P3 [1-3] MCU and Dev Board Introduction
-- [ ] P4 [2-1] Enlighten a LED
-- [ ] p5 [2-2] LED Blinking
-- [ ] P6 [2-3] LED Running Light
+- [x] P4 [2-1] Enlighten a LED
+- [x] p5 [2-2] LED Blinking
+- [x] P6 [2-3] LED Running Light
 
 ### STM32 
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯🏆🏆🏆___
 
     ---
 
-    A Bilibili channel about embedded systems and programming.
+    A Bilibili channel about embedded systems and programming， beginner-friendly, I strongly recommend it!
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1th411z7sn/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
