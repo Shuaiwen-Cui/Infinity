@@ -3,6 +3,10 @@
 !!! note
     There are so many choices for embedded systems development. This is my setup, and it works for me. Hope this can help you too.
 
+!!! tip **Too Long Don't Read**
+    - KEIL is always a good choice for embedded systems development. But the UI is not as good as VSCode.
+    - VSCode is definitely a trend for embedded systems development. In terms of the plugins for embedded systems development to replace KEIL: **EIDE** > **KEIL MDK 6** (Feb 2024)
+
 ## My Arsenal
 
 !!! info

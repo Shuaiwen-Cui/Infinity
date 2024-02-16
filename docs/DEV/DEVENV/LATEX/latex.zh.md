@@ -43,15 +43,15 @@
 
 <div class="grid cards" markdown>
 
--   :simple-vscode:{ .lg .middle } __VSCode + Latex Workshop__
+-   :simple-visualstudiocode:{ .lg .middle } __VSCode + Latex Workshop__
 
     ---
 
     Visual Studio Code 是由 Microsoft 开发的用于 Windows、Linux 和 macOS 的源代码编辑器。
 
-    配置 latex 在 VSCode 中：
+    配置 VSCode 中的 latex:
 
-    (1) 在计算机上下载相应的 latex 编译器：Windows / Mac / Linux。
+    (1) 在计算机上下载适当的 latex 编译器: Windows / Mac / Linux.
 
     (2) 安装 VSCode 和 Latex Workshop 扩展。
 
@@ -64,3 +64,4 @@
     [:octicons-arrow-right-24: <a href="https://hackmd.io/@x5758x/maclatex" target="_blank"> Mac </a>](#)
 
 </div>
+

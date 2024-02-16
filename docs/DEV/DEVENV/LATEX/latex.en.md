@@ -43,19 +43,19 @@
 
 <div class="grid cards" markdown>
 
--   :simple-vscode:{ .lg .middle } __VSCode + Latex Workshop__
+-   :simple-visualstudiocode:{ .lg .middle } __VSCode + Latex Workshop__
 
     ---
 
-    Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS.
+    Visual Studio Code is a source code editor developed by Microsoft for Windows, Linux, and macOS.
 
-    To config latex in VSCode:
+    Configure latex in VSCode:
 
-    (1) Download respective latex compiler on your computer: Windows / Mac / Linux.
+    (1) Download the appropriate latex compiler on your computer: Windows / Mac / Linux.
 
     (2) Install VSCode and Latex Workshop extension.
 
-    (3) Default Configuration should be enough for most users.
+    (3) The default configuration should be sufficient for most users.
 
     (4) Customization
 
