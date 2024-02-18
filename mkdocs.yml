@@ -201,6 +201,11 @@ plugins:
             TIME-FREQ-ANA: 时频分析
             EMD: 经验模态分解
             EMD-BASICS: 经验模态分解基础
+            IMF: 瞬时频率
+            EMD-MATLAB: EMD MATLAB实现
+            HILBERT-HUANG-TRANSFORM: 希尔伯特-黄变换
+            HILBERT-ANA-SERIES: 希尔伯特分析系列
+            EEMD: 集合经验模态分解
             PERCEPTION: 感知
             SENSORS-CIVIL-ENGINEERING: 土木工程中的传感器
             CONTROL: 控制
@@ -533,6 +538,18 @@ nav:
           - EMD: 
               - EMD-BASICS: "./DSP/NOTE-DSP-STUFF/EMD/BASICS/basics.md"
               - IMF: "./DSP/NOTE-DSP-STUFF/EMD/IMF/imf.md"
+              - EMD-MATLAB: "./DSP/NOTE-DSP-STUFF/EMD/EMD-MATLAB/emd-matlab.md"
+              - HILBERT-HUANG-TRANSFORM: "./DSP/NOTE-DSP-STUFF/EMD/HILBERT-HUANG-TRANSFORM/hilbert-huang-transform.md"
+              - HILBERT-ANA-SERIES: "./DSP/NOTE-DSP-STUFF/EMD/HILBERT-ANA-SERIES/hilbert-ana-series.md"
+              - EEMD: "./DSP/NOTE-DSP-STUFF/EMD/EEMD/eemd.md"
+              - CEEMD: "./DSP/NOTE-DSP-STUFF/EMD/CEEMD/ceemd.md"
+              - CEEMDAN: "./DSP/NOTE-DSP-STUFF/EMD/CEEMDAN/ceemdan.md"
+              - VMD: "./DSP/NOTE-DSP-STUFF/EMD/VMD/vmd.md"
+              - ICEEMDAN: "./DSP/NOTE-DSP-STUFF/EMD/ICEEMDAN/iceemdan.md"
+              - LMD: "./DSP/NOTE-DSP-STUFF/EMD/LMD/lmd.md"
+              - EWT: "./DSP/NOTE-DSP-STUFF/EMD/EWT/ewt.md"
+              - DWT: "./DSP/NOTE-DSP-STUFF/EMD/DWT/dwt.md"
+              - WPT: "./DSP/NOTE-DSP-STUFF/EMD/WPT/wpt.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
       - SENSORS-CIVIL-ENGINEERING: "./PERCEPTION/SENSORS-CIVIL-ENGINEERING/sensors-ce.md"
