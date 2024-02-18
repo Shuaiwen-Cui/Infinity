@@ -198,8 +198,8 @@ plugins:
             USEFUL-LIB 🎯: 常用嵌入式开发库 🎯
             DSP: 数字信号处理
             NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
-            TIME-FREQ-ANA: 时频分析
-            EMD 🎯: 经验模态分解
+            TIME-FREQ-ANA 🎯: 时频分析 🎯
+            EMD 🎯: 经验模态分解 🎯
             EMD-BASICS: 经验模态分解基础
             IMF: 瞬时频率
             EMD-MATLAB: EMD MATLAB实现
@@ -524,7 +524,7 @@ nav:
   - DSP: 
       - "./DSP/dsp.md"
       - NOTE-DSP-STUFF 🎯:
-          - TIME-FREQ-ANA:
+          - TIME-FREQ-ANA 🎯:
               - CH01: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH01/tf-ana-ch01.md"
               - CH02: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH02/tf-ana-ch02.md"
               - CH03: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH03/tf-ana-ch03.md"
