@@ -199,13 +199,21 @@ plugins:
             DSP: 数字信号处理
             NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
             TIME-FREQ-ANA: 时频分析
-            EMD: 经验模态分解
+            EMD 🎯: 经验模态分解
             EMD-BASICS: 经验模态分解基础
             IMF: 瞬时频率
             EMD-MATLAB: EMD MATLAB实现
             HILBERT-HUANG-TRANSFORM: 希尔伯特-黄变换
             HILBERT-ANA-SERIES: 希尔伯特分析系列
             EEMD: 集合经验模态分解
+            CEEMD: 完备集合经验模态分解
+            CEEMDAN: 适应性噪声完备集合经验模态分解
+            VMD 🎯: 变分模态分解 🎯
+            ICEEMDAN: 改进的适应性噪声完备集合经验模态分解
+            LMD: 局部模态分解
+            EWT: 经验小波变换
+            DWT 🎯: 离散小波变换 🎯
+            WPT 🎯: 小波包变换 🎯
             PERCEPTION: 感知
             SENSORS-CIVIL-ENGINEERING: 土木工程中的传感器
             CONTROL: 控制
@@ -535,7 +543,7 @@ nav:
               - CH16: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH16/tf-ana-ch16.md"
               - CH17: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH17/tf-ana-ch17.md"
               - CH18: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH18/tf-ana-ch18.md" 
-          - EMD: 
+          - EMD 🎯: 
               - EMD-BASICS: "./DSP/NOTE-DSP-STUFF/EMD/BASICS/basics.md"
               - IMF: "./DSP/NOTE-DSP-STUFF/EMD/IMF/imf.md"
               - EMD-MATLAB: "./DSP/NOTE-DSP-STUFF/EMD/EMD-MATLAB/emd-matlab.md"
@@ -544,12 +552,12 @@ nav:
               - EEMD: "./DSP/NOTE-DSP-STUFF/EMD/EEMD/eemd.md"
               - CEEMD: "./DSP/NOTE-DSP-STUFF/EMD/CEEMD/ceemd.md"
               - CEEMDAN: "./DSP/NOTE-DSP-STUFF/EMD/CEEMDAN/ceemdan.md"
-              - VMD: "./DSP/NOTE-DSP-STUFF/EMD/VMD/vmd.md"
+              - VMD 🎯: "./DSP/NOTE-DSP-STUFF/EMD/VMD/vmd.md"
               - ICEEMDAN: "./DSP/NOTE-DSP-STUFF/EMD/ICEEMDAN/iceemdan.md"
               - LMD: "./DSP/NOTE-DSP-STUFF/EMD/LMD/lmd.md"
               - EWT: "./DSP/NOTE-DSP-STUFF/EMD/EWT/ewt.md"
-              - DWT: "./DSP/NOTE-DSP-STUFF/EMD/DWT/dwt.md"
-              - WPT: "./DSP/NOTE-DSP-STUFF/EMD/WPT/wpt.md"
+              - DWT 🎯: "./DSP/NOTE-DSP-STUFF/EMD/DWT/dwt.md"
+              - WPT 🎯: "./DSP/NOTE-DSP-STUFF/EMD/WPT/wpt.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
       - SENSORS-CIVIL-ENGINEERING: "./PERCEPTION/SENSORS-CIVIL-ENGINEERING/sensors-ce.md"
