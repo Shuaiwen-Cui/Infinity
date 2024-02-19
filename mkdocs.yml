@@ -248,11 +248,11 @@ plugins:
             CNN: 卷积神经网络
             RNN: 循环神经网络
             TRANSFORMER: “变形金刚”
-            GNN 🎯: 图神经网络v 🎯
+            GNN 🎯: 图神经网络 🎯
             GAN: 生成对抗网络
             RL 🎯: 强化学习 🎯
             LHY-RL: 李宏毅强化学习
-            EASY-RL: 蘑菇书强化学习
+            EASY-RL: 蘑菇书强化学习 
             CH01 RL Basics: CH01 强化学习基础
             CH02 Markov Decision Process (MDP): CH02 马尔可夫决策过程
             CH03 Tabular Methods: CH03 表格方法
