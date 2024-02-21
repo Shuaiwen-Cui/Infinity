@@ -21,6 +21,12 @@
 - [x] P4 [2-1] Enlighten a LED
 - [x] p5 [2-2] LED Blinking
 - [x] P6 [2-3] LED Running Light
+- [x] P7 [3-1] Independent Button Control LED On/Off
+- [ ] P8 [3-2] Independent Button Control LED Status
+- [ ] P9 [3-3] Independent Button Control LED Display Binary
+- [ ] P10 [3-4] Independent Button Control LED Shift
+- [ ] P11 [4-1] Static Digital Tube Display
+- [ ] P12 [4-2] Dynamic Digital Tube Display
 
 ### STM32 
 
