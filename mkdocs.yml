@@ -639,6 +639,8 @@ nav:
           - GITHUB: "./DEV/DEVENV/GITHUB/github.md"
           - DOCKER: "./DEV/DEVENV/DOCKER/docker.md"
           - EMBEDDED-SYS-DEV: "./DEV/DEVENV/EMBEDDED-SYS-DEV/embedded-sys-dev.md"
+          - LINUX:
+              - UBUNTU: "./DEV/DEVENV/LINUX/UBUNTU/ubuntu.md"
       - EMBEDDED:
           - STM32MP157: "./DEV/EMBEDDED/STM32MP157/stm32mp157.md"
       - XNODE 🎯:
