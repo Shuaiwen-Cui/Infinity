@@ -163,6 +163,7 @@ plugins:
             THEORY: 理论
             ELECTRONICS: 电子学
             CIRCUITS: 电路
+            SIGNAL-SYSTEM: 信号与系统
             FREERTOS: 实时操作系统
             LINUX: LINUX
             BASICS: 基础
@@ -470,6 +471,7 @@ nav:
       - THEORY:
           - ELECTRONICS: "./EMBEDDED-SYS/THEORY/ELECTRONICS/electronics.md"
           - CIRCUITS: "./EMBEDDED-SYS/THEORY/CIRCUITS/circuits.md"
+          - SIGNAL-SYSTEM: "./EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system.md"
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
       - BASICS: 
