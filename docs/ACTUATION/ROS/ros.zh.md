@@ -1,5 +1,9 @@
 # 机器人操作系统 (ROS)
 
+## 简介
+
+ROS (Robot Operating System) 提供了库和工具，帮助软件开发人员创建机器人应用程序。它提供硬件抽象、设备驱动程序、库、可视化器、消息传递、包管理等。ROS 是在开源 BSD 许可下发布的。
+
 ## 链接
 
 <div class="grid cards" markdown>
