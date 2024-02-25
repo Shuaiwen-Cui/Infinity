@@ -78,10 +78,28 @@ The development of embedded systems requires considering both hardware and softw
 - [x] P14 [5-2] LCD1602 Debugging Tool
 - [x] P15 [6-1] Matrix Keyboard
 - [x] P16 [6-2] Matrix Keyboard Password Lock
-- [ ] P17 [7-1] Timer
-- [ ] P18 [7-2] Key Control LED Running Light & Timer Alarm
+- [x] P17 [7-1] Timer
+- [x] P18 [7-2] Key Control LED Running Light & Timer Alarm
 - [x] P19 [8-1] Serial Communication
 - [x] P20 [8-2] Serial Communication Control LED Running Light & Timer Alarm
+- [ ] P21 [9-1] LED Dot Matrix Screen
+- [ ] P22 [9-2] LED Dot Matrix Screen Display Picture & Animation
+- [ ] P23 [10-1] DS1302 Real Time Clock
+- [ ] P24 [10-2] DS1302 Real Time Clock Display & Set Time
+- [ ] P25 [11-1] Buzzer
+- [ ] P26 [11-2] Buzzer Music Player
+- [ ] P27 [12-1] AT24C02(I2C Bus)
+- [ ] P28 [12-2] AT24C02(I2C Bus) Read and Write Data
+- [ ] P29 [13-1] DS18B20 Temperature Sensor
+- [ ] P30 [13-2] DS18B20 Temperature Sensor Display & Set Time
+- [ ] P31 [14-1] 1602 LCD Display
+- [ ] P32 [14-2] 1602 LCD Display Function Code
+- [ ] P33 [15-1] DC Motor Drive (PWM)
+- [ ] P34 [15-2] LED Breathing Light & DC Motor Speed Control
+- [ ] P35 [16-1] AD/DA
+- [ ] P36 [16-2] AD/DA Details
+- [ ] P37 [17-1] Infra-red Remote Control (External Interrupt)
+- [ ] P38 [17-2] Infra-red Remote Control (External Interrupt) Details
 
 ### STM32 
 
