@@ -76,8 +76,8 @@ The development of embedded systems requires considering both hardware and softw
 - [x] P12 [4-2] Dynamic Digital Tube Display
 - [x] P13 [5-1] Modular Programming
 - [x] P14 [5-2] LCD1602 Debugging Tool
-- [ ] P15 [6-1] Matrix Keyboard
-- [ ] P16 [6-2] Matrix Keyboard Password Lock
+- [x] P15 [6-1] Matrix Keyboard
+- [x] P16 [6-2] Matrix Keyboard Password Lock
 - [ ] P17 [7-1] Timer
 - [ ] P18 [7-2] Key Control LED Running Light & Timer Alarm
 - [x] P19 [8-1] Serial Communication
