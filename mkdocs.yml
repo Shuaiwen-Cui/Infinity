@@ -225,6 +225,7 @@ plugins:
             DISTRIBUTION: 发行版
             TUTORIALS: 教程
             CLI-TOOLS: 命令行工具
+            CLIENT-LIBRARIES: 客户端库
             HANDSON-ROS: 动手学ROS
             P1-GET-STARTED: P1-入门
             VISUALIZATION: 可视化    
@@ -575,7 +576,7 @@ nav:
               - DISTRIBUTION: "./ACTUATION/ROS/OFFICIAL-GUIDE/DISTRIBUTION/distribution.md"
               - TUTORIALS: 
                   - CLI-TOOLS: "./ACTUATION/ROS/OFFICIAL-GUIDE/TUTORIALS/CLI-TOOLS/cli-tools.md"
-                  
+                  - CLIENT-LIBRARIES: "./ACTUATION/ROS/OFFICIAL-GUIDE/TUTORIALS/CLIENT-LIBRARIES/client-libraries.md"      
       - HANDSON-ROS: 
           - "./ACTUATION/HANDSON-ROS/handson-ros.md"
           - P1-GET-STARTED: "./ACTUATION/HANDSON-ROS/P1-GET-STARTED/p1-get-started.md"
