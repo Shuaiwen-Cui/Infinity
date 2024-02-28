@@ -129,6 +129,7 @@ plugins:
             DISCRETE-MATH: 离散数学
             INFORMATION-THEORY 🎯: 信息论 🎯
             NUMERICAL-ANALYSIS: 数值分析
+            GAME-THEORY 🎯: 博弈论 🎯
             GEOMETRY-GRAPHICS: 几何与图形学
             # COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
             CS: 计算机科学
@@ -428,6 +429,7 @@ nav:
       - DISCRETE-MATH: "./MATH/DISCRETE-MATH/discrete-math.md"
       - INFORMATION-THEORY 🎯: "./MATH/INFORMATION-THEORY/information-theory.md"
       - NUMERICAL-ANALYSIS: "./MATH/NUMERICAL-ANALYSIS/numerical-analysis.md"
+      - GAME-THEORY 🎯: "./MATH/GAME-THEORY/game-theory.md"
       - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
           # - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
           # - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
