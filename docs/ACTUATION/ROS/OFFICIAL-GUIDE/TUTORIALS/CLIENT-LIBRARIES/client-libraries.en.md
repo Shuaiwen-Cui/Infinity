@@ -939,7 +939,7 @@ int main(int argc, char * argv[])
   return 0;
 }
 ```
-##### 2.1 Examine the code
+##### 2.1 Examine the code
 The top of the code includes the standard C++ headers you will be using. After the standard C++ headers is the `rclcpp/rclcpp.hpp` include which allows you to use the most common pieces of the ROS 2 system. Last is `std_msgs/msg/string.hpp`, which includes the built-in message type you will use to publish data.
 
 ```cpp
@@ -1003,7 +1003,7 @@ int main(int argc, char * argv[])
 }
 ```
 
-##### 2.2 Add dependencies
+##### 2.2 Add dependencies
 Navigate one level back to the `ros2_ws/src/cpp_pubsub` directory, where the `CMakeLists.txt` and `package.xml` files have been created for you.
 
 Open `package.xml` with your text editor.
@@ -1026,7 +1026,7 @@ This declares the package needs `rclcpp` and `std_msgs` when its code is built a
 
 Make sure to save the file.
 
-##### 2.3 CMakeLists.txt
+##### 2.3 CMakeLists.txt
 Now open the `CMakeLists.txt` file. Below the existing dependency `find_package(ament_cmake REQUIRED)`, add the lines:
 
 ```cmake
