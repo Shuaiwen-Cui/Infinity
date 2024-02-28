@@ -1373,6 +1373,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH/DISCRETE-MATH/discrete-math/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/MATH/GAME-THEORY/game-theory/</loc>
+        <lastmod>2024-02-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH/GAME-THEORY/game-theory/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH/GAME-THEORY/game-theory/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/MATH/GEOMETRY-GRAPHICS/geometry-graphics/</loc>
         <lastmod>2024-02-28</lastmod>
         <changefreq>daily</changefreq>
@@ -2875,6 +2882,19 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH/DISCRETE-MATH/discrete-math/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH/DISCRETE-MATH/discrete-math/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/MATH/GAME-THEORY/game-theory/</loc>
+        <lastmod>2024-02-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH/GAME-THEORY/game-theory/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH/GAME-THEORY/game-theory/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/MATH/GAME-THEORY/gametheory/</loc>
+        <lastmod>2024-02-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH/GAME-THEORY/gametheory/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/MATH/GEOMETRY-GRAPHICS/geometry-graphics/</loc>
