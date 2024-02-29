@@ -337,6 +337,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH03/ch03/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH04/ch04/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH04/ch04/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH04/ch04/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CODING/C-C%2B%2B/C-NOTES/c-notes/</loc>
         <lastmod>2024-02-29</lastmod>
         <changefreq>daily</changefreq>
@@ -1840,6 +1847,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH03/ch03/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH03/ch03/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH04/ch04/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH04/ch04/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/C-C%2B%2B/C%2B%2B-NOTES/CH04/ch04/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/CODING/C-C%2B%2B/C-NOTES/c-notes/</loc>
