@@ -20,12 +20,12 @@
 
 - [x] The **Prisoner’s Dilemma** and **Strict Dominance**
 - [x] **Iterated Elimination** of Strictly Dominated Strategies
-- [x] Pure Strategy **Nash Equilibrium** and the Stag Hunt
+- [x] **Pure Strategy Nash Equilibrium** and the Stag Hunt
 - [x] What Is a **Nash Equilibrium**?
 - [x] Best Responses
-- [ ] Matching Pennies and Mixed Strategy Nash Equilibrium
-- [ ] The Mixed Strategy Algorithm
-- [ ] How NOT to Write a Mixed Strategy Nash Equilibrium
+- [x] Matching Pennies and **Mixed Strategy Nash Equilibrium**
+- [x] The Mixed Strategy Algorithm
+- [x] How NOT to Write a Mixed Strategy Nash Equilibrium
 - [ ] Battle of the Sexes
 - [ ] Calculating Payoffs
 - [ ] Strict Dominance in Mixed Strategies
@@ -47,7 +47,7 @@
 - [ ] Problems with Backward Induction
 - [ ] Forward Induction
 
-### Advanced Strategic Form Games
+### Advanced Strategic Form Games 
 
 - [ ] Probability Distributions
 - [ ] Generalized Battle of the Sexes
