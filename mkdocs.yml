@@ -147,6 +147,7 @@ plugins:
             CODING-ENV: 编程环境
             COMMAND-LINE: 命令行
             SHELL: 终端解释器SHELL
+            ROOKIE 🎯🏆: 编程新手村 🎯🏆
             C/C++ 🎯: C/C++ 🎯
             C: C
             C-NOTES: C笔记
@@ -450,6 +451,10 @@ nav:
       - CODING-ENV: "./CODING/CODING-ENV/coding-env.md"
       - COMMAND-LINE: "./CODING/COMMAND-LINE/command-line.md"
       - SHELL: "./CODING/SHELL/shell.md"
+      - ROOKIE 🎯🏆: 
+          - "./CODING/ROOKIE/rookie.md"
+          - C: "./CODING/ROOKIE/C/c.md"
+          - C++: "./CODING/ROOKIE/C++/c++.md"
       - C/C++ 🎯:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
@@ -460,6 +465,7 @@ nav:
               - CH01: "./CODING/C-C++/C++-NOTES/CH01/ch01.md"
               - CH02: "./CODING/C-C++/C++-NOTES/CH02/ch02.md"
               - CH03: "./CODING/C-C++/C++-NOTES/CH03/ch03.md"
+              - CH04: "./CODING/C-C++/C++-NOTES/CH04/ch04.md"
           - MAKE-SERIES: "./CODING/C-C++/MAKE-SERIES/make-series.md"
       - PYTHON: 
           - "./CODING/PYTHON/python.md"

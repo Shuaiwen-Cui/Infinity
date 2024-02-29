@@ -6,6 +6,12 @@
 
 <div class="grid cards" markdown>
 
+-   :material-web:{ .lg .middle } __RUNOOB：C Language🎯✅🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/cprogramming/c-tutorial.html" target="_blank"> Portal </a>](#)
+
 -   :fontawesome-solid-book:{ .lg .middle } __The C Programming Language🎯__
 
     ---

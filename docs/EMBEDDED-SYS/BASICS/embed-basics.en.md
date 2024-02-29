@@ -82,8 +82,8 @@ The development of embedded systems requires considering both hardware and softw
 - [x] P18 [7-2] Key Control LED Running Light & Timer Alarm
 - [x] P19 [8-1] Serial Communication
 - [x] P20 [8-2] Serial Communication Control LED Running Light & Timer Alarm
-- [ ] P21 [9-1] LED Dot Matrix Screen
-- [ ] P22 [9-2] LED Dot Matrix Screen Display Picture & Animation
+- [x] P21 [9-1] LED Dot Matrix Screen
+- [x] P22 [9-2] LED Dot Matrix Screen Display Picture & Animation
 - [ ] P23 [10-1] DS1302 Real Time Clock
 - [ ] P24 [10-2] DS1302 Real Time Clock Display & Set Time
 - [ ] P25 [11-1] Buzzer

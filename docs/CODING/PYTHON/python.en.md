@@ -5,6 +5,12 @@
 
 <div class="grid cards" markdown>
 
+-   :material-web:{ .lg .middle } __RUNOOB：PYTHON 🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/python3/python3-tutorial.html" target="_blank"> Portal </a>](#)
+
 -   :fontawesome-solid-book:{ .lg .middle } __Python For Beginners__
 
     ---

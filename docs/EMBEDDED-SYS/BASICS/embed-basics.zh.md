@@ -56,6 +56,8 @@
 
     保姆级教学, 讲解非常细致，小白极度友好，强烈强烈强烈推荐。
 
+    注意：本教程采用基于寄存器的编程方式，不使用库函数。
+
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Mb411e7re/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 </div>
 
@@ -79,8 +81,8 @@
 - [x] P18 [7-2] 按键控制LED流水灯&定时器闹钟
 - [x] P19 [8-1] 串口通信
 - [x] P20 [8-2] 串口向电脑发送数据&电脑通过串口控制LED
-- [ ] P21 [9-1] LED点阵屏
-- [ ] P22 [9-2] LED点阵屏显示图画&动画
+- [x] P21 [9-1] LED点阵屏
+- [x] P22 [9-2] LED点阵屏显示图画&动画
 - [ ] P23 [10-1] DS1302实时时钟
 - [ ] P24 [10-2] DS1302实时时钟&可调时钟
 - [ ] P25 [11-1] 蜂鸣器
@@ -107,6 +109,8 @@
     ---
 
     保姆级教学, 讲解非常细致，小白极度友好，强烈强烈强烈推荐。
+
+    注意：本教程采用标准外设库函数，而STM32官方已经不再推荐使用标准外设库函数，而是推荐使用HAL库函数。
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1th411z7sn/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 </div>

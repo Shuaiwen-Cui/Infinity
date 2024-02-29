@@ -5,6 +5,12 @@
 
 <div class="grid cards" markdown>
 
+-   :material-web:{ .lg .middle } __菜鸟网：C语言🎯✅🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/cprogramming/c-tutorial.html" target="_blank"> 传送门 </a>](#)
+
 -   :fontawesome-solid-book:{ .lg .middle } __C语言🎯__
 
     ---

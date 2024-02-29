@@ -1,0 +1,58 @@
+# C STUDY PROGRESS
+
+## BASICS
+- [ ] C Tutorial
+- [ ] C Introduction
+- [ ] C Environment Setup
+- [ ] C Program Structure
+- [ ] C Basic Syntax
+- [ ] C Data Types
+- [ ] C Variables
+- [ ] C Constants
+- [ ] C Storage Classes
+- [ ] C Operators
+- [ ] C Decisions
+- [ ] C Loops
+- [ ] C Functions
+- [ ] C Scope Rules
+- [ ] C Arrays
+- [ ] C enum
+- [ ] C Pointers
+- [ ] C Function Pointers and Callbacks
+- [ ] C Strings
+- [ ] C Structures
+- [ ] C Unions
+- [ ] C Bit Fields
+- [ ] C typedef
+- [ ] C Input Output
+- [ ] C File I/O
+- [ ] C Preprocessors
+- [ ] C Header Files
+- [ ] C Type Casting
+- [ ] C Error Handling
+- [ ] C Recursion
+- [ ] C Variable Arguments
+- [ ] C Memory Management
+- [ ] C Command Line Arguments
+- [ ] C Sorting Algorithms
+- [ ] C Language Examples
+- [ ] C Classic 100 Examples
+
+## STANDARD LIBRARY
+- [ ] C Standard Library - Reference Manual
+- [ ] C Standard Library - <assert.h>
+- [ ] C Standard Library - <ctype.h>
+- [ ] C Standard Library - <errno.h>
+- [ ] C Standard Library - <float.h>
+- [ ] C Standard Library - <limits.h>
+- [ ] C Standard Library - <locale.h>
+- [ ] C Standard Library - <math.h>
+- [ ] C Standard Library - <setjmp.h>
+- [ ] C Standard Library - <signal.h>
+- [ ] C Standard Library - <stdarg.h>
+- [ ] C Standard Library - <stddef.h>
+- [ ] C Standard Library - <stdio.h>
+- [ ] C Standard Library - <stdlib.h>
+- [ ] C Standard Library - <string.h>
+- [ ] C Standard Library - <time.h>
+- [ ] C Language Quiz

@@ -26,7 +26,7 @@
 - [x] Matching Pennies and **Mixed Strategy Nash Equilibrium**
 - [x] The Mixed Strategy Algorithm
 - [x] How NOT to Write a Mixed Strategy Nash Equilibrium
-- [ ] Battle of the Sexes
+- [x] Battle of the Sexes
 - [ ] Calculating Payoffs
 - [ ] Strict Dominance in Mixed Strategies
 - [ ] Weak Dominance
