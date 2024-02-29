@@ -435,6 +435,34 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/PYTHON/ROADMAP/roadmap/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/CODING/ROOKIE/rookie/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/rookie/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/rookie/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CODING/ROOKIE/C/c/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/C/c/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/C/c/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CODING/ROOKIE/C%2B%2B/c%2B%2B/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/C%2B%2B/c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/C%2B%2B/c%2B%2B/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/CODING/ROOKIE/PYTHON/python/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/PYTHON/python/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/PYTHON/python/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/CODING/SHELL/shell/</loc>
         <lastmod>2024-02-29</lastmod>
         <changefreq>daily</changefreq>
@@ -1947,6 +1975,34 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/PYTHON/ROADMAP/roadmap/"/>
     </url>
     <url>
+        <loc>https://localhost:8000/zh/CODING/ROOKIE/rookie/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/rookie/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/rookie/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CODING/ROOKIE/C/c/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/C/c/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/C/c/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CODING/ROOKIE/C%2B%2B/c%2B%2B/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/C%2B%2B/c%2B%2B/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/C%2B%2B/c%2B%2B/"/>
+    </url>
+    <url>
+        <loc>https://localhost:8000/zh/CODING/ROOKIE/PYTHON/python/</loc>
+        <lastmod>2024-02-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/CODING/ROOKIE/PYTHON/python/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/CODING/ROOKIE/PYTHON/python/"/>
+    </url>
+    <url>
         <loc>https://localhost:8000/zh/CODING/SHELL/shell/</loc>
         <lastmod>2024-02-29</lastmod>
         <changefreq>daily</changefreq>
@@ -2903,12 +2959,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH/GAME-THEORY/game-theory/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://localhost:8000/MATH/GAME-THEORY/game-theory/"/>
-    </url>
-    <url>
-        <loc>https://localhost:8000/zh/MATH/GAME-THEORY/gametheory/</loc>
-        <lastmod>2024-02-29</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://localhost:8000/zh/MATH/GAME-THEORY/gametheory/"/>
     </url>
     <url>
         <loc>https://localhost:8000/zh/MATH/GEOMETRY-GRAPHICS/geometry-graphics/</loc>
