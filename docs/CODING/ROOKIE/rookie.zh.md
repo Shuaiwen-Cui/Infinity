@@ -17,3 +17,41 @@
 
 !!! tip
     值得一提的是，本页的教程只能帮助读者简单入门而不能带读者窥见全貌，入门以后，自然还是需要寻找更多更深入的内容进行学习。
+
+
+## 目标科目
+
+## HTML/CSS
+- 🎯 HTML(HTML5)
+- 🎯 CSS(CSS3)
+
+## JavaScript
+- 🎯 JavaScript
+- 🎯 JQuery
+- 🎯 Vue.js
+- 🎯 React.js
+- 🎯 Node.js
+- 🎯 JSON
+
+## 服务端
+- 🎯 C
+- 🎯 C++
+- 🎯 Python
+- 🎯 Linux
+- 🎯 Docker
+- 🎯 Django
+- 🎯 FastAPI
+- 🎯 正则表达式
+
+## 数据库
+- 🎯 SQL
+- 🎯 MySQL
+- 🎯 PostgreSQL
+- 🎯 MongoDB
+
+## 数据分析
+- 🎯 Python
+- 🎯 Numpy
+- 🎯 Pandas
+- 🎯 Matplotlib
+- 🎯 SciPy

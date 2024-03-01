@@ -11,16 +11,16 @@
 </div>
 
 ## BASICS
-- [ ] python3 tutorial
-- [ ] python3 introduction
-- [ ] python3 environment setup
-- [ ] python3 VScode
-- [ ] python3 basic syntax
-- [ ] python3 basic data types
-- [ ] python3 data type conversion
-- [ ] python3 interpreter
-- [ ] python3 comment
-- [ ] python3 number
+- [x] python3 tutorial
+- [x] python3 introduction
+- [x] python3 environment setup
+- [x] python3 VScode
+- [x] python3 basic syntax
+- [x] python3 basic data types
+- [x] python3 data type conversion
+- [x] python3 interpreter
+- [x] python3 comment
+- [x] python3 number
 - [ ] python3 string
 - [ ] python3 list
 - [ ] python3 tuple

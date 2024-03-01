@@ -11,18 +11,18 @@
 </div>
 
 ## 基础
-- [ ] python3 教程
-- [ ] python3 简介
-- [ ] python3 环境搭建
-- [ ] python3 VScode
-- [ ] python3 基础语法
-- [ ] python3 基本数据类型
-- [ ] python3 数据类型转换
-- [ ] python3 解释器
-- [ ] python3 注释
-- [ ] python3 数字
-- [ ] python3 字符串
-- [ ] python3 列表
+- [x] python3 教程
+- [x] python3 简介
+- [x] python3 环境搭建
+- [x] python3 VScode
+- [x] python3 基础语法
+- [x] python3 基本数据类型
+- [x] python3 数据类型转换
+- [x] python3 解释器
+- [x] python3 注释
+- [x] python3 数字
+- [x] python3 字符串
+- [x] python3 列表
 - [ ] python3 元组
 - [ ] python3 字典
 - [ ] python3 集合
