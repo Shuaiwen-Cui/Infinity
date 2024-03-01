@@ -1,21 +1,31 @@
 # C STUDY PROGRESS
 
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __RUNOOB：C Language🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/cprogramming/c-tutorial.html" target="_blank"> Portal </a>](#)
+
+</div>
+
 ## BASICS
-- [ ] C Tutorial
-- [ ] C Introduction
-- [ ] C Environment Setup
-- [ ] C Program Structure
-- [ ] C Basic Syntax
-- [ ] C Data Types
-- [ ] C Variables
-- [ ] C Constants
-- [ ] C Storage Classes
-- [ ] C Operators
-- [ ] C Decisions
-- [ ] C Loops
-- [ ] C Functions
-- [ ] C Scope Rules
-- [ ] C Arrays
+- [x] C Tutorial
+- [x] C Introduction
+- [x] C Environment Setup
+- [x] C Program Structure
+- [x] C Basic Syntax
+- [x] C Data Types
+- [x] C Variables
+- [x] C Constants
+- [x] C Storage Classes
+- [x] C Operators
+- [x] C Decisions
+- [x] C Loops
+- [x] C Functions
+- [x] C Scope Rules
+- [x] C Arrays
 - [ ] C enum
 - [ ] C Pointers
 - [ ] C Function Pointers and Callbacks

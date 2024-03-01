@@ -30,13 +30,13 @@
 - [x] Calculating **Payoffs**
 - [x] **Strict Dominance** in Mixed Strategies
 - [x] **Weak Dominance**
-- [ ] Infinitely Many Equilibria
-- [ ] The Odd Rule
+- [x] **Infinitely** Many Equilibria
+- [x] The Odd Rule 
 
 ### Extensive Form Games
 
 - [ ] Subgame Perfect Equilibrium
-- [ ] Backward Induction
+- [ ] Backward Induction 
 - [ ] How NOT to Write a Subgame Perfect Equilibrium
 - [ ] Multiple Subgame Perfect Equilibria
 - [ ] Games with Stages
