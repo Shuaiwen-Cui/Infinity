@@ -92,6 +92,8 @@ http://127.0.0.1:8000
 
 ## How To Deploy The Website To The Server
 
+For deployment, you need to modify the deployment-related files first, namely, `upload.sh`, `win-upload.bat`, and `Ops.sh`. `upload.sh` and `win-upload.bat` are for uploading, where `upload.sh` can be used for all platforms, and `win-upload.bat` can only be used for Windows. `Ops.sh` is for server side operations, where you can use it to install packages, etc. Open these files, replace the repo link with your own repo link.
+
 - For uploading
 
 If you use MacOS or Linux, you can use the following command to upload the website to the server

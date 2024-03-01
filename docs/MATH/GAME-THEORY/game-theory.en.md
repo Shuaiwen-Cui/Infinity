@@ -24,12 +24,12 @@
 - [x] What Is a **Nash Equilibrium**?
 - [x] Best Responses
 - [x] Matching Pennies and **Mixed Strategy Nash Equilibrium**
-- [x] The Mixed Strategy Algorithm
+- [x] The **Mixed Strategy Algorithm**
 - [x] How NOT to Write a Mixed Strategy Nash Equilibrium
 - [x] Battle of the Sexes
-- [ ] Calculating Payoffs
-- [ ] Strict Dominance in Mixed Strategies
-- [ ] Weak Dominance
+- [x] Calculating **Payoffs**
+- [x] **Strict Dominance** in Mixed Strategies
+- [x] **Weak Dominance**
 - [ ] Infinitely Many Equilibria
 - [ ] The Odd Rule
 
