@@ -452,9 +452,11 @@ nav:
       - COMMAND-LINE: "./CODING/COMMAND-LINE/command-line.md"
       - SHELL: "./CODING/SHELL/shell.md"
       - ROOKIE 🎯🏆: 
-          - "./CODING/ROOKIE/rookie.md"
-          - C: "./CODING/ROOKIE/C/c.md"
-          - C++: "./CODING/ROOKIE/C++/c++.md"
+          - RUNOOB 🎯:
+              - "./CODING/ROOKIE/rookie.md"
+              - C: "./CODING/ROOKIE/C/c.md"
+              - C++: "./CODING/ROOKIE/C++/c++.md"
+              - PYTHON: "./CODING/ROOKIE/PYTHON/python.md"
       - C/C++ 🎯:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
