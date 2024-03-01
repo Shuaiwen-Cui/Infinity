@@ -53,21 +53,21 @@
 
 ## 标准库
 - [x] C 标准库 - 参考手册
-- [x] C 标准库 - <assert.h>
-- [x] C 标准库 - <ctype.h>
-- [x] C 标准库 - <errno.h>
-- [x] C 标准库 - <float.h>
-- [x] C 标准库 - <limits.h>
-- [x] C 标准库 - <locale.h>
-- [x] C 标准库 - <math.h>
-- [x] C 标准库 - <setjmp.h>
-- [x] C 标准库 - <signal.h>
-- [x] C 标准库 - <stdarg.h>
-- [x] C 标准库 - <stddef.h>
-- [x] C 标准库 - <stdio.h>
-- [x] C 标准库 - <stdlib.h>
-- [x] C 标准库 - <string.h>
-- [x] C 标准库 - <time.h>
+- [x] C 标准库 - assert.h
+- [x] C 标准库 - ctype.h
+- [x] C 标准库 - errno.h
+- [x] C 标准库 - float.h
+- [x] C 标准库 - limits.h
+- [x] C 标准库 - locale.h
+- [x] C 标准库 - math.h
+- [x] C 标准库 - setjmp.h
+- [x] C 标准库 - signal.h
+- [x] C 标准库 - stdarg.h
+- [x] C 标准库 - stddef.h
+- [x] C 标准库 - stdio.h
+- [x] C 标准库 - stdlib.h
+- [x] C 标准库 - string.h
+- [x] C 标准库 - time.h
 
 ## 实例
 - [ ] C 语言实例

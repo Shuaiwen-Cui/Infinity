@@ -19,30 +19,61 @@
 - [x] C++ Data Types
 - [x] C++ Variable Types
 - [x] C++ Variable Scope
-- [ ] C++ Constants
-- [ ] C++ Modifier Types
-- [ ] C++ Storage Classes
-- [ ] C++ Operators
-- [ ] Loops
-- [ ] Decisions
-- [ ] C++ Functions
-- [ ] C++ Numbers
-- [ ] C++ Arrays
-- [ ] C++ Strings
-- [ ] C++ Pointers
-- [ ] C++ References
-- [ ] C++ Date and Time
-- [ ] C++ Basic Input Output
-- [ ] C++ Data Structures
+- [x] C++ Constants
+- [x] C++ Modifier Types
+- [x] C++ Storage Classes
+- [x] C++ Operators
+- [x] Loops
+- [x] Decisions
+- [x] C++ Functions
+- [x] C++ Numbers
+- [x] C++ Arrays
+  - [x] C++ Multidimensional Arrays
+  - [x] C++ Pointers to Arrays
+  - [x] C++ Passing Arrays to Functions
+  - [x] C++ Returning Arrays from Functions
+- [x] C++ Strings
+- [x] C++ Pointers
+  - [x] C++ NULL Pointers
+  - [x] C++ Pointer Arithmetic
+  - [x] C++ Pointers vs Arrays
+  - [x] C++ Pointer Arrays
+  - [x] C++ Pointers to Pointers
+  - [x] C++ Passing Pointers to Functions
+  - [x] C++ Returning Pointers from Functions
+- [x] C++ References
+  - [x] C++ References as Parameters
+  - [x] C++ References as Return Values
+- [x] C++ Date and Time
+- [x] C++ Basic Input Output
+- [x] C++ Data Structures
 
 ## C++ OOP
-- [ ] C++ Classes and Objects
-- [ ] C++ Inheritance
-- [ ] C++ Overloading Operators and Functions
-- [ ] C++ Polymorphism
-- [ ] C++ Data Abstraction
-- [ ] C++ Data Encapsulation
-- [ ] C++ Interfaces (Abstract Classes)
+- [x] C++ Classes and Objects
+  - [x] Class Member Functions
+  - [x] Class Access Modifiers
+  - [x] Constructors & Destructors
+  - [x] C++ Copy Constructor
+  - [x] C++ Friend Functions
+  - [x] C++ Inline Functions
+  - [x] C++ this Pointer
+  - [x] C++ Pointers to Classes
+  - [x] C++ Static Members
+- [x] C++ Inheritance
+- [x] C++ Overloading Operators and Functions
+  - [x] single operator overloading
+  - [x] multiple operator overloading
+  - [x] relational operator overloading
+  - [x] input/output operator overloading
+  - [x] ++ and -- operator overloading
+  - [x] assignment operator overloading
+  - [x] calling operator overloading
+  - [x] index operator overloading
+  - [x] class member access operator overloading
+- [x] C++ Polymorphism
+- [x] C++ Data Abstraction
+- [x] C++ Data Encapsulation
+- [x] C++ Interfaces (Abstract Classes)
 
 ## ADVANCED
 - [ ] C++ Files and Streams
