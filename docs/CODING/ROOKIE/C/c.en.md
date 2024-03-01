@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __RUNOOB：C Language🎯🏆__
+-   :material-web:{ .lg .middle } __RUNOOB：C Language🎯✅🏆__
 
     ---
 
@@ -26,43 +26,49 @@
 - [x] C Functions
 - [x] C Scope Rules
 - [x] C Arrays
-- [ ] C enum
-- [ ] C Pointers
-- [ ] C Function Pointers and Callbacks
-- [ ] C Strings
-- [ ] C Structures
-- [ ] C Unions
-- [ ] C Bit Fields
-- [ ] C typedef
-- [ ] C Input Output
-- [ ] C File I/O
-- [ ] C Preprocessors
-- [ ] C Header Files
-- [ ] C Type Casting
-- [ ] C Error Handling
-- [ ] C Recursion
-- [ ] C Variable Arguments
-- [ ] C Memory Management
-- [ ] C Command Line Arguments
-- [ ] C Sorting Algorithms
-- [ ] C Language Examples
-- [ ] C Classic 100 Examples
+- [x] C enum
+- [x] C Pointers
+  - [x] Arithmetic Operations on Pointers
+  - [x] Array of Pointers
+  - [x] Pointer to Pointer
+  - [x] Passing Pointers to Functions
+  - [x] Returning Pointer from Functions
+- [x] C Function Pointers and Callbacks
+- [x] C Strings
+- [x] C Structures
+- [x] C Unions
+- [x] C Bit Fields
+- [x] C typedef
+- [x] C Input Output
+- [x] C File I/O
+- [x] C Preprocessors
+- [x] C Header Files
+- [x] C Type Casting
+- [x] C Error Handling
+- [x] C Recursion
+- [x] C Variable Arguments
+- [x] C Memory Management
+- [x] C Command Line Arguments
+- [x] C Sorting Algorithms
 
 ## STANDARD LIBRARY
-- [ ] C Standard Library - Reference Manual
-- [ ] C Standard Library - <assert.h>
-- [ ] C Standard Library - <ctype.h>
-- [ ] C Standard Library - <errno.h>
-- [ ] C Standard Library - <float.h>
-- [ ] C Standard Library - <limits.h>
-- [ ] C Standard Library - <locale.h>
-- [ ] C Standard Library - <math.h>
-- [ ] C Standard Library - <setjmp.h>
-- [ ] C Standard Library - <signal.h>
-- [ ] C Standard Library - <stdarg.h>
-- [ ] C Standard Library - <stddef.h>
-- [ ] C Standard Library - <stdio.h>
-- [ ] C Standard Library - <stdlib.h>
-- [ ] C Standard Library - <string.h>
-- [ ] C Standard Library - <time.h>
-- [ ] C Language Quiz
+- [x] C Standard Library - Reference Manual
+- [x] C Standard Library - <assert.h>
+- [x] C Standard Library - <ctype.h>
+- [x] C Standard Library - <errno.h>
+- [x] C Standard Library - <float.h>
+- [x] C Standard Library - <limits.h>
+- [x] C Standard Library - <locale.h>
+- [x] C Standard Library - <math.h>
+- [x] C Standard Library - <setjmp.h>
+- [x] C Standard Library - <signal.h>
+- [x] C Standard Library - <stdarg.h>
+- [x] C Standard Library - <stddef.h>
+- [x] C Standard Library - <stdio.h>
+- [x] C Standard Library - <stdlib.h>
+- [x] C Standard Library - <string.h>
+- [x] C Standard Library - <time.h>‘
+
+## EXAMPLES
+- [ ] C Language Examples
+- [ ] C Classic 100 Examples

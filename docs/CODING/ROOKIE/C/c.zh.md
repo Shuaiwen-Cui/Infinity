@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __菜鸟网：C语言🎯🏆__
+-   :material-web:{ .lg .middle } __菜鸟网：C语言🎯✅🏆__
 
     ---
 
@@ -26,43 +26,49 @@
 - [x] C 函数
 - [x] C 作用域规则
 - [x] C 数组
-- [ ] C enum 枚举
-- [ ] C 指针
-- [ ] C 函数指针与回调函数
-- [ ] C 字符串
-- [ ] C 结构体
-- [ ] C 共用体
-- [ ] C 位域
-- [ ] C typedef
-- [ ] C 输入输出
-- [ ] C 文件读写
-- [ ] C 预处理器
-- [ ] C 头文件
-- [ ] C 强制类型转换
-- [ ] C 错误处理
-- [ ] C 递归
-- [ ] C 可变参数
-- [ ] C 内存管理
-- [ ] C 命令行参数
-- [ ] C 排序算法
-- [ ] C 语言实例
-- [ ] C 经典100例
+- [x] C enum 枚举
+- [x] C 指针
+  - [x] 指针的算数运算
+  - [x] 指针数组
+  - [x] 指向指针的指针
+  - [x] 传递指针给函数
+  - [x] 从函数返回指针
+- [x] C 函数指针与回调函数
+- [x] C 字符串
+- [x] C 结构体
+- [x] C 共用体
+- [x] C 位域
+- [x] C typedef
+- [x] C 输入输出
+- [x] C 文件读写x
+- [x] C 预处理器
+- [x] C 头文件
+- [x] C 强制类型转换
+- [x] C 错误处理
+- [x] C 递归
+- [x] C 可变参数
+- [x] C 内存管理
+- [x] C 命令行参数
+- [x] C 排序算法
 
 ## 标准库
-- [ ] C 标准库 - 参考手册
-- [ ] C 标准库 - <assert.h>
-- [ ] C 标准库 - <ctype.h>
-- [ ] C 标准库 - <errno.h>
-- [ ] C 标准库 - <float.h>
-- [ ] C 标准库 - <limits.h>
-- [ ] C 标准库 - <locale.h>
-- [ ] C 标准库 - <math.h>
-- [ ] C 标准库 - <setjmp.h>
-- [ ] C 标准库 - <signal.h>
-- [ ] C 标准库 - <stdarg.h>
-- [ ] C 标准库 - <stddef.h>
-- [ ] C 标准库 - <stdio.h>
-- [ ] C 标准库 - <stdlib.h>
-- [ ] C 标准库 - <string.h>
-- [ ] C 标准库 - <time.h>
-- [ ] C 语言测验
+- [x] C 标准库 - 参考手册
+- [x] C 标准库 - <assert.h>
+- [x] C 标准库 - <ctype.h>
+- [x] C 标准库 - <errno.h>
+- [x] C 标准库 - <float.h>
+- [x] C 标准库 - <limits.h>
+- [x] C 标准库 - <locale.h>
+- [x] C 标准库 - <math.h>
+- [x] C 标准库 - <setjmp.h>
+- [x] C 标准库 - <signal.h>
+- [x] C 标准库 - <stdarg.h>
+- [x] C 标准库 - <stddef.h>
+- [x] C 标准库 - <stdio.h>
+- [x] C 标准库 - <stdlib.h>
+- [x] C 标准库 - <string.h>
+- [x] C 标准库 - <time.h>
+
+## 实例
+- [ ] C 语言实例
+- [ ] C 经典100例
