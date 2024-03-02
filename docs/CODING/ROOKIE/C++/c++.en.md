@@ -76,19 +76,21 @@
 - [x] C++ Interfaces (Abstract Classes)
 
 ## ADVANCED
-- [ ] C++ Files and Streams
-- [ ] C++ Exception Handling
-- [ ] C++ Dynamic Memory
-- [ ] C++ Namespaces
-- [ ] C++ Templates
-- [ ] C++ Preprocessor
-- [ ] C++ Signal Handling
-- [ ] C++ Multithreading
-- [ ] C++ Web Programming
-
+- [x] C++ Files and Streams
+- [x] C++ Exception Handling
+- [x] C++ Dynamic Memory
+- [x] C++ Namespaces
+- [x] C++ Templates
+- [x] C++ Preprocessor
+- [x] C++ Signal Handling
+- [x] C++ Multithreading
+- [x] C++ Web Programming
+ 
 ## C++ RESOURCES
-- [ ] C++ STL Tutorial
-- [ ] C++ Standard Library
-- [ ] C++ Useful Resources
+- [x] C++ STL Tutorial
+- [x] C++ Standard Library
+- [x] C++ Useful Resources
+
+## EXAMPLES & TESTS
 - [ ] C++ Examples
 - [ ] C++ Quiz

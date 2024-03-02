@@ -457,6 +457,7 @@ nav:
               - C: "./CODING/ROOKIE/C/c.md"
               - C++: "./CODING/ROOKIE/C++/c++.md"
               - PYTHON: "./CODING/ROOKIE/PYTHON/python.md"
+              - SQL: "./CODING/ROOKIE/SQL/sql.md"
       - C/C++ 🎯:
           # - "./C-C++/c-c++.md"
           - C: "./CODING/C-C++/C/c.md"
@@ -469,7 +470,7 @@ nav:
               - CH03: "./CODING/C-C++/C++-NOTES/CH03/ch03.md"
               - CH04: "./CODING/C-C++/C++-NOTES/CH04/ch04.md"
           - MAKE-SERIES: "./CODING/C-C++/MAKE-SERIES/make-series.md"
-      - PYTHON: 
+      - PYTHON 🎯: 
           - "./CODING/PYTHON/python.md"
           - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
       - MICROPYTHON: "./CODING/MICROPYTHON/micropython.md"
@@ -478,6 +479,10 @@ nav:
           - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
           - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
           - WEB-DEV: "./CODING/HTML-CSS-JS/WEB-DEV/web-dev.md"
+      - DATABASE 🎯:
+          - MYSQL 🎯: "./CODING/DATABASE/MYSQL/mysql.md"
+          - POSTGRESQL 🎯: "./CODING/DATABASE/POSTGRESQL/postgresql.md"
+          - MONGODB 🎯: "./CODING/DATABASE/MONGODB/mongodb.md"
   - EMBEDDED-SYS: 
       - "./EMBEDDED-SYS/embedded-sys.md"
       - THEORY:
