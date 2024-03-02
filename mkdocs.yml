@@ -472,6 +472,7 @@ nav:
       - PYTHON: 
           - "./CODING/PYTHON/python.md"
           - ROADMAP: "./CODING/PYTHON/ROADMAP/roadmap.md"
+      - MICROPYTHON: "./CODING/MICROPYTHON/micropython.md"
       - HTML/CSS/JS: 
           - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
           - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
@@ -510,6 +511,7 @@ nav:
                   - CH08: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH08/mcu-ch08.md"
               - MPU-STM32MP157: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MPU-STM32MP157/mpu-stm32mp157.md"
           - ESP32: "./EMBEDDED-SYS/DEVKIT/ESP32/esp32.md"
+          - OPENMV: "./EMBEDDED-SYS/DEVKIT/OPENMV/openmv.md"
           - RASPBERRYPI: "./EMBEDDED-SYS/DEVKIT/RASPBERRYPI/raspberrypi.md"
           - JETSON: "./EMBEDDED-SYS/DEVKIT/JETSON/jetson.md"
       - IDE 🎯: 
