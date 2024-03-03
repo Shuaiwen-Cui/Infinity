@@ -18,6 +18,34 @@ PostgreSQL 是一个开源的面向对象的关系型数据库系统，拥有超
 
 </div>
 
+## 安装 & 设置
+
+### Windows
+
+<div class="grid cards" markdown>
+
+-   :simple-postgresql:{ .lg .middle } __PostgreSQL__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/postgresql/windows-install-postgresql.html" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+### Linux
+
+Ubuntu 作为例子。
+
+<div class="grid cards" markdown>
+
+-   :simple-postgresql:{ .lg .middle } __PostgreSQL__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 ## RUNOOB
 
 <div class="grid cards" markdown>
@@ -33,8 +61,8 @@ PostgreSQL 是一个开源的面向对象的关系型数据库系统，拥有超
 ## 学习进度
 
 ### 基础
-- [ ] Linux 下安装 PostgreSQL
-- [ ] Windows 下安装 PostgreSQL
+- [x] Linux 下安装 PostgreSQL
+- [x] Windows 下安装 PostgreSQL
 - [ ] Mac 下安装 PostgreSQL
 - [ ] PostgreSQL 语法
 - [ ] PostgreSQL 数据类型

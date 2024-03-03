@@ -18,6 +18,33 @@ MySQL is an open-source relational database management system (RDBMS). It is a p
 
 </div>
 
+## INSTALLATION & SETUP
+
+### WINDOWS
+<div class="grid cards" markdown>
+
+-   :simple-mysql:{ .lg .middle } __MySQL__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/w3cnote/windows10-mysql-installer.html" target="_blank"> Portal </a>](#)
+
+</div>
+
+### LINUX
+
+Ubuntu as an example.
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __MySQL__
+    
+    ---
+    
+    [:octicons-arrow-right-24: <a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04" target="_blank"> Portal </a>](#)
+
+</div>
+
 ## RUNOOB
 
 <div class="grid cards" markdown>
@@ -30,7 +57,7 @@ MySQL is an open-source relational database management system (RDBMS). It is a p
 
 </div>
 
-## LEARNING PROGRESS
+### LEARNING PROGRESS
 
 - [ ] MYSQL Tutorial
 - [ ] MYSQL Installation

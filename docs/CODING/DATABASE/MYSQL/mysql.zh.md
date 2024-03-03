@@ -18,6 +18,34 @@ MySQL 是一个开源的关系型数据库管理系统 (RDBMS)。它是 Web 应�
 
 </div>
 
+## 安装 & 设置
+
+### Windows
+
+<div class="grid cards" markdown>
+
+-   :simple-mysql:{ .lg .middle } __MySQL__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/w3cnote/windows10-mysql-installer.html" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+### Linux
+
+Ubuntu 作为例子。
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __MySQL__
+    
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-22-04" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 ## RUNOOB
 
 <div class="grid cards" markdown>
@@ -30,10 +58,10 @@ MySQL 是一个开源的关系型数据库管理系统 (RDBMS)。它是 Web 应�
 
 </div>
 
-## 学习进度
+### 学习进度
 
-- [ ] MYSQL 教程
-- [ ] MYSQL 安装
+- [x] MYSQL 教程
+- [x] MYSQL 安装
 - [ ] MYSQL 管理
 - [ ] MYSQL PHP语法
 - [ ] MYSQL 连接

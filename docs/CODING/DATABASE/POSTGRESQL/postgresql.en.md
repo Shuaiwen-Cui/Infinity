@@ -18,6 +18,33 @@ PostgreSQL is an open-source object-relational database system with over 15 year
 
 </div>
 
+## INSTALLATION & SETUP
+
+### WINDOWS
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __PostgreSQL__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.runoob.com/postgresql/windows-install-postgresql.html" target="_blank"> Portal </a>](#)
+
+</div>
+
+### LINUX
+
+Ubuntu as an example.
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __PostgreSQL__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart" target="_blank"> Portal </a>](#)
+
+</div>
 ## RUNOOB
 
 <div class="grid cards" markdown>
@@ -33,8 +60,8 @@ PostgreSQL is an open-source object-relational database system with over 15 year
 ## LEARNING PROGRESS
 
 ### BASICS
-- [ ] Install PostgreSQL on Linux
-- [ ] Install PostgreSQL on Windows
+- [x] Install PostgreSQL on Linux
+- [x] Install PostgreSQL on Windows
 - [ ] Install PostgreSQL on Mac
 - [ ] PostgreSQL Syntax
 - [ ] PostgreSQL Data Types
