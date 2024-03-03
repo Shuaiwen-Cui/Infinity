@@ -90,7 +90,7 @@ This file is for reference uses.
 
 :fontawesome-brands-bilibili:
 :material-youtube:
-:material-web:
+ 
 :fontawesome-solid-blog:
 :material-file:
 :simple-github:
