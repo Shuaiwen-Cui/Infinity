@@ -21,29 +21,27 @@
 - [x] python3 interpreter
 - [x] python3 comment
 - [x] python3 number
-- [ ] python3 string
-- [ ] python3 list
-- [ ] python3 tuple
-- [ ] python3 dictionary
-- [ ] python3 set
-- [ ] python3 conditional control
-- [ ] python3 loop statement
-- [ ] python3 first step of programming
-- [ ] python3 derivation
-- [ ] python3 iterator and generator
-- [ ] python3 function
-- [ ] python3 lambda
-- [ ] python3 data structure
-- [ ] python3 module
-- [ ] python3 input and output
-- [ ] python3 Files
-- [ ] python3 OS
-- [ ] python3 error and exception
-- [ ] python3 object-oriented
-- [ ] python3 namespace and scope
-- [ ] python3 standard library overview
-- [ ] python3 instance
-- [ ] python3 quiz
+- [x] python3 string
+- [x] python3 list
+- [x] python3 tuple
+- [x] python3 dictionary
+- [x] python3 set
+- [x] python3 conditional control
+- [x] python3 loop statement
+- [x] python3 first step of programming
+- [x] python3 derivation
+- [x] python3 iterator and generator
+- [x] python3 function
+- [x] python3 lambda
+- [x] python3 data structure
+- [x] python3 module
+- [x] python3 input and output
+- [x] python3 Files
+- [x] python3 OS
+- [x] python3 error and exception
+- [x] python3 object-oriented
+- [x] python3 namespace and scope
+- [x] python3 standard library overview
 
 ## ADVANCED
 - [ ] python3 regular expression
@@ -72,3 +70,6 @@
 - [ ] python3 quantization
 - [ ] python3 pyecharts
 
+## EXAMPLES & TESTS
+- [ ] python3 instance
+- [ ] python3 quiz

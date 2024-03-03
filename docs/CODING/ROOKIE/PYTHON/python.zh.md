@@ -23,27 +23,26 @@
 - [x] python3 数字
 - [x] python3 字符串
 - [x] python3 列表
-- [ ] python3 元组
-- [ ] python3 字典
-- [ ] python3 集合
-- [ ] python3 条件控制
-- [ ] python3 循环语句
-- [ ] python3 编程第一步
-- [ ] python3 推导式
-- [ ] python3 迭代器与生成器
-- [ ] python3 函数
-- [ ] python3 lambda
-- [ ] python3 数据结构
-- [ ] python3 模块
-- [ ] python3 输入和输出
-- [ ] python3 Files
-- [ ] python3 OS
-- [ ] python3 错误和异常
-- [ ] python3 面向对象
-- [ ] python3 命名空间和作用域
-- [ ] python3 标准库概览
-- [ ] python3 实例
-- [ ] python3 测验
+- [x] python3 元组
+- [x] python3 字典
+- [x] python3 集合
+- [x] python3 条件控制
+- [x] python3 循环语句
+- [x] python3 编程第一步
+- [x] python3 推导式
+- [x] python3 迭代器与生成器
+- [x] python3 函数
+- [x] python3 lambda
+- [x] python3 数据结构
+- [x] python3 模块
+- [x] python3 输入和输出
+- [x] python3 Files
+- [x] python3 OS
+- [x] python3 错误和异常
+- [x] python3 面向对象
+- [x] python3 命名空间和作用域
+- [x] python3 标准库概览
+
 
 ## 高级
 - [ ] python3 正则表达式
@@ -71,3 +70,7 @@
 - [ ] python3 hashlib
 - [ ] python3 量化
 - [ ] python3 pyecharts
+
+## 实例 & 测试
+- [ ] python3 实例
+- [ ] python3 测验
