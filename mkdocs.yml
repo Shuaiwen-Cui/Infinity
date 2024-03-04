@@ -484,7 +484,10 @@ nav:
           - HTML: "./CODING/HTML-CSS-JS/HTML/html.md"
           - CSS: "./CODING/HTML-CSS-JS/CSS/css.md"
           - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
-          - WEB-DEV: "./CODING/HTML-CSS-JS/WEB-DEV/web-dev.md"
+      - WEB-DEV: 
+          - "./CODING/WEB-DEV/web-dev.md"
+          - FLASK 🎯: "./CODING/WEB-DEV/FLASK/flask.md"
+          - DJANGO 🎯: "./CODING/WEB-DEV/DJANGO/django.md"
       - DATABASE 🎯:
           - RDBMS:
             - MYSQL: "./CODING/DATABASE/RDBMS/MYSQL/mysql.md"
@@ -493,6 +496,9 @@ nav:
             - MONGODB 🎯: "./CODING/DATABASE/NOSQL/MONGODB/mongodb.md"
           - TSDB:
             - INFLUXDB 🎯: "./CODING/DATABASE/TSDB/INFLUXDB/influxdb.md"
+            - TIMESCALEDB 🎯: "./CODING/DATABASE/TSDB/TIMESCALEDB/timescaledb.md"
+            - TDENGINE: "./CODING/DATABASE/TSDB/TDENGINE/tdengine.md"
+            - IOTDB: "./CODING/DATABASE/TSDB/IOTDB/iotdb.md"
           - GRAPHDB:
             - NEO4J 🎯: "./CODING/DATABASE/GRAPHDB/NEO4J/neo4j.md"
   - EMBEDDED-SYS: 
