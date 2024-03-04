@@ -32,7 +32,7 @@
 
 <div class="grid cards" markdown>
 
--  :material-microsoft-visual-studio-code:{ .lg .middle } __Visual Studio Code __
+-  :material-microsoft-visual-studio-code:{ .lg .middle } __Visual Studio Code__
 
     ---
 

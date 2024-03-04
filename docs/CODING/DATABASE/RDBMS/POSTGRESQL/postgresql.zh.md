@@ -63,7 +63,7 @@ Ubuntu 作为例子。
 ### 基础
 - [x] Linux 下安装 PostgreSQL
 - [x] Windows 下安装 PostgreSQL
-- [ ] Mac 下安装 PostgreSQL
+- [x] Mac 下安装 PostgreSQL
 - [ ] PostgreSQL 语法
 - [ ] PostgreSQL 数据类型
 - [ ] PostgreSQL 创建数据库

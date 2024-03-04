@@ -59,38 +59,39 @@ Ubuntu as an example.
 
 ### LEARNING PROGRESS
 
-- [ ] MYSQL Tutorial
-- [ ] MYSQL Installation
-- [ ] MYSQL Management
-- [ ] MYSQL PHP Syntax
-- [ ] MYSQL Connection
-- [ ] MYSQL Create Database
-- [ ] MYSQL Delete Database
-- [ ] MYSQL Select Database
-- [ ] MYSQL Data Types
-- [ ] MYSQL Create Table
-- [ ] MYSQL Delete Table
-- [ ] MYSQL Insert Data
-- [ ] MYSQL Query Data
-- [ ] MYSQL WHERE Clause
-- [ ] MYSQL UPDATE Update
-- [ ] MYSQL DELETE Delete
-- [ ] MYSQL LIKE Clause
-- [ ] MYSQL UNION
-- [ ] MYSQL ORDER BY Statement
-- [ ] MYSQL Grouping
-- [ ] MYSQL Connection Usage
-- [ ] MYSQL NULL Value Handling
-- [ ] MYSQL Regular Expressions
-- [ ] MYSQL Transaction
-- [ ] MYSQL ALTER Command
-- [ ] MYSQL Index
-- [ ] MYSQL Temporary Table
-- [ ] MYSQL Clone Table
-- [ ] MYSQL Metadata
-- [ ] MYSQL Sequences
-- [ ] MYSQL Handle Replicated Data
-- [ ] MYSQL Injection
-- [ ] MYSQL Export Data
-- [ ] MYSQL Functions
-- [ ] MYSQL Operators
+- [x] MYSQL Tutorial
+- [x] MYSQL Installation
+- [x] MYSQL Management
+- [x] MYSQL PHP Syntax
+- [x] MYSQL Connection
+- [x] MYSQL Create Database
+- [x] MYSQL Delete Database
+- [x] MYSQL Select Database
+- [x] MYSQL Data Types
+- [x] MYSQL Create Table
+- [x] MYSQL Delete Table
+- [x] MYSQL Insert Data
+- [x] MYSQL Query Data
+- [x] MYSQL WHERE Clause
+- [x] MYSQL UPDATE Update
+- [x] MYSQL DELETE Delete
+- [x] MYSQL LIKE Clause
+- [x] MYSQL UNION
+- [x] MYSQL ORDER BY Statement
+- [x] MYSQL Grouping
+- [x] MYSQL Connection Usage
+- [x] MYSQL NULL Value Handling
+- [x] MYSQL Regular Expressions
+- [x] MYSQL Transaction
+- [x] MYSQL ALTER Command
+- [x] MYSQL Index
+- [x] MYSQL Temporary Table
+- [x] MYSQL Clone Table
+- [x] MYSQL Metadata
+- [x] MYSQL Sequences
+- [x] MYSQL Handle Replicated Data
+- [x] MYSQL Injection
+- [x] MYSQL Export Data
+- [x] MYSQL Functions
+- [x] MYSQL Operators
+  

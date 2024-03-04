@@ -62,37 +62,37 @@ Ubuntu 作为例子。
 
 - [x] MYSQL 教程
 - [x] MYSQL 安装
-- [ ] MYSQL 管理
-- [ ] MYSQL PHP语法
-- [ ] MYSQL 连接
-- [ ] MYSQL 创建数据库
-- [ ] MYSQL 删除数据库
-- [ ] MYSQL 选择数据库
-- [ ] MYSQL 数据类型
-- [ ] MYSQL 创建数据表
-- [ ] MYSQL 删除数据表
-- [ ] MYSQL 插入数据
-- [ ] MYSQL 查询数据
-- [ ] MYSQL WHERE 子句
-- [ ] MYSQL UPDATE 更新
-- [ ] MYSQL DELETE 删除
-- [ ] MYSQL LIKE 子句
-- [ ] MYSQL UNION
-- [ ] MYSQL ORDER BY 语句
-- [ ] MYSQL 分组
-- [ ] MYSQL 连接的使用
-- [ ] MYSQL NULL 值处理
-- [ ] MYSQL 正则表达式
-- [ ] MYSQL 事务
-- [ ] MYSQL ALTER命令
-- [ ] MYSQL 索引
-- [ ] MYSQL 临时表
-- [ ] MYSQL 复制表
-- [ ] MYSQL 元数据
-- [ ] MYSQL 序列
-- [ ] MYSQL 处理重复数据
-- [ ] MYSQL 及SQL注入
-- [ ] MYSQL 导出数据
-- [ ] MYSQL 函数
-- [ ] MYSQL 运算符
+- [x] MYSQL 管理
+- [x] MYSQL PHP语法
+- [x] MYSQL 连接
+- [x] MYSQL 创建数据库
+- [x] MYSQL 删除数据库
+- [x] MYSQL 选择数据库
+- [x] MYSQL 数据类型
+- [x] MYSQL 创建数据表
+- [x] MYSQL 删除数据表
+- [x] MYSQL 插入数据
+- [x] MYSQL 查询数据
+- [x] MYSQL WHERE 子句
+- [x] MYSQL UPDATE 更新
+- [x] MYSQL DELETE 删除
+- [x] MYSQL LIKE 子句
+- [x] MYSQL UNION
+- [x] MYSQL ORDER BY 语句
+- [x] MYSQL 分组
+- [x] MYSQL 连接的使用
+- [x] MYSQL NULL 值处理
+- [x] MYSQL 正则表达式
+- [x] MYSQL 事务
+- [x] MYSQL ALTER命令
+- [x] MYSQL 索引
+- [x] MYSQL 临时表
+- [x] MYSQL 复制表
+- [x] MYSQL 元数据
+- [x] MYSQL 序列
+- [x] MYSQL 处理重复数据
+- [x] MYSQL 及SQL注入
+- [x] MYSQL 导出数据
+- [x] MYSQL 函数
+- [x] MYSQL 运算符
 

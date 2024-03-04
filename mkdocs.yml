@@ -160,7 +160,12 @@ plugins:
             HTML: 超文本标记语言
             CSS: 级联样式表
             JAVASCRIPT: JAVASCRIPT
-            WEB-DEV: WEB开发
+            WEB-DEV: 浏览器端开发
+            DATABASE 🎯: 数据库 🎯
+            RDBMS: 关系型数据库管理系统
+            NOSQL: 非关系型数据库
+            TSDB: 时序数据库
+            GRAPHDB: 图数据库
             EMBEDDED-SYS: 嵌入式系统
             THEORY: 理论
             ELECTRONICS: 电子学
@@ -262,6 +267,7 @@ plugins:
             CH03 Tabular Methods: CH03 表格方法
             FL 🎯: 联邦学习 🎯
             MULTI-AGENT 🎯: 多智能体 🎯
+            TL 🎯: 迁移学习 🎯
             NLP: 自然语言处理
             CV 🎯: 计算机视觉 🎯
             NOTE-D2L 🎯: 动手学深度学习 🎯
@@ -480,9 +486,15 @@ nav:
           - JAVASCRIPT: "./CODING/HTML-CSS-JS/JS/js.md"
           - WEB-DEV: "./CODING/HTML-CSS-JS/WEB-DEV/web-dev.md"
       - DATABASE 🎯:
-          - MYSQL 🎯: "./CODING/DATABASE/MYSQL/mysql.md"
-          - POSTGRESQL 🎯: "./CODING/DATABASE/POSTGRESQL/postgresql.md"
-          - MONGODB 🎯: "./CODING/DATABASE/MONGODB/mongodb.md"
+          - RDBMS:
+            - MYSQL: "./CODING/DATABASE/RDBMS/MYSQL/mysql.md"
+            - POSTGRESQL 🎯: "./CODING/DATABASE/RDBMS/POSTGRESQL/postgresql.md"
+          - NOSQL:
+            - MONGODB 🎯: "./CODING/DATABASE/NOSQL/MONGODB/mongodb.md"
+          - TSDB:
+            - INFLUXDB 🎯: "./CODING/DATABASE/TSDB/INFLUXDB/influxdb.md"
+          - GRAPHDB:
+            - NEO4J 🎯: "./CODING/DATABASE/GRAPHDB/NEO4J/neo4j.md"
   - EMBEDDED-SYS: 
       - "./EMBEDDED-SYS/embedded-sys.md"
       - THEORY:
@@ -633,6 +645,7 @@ nav:
               - CH03 Tabular Methods: "./AI/RL/EASY-RL/CH03/ch03.md"
       - FL 🎯: "./AI/FL/fl.md"
       - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
+      - TL 🎯: "./AI/TL/tl.md"
       - NLP: "./AI/NLP/nlp.md"
       - CV 🎯: "./AI/CV/cv.md"
       - NOTE-D2L 🎯: 
