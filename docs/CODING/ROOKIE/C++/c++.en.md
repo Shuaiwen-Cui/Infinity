@@ -92,5 +92,4 @@
 - [x] C++ Useful Resources
 
 ## EXAMPLES & TESTS
-- [ ] C++ Examples
-- [ ] C++ Quiz
+- [5] C++ Examples
