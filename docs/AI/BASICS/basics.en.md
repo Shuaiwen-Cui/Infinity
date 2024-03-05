@@ -67,5 +67,6 @@ Evolution of AI: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs
 - [Reinforcement Learning (RL)](http://www.cuishuaiwen.com:8000/AI/RL/rl/)
 - [Federated Learning (FL)](http://www.cuishuaiwen.com:8000/AI/FL/fl/)
 - [Multi-Agent Learning (MAL)](http://www.cuishuaiwen.com:8000/AI/MULTI-AGENT/multi-agent/)
+- [Transfer Learning (TL)](http://www.cuishuaiwen.com:8000/AI/TL/tl/)
 - [Natural Language Processing (NLP)](http://www.cuishuaiwen.com:8000/AI/NLP/nlp/)
 - [Computer Vision (CV)](http://www.cuishuaiwen.com:8000/AI/CV/cv/)

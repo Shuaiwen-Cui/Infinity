@@ -69,5 +69,7 @@ AI 进化史: [https://www.linkedin.com/pulse/biggest-confusion-cleared-ai-vs-ml
 - [对抗生成网络 (GAN)](http://www.cuishuaiwen.com:8000/zh/AI/GAN/gan/)
 - [强化学习 (RL)](http://www.cuishuaiwen.com:8000/zh/AI/RL/rl/)
 - [联邦学习 (FL)](http://www.cuishuaiwen.com:8000/zh/AI/FL/fl/)
+- [多智能体学习 (MULTI-AGENT)](http://127.0.0.1:8000/zh/AI/MULTI-AGENT/multi-agent/)
+- [迁移学习（TL）](http://www.cuishuaiwen.com:8000/zh/AI/TL/tl/)
 - [自然语言处理 (NLP)](http://www.cuishuaiwen.com:8000/zh/AI/NLP/nlp/)
 - [计算机视觉 (CV)](http://www.cuishuaiwen.com:8000/zh/AI/CV/cv/)
