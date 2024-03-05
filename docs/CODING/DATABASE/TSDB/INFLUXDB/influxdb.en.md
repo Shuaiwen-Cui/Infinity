@@ -53,3 +53,15 @@ InfluxDB is an open-source time series database developed by InfluxData. It is w
     [:octicons-arrow-right-24: <a href="https://docs.influxdata.com/influxdb/v2.0/" target="_blank"> Portal </a>](#)
 
 </div>
+
+- [x] Install InfluxDB
+- [ ] Getting Started
+- [ ] Develop with the API
+- [ ] Write Data
+- [ ] Query Data
+- [ ] Visualize Data
+- [ ] Process Data
+- [ ] Monitor&Alert
+- [ ] Tools & Integrations
+- [ ] Administer InfluxDB
+- [ ] Reference
