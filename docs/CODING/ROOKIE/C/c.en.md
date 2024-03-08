@@ -70,5 +70,5 @@
 - [x] C Standard Library - time.h
 
 ## EXAMPLES
-- [30/69] C Language Examples
+- [35/69] C Language Examples
 - [0/100] C Classic 100 Examples
