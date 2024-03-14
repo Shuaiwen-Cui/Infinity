@@ -147,7 +147,19 @@
 </div>
 
 
+## 百问科技
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __百问科技🎯__
+
+    ---
+
+    一个关于嵌入式系统和编程的 Bilibili 频道。
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1AQ4y157ok?p=1" target="_blank"> 传送门 </a>](#)
+
+</div>
 
 
 
@@ -197,3 +209,15 @@
 - [x] CH16 单片机的地址与状态
 - [x] CH17 工程文件的调用关系
 - [ ] CH18 I2C总线协议解析
+
+## 正点原子🎯🏆
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __正点原子🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.yuanzige.com/course/detail/80586" target="_blank"> 传送门 </a>](#)
+
+</div>

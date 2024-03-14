@@ -22,7 +22,7 @@
 - [x] Shell Tools and Scripting🎯
 - [x] Editors (Vim)🎯
 - [ ] Data Wrangling
-- [ ] Command-line Environment
+- [x] Command-line Environment
 - [ ] Version Control (Git)
 - [ ] Debugging and Profiling
 - [ ] Metaprogramming
