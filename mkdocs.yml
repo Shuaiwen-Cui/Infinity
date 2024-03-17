@@ -301,12 +301,13 @@ plugins:
             PROJECT: 项目
             TECH-BLOG: 技术博客
             WAREHOUSE: 资源仓库
+            EMBEDDED-DEV: 嵌入式开发 
 # # Hooks
 # hooks:
 #   - material/overrides/hooks/shortcodes.py
-#   - material/overrides/hooks/translations.py
+#   - material/overrides/hooks/translations.py 
 
-# Additional configuration
+# Additional configuration 
 extra:
   generator: false
   status:
@@ -709,6 +710,7 @@ nav:
       - "./PROJECT/project.md"
       - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
       - WAREHOUSE: "./PROJECT/WAREHOUSE/warehouse.md"
+      - EMBEDDED-DEV: "./PROJECT/EMBEDDED-DEV/embedded-dev.md"
     
 # if there are sub nodes under a node, then there should not be a link right after the node. All the stuff should be placed under the node.
 
