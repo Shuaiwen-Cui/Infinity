@@ -62,10 +62,10 @@ The development of embedded systems requires considering both hardware and softw
 
 </div>
 
-- [x] P1 [1-1] Course Introduction
-- [x] P2 [1-2] Development Tools and Software Installation
-- [x] P3 [1-3] MCU and Dev Board Introduction
-- [x] P4 [2-1] Enlighten a LED
+- [x] P1 [1-1] Course Introduction✅
+- [x] P2 [1-2] Development Tools and Software Installation✅
+- [x] P3 [1-3] MCU and Dev Board Introduction✅
+- [x] P4 [2-1] Enlighten a LED✅
 - [x] p5 [2-2] LED Blinking
 - [x] P6 [2-3] LED Running Light
 - [x] P7 [3-1] Independent Button Control LED On/Off 

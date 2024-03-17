@@ -287,6 +287,11 @@ plugins:
             CLOUD-SYNC: 云同步
             EMBEDDED-SYS-DEV: 嵌入式系统开发
             EMBEDDED: 嵌入式
+            MCU51: 单片机51
+            CH01-PRELIMINARIES: CH01-预备知识
+            CH02-LED: CH02-LED点灯
+            MCU32: 单片机32
+            MPU: 微处理器
             XNODE 🎯: XNODE 🎯
             XNODE-DOCS: XNODE文档
             BASIC-VERSION: 基础版本
@@ -681,7 +686,15 @@ nav:
           - LINUX:
               - UBUNTU: "./DEV/DEVENV/LINUX/UBUNTU/ubuntu.md"
       - EMBEDDED:
-          - STM32MP157: "./DEV/EMBEDDED/STM32MP157/stm32mp157.md"
+          - MCU51: 
+              - CH01-PRELIMINARIES: "./DEV/EMBEDDED/MCU51/CH01-PRE/ch01-pre.md"
+              - CH02-LED: "./DEV/EMBEDDED/MCU51/CH02-LED/ch02-led.md"
+          - MCU32: 
+              - "./DEV/EMBEDDED/MCU32/stm32.md"
+          - MPU: 
+              - RASPBERRYPI: "./DEV/EMBEDDED/MPU/RASPBERRYPI/raspberrypi.md"
+              - JETSON-NANO: "./DEV/EMBEDDED/MPU/JETSON-NANO/jetson-nano.md"
+              - STM32MP157: "./DEV/EMBEDDED/MPU/STM32MP157/stm32mp157.md"
       - XNODE 🎯:
           - XNODE-DOCS: "./DEV/XNODE/XNODE-DOCS/xnode-docs.md"
           - BASIC-VERSION: "./DEV/XNODE/BASIC-VERSION/basic-version.md"
