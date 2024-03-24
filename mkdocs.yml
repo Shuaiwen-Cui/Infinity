@@ -290,6 +290,7 @@ plugins:
             MCU51: 单片机51
             CH01-PRELIMINARIES: CH01-预备知识
             CH02-LED: CH02-LED点灯
+            CH03-BUTTON: CH03-按键控制
             MCU32: 单片机32
             MPU: 微处理器
             XNODE 🎯: XNODE 🎯
@@ -690,6 +691,7 @@ nav:
           - MCU51: 
               - CH01-PRELIMINARIES: "./DEV/EMBEDDED/MCU51/CH01-PRE/ch01-pre.md"
               - CH02-LED: "./DEV/EMBEDDED/MCU51/CH02-LED/ch02-led.md"
+              - CH03-BUTTON: "./DEV/EMBEDDED/MCU51/CH03-BUTTON/ch03-button.md"
           - MCU32: 
               - "./DEV/EMBEDDED/MCU32/stm32.md"
           - MPU: 
