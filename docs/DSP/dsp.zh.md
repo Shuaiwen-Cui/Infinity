@@ -91,6 +91,19 @@
 - [x] 类EMD的“信号分解方法”及MATLAB实现（第九篇）——小波包变换（WPT）/小波包分解（WPD）
 
 
+## 学习
 
+滤波器设计：
 
+<div class="grid cards" markdown>
+
+-   :material-book:{ .lg .middle } __数字信号处理与滤波器设计 🎯__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=xPCgjP21Z7E" target="_blank"> 传送门 </a>](#) 
+
+    [:octicons-arrow-right-24: <a href="https://onedrive.live.com/?authkey=%21AJesg4br%2D57KmBo&id=67647B83ED1AAE5F%21262866&cid=67647B83ED1AAE5F" target="_blank"> 配套代码 </a>](#)
+
+</div>
 

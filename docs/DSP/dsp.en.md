@@ -35,3 +35,20 @@
 
 
 </div>
+
+## To Learn
+
+Filter Design:
+
+<div class="grid cards" markdown>
+
+-   :material-book:{ .lg .middle } __Digital Signal Processing and Filter Design 🎯__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=xPCgjP21Z7E" target="_blank"> Portal </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://onedrive.live.com/?authkey=%21AJesg4br%2D57KmBo&id=67647B83ED1AAE5F%21262866&cid=67647B83ED1AAE5F" target="_blank"> Code </a>](#)
+
+</div>
+
