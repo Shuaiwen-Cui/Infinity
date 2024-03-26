@@ -60,6 +60,8 @@ The development of embedded systems requires considering both hardware and softw
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Mb411e7re/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
+    [:octicons-arrow-right-24: <a href="https://github.com/jjejdhhd/Learn_STC89C52.git" target="_blank"> Playlist </a>](#)
+
 </div>
 
 - [x] P1 [1-1] Course Introduction✅

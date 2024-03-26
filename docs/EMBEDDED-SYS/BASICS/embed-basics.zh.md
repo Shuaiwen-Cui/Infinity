@@ -59,6 +59,10 @@
     注意：本教程采用基于寄存器的编程方式，不使用库函数。
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Mb411e7re/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://github.com/jjejdhhd/Learn_STC89C52.git" target="_blank"> 配套代码 </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://github.com/guangsuqiu/learn_STC89C52.git" target="_blank"> 配套代码 </a>](#)
 </div>
 
 - [x] P1 [1-1] 课程简介✅
