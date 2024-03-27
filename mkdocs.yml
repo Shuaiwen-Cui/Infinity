@@ -175,6 +175,10 @@ plugins:
             LINUX: LINUX
             BASICS: 基础
             EMBED-BASICS: 嵌入式基础
+            JUST: 江协科技
+            ALIENTEK: 正点原子
+            YOUNGTALK: 洋桃科技
+            REFERENCE: 参考链接
             SIMULATION: 仿真
             DEVKIT 🎯: 开发板 🎯
             ARDUINO: ARDUINO
@@ -517,7 +521,12 @@ nav:
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
       - BASICS: 
-          - EMBED-BASICS: "./EMBEDDED-SYS/BASICS/embed-basics.md"
+          - EMBED-BASICS: 
+              -  "./EMBEDDED-SYS/BASICS/embed-basics.md"
+              - JUST: "./EMBEDDED-SYS/BASICS/JUST/just.md"
+              - ALIENTEK: "./EMBEDDED-SYS/BASICS/ALIENTEK/alientek.md"
+              - YOUNGTALK: "./EMBEDDED-SYS/BASICS/YOUNGTALK/youngtalk.md"
+              - REFERENCE: "./EMBEDDED-SYS/BASICS/REFERENCE/reference.md"
       - SIMULATION: 
           # - "./EMBEDDED-SYS/SIMULATION/simulation.md"
           - RENODE: "./EMBEDDED-SYS/SIMULATION/RENODE/renode.md"
