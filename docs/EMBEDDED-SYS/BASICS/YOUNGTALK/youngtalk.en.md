@@ -105,15 +105,15 @@
 - [x] P19 KEIL4 Installation
 - [x] P21 Project Introduction and Debugging Process
 - [x] P22 Firmware Library Installation
-- [ ] P23 Programming Language Introduction
-- [ ] P24 Firmware Library Call
-- [ ] P25 Add Project Files
-- [ ] P26 Core Board Circuit Analysis
-- [ ] P27 Light Up LED
-- [ ] P28 More Ways to Light Up LED
-- [ ] P29 LED Flashing Program
-- [ ] P30 LED Breathing Light Program
-- [ ] P31 Button Control LED
+- [x] P23 Programming Language Introduction
+- [x] P24 Firmware Library Call
+- [x] P25 Add Project Files
+- [x] P26 Core Board Circuit Analysis
+- [x] P27 Light Up LED 
+- [xx] P28 More Ways to Light Up LED
+- [x] P29 LED Flashing Program
+- [x] P30 LED Breathing Light Program
+- [x] P31 Button Control LED
 - [ ] P32 FLASH Read and Write Program
 - [ ] P33 Buzzer Driver Program
 - [ ] P34 MIDI Music Playback Program
