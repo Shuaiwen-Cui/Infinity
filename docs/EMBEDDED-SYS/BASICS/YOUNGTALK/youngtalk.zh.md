@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __洋桃电子 Bilibili🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __洋桃电子Bilibili🎯__
 
     ---
 
@@ -10,7 +10,7 @@
 
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/277276709" target="_blank"> 传送门 </a>](#)
 
--   :material-file:{ .lg .middle } __洋桃电子官方网站🎯_
+-   :material-file:{ .lg .middle } __洋桃电子官网🎯__
 
     ---
 
@@ -69,7 +69,7 @@
 
 ## STM32
 
-### F103
+### 初级-F103
 
 <div class="grid cards" markdown>
 
@@ -92,12 +92,113 @@
 - [x] P6 时钟，复位与电源管理
 - [x] P7 新书出版
 - [x] P8 低功耗和ADC
-- [ ] P9 DMA和IO端口
-- [ ] P10 调试模式和定时器
+- [x] P9 DMA和IO端口
+- [x] P10 调试模式和定时器
+- [x] P11 看门狗和滴答定时器
+- [x] P12 I2C和USART接口
+- [x] P13 CRC校验和芯片ID
+- [x] P14 内部功能回顾总结
+- [x] P15 接口定义
+- [x] P16 开发板简介
+- [x] P17 ISP程序下载
+- [x] P18 最小系统电路
+- [x] P19 KEIL4安装
+- [x] P21 工程简介与调试流程
+- [x] P22 固件库的安装
+- [ ] P23 编程语言介绍
+- [ ] P24 固件库的调用
+- [ ] P25 添加工程文件
+- [ ] P26 核心板电路分析
+- [ ] P27 点亮LED灯
+- [ ] P28 更多点亮LED灯的方法
+- [ ] P29 LED闪灯程序
+- [ ] P30 LED呼吸灯程序
+- [ ] P31 按键控制LED灯
+- [ ] P32 FLASH读写程序
+- [ ] P33 蜂鸣器驱动程序
+- [ ] P34 MIDI音乐播放程序
+- [ ] P35 USART驱动程序
+- [ ] P36 USART发送程序
+- [ ] P37 USART接收程序
+- [ ] P38 USART控制程序
+- [ ] P39 超级终端串口控制程序
+- [ ] P40
+- [ ] P41
+- [ ] P42
+- [ ] P43
+- [ ] P44
+- [ ] P45
+- [ ] P46
+- [ ] P47
+- [ ] P48
+- [ ] P49
+- [ ] P50
+- [ ] P51
+- [ ] P52
+- [ ] P53
+- [ ] P54
+- [ ] P55
+- [ ] P56
+- [ ] P57
+- [ ] P58
+- [ ] P59
+- [ ] P60
+- [ ] P61
+- [ ] P62
+- [ ] P63
+- [ ] P64
+- [ ] P65
+- [ ] P66
+- [ ] P67
+- [ ] P68
+- [ ] P69
+- [ ] P70
+- [ ] P71
+- [ ] P72
+- [ ] P73
+- [ ] P74
+- [ ] P75
+- [ ] P76
+- [ ] P77
+- [ ] P78
+- [ ] P79
+- [ ] P80
+- [ ] P81
+- [ ] P82
+- [ ] P83
+- [ ] P84
+- [ ] P85
+- [ ] P86
+- [ ] P87
+- [ ] P88
+- [ ] P89
+- [ ] P90
+- [ ] P91
+- [ ] P92
+- [ ] P93
+- [ ] P94
+- [ ] P95
+- [ ] P96
+- [ ] P97
+- [ ] P98
+- [ ] P99
+- [ ] P100
 
+### 中级-IoT
 
+<div class="grid cards" markdown>
 
-### F407
+-   :fontawesome-brands-bilibili:{ .lg .middle } __IoT🎯__
+
+    ---
+
+    IoT 系列， 配套洋桃电子IoT开发板。
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1jP4y1E7TJ/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+
+</div>
+
+### 高级-F407
 
 <div class="grid cards" markdown>
 
@@ -111,16 +212,3 @@
 
 </div>
 
-### IoT
-
-<div class="grid cards" markdown>
-
--   :fontawesome-brands-bilibili:{ .lg .middle } __IoT🎯__
-
-    ---
-
-    IoT 系列， 配套洋桃电子IoT开发板。
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1jP4y1E7TJ/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
-
-</div>

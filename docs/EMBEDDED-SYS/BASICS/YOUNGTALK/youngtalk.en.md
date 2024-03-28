@@ -10,7 +10,7 @@
 
     [:octicons-arrow-right-24: <a href="https://space.bilibili.com/277276709" target="_blank"> Portal </a>](#)
 
--   :material-file:{ .lg .middle } __Youngtalk Electronics Official Website🎯__
+-   :material-file:{ .lg .middle } __Youngtalk Electronics Official🎯__
 
     ---
 
@@ -69,7 +69,7 @@
 
 ## STM32 Study
 
-### F103
+### Basics-F103
 
 <div class="grid cards" markdown>
 
@@ -92,10 +92,112 @@
 - [x] P6 Clock, Reset and Power Management
 - [x] P7 New Book Published
 - [x] P8 Low Power and ADC
-- [ ] P9 DMA and IO Ports
-- [ ] P10 Debug Mode and Timer
+- [x] P9 DMA and IO Ports
+- [x] P10 Debug Mode and Timer
+- [x] P11 Watchdog and Systick Timer
+- [x] P12 I2C and USART Interface
+- [x] P13 CRC Checksum and Chip ID 
+- [x] P14 Internal Function Review Summary
+- [x] P15 Interface Definition
+- [x] P16 Development Board Introduction
+- [x] P17 ISP Program Download
+- [x] P18 Minimum System Circuit
+- [x] P19 KEIL4 Installation
+- [x] P21 Project Introduction and Debugging Process
+- [x] P22 Firmware Library Installation
+- [ ] P23 Programming Language Introduction
+- [ ] P24 Firmware Library Call
+- [ ] P25 Add Project Files
+- [ ] P26 Core Board Circuit Analysis
+- [ ] P27 Light Up LED
+- [ ] P28 More Ways to Light Up LED
+- [ ] P29 LED Flashing Program
+- [ ] P30 LED Breathing Light Program
+- [ ] P31 Button Control LED
+- [ ] P32 FLASH Read and Write Program
+- [ ] P33 Buzzer Driver Program
+- [ ] P34 MIDI Music Playback Program
+- [ ] P35 USART Driver Program
+- [ ] P36 USART Transmission Program
+- [ ] P37 USART Receive Program
+- [ ] P38 USART Control Program
+- [ ] P39 HyperTerminal Serial Control Program
+- [ ] P40
+- [ ] P41
+- [ ] P42
+- [ ] P43
+- [ ] P44
+- [ ] P45
+- [ ] P46
+- [ ] P47
+- [ ] P48
+- [ ] P49
+- [ ] P50
+- [ ] P51
+- [ ] P52
+- [ ] P53
+- [ ] P54
+- [ ] P55
+- [ ] P56
+- [ ] P57
+- [ ] P58
+- [ ] P59
+- [ ] P60
+- [ ] P61
+- [ ] P62
+- [ ] P63
+- [ ] P64
+- [ ] P65
+- [ ] P66
+- [ ] P67
+- [ ] P68
+- [ ] P69
+- [ ] P70
+- [ ] P71
+- [ ] P72
+- [ ] P73
+- [ ] P74
+- [ ] P75
+- [ ] P76
+- [ ] P77
+- [ ] P78
+- [ ] P79
+- [ ] P80
+- [ ] P81
+- [ ] P82
+- [ ] P83
+- [ ] P84
+- [ ] P85
+- [ ] P86
+- [ ] P87
+- [ ] P88
+- [ ] P89
+- [ ] P90
+- [ ] P91
+- [ ] P92
+- [ ] P93
+- [ ] P94
+- [ ] P95
+- [ ] P96
+- [ ] P97
+- [ ] P98
+- [ ] P99
+- [ ] P100
+### Middle-IoT
 
-### F407
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __IoT Development🎯__
+
+    ---
+
+    IoT class.
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1jP4y1E7TJ/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+</div>
+
+### Advanced-F407
 
 <div class="grid cards" markdown>
 
@@ -109,16 +211,3 @@
 
 </div>
 
-### IoT
-
-<div class="grid cards" markdown>
-
--   :material-file:{ .lg .middle } __IoT Development🎯__
-
-    ---
-
-    IoT class.
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1jP4y1E7TJ/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
-
-</div>
