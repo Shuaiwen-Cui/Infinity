@@ -83,6 +83,18 @@
 
 </div>
 
+#### Learning Progress
+- [x] P1 Preface
+- [x] P2 What is ARM
+- [x] P3 What is STM32
+- [x] P4 STM32 Naming Convention
+- [x] P5 Core and Memory
+- [x] P6 Clock, Reset and Power Management
+- [x] P7 New Book Published
+- [x] P8 Low Power and ADC
+- [ ] P9 DMA and IO Ports
+- [ ] P10 Debug Mode and Timer
+
 ### F407
 
 <div class="grid cards" markdown>
@@ -96,18 +108,6 @@
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1KN41117KJ/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 </div>
-
-#### Learning Progress
-- [x] P1 Preface
-- [x] P2 What is ARM
-- [x] P3 What is STM32
-- [x] P4 STM32 Naming Convention
-- [x] P5 Core and Memory
-- [x] P6 Clock, Reset and Power Management
-- [x] P7 New Book Published
-- [x] P8 Low Power and ADC
-- [ ] P9 DMA and IO Ports
-- [ ] P10 Debug Mode and Timer
 
 ### IoT
 
