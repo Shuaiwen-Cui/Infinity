@@ -197,6 +197,41 @@
 
 </div>
 
+#### Learning Progress
+
+- [x] P1 Introduction and Learning Methods
+- [x] P2 STM32CubeIDE Installation
+- [x] P3 Create a New CUBEIDE Project
+- [x] P4 CUBEMX Graphical Programming
+- [x] P5 Tutorial Book Advertisement
+- [x] P6 Project Compilation and Download
+- [x] P7 HAL Library Structure and Usage
+- [ ] P8
+- [ ] P9
+- [ ] P10
+- [ ] P11
+- [ ] P12
+- [ ] P13
+- [ ] P14
+- [ ] P15
+- [ ] P16
+- [ ] P17
+- [ ] P18
+- [ ] P19
+- [ ] P20
+- [ ] P21
+- [ ] P22
+- [ ] P23
+- [ ] P24
+- [ ] P25
+- [ ] P26
+- [ ] P27
+- [ ] P28
+- [ ] P29
+- [ ] P30
+- [ ] P31
+
+
 ### Advanced-F407
 
 <div class="grid cards" markdown>
