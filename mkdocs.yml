@@ -256,6 +256,7 @@ plugins:
             AI: 人工智能
             BASICS 🎯: 基础 🎯
             FRAMEWORKS 🎯: 框架 🎯
+            GAUSSIAN-PROCESS 🎯: 高斯过程 🎯
             LNN: 线性神经网络
             MLP: 多层感知机
             CNN: 卷积神经网络
@@ -650,6 +651,7 @@ nav:
       # - "./AI/ai.md"
       - BASICS 🎯: "./AI/BASICS/basics.md"
       - FRAMEWORKS 🎯: "./AI/FRAMEWORKS/frameworks.md"
+      - GAUSSIAN-PROCESS 🎯: "./AI/GAUSSIAN-PROCESS/gaussian-process.md"
       - LNN: "./AI/LNN/lnn.md"
       - MLP: "./AI/MLP/mlp.md"
       - CNN: "./AI/CNN/cnn.md"
