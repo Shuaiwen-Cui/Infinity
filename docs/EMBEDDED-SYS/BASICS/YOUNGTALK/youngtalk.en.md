@@ -206,7 +206,7 @@
 - [x] P5 Tutorial Book Advertisement
 - [x] P6 Project Compilation and Download
 - [x] P7 HAL Library Structure and Usage
-- [ ] P8
+- [ ] P8 
 - [ ] P9
 - [ ] P10
 - [ ] P11
