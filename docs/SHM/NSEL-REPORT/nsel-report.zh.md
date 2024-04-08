@@ -21,7 +21,7 @@
 
     编号 001
 
-    [:octicons-arrow-right-24: <a href="https://www.ideals.illinois.edu/items/3915" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.ideals.illinois.edu/items/3728" target="_blank"> 传送门 </a>](#)
 
 -   :material-book:{ .lg .middle } __大型预应力高强混凝土Bulb-T梁的剪切性能和承载力__
 

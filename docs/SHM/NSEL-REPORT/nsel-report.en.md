@@ -23,7 +23,7 @@
 
     No. 001
 
-    [:octicons-arrow-right-24: <a href="https://www.ideals.illinois.edu/items/3915" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.ideals.illinois.edu/items/3728" target="_blank"> Portal </a>](#)
 
 -   :material-book:{ .lg .middle } __Shear Behavior and Capacity of Large Prestressed High-strength Concrete Bulb-T Beams__
 
