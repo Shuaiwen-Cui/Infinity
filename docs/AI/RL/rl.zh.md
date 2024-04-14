@@ -26,6 +26,18 @@
 
 </div>
 
+### 深度强化学习-基础、研究与应用
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __深度强化学习-基础、研究与应用🎯🏆__ 
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://deepreinforcementlearningbook.org/" target="_blank"> 传送门 </a>](#)
+
+</div>
+
 ### UCL 强化学习课程
 
 <div class="grid cards" markdown>

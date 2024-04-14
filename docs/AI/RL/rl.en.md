@@ -33,6 +33,18 @@
 
 </div>
 
+### Deep Reinforcement Learning: Fundamentals, Research, and Applications
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __Deep Reinforcement Learning: Fundamentals, Research, and Applications🎯🏆__ 
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://deepreinforcementlearningbook.org/" target="_blank"> Portal </a>](#)
+
+</div>
+
 ### UCL Course on RL
 
 <div class="grid cards" markdown>
