@@ -2,6 +2,9 @@
 
 ![BOARD](embedded-sys.png){ : style="height:400px;width:800px" }
 
+!!! tip "提示"
+    嵌入式系统的哲学是做到刚好够用。
+
 ## 快速入门
 
 <div class="grid cards" markdown>

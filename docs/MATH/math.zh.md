@@ -6,6 +6,9 @@ comments: false
 
 ![MATH](math.jpg){ width=100% }
 
+!!! tip "提示"
+    你永远无法学到所有的东西，只在需要学的时候学需要的东西。
+
 ## 通用
 
 <div class="grid cards" markdown>

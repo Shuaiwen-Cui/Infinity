@@ -2,6 +2,9 @@
 
 ![BOARD](embedded-sys.png){ : style="height:400px;width:800px" }
 
+!!! tip "Tips"
+    The philosophy for embedded systems is to be just enough to get the job done.
+
 ## Theory
 
 ### Electronics

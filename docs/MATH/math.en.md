@@ -6,6 +6,9 @@ comments: false
 
 ![MATH](math.jpg){ width=100% }
 
+!!! tip "Tip"
+    You can never learn everything, learn only what you need and when you need it.
+
 ## Generic
 
 <div class="grid cards" markdown>
