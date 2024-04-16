@@ -30,7 +30,7 @@ theme:
     - content.code.select
     # - content.tabs.link
     - content.tooltips
-    # - header.autohide
+    - header.autohide
     # - navigation.expand # expand the side navigation bar by default
     - navigation.footer
     - navigation.indexes # documents can be directly attached to sections, which is particularly useful for providing overview pages
