@@ -41,8 +41,8 @@
 - [x] P22 [9-2] LED Dot Matrix Screen Display Picture & Animation✅
 - [x] P23 [10-1] DS1302 Real Time Clock✅
 - [x] P24 [10-2] DS1302 Real Time Clock Display & Set Time✅
-- [ ] P25 [11-1] Buzzer
-- [ ] P26 [11-2] Buzzer Music Player
+- [x] P25 [11-1] Buzzer✅
+- [x] P26 [11-2] Buzzer Music Player✅
 - [ ] P27 [12-1] AT24C02(I2C Bus)
 - [ ] P28 [12-2] AT24C02(I2C Bus) Read and Write Data
 - [ ] P29 [13-1] DS18B20 Temperature Sensor
