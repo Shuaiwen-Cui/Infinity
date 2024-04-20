@@ -43,8 +43,8 @@
 - [x] P24 [10-2] DS1302 Real Time Clock Display & Set Time✅
 - [x] P25 [11-1] Buzzer✅
 - [x] P26 [11-2] Buzzer Music Player✅
-- [ ] P27 [12-1] AT24C02(I2C Bus)
-- [ ] P28 [12-2] AT24C02(I2C Bus) Read and Write Data
+- [x] P27 [12-1] AT24C02(I2C Bus)✅
+- [x] P28 [12-2] AT24C02(I2C Bus) Read and Write Data✅
 - [ ] P29 [13-1] DS18B20 Temperature Sensor
 - [ ] P30 [13-2] DS18B20 Temperature Sensor Display & Set Time
 - [ ] P31 [14-1] 1602 LCD Display
