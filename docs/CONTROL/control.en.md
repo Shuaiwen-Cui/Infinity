@@ -7,6 +7,10 @@
 ### All of Control Theory
 ![Map of Contorl](map-en.png)
 
+### Feedback Control System
+![Feedback Control System](feedback-control-system.jpeg)
+
+
 ### Resources
 <div class="grid cards" markdown>
 -   :material-hub-outline:{ .lg .middle } __Engineering Media 🏆__

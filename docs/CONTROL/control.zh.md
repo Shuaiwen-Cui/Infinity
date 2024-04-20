@@ -7,6 +7,9 @@
 ### 控制理论概览
 ![Map of Contorl](map-zh.png)
 
+### 反馈控制系统
+![Feedback Control System](feedback-control-system.jpeg)
+
 ### 资源
 <div class="grid cards" markdown>
 -   :material-hub-outline:{ .lg .middle } __工程资源库（Engineering Media）🏆__
