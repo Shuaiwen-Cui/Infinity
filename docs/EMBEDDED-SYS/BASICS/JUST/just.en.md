@@ -51,10 +51,10 @@
 - [x] P32 [14-2] 1602 LCD Display Function Code✅
 - [x] P33 [15-1] DC Motor Drive (PWM)
 - [x] P34 [15-2] LED Breathing Light & DC Motor Speed Control
-- [ ] P35 [16-1] AD/DA
-- [ ] P36 [16-2] AD/DA Details
-- [ ] P37 [17-1] Infra-red Remote Control (External Interrupt)
-- [ ] P38 [17-2] Infra-red Remote Control (External Interrupt) Details
+- [x] P35 [16-1] AD/DA
+- [x] P36 [16-2] AD/DA Details
+- [x] P37 [17-1] Infra-red Remote Control (External Interrupt)
+- [x] P38 [17-2] Infra-red Remote Control (External Interrupt) Details
 
 ## STM32 
 
