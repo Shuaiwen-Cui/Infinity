@@ -45,12 +45,12 @@
 - [x] P26 [11-2] Buzzer Music Player✅
 - [x] P27 [12-1] AT24C02(I2C Bus)✅
 - [x] P28 [12-2] AT24C02(I2C Bus) Read and Write Data✅
-- [ ] P29 [13-1] DS18B20 Temperature Sensor
-- [ ] P30 [13-2] DS18B20 Temperature Sensor Display & Set Time
-- [ ] P31 [14-1] 1602 LCD Display
-- [ ] P32 [14-2] 1602 LCD Display Function Code
-- [ ] P33 [15-1] DC Motor Drive (PWM)
-- [ ] P34 [15-2] LED Breathing Light & DC Motor Speed Control
+- [x] P29 [13-1] DS18B20 Temperature Sensor✅
+- [x] P30 [13-2] DS18B20 Temperature Sensor Display & Set Time✅
+- [x] P31 [14-1] 1602 LCD Display✅
+- [x] P32 [14-2] 1602 LCD Display Function Code✅
+- [x] P33 [15-1] DC Motor Drive (PWM)
+- [x] P34 [15-2] LED Breathing Light & DC Motor Speed Control
 - [ ] P35 [16-1] AD/DA
 - [ ] P36 [16-2] AD/DA Details
 - [ ] P37 [17-1] Infra-red Remote Control (External Interrupt)
