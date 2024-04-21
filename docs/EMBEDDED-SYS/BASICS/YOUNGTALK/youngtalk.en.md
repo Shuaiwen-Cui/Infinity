@@ -110,7 +110,7 @@
 - [x] P25 Add Project Files
 - [x] P26 Core Board Circuit Analysis
 - [x] P27 Light Up LED 
-- [xx] P28 More Ways to Light Up LED
+- [x] P28 More Ways to Light Up LED
 - [x] P29 LED Flashing Program
 - [x] P30 LED Breathing Light Program
 - [x] P31 Button Control LED
