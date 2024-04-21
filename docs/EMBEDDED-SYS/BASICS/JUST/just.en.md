@@ -3,7 +3,7 @@
 ## 51
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __江科大51 🎯🏆🏆🏆__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __江科大51 🎯✅🏆🏆🏆__
 
     ---
 
