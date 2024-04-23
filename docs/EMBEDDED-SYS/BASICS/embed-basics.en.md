@@ -2,22 +2,22 @@
 
 !!! tip
     The recommended learning sequence for this section is as follows:
-    
-    - 1. Start with a simple introduction to embedded systems to understand the basic concepts.
+
+    - Start with a simple introduction to embedded systems to understand the basic concepts.
   
-    - 2. Watch the JUST 51 microcontroller tutorial to learn about register development.
+    - Watch the JUST 51 microcontroller tutorial to learn about register development.
   
-    - 3. Watch the JUST 32-bit microcontroller tutorial to learn about standard library development.
+    - Watch the JUST 32-bit microcontroller tutorial to learn about standard library development.
   
-    - 4. Watch the Youngtalk Electronics 103 series tutorial to learn about KEIL+HAL library development.
+    - Watch the Youngtalk Electronics 103 series tutorial to learn about KEIL+HAL library development.
   
-    - 5. Watch the Youngtalk Electronics IoT series tutorial to learn about CubeIDE+HAL library development, as well as IoT-related knowledge.
+    - Watch the Youngtalk Electronics IoT series tutorial to learn about CubeIDE+HAL library development, as well as IoT-related knowledge.
   
-    - 6. Watch the Youngtalk Electronics F407 series tutorial to learn advanced STM32 development content.
+    - Watch the Youngtalk Electronics F407 series tutorial to learn advanced STM32 development content.
   
-    - 7. If you lack hardware basics, you can watch the Youngtalk "Fall in Love with Breadboard" series content.
+    - If you lack hardware basics, you can watch the Youngtalk "Fall in Love with Breadboard" series content.
   
-    - 8. Related content from DFRobot: STM32->RTOS->Linux
+    - Related content from DFRobot: STM32->RTOS->Linux
 
 ## What is Embedded Systems?
 
