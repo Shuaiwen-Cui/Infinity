@@ -262,11 +262,11 @@ CubeIDE + HAL Library
 - [x] P4 STM32F407ZGT6 Characters
 - [x] P5 CubeIDE Installation
 - [x] P6 CubeMX New Project
-- [ ] P7 CubeMX Graphical User Interface
-- [ ] P8 HAL Library Structure and Usage
-- [ ] P9 Project Compiling and Flashing
-- [ ] P10 Guide for the Development Board
-- [ ] P11 Development Board Circuit Analysis
+- [x] P7 CubeMX Graphical User Interface
+- [x] P8 HAL Library Structure and Usage
+- [x] P9 Project Compiling and Flashing
+- [x] P10 Guide for the Development Board
+- [x] P11 Development Board Circuit Analysis
 - [ ] P12 RCC Clock Setting
 - [ ] P13
 - [ ] P14
@@ -298,7 +298,7 @@ CubeIDE + HAL Library
 - [ ] P40
 - [ ] P41
 - [ ] P42
-- [ ] P43
+- [x] P43 SD Card File Read and Write
 - [ ] P44
 - [ ] P45
 - [ ] P46
