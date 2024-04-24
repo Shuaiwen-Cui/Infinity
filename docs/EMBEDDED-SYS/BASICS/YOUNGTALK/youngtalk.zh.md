@@ -159,11 +159,11 @@ KEIL4 + 标准库
 - [ ] P71
 - [ ] P72
 - [ ] P73
-- [ ] P74
-- [ ] P75
-- [ ] P76
-- [ ] P77
-- [ ] P78
+- [ ] P74 SPI总线原理与驱动
+- [ ] P75 CH376数据手册分析
+- [ ] P76 SPI总线驱动程序分析
+- [ ] P77 CH376驱动程序分析
+- [ ] P78 文件系统程序分析
 - [ ] P79
 - [ ] P80
 - [ ] P81
@@ -200,6 +200,9 @@ KEIL4 + 标准库
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1jP4y1E7TJ/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+#### 教程技术栈
+CubeIDE + HAL库
 
 #### 学习进度
 - [x] P1 教学介绍与学习方法
@@ -244,7 +247,104 @@ KEIL4 + 标准库
 
     STM32 F407 系列， 配套洋桃电子2号开发板。
 
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1MW411q7Jn/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1KN41117KJ/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
 </div>
+
+#### 教程技术栈
+CubeIDE + HAL库
+
+#### 学习进度
+- [x] P1 为什么要学F407 
+- [x] P2 学前资源整合
+- [x] P3 F4系列命名与封装
+- [x] P4 STM32F407ZG6特性
+- [ ] P5 CubeIDE安装与汉化
+- [ ] P6 新建CubeIDE工程
+- [ ] P7 CubeIDE界面介绍
+- [ ] P8 HAL库的结构与使用
+- [ ] P9 工程的编译与下载
+- [ ] P10 开发板使用指南
+- [ ] P11 开发板电路分析
+- [ ] P12 RCC时钟设置
+- [ ] P13 延时函数
+- [ ] P14 LED驱动
+- [ ] P15 按键驱动
+- [ ] P16 嵌入式Flash读写
+- [ ] P17 备用SRAM读写
+- [ ] P18 定时器功能
+- [ ] P19 外部中断功能
+- [ ] P20 USART串口工嗯呢
+- [ ] P21 超级终端与printf函数
+- [ ] P22 RTC实时时钟功能
+- [ ] P23 ADC模数转换功能
+- [ ] P24 ADC平均值算法
+- [ ] P25 DAC数模转换功能
+- [ ] P26 DAC波形与音频输出
+- [ ] P27 DMA控制器功能
+- [ ] P28 低功耗模式
+- [ ] P29 看门狗功能
+- [ ] P30 CRC数据校验功能
+- [ ] P31 芯片ID读取
+- [ ] P32 RNG随机数发生器
+- [ ] P33 继电器驱动
+- [ ] P34 蜂鸣器驱动
+- [ ] P35 I2C总线功能
+- [ ] P36 温度传感器驱动 
+- [ ] P37 OLED屏驱动
+- [ ] P38 OLED字符显示
+- [ ] P39 OLED汉字显示
+- [ ] P40 OLED图形显示
+- [ ] P41 USB从设备串口驱动
+- [ ] P42 USB主设备U盘读写
+- [ ] P43 SD卡文件读写
+- [ ] P44 MP3芯片驱动
+- [ ] P45 MP3语音播报程序
+- [ ] P46 外部闪存芯片驱动
+- [ ] P47 RS485总线驱动
+- [ ] P48 CAN总线驱动
+- [ ] P49 蓝牙模块驱动
+- [ ] P20 蓝牙AT指令与控制应用
+- [ ] P51 蓝牙模块的扩展应用
+- [ ] P52 Wi-Fi模块原理与AT指令
+- [ ] P53 Wi-Fi模块的TCP通信
+- [ ] P54 WIFI模块的单片机控制应用 
+- [ ] P55 创建阿里云物联网平台
+- [ ] P56 STM32连接阿里云平台
+- [ ] P57 后续视频转移通知
+
+### LCD 触摸屏开发
+
+### 综合应用
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

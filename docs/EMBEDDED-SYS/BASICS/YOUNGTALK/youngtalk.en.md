@@ -200,6 +200,9 @@ KEIL4 + Standard Library
 
 </div>
 
+#### Tutorial Tech Stack
+CubeIDE + HAL Library
+
 #### Learning Progress
 
 - [x] P1 Introduction and Learning Methods
@@ -249,3 +252,68 @@ KEIL4 + Standard Library
 
 </div>
 
+#### Tutorial Tech Stack
+CubeIDE + HAL Library
+
+#### Learning Progress
+- [x] P1 Why Learn F407
+- [x] P2 Prestudy Resource Integration
+- [x] P3 F4 Series Naming and Packaging
+- [x] P4 STM32F407ZGT6 Characters
+- [ ] P5 CubeIDE Installation
+- [ ] P6 CubeMX New Project
+- [ ] P7 CubeMX Graphical User Interface
+- [ ] P8 HAL Library Structure and Usage
+- [ ] P9 Project Compiling and Flashing
+- [ ] P10 Guide for the Development Board
+- [ ] P11 Development Board Circuit Analysis
+- [ ] P12 RCC Clock Setting
+- [ ] P13
+- [ ] P14
+- [ ] P15
+- [ ] P16
+- [ ] P17
+- [ ] P18
+- [ ] P19
+- [ ] P20
+- [ ] P21
+- [ ] P22
+- [ ] P23
+- [ ] P24
+- [ ] P25
+- [ ] P26
+- [ ] P27
+- [ ] P28
+- [ ] P29
+- [ ] P30
+- [ ] P31
+- [ ] P32
+- [ ] P33
+- [ ] P34
+- [ ] P35
+- [ ] P36
+- [ ] P37
+- [ ] P38
+- [ ] P39
+- [ ] P40
+- [ ] P41
+- [ ] P42
+- [ ] P43
+- [ ] P44
+- [ ] P45
+- [ ] P46
+- [ ] P47
+- [ ] P48
+- [ ] P49
+- [ ] P20
+- [ ] P51
+- [ ] P52
+- [ ] P53
+- [ ] P54
+- [ ] P55
+- [ ] P56
+- [ ] P57
+
+### LCD-Touch Screen
+
+### Comprehensive Applications

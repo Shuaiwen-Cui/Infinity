@@ -66,7 +66,9 @@ The development of embedded systems requires considering both hardware and softw
 
 **SoPC** (System on Programmable Chip): A system on programmable chip is a chip that integrates a processor core, programmable logic, memory, peripherals, etc.
 
-
+!!! note
+    The core tenet of embedded development is:
+    To develop the most cost-effective product with the most suitable performance, functionality, and cost.
 
 
 
