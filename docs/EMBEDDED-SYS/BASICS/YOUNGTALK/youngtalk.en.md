@@ -260,8 +260,8 @@ CubeIDE + HAL Library
 - [x] P2 Prestudy Resource Integration
 - [x] P3 F4 Series Naming and Packaging
 - [x] P4 STM32F407ZGT6 Characters
-- [ ] P5 CubeIDE Installation
-- [ ] P6 CubeMX New Project
+- [x] P5 CubeIDE Installation
+- [x] P6 CubeMX New Project
 - [ ] P7 CubeMX Graphical User Interface
 - [ ] P8 HAL Library Structure and Usage
 - [ ] P9 Project Compiling and Flashing

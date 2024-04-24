@@ -259,8 +259,8 @@ CubeIDE + HAL库
 - [x] P2 学前资源整合
 - [x] P3 F4系列命名与封装
 - [x] P4 STM32F407ZG6特性
-- [ ] P5 CubeIDE安装与汉化
-- [ ] P6 新建CubeIDE工程
+- [x] P5 CubeIDE安装与汉化
+- [x] P6 新建CubeIDE工程
 - [ ] P7 CubeIDE界面介绍
 - [ ] P8 HAL库的结构与使用
 - [ ] P9 工程的编译与下载
