@@ -83,6 +83,9 @@
 
 </div>
 
+#### Tutorial Tech Stack
+KEIL4 + Standard Library
+
 #### Learning Progress
 - [x] P1 Preface
 - [x] P2 What is ARM
@@ -115,26 +118,26 @@
 - [x] P30 LED Breathing Light Program
 - [x] P31 Button Control LED
 - [x] P32 FLASH Read and Write Program
-- [ ] P33 Buzzer Driver Program
-- [ ] P34 MIDI Music Playback Program
-- [ ] P35 USART Driver Program
-- [ ] P36 USART Transmission Program
-- [ ] P37 USART Receive Program
-- [ ] P38 USART Control Program
-- [ ] P39 HyperTerminal Serial Control Program
-- [ ] P40
-- [ ] P41
-- [ ] P42
-- [ ] P43
-- [ ] P44
-- [ ] P45
-- [ ] P46
-- [ ] P47
-- [ ] P48
-- [ ] P49
-- [ ] P50
-- [ ] P51
-- [ ] P52
+- [x] P33 Buzzer Driver Program
+- [x] P34 MIDI Music Playback Program
+- [x] P35 USART Driver Program
+- [x] P36 USART Transmission Program
+- [x] P37 USART Receive Program
+- [x] P38 USART Control Program
+- [x] P39 HyperTerminal Serial Control Program
+- [x] P40 RTC Principle and Driver Implementation
+- [x] P41 RTC Driver Program Analysis
+- [x] P42 HyperTerminal Display Calendar Program
+- [x] P43 RCC Setting Program Analysis
+- [ ] P44 Touch Button Principle and Driver
+- [ ] P45 Button Double Click and Long Press Program
+- [ ] P46 Touch Button Slide Program
+- [ ] P47 Digital Tube Principle and Driver Program
+- [ ] P48 TM1640 Driver Program Analysis
+- [ ] P49 Rotary Encoder Principle and Driver
+- [ ] P50 Rotary Encoder Driver Program Analysis
+- [ ] P51 I2C Bus Introduction
+- [ ] P52 I2C Driver Program Analysis
 - [ ] P53
 - [ ] P54
 - [ ] P55
