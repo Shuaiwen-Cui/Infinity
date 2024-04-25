@@ -267,11 +267,11 @@ CubeIDE + HAL Library
 - [x] P9 Project Compiling and Flashing
 - [x] P10 Guide for the Development Board
 - [x] P11 Development Board Circuit Analysis
-- [ ] P12 RCC Clock Setting
-- [ ] P13
-- [ ] P14
-- [ ] P15
-- [ ] P16
+- [x] P12 RCC Clock Setting
+- [x] P13 Delay Function
+- [x] P14 LED Driver
+- [ ] P15 Button Driver
+- [ ] P16 Embedded Flash Read and Write
 - [ ] P17
 - [ ] P18
 - [ ] P19
