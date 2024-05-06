@@ -159,7 +159,7 @@ KEIL4 + Standard Library
 - [ ] P71
 - [ ] P72
 - [ ] P73
-- [ ] P74 SPI Bus Principle and Driver
+- [x] P74 SPI Bus Principle and Driver
 - [ ] P75 CH376 Data Manual Analysis
 - [ ] P76 SPI Bus Driver Program Analysis
 - [ ] P77 CH376 Driver Program Analysis
