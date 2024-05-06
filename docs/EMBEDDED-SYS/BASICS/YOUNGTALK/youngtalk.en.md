@@ -129,13 +129,13 @@ KEIL4 + Standard Library
 - [x] P41 RTC Driver Program Analysis
 - [x] P42 HyperTerminal Display Calendar Program
 - [x] P43 RCC Setting Program Analysis
-- [ ] P44 Touch Button Principle and Driver
-- [ ] P45 Button Double Click and Long Press Program
-- [ ] P46 Touch Button Slide Program
-- [ ] P47 Digital Tube Principle and Driver Program
-- [ ] P48 TM1640 Driver Program Analysis
-- [ ] P49 Rotary Encoder Principle and Driver
-- [ ] P50 Rotary Encoder Driver Program Analysis
+- [x] P44 Touch Button Principle and Driver
+- [x] P45 Button Double Click and Long Press Program
+- [x] P46 Touch Button Slide Program
+- [x] P47 Digital Tube Principle and Driver Program
+- [x] P48 TM1640 Driver Program Analysis
+- [x] P49 Rotary Encoder Principle and Driver
+- [x] P50 Rotary Encoder Driver Program Analysis
 - [ ] P51 I2C Bus Introduction
 - [ ] P52 I2C Driver Program Analysis
 - [ ] P53
@@ -152,18 +152,18 @@ KEIL4 + Standard Library
 - [ ] P64
 - [ ] P65
 - [ ] P66
-- [ ] P67
-- [ ] P68
-- [ ] P69
+- [x] P67 ADC Principle and Driver
+- [x] P68 ADC Driver Program Analysis
+- [x] P69 Analog Joystick ADC Driver
 - [ ] P70
 - [ ] P71
 - [ ] P72
 - [ ] P73
-- [ ] P74
-- [ ] P75
-- [ ] P76
-- [ ] P77
-- [ ] P78
+- [ ] P74 SPI Bus Principle and Driver
+- [ ] P75 CH376 Data Manual Analysis
+- [ ] P76 SPI Bus Driver Program Analysis
+- [ ] P77 CH376 Driver Program Analysis
+- [ ] P78 File System Program Analysis
 - [ ] P79
 - [ ] P80
 - [ ] P81
