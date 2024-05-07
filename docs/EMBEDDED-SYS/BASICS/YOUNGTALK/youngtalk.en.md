@@ -160,10 +160,10 @@ KEIL4 + Standard Library
 - [ ] P72
 - [ ] P73
 - [x] P74 SPI Bus Principle and Driver
-- [ ] P75 CH376 Data Manual Analysis
-- [ ] P76 SPI Bus Driver Program Analysis
-- [ ] P77 CH376 Driver Program Analysis
-- [ ] P78 File System Program Analysis
+- [x] P75 CH376 Data Manual Analysis
+- [x] P76 SPI Bus Driver Program Analysis
+- [x] P77 CH376 Driver Program Analysis
+- [x] P78 File System Program Analysis
 - [ ] P79
 - [ ] P80
 - [ ] P81
@@ -275,7 +275,7 @@ CubeIDE + HAL Library
 - [ ] P17
 - [ ] P18
 - [ ] P19
-- [ ] P20
+- [x] P20 USART Serial Function
 - [ ] P21
 - [ ] P22
 - [ ] P23
@@ -296,8 +296,8 @@ CubeIDE + HAL Library
 - [ ] P38
 - [ ] P39
 - [ ] P40
-- [ ] P41
-- [ ] P42
+- [x] P41 USB Serial Driver
+- [x] P42 USB U Disk Read and Write
 - [x] P43 SD Card File Read and Write
 - [ ] P44
 - [ ] P45
