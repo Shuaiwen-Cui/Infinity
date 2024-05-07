@@ -276,7 +276,7 @@ CubeIDE + HAL Library
 - [ ] P18
 - [ ] P19
 - [x] P20 USART Serial Function
-- [ ] P21
+- [x] P21 USART Serial Driver
 - [ ] P22
 - [ ] P23
 - [ ] P24

@@ -275,7 +275,7 @@ CubeIDE + HAL库
 - [ ] P18 定时器功能
 - [ ] P19 外部中断功能
 - [x] P20 USART串口功能
-- [ ] P21 超级终端与printf函数
+- [x] P21 超级终端与printf函数
 - [ ] P22 RTC实时时钟功能
 - [ ] P23 ADC模数转换功能
 - [ ] P24 ADC平均值算法
