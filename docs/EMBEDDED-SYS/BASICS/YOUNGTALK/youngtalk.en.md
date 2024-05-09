@@ -136,22 +136,22 @@ KEIL4 + Standard Library
 - [x] P48 TM1640 Driver Program Analysis
 - [x] P49 Rotary Encoder Principle and Driver
 - [x] P50 Rotary Encoder Driver Program Analysis
-- [ ] P51 I2C Bus Introduction
-- [ ] P52 I2C Driver Program Analysis
-- [ ] P53
-- [ ] P54
-- [ ] P55
-- [ ] P56
-- [ ] P57
-- [ ] P58
-- [ ] P59
-- [ ] P60
-- [ ] P61
-- [ ] P62
-- [ ] P63
-- [ ] P64
-- [ ] P65
-- [ ] P66
+- [x] P51 I2C Bus Introduction
+- [x] P52 I2C Driver Program Analysis
+- [ ] P53 LM75A Driver Program Analysis
+- [ ] P54 OLED Screen Principle and Driver Program
+- [ ] P55 OLED Screen Driver Program Analysis
+- [ ] P56 OLED Screen Driver Program Analysis2
+- [ ] P57 OLED Screen Driver Program Analysis3
+- [ ] P58 Relay Principle and Driver Program
+- [ ] P59 Stepper Motor Principle and Driver
+- [ ] P60 Stepper Motor Driver Program Analysis
+- [ ] P61 RS232 Principle and Driver Program    
+- [ ] P62 RS485 Principle and Driver Program
+- [ ] P63 CAN Bus Principle and Driver Program
+- [ ] P64 CAN Bus Driver Program Analysis
+- [ ] P65 CAN Bus Driver Program Analysis2
+- [ ] P66 CAN Bus Driver Program Analysis3
 - [x] P67 ADC Principle and Driver
 - [x] P68 ADC Driver Program Analysis
 - [x] P69 Analog Joystick ADC Driver
@@ -212,30 +212,30 @@ CubeIDE + HAL Library
 - [x] P5 Tutorial Book Advertisement
 - [x] P6 Project Compilation and Download
 - [x] P7 HAL Library Structure and Usage
-- [ ] P8 
-- [ ] P9
-- [ ] P10
-- [ ] P11
-- [ ] P12
-- [ ] P13
-- [ ] P14
-- [ ] P15
-- [ ] P16
-- [ ] P17
-- [ ] P18
-- [ ] P19
-- [ ] P20
-- [ ] P21
-- [ ] P22
-- [ ] P23
-- [ ] P24
-- [ ] P25
-- [ ] P26
-- [ ] P27
-- [ ] P28
-- [ ] P29
-- [ ] P30
-- [ ] P31
+- [x] P8 RCC Clock and Delay Function
+- [x] P9 LED and Button Program
+- [x] P10 Buzzer and Relay Driver Program
+- [x] P11 Serial Communication and HyperTerminal
+- [x] P12 ADC and DMA Driver Program
+- [x] P13 RTC and BKP Driver Program
+- [x] P14 Temperature Sensor Driver Program
+- [x] P15 SPI Flash Driver Program
+- [x] P16 USB Slave Serial Driver Program
+- [ ] P17 Power Saving Mode, CRC and Chip ID
+- [ ] P18 External Interrupt and Timer
+- [ ] P19 RS485 Bus Driver Program
+- [ ] P20 CAN Bus Driver Program
+- [ ] P21 Bluetooth Module Driver Program
+- [ ] P22 Bluetooth AT Command and Control Application
+- [ ] P23 WIFI Module Principle and AT Command
+- [ ] P24 WIFI Module TCP Communication
+- [ ] P25 WIFI Module MCU Control Application
+- [ ] P26 Create Alibaba Cloud IoT Platform
+- [ ] P27 STM32 Connect to Alibaba Cloud Platform
+- [ ] P28 IoT Project Development Example1
+- [ ] P29 IoT Project Development Example2
+- [ ] P30 IoT Project Development Example3
+- [ ] P31 IoT Project Development Example4
 
 
 ### Advanced-F407
