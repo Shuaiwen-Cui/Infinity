@@ -221,8 +221,8 @@ CubeIDE + HAL Library
 - [x] P14 Temperature Sensor Driver Program
 - [x] P15 SPI Flash Driver Program
 - [x] P16 USB Slave Serial Driver Program
-- [ ] P17 Power Saving Mode, CRC and Chip ID
-- [ ] P18 External Interrupt and Timer
+- [x] P17 Power Saving Mode, CRC and Chip ID
+- [x] P18 External Interrupt and Timer
 - [ ] P19 RS485 Bus Driver Program
 - [ ] P20 CAN Bus Driver Program
 - [ ] P21 Bluetooth Module Driver Program
