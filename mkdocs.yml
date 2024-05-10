@@ -289,6 +289,8 @@ plugins:
             DEVENV: 开发环境
             LATEX: LATEX
             REMOTE-CONTROL: 远程控制
+            RUSTDESK: RUSTDESK
+            VSCODE-REMOTE-SSH: VSCODE远程SSH
             CLOUD-SYNC: 云同步
             EMBEDDED-SYS-DEV: 嵌入式系统开发
             EMBEDDED: 嵌入式
@@ -691,6 +693,7 @@ nav:
           - REMOTE-CONTROL:
               - "./DEV/DEVENV/REMOTE-CONTROL/remote-control.md"
               - RUSTDESK: "./DEV/DEVENV/REMOTE-CONTROL/RUSTDESK/rustdesk.md"
+              - VSCODE-REMOTE-SSH: "./DEV/DEVENV/REMOTE-CONTROL/VSCODE-REMOTE-SSH/vscode-remote-ssh.md"
           - CLOUD-SYNC: "./DEV/DEVENV/CLOUD-SYNC/cloud-sync.md"
           - GIT: "./DEV/DEVENV/GIT/git.md"
           - GITHUB: "./DEV/DEVENV/GITHUB/github.md"
