@@ -225,17 +225,17 @@ CubeIDE + HAL Library
 - [x] P18 External Interrupt and Timer
 - [ ] P19 RS485 Bus Driver Program
 - [ ] P20 CAN Bus Driver Program
-- [ ] P21 Bluetooth Module Driver Program
-- [ ] P22 Bluetooth AT Command and Control Application
-- [ ] P23 WIFI Module Principle and AT Command
-- [ ] P24 WIFI Module TCP Communication
-- [ ] P25 WIFI Module MCU Control Application
-- [ ] P26 Create Alibaba Cloud IoT Platform
-- [ ] P27 STM32 Connect to Alibaba Cloud Platform
-- [ ] P28 IoT Project Development Example1
-- [ ] P29 IoT Project Development Example2
-- [ ] P30 IoT Project Development Example3
-- [ ] P31 IoT Project Development Example4
+- [x] P21 Bluetooth Module Driver Program
+- [x] P22 Bluetooth AT Command and Control Application
+- [x] P23 WIFI Module Principle and AT Command
+- [x] P24 WIFI Module TCP Communication
+- [x] P25 WIFI Module MCU Control Application
+- [x] P26 Create Alibaba Cloud IoT Platform
+- [x] P27 STM32 Connect to Alibaba Cloud Platform
+- [x] P28 IoT Project Development Example1
+- [x] P29 IoT Project Development Example2
+- [x] P30 IoT Project Development Example3
+- [x] P31 IoT Project Development Example4
 
 
 ### Advanced-F407
