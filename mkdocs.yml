@@ -284,6 +284,7 @@ plugins:
             CH6-CNN: CH6-卷积神经网络
             CH7-MODERN-CNN: CH7-现代卷积神经网络
             SHM: 结构健康监测
+            STRUCTURAL-DYNAMICS 🎯: 结构动力学 🎯
             NSEL-REPORT: NSEL报告
             DEV: 开发
             DEVENV: 开发环境
@@ -684,6 +685,7 @@ nav:
           - CH7-MODERN-CNN: "./AI/NOTE-D2L/CH7-MODERN-CNN/ch7-modern-cnn.md"
   - SHM: 
       - "./SHM/shm.md" 
+      - STRUCTURAL-DYNAMICS 🎯: "./SHM/STRUCTURAL-DYNAMICS/structural-dynamics.md"
       - NSEL-REPORT: "./SHM/NSEL-REPORT/nsel-report.md"
   - DEV: 
       # - "./DEV/dev.md"
