@@ -47,18 +47,18 @@ Newmark-beta 方法使用以下公式来更新每个时间步的位移和速度�
 
 3. **时间步推进**：
 
-   - 计算有效荷载：
+- 计算有效荷载：
 
-   \[ F_{\text{eff}} = F_{n+1} + M \left( \frac{1}{\beta \Delta t^2} u_n + \frac{1}{\beta \Delta t} \dot{u}_n + \left( \frac{1}{2 \beta} - 1 \right) \ddot{u}_n \right) + C \left( \frac{\gamma}{\beta \Delta t} u_n + \left( \frac{\gamma}{\beta} - 1 \right) \dot{u}_n + \Delta t \left( \frac{\gamma}{2 \beta} - 1 \right) \ddot{u}_n \right) \]
+\[ F_{\text{eff}} = F_{n+1} + M \left( \frac{1}{\beta \Delta t^2} u_n + \frac{1}{\beta \Delta t} \dot{u}_n + \left( \frac{1}{2 \beta} - 1 \right) \ddot{u}_n \right) + C \left( \frac{\gamma}{\beta \Delta t} u_n + \left( \frac{\gamma}{\beta} - 1 \right) \dot{u}_n + \Delta t \left( \frac{\gamma}{2 \beta} - 1 \right) \ddot{u}_n \right) \]
 
-   - 解方程得到新的位移：
+- 解方程得到新的位移：
 
-   \[ u_{n+1} = K_{\text{eff}}^{-1} F_{\text{eff}} \]
+\[ u_{n+1} = K_{\text{eff}}^{-1} F_{\text{eff}} \]
 
-   - 计算新的加速度：
+- 计算新的加速度：
 
-   \[ \ddot{u}_{n+1} = \frac{1}{\beta \Delta t^2} (u_{n+1} - u_n) - \frac{1}{\beta \Delta t} \dot{u}_n - \left( \frac{1}{2 \beta} - 1 \right) \ddot{u}_n \]
+\[ \ddot{u}_{n+1} = \frac{1}{\beta \Delta t^2} (u_{n+1} - u_n) - \frac{1}{\beta \Delta t} \dot{u}_n - \left( \frac{1}{2 \beta} - 1 \right) \ddot{u}_n \]
 
-   - 计算新的速度：
+- 计算新的速度：
 
-   \[ \dot{u}_{n+1} = \dot{u}_n + \Delta t \left( (1 - \gamma) \ddot{u}_n + \gamma \ddot{u}_{n+1} \right) \]
+\[ \dot{u}_{n+1} = \dot{u}_n + \Delta t \left( (1 - \gamma) \ddot{u}_n + \gamma \ddot{u}_{n+1} \right) \]
