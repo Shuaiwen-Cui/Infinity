@@ -285,6 +285,7 @@ plugins:
             CH7-MODERN-CNN: CH7-现代卷积神经网络
             SHM: 结构健康监测
             STRUCTURAL-DYNAMICS 🎯: 结构动力学 🎯
+            RESPONSE-CALCULATION: 响应计算
             NSEL-REPORT: NSEL报告
             DEV: 开发
             DEVENV: 开发环境
@@ -685,7 +686,9 @@ nav:
           - CH7-MODERN-CNN: "./AI/NOTE-D2L/CH7-MODERN-CNN/ch7-modern-cnn.md"
   - SHM: 
       - "./SHM/shm.md" 
-      - STRUCTURAL-DYNAMICS 🎯: "./SHM/STRUCTURAL-DYNAMICS/structural-dynamics.md"
+      - STRUCTURAL-DYNAMICS 🎯: 
+          - "./SHM/STRUCTURAL-DYNAMICS/structural-dynamics.md"
+          - RESPONSE-CALCULATION: "./SHM/STRUCTURAL-DYNAMICS/RESPONSE-CALCULATION/response-calculation.md"
       - NSEL-REPORT: "./SHM/NSEL-REPORT/nsel-report.md"
   - DEV: 
       # - "./DEV/dev.md"
