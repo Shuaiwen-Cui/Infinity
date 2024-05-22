@@ -1,4 +1,6 @@
-# DIGIKEY - SHAWN HYMEL SERIES
+# DIGIKEY Electronics - SHAWN HYMEL SERIES
+
+## LINKS
 
 <div class="grid cards" markdown>
 
@@ -37,3 +39,8 @@
 
 
 </div>
+
+## STUDY PROGRESS
+
+- SHAWN HYMEL PRESENTS:
+  - [x] EP1 Intro to Edge AI: Machine Learning + IoT – Maker.io Tutorial | Digi-Key Electronics
