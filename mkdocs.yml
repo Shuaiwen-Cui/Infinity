@@ -178,6 +178,7 @@ plugins:
             JUST: 江协科技
             YOUNGTALK: 洋桃科技
             ALIENTEK: 正点原子
+            DIGIKEY: 德捷电子
             REFERENCE: 参考链接
             SIMULATION: 仿真
             DEVKIT 🎯: 开发板 🎯
@@ -531,6 +532,7 @@ nav:
               - JUST: "./EMBEDDED-SYS/BASICS/JUST/just.md"
               - YOUNGTALK: "./EMBEDDED-SYS/BASICS/YOUNGTALK/youngtalk.md"
               - ALIENTEK: "./EMBEDDED-SYS/BASICS/ALIENTEK/alientek.md"
+              - DIGIKEY: "./EMBEDDED-SYS/BASICS/DIGIKEY/digikey.md"
               - REFERENCE: "./EMBEDDED-SYS/BASICS/REFERENCE/reference.md"
       - SIMULATION: 
           # - "./EMBEDDED-SYS/SIMULATION/simulation.md"
