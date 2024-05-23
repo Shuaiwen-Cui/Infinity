@@ -48,4 +48,4 @@
   - [x] P3 Getting Started with NVIDIA Jetson Nano Part 1: Setup | Digi-Key Electronics
   - [x] P4 Getting Started with NVIDIA Jetson Nano Part 2: Image Classification | Digi-Key Electronics
   - [ ] P5 Getting Started with SparkFun Red-V RISC-V Boards | Digi-Key Electronics
-  - [ ] P5 Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics
+  - [ ] P6 Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics
