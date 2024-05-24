@@ -48,4 +48,14 @@
   - [x] P3 Getting Started with NVIDIA Jetson Nano Part 1: Setup | Digi-Key Electronics
   - [x] P4 Getting Started with NVIDIA Jetson Nano Part 2: Image Classification | Digi-Key Electronics
   - [ ] P5 Getting Started with SparkFun Red-V RISC-V Boards | Digi-Key Electronics
-  - [ ] P6 Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics
+  - [x] P6 Getting Started with TensorFlow and Keras – Maker.io | Digi-Key Electronics
+  - [x] P7 Intro to TensorFlow Lite Part 1: Wake Word Feature Extraction – Maker.io | Digi-Key Electronics
+  - [x] P8 Intro to TensorFlow Lite Part 2: Speech Recognition Model Training – Maker.io | Digi-Key Electronics
+  - [x] P9 Intro to TensorFlow Lite Part 3: Speech Recognition on Raspberry Pi | Digi-Key Electronics
+  - [x] P10 Low-Cost Data Acquisition (DAQ) with Arduino and Binho for Machine Learning | Digi-Key Electronics
+  - [x] P11 Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics
+  - [x] P12 Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics
+  - [x] P13 Edge AI Anomaly Detection Part 1: Data Collection | Digi-Key Electronics
+  - [x] P14 Edge AI Anomaly Detection Part 2: Feature Extraction and Model Training | Digi-Key Electronics
+  - [ ] P15 Edge AI Anomaly Detection Part 3: Deploy Machine Learning Models to Raspberry Pi | Digi-Key
+  - [ ] P16 Edge AI Anomaly Detection Part 4: Deploy TinyML Model in Arduino to ESP32 | Digi-Key Electronics
