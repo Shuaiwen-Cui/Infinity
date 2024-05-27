@@ -57,5 +57,7 @@
   - [x] P12 Intro to TinyML Part 2: Deploying a TensorFlow Lite Model to Arduino | Digi-Key Electronics
   - [x] P13 Edge AI Anomaly Detection Part 1: Data Collection | Digi-Key Electronics
   - [x] P14 Edge AI Anomaly Detection Part 2: Feature Extraction and Model Training | Digi-Key Electronics
-  - [ ] P15 Edge AI Anomaly Detection Part 3: Deploy Machine Learning Models to Raspberry Pi | Digi-Key
-  - [ ] P16 Edge AI Anomaly Detection Part 4: Deploy TinyML Model in Arduino to ESP32 | Digi-Key Electronics
+  - [x] P15 Edge AI Anomaly Detection Part 3: Deploy Machine Learning Models to Raspberry Pi | Digi-Key
+  - [x] P16 Edge AI Anomaly Detection Part 4: Deploy TinyML Model in Arduino to ESP32 | Digi-Key Electronics
+  - [x] P17 TinyML: Getting Started with TensorFlow Lite for Microcontrollers | Digi-Key Electronics
+  - [x] P18 TinyML: Getting Started with STM32 X-CUBE-AI | Digi-Key Electronics
