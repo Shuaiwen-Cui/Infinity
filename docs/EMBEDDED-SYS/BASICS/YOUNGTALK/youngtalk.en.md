@@ -270,16 +270,16 @@ CubeIDE + HAL Library
 - [x] P12 RCC Clock Setting
 - [x] P13 Delay Function
 - [x] P14 LED Driver
-- [ ] P15 Button Driver
-- [ ] P16 Embedded Flash Read and Write
-- [ ] P17
-- [ ] P18
-- [ ] P19
+- [x] P15 Button Driver
+- [x] P16 Embedded Flash Read and Write
+- [x] P17 Backup SRAM Read and Write
+- [x] P18 Timer
+- [x] P19 External Interrupt
 - [x] P20 USART Serial Function
-- [x] P21 USART Serial Driver
-- [ ] P22
-- [ ] P23
-- [ ] P24
+- [x] P21 Super Terminal and printf Function
+- [x] P22 RTC Real Time Clock Function
+- [ ] P23 ADC anlog to digital conversion
+- [ ] P24 ADC average algo
 - [ ] P25
 - [ ] P26
 - [ ] P27
