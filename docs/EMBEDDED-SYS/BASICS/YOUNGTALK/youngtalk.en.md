@@ -223,8 +223,8 @@ CubeIDE + HAL Library
 - [x] P16 USB Slave Serial Driver Program
 - [x] P17 Power Saving Mode, CRC and Chip ID
 - [x] P18 External Interrupt and Timer
-- [ ] P19 RS485 Bus Driver Program
-- [ ] P20 CAN Bus Driver Program
+- [x] P19 RS485 Bus Driver Program
+- [x] P20 CAN Bus Driver Program
 - [x] P21 Bluetooth Module Driver Program
 - [x] P22 Bluetooth AT Command and Control Application
 - [x] P23 WIFI Module Principle and AT Command
@@ -278,41 +278,41 @@ CubeIDE + HAL Library
 - [x] P20 USART Serial Function
 - [x] P21 Super Terminal and printf Function
 - [x] P22 RTC Real Time Clock Function
-- [ ] P23 ADC anlog to digital conversion
-- [ ] P24 ADC average algo
-- [ ] P25
-- [ ] P26
-- [ ] P27
-- [ ] P28
-- [ ] P29
-- [ ] P30
-- [ ] P31
-- [ ] P32
-- [ ] P33
-- [ ] P34
-- [ ] P35
-- [ ] P36
-- [ ] P37
-- [ ] P38
-- [ ] P39
-- [ ] P40
+- [x] P23 ADC anlog to digital conversion
+- [x] P24 ADC average algo
+- [x] P25 DAC digital to analog conversion
+- [x] P26 DAC Wave and Audio Output
+- [x] P27 DMA controller function
+- [x] P28 Low Power Mode
+- [x] P29 Watchdog Function
+- [x] P30 CRC Data Check Function
+- [x] P31 Chip ID Read
+- [x] P32 RNG random number generation
+- [x] P33 Relay Driver
+- [x] P34 Buzzer Driver
+- [x] P35 I2C Bus Function
+- [x] P36 Temperature Sensor Driver
+- [x] P37 OLED Screen Driver
+- [x] P38 OLED Character Display
+- [x] P39 OLED Chinese Character Display
+- [x] P40 OLED Graphic Display
 - [x] P41 USB Serial Driver
 - [x] P42 USB U Disk Read and Write
 - [x] P43 SD Card File Read and Write
-- [ ] P44
-- [ ] P45
-- [ ] P46
-- [ ] P47
-- [ ] P48
-- [ ] P49
-- [ ] P20
-- [ ] P51
-- [ ] P52
-- [ ] P53
-- [ ] P54
-- [ ] P55
-- [ ] P56
-- [ ] P57
+- [x] P44 MP3 Chip Driver
+- [x] P45 MP3 Voice Broadcast Program
+- [x] P46 External Flash Chip Driver
+- [x] P47 RS485 Bus Driver
+- [x] P48 CAN Bus Driver
+- [x] P49 Bluetooth Module Driver
+- [x] P20 Bluetooth AT Command and Control Application
+- [x] P51 Bluetooth Application
+- [x] P52 WIFI Module Principle and AT Command
+- [x] P53 WIFI Module TCP Communication
+- [x] P54 WIFI Module MCU Control Application
+- [x] P55 Create Alibaba Cloud IoT Platform
+- [x] P56 STM32 Connect to Alibaba Cloud Platform
+- [x] P57 Subsequent Video Transfer Notification
 
 ### LCD-Touch Screen
 
