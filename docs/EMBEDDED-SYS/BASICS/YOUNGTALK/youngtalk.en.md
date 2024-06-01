@@ -190,7 +190,7 @@ KEIL4 + Standard Library
 
 <div class="grid cards" markdown>
 
--   :material-file:{ .lg .middle } __IoT Development🎯__
+-   :material-file:{ .lg .middle } __IoT Development🎯✅__
 
     ---
 
@@ -242,7 +242,7 @@ CubeIDE + HAL Library
 
 <div class="grid cards" markdown>
 
--   :material-file:{ .lg .middle } __STM32F407 Development🎯__
+-   :material-file:{ .lg .middle } __STM32F407 Development🎯✅__
 
     ---
 
@@ -315,5 +315,25 @@ CubeIDE + HAL Library
 - [x] P57 Subsequent Video Transfer Notification
 
 ### LCD-Touch Screen
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __Touch Screen Development🎯✅__
+
+    ---
+
+    Touch screen development.
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/277276709/channel/collectiondetail?sid=1999796" target="_blank"> Portal </a>](#)
+
+</div>
+
+- [x] P1
+- [x] P2
+- [x] P3
+- [x] P4
+- [x] P5
+
+
 
 ### Comprehensive Applications

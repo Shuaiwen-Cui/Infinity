@@ -191,7 +191,7 @@ KEIL4 + 标准库
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __IoT🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __IoT🎯✅__
 
     ---
 
@@ -241,7 +241,7 @@ CubeIDE + HAL库
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __STM32 F407🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __STM32 F407🎯✅__
 
     ---
 
@@ -318,6 +318,25 @@ CubeIDE + HAL库
     - [x] P57 后续视频转移通知 
 
 ### LCD 触摸屏开发
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __触屏开发者🎯✅__
+
+    ---
+
+    Touch screen development.
+
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/277276709/channel/collectiondetail?sid=1999796" target="_blank"> Portal </a>](#)
+
+</div>
+
+- [x] P1
+- [x] P2
+- [x] P3
+- [x] P4
+- [x] P5
+
 
 ### 综合应用
 
