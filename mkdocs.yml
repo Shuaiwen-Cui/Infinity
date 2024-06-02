@@ -173,7 +173,7 @@ plugins:
             SIGNAL-SYSTEM: 信号与系统
             FREERTOS: 实时操作系统
             LINUX: LINUX
-            BASICS: 基础
+            BASICS 🎯: 基础 🎯
             EMBED-BASICS: 嵌入式基础
             JUST: 江协科技
             YOUNGTALK: 洋桃科技
@@ -526,7 +526,7 @@ nav:
           - SIGNAL-SYSTEM: "./EMBEDDED-SYS/THEORY/SIGNAL-SYSTEM/signal-system.md"
           - FREERTOS: "./EMBEDDED-SYS/THEORY/FREERTOS/freertos.md"
           - LINUX: "./EMBEDDED-SYS/THEORY/LINUX/linux.md"
-      - BASICS: 
+      - BASICS 🎯: 
           - EMBED-BASICS: 
               -  "./EMBEDDED-SYS/BASICS/embed-basics.md"
               - JUST: "./EMBEDDED-SYS/BASICS/JUST/just.md"
@@ -576,8 +576,8 @@ nav:
                   - DEBUG-APP: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/DEBUG-APP/debug-app.md"
                   - MDK-MIDDLEWARE: "./EMBEDDED-SYS/IDE/KEIL/GUIDE-MDK5/MDK-MIDDLEWARE/mdk-middleware.md"
               - MDK6: "./EMBEDDED-SYS/IDE/KEIL/MDK6/mdk6.md"
-          - STM32CUBE: "./EMBEDDED-SYS/IDE/STM32CUBE/stm32cube.md"
-          - PLATFORMIO: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
+          - STM32CUBE 🎯: "./EMBEDDED-SYS/IDE/STM32CUBE/stm32cube.md"
+          - PLATFORMIO 🎯: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
       - DEV-FRAMEWORK:
           - CMSIS 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/CMSIS/cmsis.md"
           - ESP-IDF: "./EMBEDDED-SYS/DEV-FRAMEWORK/ESP-IDF/esp-idf.md"  
