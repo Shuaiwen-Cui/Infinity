@@ -296,19 +296,23 @@ plugins:
             VSCODE-REMOTE-SSH: VSCODE远程SSH
             CLOUD-SYNC: 云同步
             EMBEDDED-SYS-DEV: 嵌入式系统开发
-            EMBEDDED: 嵌入式
-            MCU51: 单片机51
-            CH01-PRELIMINARIES: CH01-预备知识
-            CH02-LED: CH02-LED点灯
-            CH03-BUTTON: CH03-按键控制
-            MCU32: 单片机32
-            MPU: 微处理器
+            # EMBEDDED: 嵌入式
+            # MCU51: 单片机51
+            # CH01-PRELIMINARIES: CH01-预备知识
+            # CH02-LED: CH02-LED点灯
+            # CH03-BUTTON: CH03-按键控制
+            # MCU32: 单片机32
+            # MPU: 微处理器
+            MCU-SYS 🎯: 微控制器系统
+            MPU-SYS 🎯: 微处理器系统
             XNODE 🎯: XNODE 🎯
             XNODE-DOCS: XNODE文档
             BASIC-VERSION: 基础版本
             FRONT-END: 前端
             BACK-END: 后端
             RESEARCH: 研究
+            NODE 🎯: 节点 🎯
+            SYSTEM 🎯: 系统 🎯
             PROJECT: 项目
             TECH-BLOG: 技术博客
             WAREHOUSE: 资源仓库
@@ -708,17 +712,21 @@ nav:
           - EMBEDDED-SYS-DEV: "./DEV/DEVENV/EMBEDDED-SYS-DEV/embedded-sys-dev.md"
           - LINUX:
               - UBUNTU: "./DEV/DEVENV/LINUX/UBUNTU/ubuntu.md"
-      - EMBEDDED:
-          # - MCU51: 
-          #     - CH01-PRELIMINARIES: "./DEV/EMBEDDED/MCU51/CH01-PRE/ch01-pre.md"
-          #     - CH02-LED: "./DEV/EMBEDDED/MCU51/CH02-LED/ch02-led.md"
-          #     - CH03-BUTTON: "./DEV/EMBEDDED/MCU51/CH03-BUTTON/ch03-button.md"
-          - MCU32: 
-              - "./DEV/EMBEDDED/MCU32/stm32.md"
-          - MPU: 
-              - RASPBERRYPI: "./DEV/EMBEDDED/MPU/RASPBERRYPI/raspberrypi.md"
-              - JETSON-NANO: "./DEV/EMBEDDED/MPU/JETSON-NANO/jetson-nano.md"
-              - STM32MP157: "./DEV/EMBEDDED/MPU/STM32MP157/stm32mp157.md"
+      - MCU-SYS 🎯:
+          - "./DEV/MCU-SYS/mcu-sys.md"
+      - MPU-SYS 🎯:
+          - "./DEV/MPU-SYS/mpu-sys.md"
+      # - EMBEDDED:
+      #     # - MCU51: 
+      #     #     - CH01-PRELIMINARIES: "./DEV/EMBEDDED/MCU51/CH01-PRE/ch01-pre.md"
+      #     #     - CH02-LED: "./DEV/EMBEDDED/MCU51/CH02-LED/ch02-led.md"
+      #     #     - CH03-BUTTON: "./DEV/EMBEDDED/MCU51/CH03-BUTTON/ch03-button.md"
+      #     - MCU32: 
+      #         - "./DEV/EMBEDDED/MCU32/stm32.md"
+      #     - MPU: 
+      #         - RASPBERRYPI: "./DEV/EMBEDDED/MPU/RASPBERRYPI/raspberrypi.md"
+      #         - JETSON-NANO: "./DEV/EMBEDDED/MPU/JETSON-NANO/jetson-nano.md"
+      #         - STM32MP157: "./DEV/EMBEDDED/MPU/STM32MP157/stm32mp157.md"
       - XNODE 🎯:
           - XNODE-DOCS: "./DEV/XNODE/XNODE-DOCS/xnode-docs.md"
           - BASIC-VERSION: "./DEV/XNODE/BASIC-VERSION/basic-version.md"
@@ -729,6 +737,8 @@ nav:
           - CLIENT-BASED: "./DEV/VISUALIZATION/CLIENT-BASED/client-based.md"
   - RESEARCH: 
       - "./RESEARCH/research.md"
+      - NODE 🎯: "./RESEARCH/NODE/node.md"
+      - SYSTEM 🎯: "./RESEARCH/SYSTEM/system.md"
   - PROJECT: 
       - "./PROJECT/project.md"
       - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
