@@ -273,7 +273,14 @@ plugins:
             Q Table Methods (Q-Learning): Q表方法(Q学习)
             Policy Gradient Methods (PG): 策略梯度方法 (PG)
             Proximal Policy Optimization (PPO): 近端策略优化 (PPO)
-            Deep Q Network (DQN): 深度Q网络 (DQN)
+            Deep Q-Network (DQN): 深度Q网络 (DQN)
+            DQN Advanced: DQN进阶
+            DQN Continuous Action: DQN连续动作
+            Actor-Critic Method (AC): 演员-评论家方法 (AC)
+            Sparse Rewards: 稀疏奖励
+            Imitation Learning: 模仿学习
+            Deep Deterministic Policy Gradient (DDPG): 深度确定性策略梯度 (DDPG)
+            AlphaStar: AlphaStar算法
             FL 🎯: 联邦学习 🎯
             MULTI-AGENT 🎯: 多智能体 🎯
             TL 🎯: 迁移学习 🎯
@@ -683,6 +690,13 @@ nav:
               - Policy Gradient Methods (PG): "./AI/RL/EASY-RL/CH04/ch04.md"
               - Proximal Policy Optimization (PPO): "./AI/RL/EASY-RL/CH05/ch05.md"
               - Deep Q-Network (DQN): "./AI/RL/EASY-RL/CH06/ch06.md"
+              - DQN Advanced: "./AI/RL/EASY-RL/CH07/ch07.md"
+              - DQN Continuous Action: "./AI/RL/EASY-RL/CH08/ch08.md"
+              - Actor-Critic Method (AC): "./AI/RL/EASY-RL/CH09/ch09.md"
+              - Sparse Rewards: "./AI/RL/EASY-RL/CH10/ch10.md"
+              - Imitation Learning: "./AI/RL/EASY-RL/CH11/ch11.md"
+              - Deep Deterministic Policy Gradient (DDPG): "./AI/RL/EASY-RL/CH12/ch12.md"
+              - AlphaStar: "./AI/RL/EASY-RL/CH13/ch13.md"
       - FL 🎯: "./AI/FL/fl.md"
       - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
       - TL 🎯: "./AI/TL/tl.md"
