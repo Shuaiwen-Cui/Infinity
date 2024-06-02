@@ -268,9 +268,12 @@ plugins:
             RL 🎯: 强化学习 🎯
             LHY-RL: 李宏毅强化学习
             EASY-RL: 蘑菇书强化学习 
-            CH01 RL Basics: CH01 强化学习基础
-            CH02 Markov Decision Process (MDP): CH02 马尔可夫决策过程
-            CH03 Tabular Methods: CH03 表格方法
+            RL Basics: 强化学习基础
+            Markov Decision Process (MDP): 马尔可夫决策过程 (MDP)
+            Q Table Methods (Q-Learning): Q表方法(Q学习)
+            Policy Gradient Methods (PG): 策略梯度方法 (PG)
+            Proximal Policy Optimization (PPO): 近端策略优化 (PPO)
+            Deep Q Network (DQN): 深度Q网络 (DQN)
             FL 🎯: 联邦学习 🎯
             MULTI-AGENT 🎯: 多智能体 🎯
             TL 🎯: 迁移学习 🎯
@@ -674,9 +677,12 @@ nav:
           - LHY-RL: "./AI/RL/LHY-RL/lhy-rl.md"
           - EASY-RL: 
               - "./AI/RL/EASY-RL/easy-rl.md"
-              - CH01 RL Basics: "./AI/RL/EASY-RL/CH01/ch01.md"
-              - CH02 Markov Decision Process (MDP): "./AI/RL/EASY-RL/CH02/ch02.md"
-              - CH03 Tabular Methods: "./AI/RL/EASY-RL/CH03/ch03.md"
+              - RL Basics: "./AI/RL/EASY-RL/CH01/ch01.md"
+              - Markov Decision Process (MDP): "./AI/RL/EASY-RL/CH02/ch02.md"
+              - Q Table Methods (Q-Learning): "./AI/RL/EASY-RL/CH03/ch03.md"
+              - Policy Gradient Methods (PG): "./AI/RL/EASY-RL/CH04/ch04.md"
+              - Proximal Policy Optimization (PPO): "./AI/RL/EASY-RL/CH05/ch05.md"
+              - Deep Q-Network (DQN): "./AI/RL/EASY-RL/CH06/ch06.md"
       - FL 🎯: "./AI/FL/fl.md"
       - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
       - TL 🎯: "./AI/TL/tl.md"
