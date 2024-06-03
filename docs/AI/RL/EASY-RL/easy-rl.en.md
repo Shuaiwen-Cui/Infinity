@@ -16,16 +16,3 @@
 
 </div>
 
-- [x] CH01 RL Basics
-- [x] CH02 Markov Decision Process (MDP)
-- [x] CH03 Tabular Methods
-- [ ] CH04
-- [ ] CH05
-- [ ] CH06
-- [ ] CH07
-- [ ] CH08
-- [ ] CH09
-- [ ] CH10
-- [ ] CH11
-- [ ] CH12
-- [ ] CH13

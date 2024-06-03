@@ -18,7 +18,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-square-github:{ .lg .middle } __Easy RL🎯🏆__ 
+-   :fontawesome-brands-square-github:{ .lg .middle } __Easy RL🎯✅🏆__ 
 
     ---
 
