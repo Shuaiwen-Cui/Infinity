@@ -1,6 +1,6 @@
 # 贝叶斯优化
 
-[BO](func.png)
+![BO](func.png){: width="100%"}
 
 ## 理论
 

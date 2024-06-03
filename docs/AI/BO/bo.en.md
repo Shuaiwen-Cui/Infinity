@@ -1,5 +1,6 @@
 # BAYESIAN OPTIMIZATION
 
+[BO](func.png)
 
 ## Theory
 
