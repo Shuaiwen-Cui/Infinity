@@ -19,14 +19,12 @@
 
 ## BAYESIAN OPTIMIZATION
 
-GO TO [BAYESIAN OPTIMIZATION](../AI/BO/bo.en.md)
-
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __Stanford EE364A Course Website__
+-   :material-web:{ .lg .middle } __BAYESIAN OPTIMIZATION__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="http://stanford.edu/class/ee364a/index.html" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="http://www.cuishuaiwen.com:8000/AI/BO/bo/" target="_blank"> Portal </a>](#)
 
 </div>
