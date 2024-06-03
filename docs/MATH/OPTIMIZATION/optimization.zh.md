@@ -17,3 +17,17 @@
     [:octicons-arrow-right-24: <a href="https://stanford.edu/~boyd/cvxbook/" target="_blank"> 教材 </a>](#)
 
 </div>
+
+## 贝叶斯优化
+
+前往 [贝叶斯优化](../AI/BO/bo.zh.md)
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __贝叶斯优化__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://stanford.edu/class/ee364a/index.html" target="_blank"> Portal </a>](#)
+
+</div>

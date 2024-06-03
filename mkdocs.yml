@@ -281,6 +281,7 @@ plugins:
             Imitation Learning: 模仿学习
             Deep Deterministic Policy Gradient (DDPG): 深度确定性策略梯度 (DDPG)
             AlphaStar: AlphaStar算法
+            BO 🎯: 贝叶斯优化 🎯
             FL 🎯: 联邦学习 🎯
             MULTI-AGENT 🎯: 多智能体 🎯
             TL 🎯: 迁移学习 🎯
@@ -697,6 +698,7 @@ nav:
               - Imitation Learning: "./AI/RL/EASY-RL/CH11/ch11.md"
               - Deep Deterministic Policy Gradient (DDPG): "./AI/RL/EASY-RL/CH12/ch12.md"
               - AlphaStar: "./AI/RL/EASY-RL/CH13/ch13.md"
+      - BO 🎯: "./AI/BO/bo.md"
       - FL 🎯: "./AI/FL/fl.md"
       - MULTI-AGENT 🎯: "./AI/MULTI-AGENT/multi-agent.md"
       - TL 🎯: "./AI/TL/tl.md"
