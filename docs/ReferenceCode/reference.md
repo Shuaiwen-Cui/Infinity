@@ -99,3 +99,6 @@ This file is for reference uses.
 ## Warehouse
 http://www.cuishuaiwen.com:7500/
 
+
+## PICTURE
+![BO](func.png){: width="100%"}

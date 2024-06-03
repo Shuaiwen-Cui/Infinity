@@ -1,6 +1,6 @@
 # BAYESIAN OPTIMIZATION
 
-[BO](func.png)
+![BO](func.png){: width="100%"}
 
 ## Theory
 
