@@ -1,5 +1,7 @@
 # 贝叶斯优化
 
+[BO](func.png)
+
 ## 理论
 
 <div class="grid cards" markdown>
