@@ -6,13 +6,24 @@
 
 <div class="grid cards" markdown>
 
--   :material-web:{ .lg .middle } __Digging into Bayesian Optimization🎯🏆__ 
+
+-   :material-web:{ .lg .middle } __Exploring Bayesian Optimization🎯✅🏆__ 
 
     ---
 
-    In Chinese
+    From Distill, can help you understand the theory of Bayesian Optimization in an interactive way.
 
-    [:octicons-arrow-right-24: <a href="https://www.cnblogs.com/marsggbo/p/9866764.html" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://distill.pub/2020/bayesian-optimization/" target="_blank"> Portal </a>](#)
+
+
+-   :material-web:{ .lg .middle } __Bayesian optimization🎯✅🏆__ 
+
+    ---
+    M. O. Ahmed, S. Prince (06/0). Tutorial #8: Bayesian optimization. Borealis AI. https://www.borealisai.com/research-blogs/tutorial-8-bayesian-optimization/
+
+    Very high quality article regarding Bayesian Optimization.
+    [:octicons-arrow-right-24: <a href="https://www.borealisai.com/research-blogs/tutorial-8-bayesian-optimization/" target="_blank"> Portal </a>](#)
+
 
 </div>
 
