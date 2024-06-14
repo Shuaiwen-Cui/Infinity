@@ -39,7 +39,7 @@ theme:
     - navigation.instant.progress # loading progress bar
     - navigation.path # breadcrumb path on top of page
     # - navigation.prune # only build the visible part of the navigation tree
-    - navigation.sections # navigation - top level will render as sections
+    # - navigation.sections # navigation - top level will render as sections
     - navigation.tabs
     - navigation.tabs.sticky # tabs stick to the top of the page
     - navigation.top
