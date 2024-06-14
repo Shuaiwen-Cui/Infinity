@@ -53,3 +53,16 @@
 - [x] P13 VSCode Garbled Code Problem Solution🏆
 
 
+## STM32CUBE IDE
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __STM32 DEV🎯✅🏆__
+    
+    ---
+
+    CSDN column
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/126943245" target="_blank"> Portal </a>](#)
+
+</div>

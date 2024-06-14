@@ -315,6 +315,10 @@ plugins:
             # MCU32: 单片机32
             # MPU: 微处理器
             MCU-SYS 🎯: 微控制器系统
+            MCU-HARDWARE: 微控制器系统-硬件
+            BASIC-FUNCTIONS: 基础功能
+            ADVANCED-FUNCTIONS: 高级功能
+            APPLICATION-DEV: 应用开发
             MPU-SYS 🎯: 微处理器系统
             XNODE 🎯: XNODE 🎯
             XNODE-DOCS: XNODE文档
@@ -719,7 +723,7 @@ nav:
           - RESPONSE-CALCULATION: "./SHM/STRUCTURAL-DYNAMICS/RESPONSE-CALCULATION/response-calculation.md"
       - NSEL-REPORT: "./SHM/NSEL-REPORT/nsel-report.md"
   - DEV: 
-      # - "./DEV/dev.md"
+      - "./DEV/dev.md"
       - DEVENV: 
           # - "./DEV/DEVENV/devenv.md"
           - LATEX: "./DEV/DEVENV/LATEX/latex.md"
@@ -736,6 +740,10 @@ nav:
               - UBUNTU: "./DEV/DEVENV/LINUX/UBUNTU/ubuntu.md"
       - MCU-SYS 🎯:
           - "./DEV/MCU-SYS/mcu-sys.md"
+          - MCU-HARDWARE: "./DEV/MCU-SYS/MCU-HARDWARE/mcu-hardware.md"
+          - BASIC-FUNCTIONS: "./DEV/MCU-SYS/BASIC-FUNCTIONS/basic-functions.md"
+          - ADVANCED-FUNCTIONS: "./DEV/MCU-SYS/ADVANCED-FUNCTIONS/advanced-functions.md"
+          - APPLICATION-DEV: "./DEV/MCU-SYS/APPLICATION-DEV/application-dev.md"
       - MPU-SYS 🎯:
           - "./DEV/MPU-SYS/mpu-sys.md"
       # - EMBEDDED:

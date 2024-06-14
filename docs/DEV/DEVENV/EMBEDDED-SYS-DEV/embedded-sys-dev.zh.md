@@ -53,3 +53,17 @@
 - [x] P11 VSCode使用Keil插件🏆
 - [x] P12 VSCode常用快捷键🏆
 - [x] P13 VSCode乱码问题解决🏆
+
+## STM32CUBE IDE
+
+<div class="grid cards" markdown>
+
+-   :material-web:{ .lg .middle } __STM32 全链路开发🎯✅🏆__
+    
+    ---
+
+    CSDN 专栏文章
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/126943245" target="_blank"> Portal </a>](#)
+
+</div>
