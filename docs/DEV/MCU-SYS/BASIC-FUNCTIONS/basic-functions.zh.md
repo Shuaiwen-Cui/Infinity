@@ -18,6 +18,11 @@
 
     [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/703460029" target="_blank"> Portal </a>](#)
 
+-   :material-book:{ .lg .middle } __STM32 全链路开发🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/126943245" target="_blank"> Portal </a>](#)
 
 
 </div>
@@ -62,7 +67,24 @@
 
 </div>
 
+### 读取按键状态
 
+<div class="grid cards" markdown>
+
+
+-   :material-book:{ .lg .middle } __读取按键状态控制LED__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/703460029" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } ____
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/95907760" target="_blank"> Portal </a>](#)
+
+</div>
 
 
 ## ESP32
