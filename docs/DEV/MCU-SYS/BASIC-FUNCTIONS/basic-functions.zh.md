@@ -6,13 +6,13 @@
 
 <div class="grid cards" markdown>
 
--   :material-book:{ .lg .middle } __边缘智能开发-专栏索引__
+-   :fontawesome-solid-blog:{ .lg .middle } __边缘智能开发-专栏索引__
 
     ---
 
     [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/696554081" target="_blank"> Portal </a>](#)
 
--   :material-book:{ .lg .middle } __STM32CUBE 生态__
+-   :fontawesome-solid-blog:{ .lg .middle } __STM32CUBE 生态__
 
     ---
 
@@ -33,7 +33,7 @@
 <div class="grid cards" markdown>
 
 
--   :material-book:{ .lg .middle } __新建项目与基本配置__
+-   :fontawesome-solid-blog:{ .lg .middle } __新建项目与基本配置__
 
     ---
 
@@ -53,7 +53,7 @@
 <div class="grid cards" markdown>
 
 
--   :material-book:{ .lg .middle } __新建项目与基本配置__
+-   :fontawesome-solid-blog:{ .lg .middle } __新建项目与基本配置__
 
     ---
 
@@ -72,17 +72,61 @@
 <div class="grid cards" markdown>
 
 
--   :material-book:{ .lg .middle } __读取按键状态控制LED__
+-   :fontawesome-solid-blog:{ .lg .middle } __读取按键状态控制LED__
 
     ---
 
     [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/703460029" target="_blank"> Portal </a>](#)
 
--   :material-book:{ .lg .middle } ____
+
+-   :material-book:{ .lg .middle } __使用GPIO进行按键检测__
 
     ---
 
     [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/95907760" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __使用EXIT中断检测按键（NVIC配置+HAL库中断处理机制__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/95938913" target="_blank"> Portal </a>](#)
+
+</div>
+
+### USART串口通信
+
+<div class="grid cards" markdown>
+
+-   :material-book:{ .lg .middle } __使用USART发送和接收数据（查询模式）__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/95941795" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __使用USART发送和接收数据（中断模式）__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/95968858" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __使用USART发送和接收数据（DMA模式）__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/99708292" target="_blank"> Portal </a>](#)
+
+-   :fontawesome-solid-blog:{ .lg .middle } __串口打印功能设置-PRINTF__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/696553590" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __重定向printf函数到串口输出的多种方法__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/99842909" target="_blank"> Portal </a>](#)
+
 
 </div>
 
