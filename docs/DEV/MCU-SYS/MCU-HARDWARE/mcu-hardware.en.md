@@ -23,5 +23,10 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bearpi.cn/dev_board/bearpi/iot/std/" target="_blank"> Portal </a>](#)
 
+-   :material-book:{ .lg .middle } __BearPI IoT Dev Kit BILIBILI🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1S5411x71A/?p=1" target="_blank"> Portal </a>](#)
 
 </div>
