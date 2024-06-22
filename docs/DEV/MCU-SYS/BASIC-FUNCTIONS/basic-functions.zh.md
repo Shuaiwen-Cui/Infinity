@@ -111,9 +111,12 @@
 
 -   :material-book:{ .lg .middle } __使用USART发送和接收数据（DMA模式）__
 
+    重点看第二个链接
     ---
 
     [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/99708292" target="_blank"> Portal </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1vv411W7AU/?spm_id_from=333.337.search-card.all.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
 
 -   :fontawesome-solid-blog:{ .lg .middle } __串口打印功能设置-PRINTF__
 
