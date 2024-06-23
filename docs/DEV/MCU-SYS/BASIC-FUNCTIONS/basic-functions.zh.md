@@ -150,8 +150,9 @@
 
 -   :material-book:{ .lg .middle } __使用USART发送和接收数据（DMA模式）__
 
-    重点看第二个链接
     ---
+
+    重点看第二个链接
 
     [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/99708292" target="_blank"> Portal </a>](#)
 
