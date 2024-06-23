@@ -2,6 +2,45 @@
 
 ## STM32
 
+### 教程链接
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-brands-bilibili:{ .lg .middle } __KEYSKING【STM32入门教程】教程🏆__
+
+    简单，直观，动画讲解，个人觉得非常好，墙裂推荐。
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV12v4y1y7uV/?spm_id_from=333.788&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+
+</div>
+- [x] 【绪论】
+- [x] 【开发环境】安装STM32CUBEIDE
+- [x] 【GPIO】点灯大师 LED
+- [x] 【GPIO】点灯宗师 绚丽小灯
+- [x] 【GPIO】按键控制小灯
+- [ ] 【GPIO】内部那些事
+- [ ] 【中断】初识中断以及中断的外部使用
+- [ ] 【中断】深入中断
+- [ ] 【串口】初识串口-轮询模式
+- [ ] 【串口】串口原理与中断模式收发
+- [ ] 【串口】串口DMA模式与收发不定长数据
+- [ ] 【串口】蓝牙模块与简易数据包解析
+- [ ] 【IIC】IIC与温湿度传感器AHT20(DHT20)
+- [ ] 【IIC】IIC与DMA&状态机编程
+- [ ] 【OLED】OLED原理&驱动库&取模
+- [ ] 【时钟树】时钟树与时钟源
+- [ ] 【定时器】基本定时功能
+- [ ] 【定时器】外部时钟与寻迹模块
+- [ ] 【定时器】定时器从模式
+- [ ] 【定时器】输入捕获
+- [ ] 
+
+
+
+
 ### 通用
 
 <div class="grid cards" markdown>

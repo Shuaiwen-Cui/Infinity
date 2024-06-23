@@ -61,7 +61,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯🏆🏆🏆___
+-   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯🏆__
 
     ---
 
@@ -72,13 +72,5 @@
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1th411z7sn/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 </div>
 
-- [x] P1 [1-1] 课程简介
-- [x] P2 [1-2] STM32简介
-- [x] P3 [2-1] 软件安装
-- [x] P4 [2-2] 新建工程 🎯
-- [x] P5 [3-1] GPIO输出
-- [x] P6 [3-2] LED闪烁&LED流水灯&蜂鸣器
-- [ ] P7 [3-3] GPIO输入
-- [ ] P8 [3-4] 按键控制LED&光敏电阻传感器控制蜂鸣器
-- [ ] P9 [4-1] OLED调试工具
-- [ ] P10 [4-2] OLED显示屏 
+!!! tip
+    如果比较关心底层原理，可以看一下标准库函数的教程，如果只是想快速上手，推荐使用HAL库函数。

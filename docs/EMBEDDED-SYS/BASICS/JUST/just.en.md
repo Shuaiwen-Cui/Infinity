@@ -60,7 +60,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯🏆🏆🏆___
+-   :fontawesome-brands-bilibili:{ .lg .middle } __江科大STM32 🎯🏆__
 
     ---
 
@@ -70,11 +70,5 @@
 
 </div>
 
-- [x] P1 [1-1] Course Introduction
-- [x] P2 [1-2] STM32Introduction
-- [x] P3 [2-1] Software Installation
-- [x] P4 [2-2] New Project 🎯
-- [x] P5 [3-1] GPIO Output
-- [x] P6 [3-2] LED Blinking & LED Running Light & Buzzer
-- [ ] P7 [3-3] GPIO Input
-- [ ] P8 [3-4] Button Control LED & Photosensitive Resistor Sensor Control Buzzer
+!!! tip
+    If you prefer know why, you can check this standard library tutorial; if you just want to know how, you can check HAL library tutorials.
