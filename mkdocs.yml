@@ -177,6 +177,7 @@ plugins:
             EMBED-BASICS: 嵌入式基础
             JUST: 江协科技
             YOUNGTALK: 洋桃科技
+            EMBEDFIRE: 野火科技
             ALIENTEK: 正点原子
             DIGIKEY: 德捷电子
             REFERENCE: 参考链接
@@ -550,6 +551,7 @@ nav:
               -  "./EMBEDDED-SYS/BASICS/embed-basics.md"
               - JUST: "./EMBEDDED-SYS/BASICS/JUST/just.md"
               - YOUNGTALK: "./EMBEDDED-SYS/BASICS/YOUNGTALK/youngtalk.md"
+              - EMBEDFIRE: "./EMBEDDED-SYS/BASICS/EMBEDFIRE/embedfire.md"
               - ALIENTEK: "./EMBEDDED-SYS/BASICS/ALIENTEK/alientek.md"
               - DIGIKEY: "./EMBEDDED-SYS/BASICS/DIGIKEY/digikey.md"
               - REFERENCE: "./EMBEDDED-SYS/BASICS/REFERENCE/reference.md"
