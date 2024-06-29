@@ -315,6 +315,8 @@ plugins:
             # CH03-BUTTON: CH03-按键控制
             # MCU32: 单片机32
             # MPU: 微处理器
+            GADGETS: 小工具
+            SERIAL-ASSISTANT: 串口助手
             MCU-SYS 🎯: 微控制器系统
             MCU-HARDWARE: 微控制器系统-硬件
             BASIC-FUNCTIONS: 基础功能
@@ -740,6 +742,8 @@ nav:
           - EMBEDDED-SYS-DEV: "./DEV/DEVENV/EMBEDDED-SYS-DEV/embedded-sys-dev.md"
           - LINUX:
               - UBUNTU: "./DEV/DEVENV/LINUX/UBUNTU/ubuntu.md"
+      - GADGETS: 
+          - SERIAL ASSISTANT: "./DEV/GADGETS/SERIAL-ASSISTANT/serial-assistant.md"
       - MCU-SYS 🎯:
           - "./DEV/MCU-SYS/mcu-sys.md"
           - MCU-HARDWARE: "./DEV/MCU-SYS/MCU-HARDWARE/mcu-hardware.md"
