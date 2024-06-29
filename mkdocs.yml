@@ -743,7 +743,7 @@ nav:
           - LINUX:
               - UBUNTU: "./DEV/DEVENV/LINUX/UBUNTU/ubuntu.md"
       - GADGETS: 
-          - SERIAL ASSISTANT: "./DEV/GADGETS/SERIAL-ASSISTANT/serial-assistant.md"
+          - SERIAL-ASSISTANT: "./DEV/GADGETS/SERIAL-ASSISTANT/serial-assistant.md"
       - MCU-SYS 🎯:
           - "./DEV/MCU-SYS/mcu-sys.md"
           - MCU-HARDWARE: "./DEV/MCU-SYS/MCU-HARDWARE/mcu-hardware.md"
