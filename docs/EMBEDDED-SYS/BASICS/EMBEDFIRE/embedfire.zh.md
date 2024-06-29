@@ -48,7 +48,7 @@
 - [ ] P20 - I2C读写EEPROM
 - [ ] P21 - SPI & QSPI 读写串行FLASH
 - [ ] P22 - 串行FLASH文件系统FATFS
-- [ ] P23 - FSMC & FMC
+- [x] P23 - FSMC & FMC
 - [ ] P24 - LCD液晶显示
 - [ ] P25 - LCD液晶显示中英文
 - [ ] P26 - 触摸画板
