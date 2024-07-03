@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __Keysking
+-   :fontawesome-brands-bilibili:{ .lg .middle } __Keysking__
 
     ---
 

@@ -6,12 +6,6 @@
 
 ### 洋桃 STM32F407 开发板
 
-### 正点原子 - STM32H743IIT6 APPOLO 开发板
-
-### 反客 STM32H723 开发板
-
-### 反客 STM32H743IIT 开发板
-
 ### 小熊派 STM32L431RCT6 开发板
 
 <div class="grid cards" markdown>
@@ -29,3 +23,13 @@
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1S5411x71A/?p=1" target="_blank"> Portal </a>](#)
 </div>
+
+### 野火 - STM32H743IIT6 挑战者
+
+### 正点原子 - STM32H743IIT6 APPOLO 开发板
+
+### 反客 STM32H723 开发板
+
+### 反客 STM32H743IIT 开发板
+
+### 安富莱 V7 开发板
