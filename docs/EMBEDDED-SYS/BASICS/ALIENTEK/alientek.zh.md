@@ -8,15 +8,21 @@
 
     [:octicons-arrow-right-24: <a href="https://www.yuanzige.com/course/detail/80586" target="_blank"> 传送门 </a>](#)
 
--  :material-web:{ .lg .middle } __正点原子 Bilibili 🎯🏆__
+-  :material-web:{ .lg .middle } __正点原子 Bilibili MCU🎯🏆__
 
     ---
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1bv4y1R7dp/?spm_id_from=333.999.0.0&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#) 
 
+-  :material-web:{ .lg .middle } __正点原子 Bilibili MPU🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1Kr4y1u74L/?p=1&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#) 
+
 </div>
 
-## 学习进度
+## MCU 学习进度
 
 ### 基础篇
 - [x] 第1讲 单片机简介 (30分52秒)
@@ -396,3 +402,32 @@
 - [ ] 第62讲 USB虚拟串口(Slave)实验 (32分15秒)
 - [ ] 第63讲 USB U盘(Host)实验 (35分54秒)
 - [ ] 第64讲 USB 鼠标键盘(Host)实验 (24分51秒)
+
+## MPU 学习进度
+
+### 第一期
+- [x] P1 开箱验货
+- [x] P2-1 正点原子MP157开发板外设资源介绍
+- [x] P2-2 正点原子MP157-mini开发板外设资源介绍
+- [x] P3 正点原子MP157开发板资料介绍
+- [x] P4 怎么学习
+- [x] P5-1 开发环境搭建-Ubuntu18安装
+- [ ] P5-2 开发环境搭建-Windows与Ubuntu文件互传
+- [ ] P5-3 开发环境搭建-交叉编译器与NFS服务器安装搭建
+- [ ] P5-4 开发环境搭建-VSCode安装与使用
+- [ ] P5-5 开发环境搭建-串口驱动与终端调试软件安装
+- [ ] P5-6 开发环境搭建-Windows下ST官方软件安装
+- [ ] P5-7 开发环境搭建-Ubuntu下ST官方软件安装
+- [ ] P6 直接使用正点原子Ubuntu18镜像
+- [ ] P7 系统烧写
+
+
+### 第二期
+
+
+
+
+### 第三期
+
+
+
