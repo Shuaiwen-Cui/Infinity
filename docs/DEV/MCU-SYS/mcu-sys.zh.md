@@ -3,6 +3,14 @@
 ## STM32 开发
 <div class="grid cards" markdown>
 
+-   :fontawesome-brands-bilibili:{ .lg .middle } __KEYSKING【STM32入门教程】教程🏆__
+
+    简单，直观，动画讲解，个人觉得非常好，墙裂推荐。
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV12v4y1y7uV/?spm_id_from=333.788&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
 -   :fontawesome-solid-blog:{ .lg .middle } __STM32 Z小旋🎯🏆__
 
     ---
@@ -31,33 +39,44 @@
 
 ## 学习进度
 
+### KEYSKING【STM32入门教程】教程🏆
+
+- [x] 【绪论】
+- [x] 【开发环境】安装STM32CUBEIDE
+- [x] 【GPIO】点灯大师 LED
+- [x] 【GPIO】点灯宗师 绚丽小灯
+- [x] 【GPIO】按键控制小灯
+- [x] 【GPIO】内部那些事
+- [x] 【中断】初识中断以及中断的外部使用
+- [x] 【中断】深入中断
+- [x] 【串口】初识串口-轮询模式
+- [x] 【串口】串口原理与中断模式收发
+- [x] 【串口】串口DMA模式与收发不定长数据
+- [x] 【串口】蓝牙模块与简易数据包解析
+- [ ] 【IIC】IIC与温湿度传感器AHT20(DHT20)
+- [ ] 【IIC】IIC与DMA&状态机编程
+- [ ] 【OLED】OLED原理&驱动库&取模
+- [ ] 【时钟树】时钟树与时钟源
+- [ ] 【定时器】基本定时功能
+- [ ] 【定时器】外部时钟与寻迹模块
+- [ ] 【定时器】定时器从模式
+- [ ] 【定时器】输入捕获
+
 ### STM32 Z小旋
 
-<div class="grid cards" markdown>
-
--   :fontawesome-solid-blog:{ .lg .middle } __STM32 Z小旋🎯🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.cnblogs.com/lc-guo/collections/11218" target="_blank"> Portal </a>](#)
-
-</div>
-
-- [x] 不服了
-
-- [x]【STM32】STM32 CubeMx使用教程一--安装教程  
-- [x]【STM32】STM32CubeMX教程二--基本使用(新建工程点亮LED灯)                                              
-- [x]【STM32】HAL库 STM32CubeMX教程三----外部中断(HAL库GPIO讲解)                                       
-- [x]【STM32】HAL库 STM32CubeMX教程四---UART串口通信详解                                                   
-- [x]【STM32】HAL库 STM32CubeMX教程五----看门狗(独立看门狗,窗口看门狗)                                 
-- [x]【STM32】HAL库 STM32CubeMX教程六----定时器中断                                                               
-- [x]【STM32】HAL库 STM32CubeMX教程七---PWM输出(呼吸灯)      
-- [x]【STM32】HAL库 STM32CubeMX教程八---定时器输入捕获                                                         
-- [x]【STM32】HAL库 STM32CubeMX教程九---ADC                                                                            
-- [x]【STM32】HAL库 STM32CubeMX教程十---DAC                                                                           
-- [x]【STM32】HAL库 STM32CubeMX教程十一---DMA (串口DMA发送接收)                                     
-- [ ]【STM32】HAL库 STM32CubeMX教程十二---IIC(读取AT24C02 )
-- [ ]【STM32】HAL库 STM32CubeMX教程十四---SPI
+- [x] 【STM32】STM32 CubeMx使用教程一--安装教程  
+- [x] 【STM32】STM32CubeMX教程二--基本使用(新建工程点亮LED灯)                                              
+- [x] 【STM32】HAL库 STM32CubeMX教程三----外部中断(HAL库GPIO讲解)                                       
+- [x] 【STM32】HAL库 STM32CubeMX教程四---UART串口通信详解                                                   
+- [x] 【STM32】HAL库 STM32CubeMX教程五----看门狗(独立看门狗,窗口看门狗)                                 
+- [x] 【STM32】HAL库 STM32CubeMX教程六----定时器中断                                                               
+- [x] 【STM32】HAL库 STM32CubeMX教程七---PWM输出(呼吸灯)      
+- [x] 【STM32】HAL库 STM32CubeMX教程八---定时器输入捕获                                                         
+- [x] 【STM32】HAL库 STM32CubeMX教程九---ADC                                                                            
+- [x] 【STM32】HAL库 STM32CubeMX教程十---DAC                                                                           
+- [x] 【STM32】HAL库 STM32CubeMX教程十一---DMA (串口DMA发送接收)                                     
+- [ ] 【STM32】HAL库 STM32CubeMX教程十二---IIC(读取AT24C02 )
+- [ ] 【STM32】HAL库 STM32CubeMX教程十四---SPI
 
 
 ### STM32 全链路开发

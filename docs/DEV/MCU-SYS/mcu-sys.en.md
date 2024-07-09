@@ -3,6 +3,14 @@
 ## STM32
 <div class="grid cards" markdown>
 
+-   :fontawesome-brands-bilibili:{ .lg .middle } __KEYSKING TUTORIALS🏆__
+
+    Simple, intuitive, animated explanation, highly recommended.
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV12v4y1y7uV/?spm_id_from=333.788&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
 -   :fontawesome-solid-blog:{ .lg .middle } __STM32 Z小旋🎯🏆__
 
     ---
