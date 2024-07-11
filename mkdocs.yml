@@ -228,6 +228,7 @@ plugins:
             EWT: 经验小波变换
             DWT 🎯: 离散小波变换 🎯
             WPT 🎯: 小波包变换 🎯
+            WAVELET-TRANSFORM 🎯: 小波变换 🎯
             PERCEPTION: 感知
             SENSORS-CIVIL-ENGINEERING: 土木工程中的传感器
             CONTROL: 控制
@@ -643,6 +644,7 @@ nav:
               - EWT: "./DSP/NOTE-DSP-STUFF/EMD/EWT/ewt.md"
               - DWT 🎯: "./DSP/NOTE-DSP-STUFF/EMD/DWT/dwt.md"
               - WPT 🎯: "./DSP/NOTE-DSP-STUFF/EMD/WPT/wpt.md"
+      - WAVELET-TRANSFORM 🎯: "./DSP/WAVELET-TRANSFORM/wavelet-transform.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
       - SENSORS-CIVIL-ENGINEERING: "./PERCEPTION/SENSORS-CIVIL-ENGINEERING/sensors-ce.md"
