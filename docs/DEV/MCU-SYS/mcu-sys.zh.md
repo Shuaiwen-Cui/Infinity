@@ -3,7 +3,7 @@
 ## STM32 开发
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-bilibili:{ .lg .middle } __KEYSKING【STM32入门教程】教程🏆__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __KEYSKING【STM32入门教程】教程🎯🏆✅__
 
     简单，直观，动画讲解，个人觉得非常好，墙裂推荐。
 
@@ -39,7 +39,7 @@
 
 ## 学习进度
 
-### KEYSKING【STM32入门教程】教程🏆
+### KEYSKING【STM32入门教程】教程✅
 
 - [x] 【绪论】
 - [x] 【开发环境】安装STM32CUBEIDE
