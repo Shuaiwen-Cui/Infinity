@@ -2,9 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :simple-github:{ .lg .middle } __在线串口助手 🏆__
-
-    作者 Keysking
+-   :simple-github:{ .lg .middle } __波特律动：在线串口助手 🏆__
 
     ---
 
