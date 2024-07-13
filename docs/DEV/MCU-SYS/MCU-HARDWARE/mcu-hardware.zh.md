@@ -32,6 +32,8 @@
 
 ### 反客 STM32H743IIT 开发板
 
+### 极客STM32H743IIT6开发板
+
 ### 安富莱 V7 开发板
 
 <div class="grid cards" markdown>
