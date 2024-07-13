@@ -33,4 +33,23 @@
 
 ### FANKE STM32H743IIT Development Board
 
+### GEEK STM32H743IIT6 Development Board
+
 ### ANFULAI V7 Development Board
+
+<div class="grid cards" markdown>
+
+
+-   :material-book:{ .lg .middle } __ARMFLY OFFICIAL🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.anfulai.cn/index.shtml" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __ARMFLY FORUM🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.armbbs.cn/" target="_blank"> Portal </a>](#)
+
+</div>

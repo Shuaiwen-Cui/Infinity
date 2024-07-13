@@ -33,3 +33,26 @@
 ### 反客 STM32H743IIT 开发板
 
 ### 安富莱 V7 开发板
+
+<div class="grid cards" markdown>
+
+
+-   :material-book:{ .lg .middle } __ARMFLY 官方🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.anfulai.cn/index.shtml" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __ARMFLY 论坛🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.armbbs.cn/" target="_blank"> Portal </a>](#)
+
+</div>
+
+#### 安富莱技术资料
+
+- [x] 01-安富莱_STM32-V7开发板_硬件参考手册（V1.0）.pdf
+- [ ] 02-安富莱_STM32-V7开发板_用户手册，含BSP驱动包设计（V3.5）.pdf [1-20,87,88]
+- [ ] 03-安富莱_STM32-V7开发板_第2版DSP数字信号处理教程（V2.7）.pdf
