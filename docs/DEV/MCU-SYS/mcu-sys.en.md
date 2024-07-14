@@ -31,5 +31,18 @@
 
     [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/126943245" target="_blank"> Portal </a>](#)
 
+-   :fontawesome-solid-blog:{ .lg .middle } __STM32CubeMX+STM32F4 Series Tutorial🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.cnblogs.com/lc-guo/p/17937268" target="_blank"> Portal </a>](#)
+
+-   :fontawesome-solid-blog:{ .lg .middle } __STM32CubeMX Auto Configuration🎯🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/weixin_42880082/category_12054555.html" target="_blank"> Portal </a>](#)
+
+
 
 </div>
