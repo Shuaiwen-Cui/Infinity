@@ -327,6 +327,8 @@ plugins:
             BACK-END: 后端
             RESEARCH: 研究
             NODE 🎯: 节点 🎯
+            MCU-NODE-STM32H743 🎯: 微控制器节点-STM32H743 🎯
+            MCU-NODE-ESP32S3: 微控制器节点-ESP32S3
             SYSTEM 🎯: 系统 🎯
             PROJECT: 项目
             TECH-BLOG: 技术博客
@@ -759,8 +761,10 @@ nav:
           - WEB-BASED: "./DEV/VISUALIZATION/WEB-BASED/web-based.md"
           - CLIENT-BASED: "./DEV/VISUALIZATION/CLIENT-BASED/client-based.md"
   - RESEARCH: 
-      - "./RESEARCH/research.md"
-      - NODE 🎯: "./RESEARCH/NODE/node.md"
+      - NODE 🎯: 
+          - "./RESEARCH/NODE/node.md"
+          - MCU-NODE-STM32H743 🎯: "./RESEARCH/NODE/MCU-NODE-STM32H743/mcu-node-stm32h743.md"
+          - MCU-NODE-ESP32S3: "./RESEARCH/NODE/MCU-NODE-ESP32S3/mcu-node-esp32s3.md"
       - SYSTEM 🎯: "./RESEARCH/SYSTEM/system.md"
   - PROJECT: 
       - "./PROJECT/project.md"
