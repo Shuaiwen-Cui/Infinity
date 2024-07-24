@@ -7,6 +7,6 @@
 
     Hardware Simulation Framework
 
-    [:octicons-arrow-right-24: <a href="https://teachyourselfcs.com/" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://renode.io/" target="_blank"> Portal </a>](#)
 
 </div>

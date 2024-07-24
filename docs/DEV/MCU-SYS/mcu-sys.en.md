@@ -43,6 +43,10 @@
 
     [:octicons-arrow-right-24: <a href="https://blog.csdn.net/weixin_42880082/category_12054555.html" target="_blank"> Portal </a>](#)
 
+-   :fontawesome-solid-blog:{ .lg .middle } __STM32CubeMX Tutorial🎯🏆__
 
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://leung-manwah.blog.csdn.net/category_10508589.html" target="_blank"> Portal </a>](#)
 
 </div>
