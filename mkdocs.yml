@@ -184,13 +184,8 @@ plugins:
             SIMULATION: 仿真
             DEVKIT 🎯: 开发板 🎯
             ARDUINO: ARDUINO
-            STM32: 意法半导体STM32
-            STM32H743IIT: STM32H743IIT
-            STM32MP157: STM32MP157
-            STM32-NOTES: STM32学习笔记
-            MCU-STM32H743IIT: MCU-STM32H743IIT
-            MPU-STM32MP157: MPU-STM32MP157
-            ESP32: 乐鑫ESP32
+            STM32: STM32
+            ESP32: ESP32
             RASPBERRYPI: 树莓派
             JETSON: 英伟达JETSON
             IDE 🎯: 集成开发环境 🎯
@@ -569,18 +564,6 @@ nav:
               - "./EMBEDDED-SYS/DEVKIT/STM32/stm32.md"
               - STM32H743IIT: "./EMBEDDED-SYS/DEVKIT/STM32/STM32H743IIT/stm32h743iit.md"
               - STM32MP157: "./EMBEDDED-SYS/DEVKIT/STM32/STM32MP157/stm32mp157.md"
-          - STM32-NOTES:
-              - MCU-STM32H743IIT: 
-                  - "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/mcu-stm32h743iit.md" 
-                  - CH01: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH01/mcu-ch01.md"
-                  - CH02: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH02/mcu-ch02.md"
-                  - CH03: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH03/mcu-ch03.md"
-                  - CH04: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH04/mcu-ch04.md"
-                  - CH05: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH05/mcu-ch05.md"
-                  - CH06: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH06/mcu-ch06.md"
-                  - CH07: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH07/mcu-ch07.md"
-                  - CH08: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MCU-STM32H743IIT/CH08/mcu-ch08.md"
-              - MPU-STM32MP157: "./EMBEDDED-SYS/DEVKIT/STM32-NOTES/MPU-STM32MP157/mpu-stm32mp157.md"
           - ESP32: "./EMBEDDED-SYS/DEVKIT/ESP32/esp32.md"
           - OPENMV: "./EMBEDDED-SYS/DEVKIT/OPENMV/openmv.md"
           - RASPBERRYPI: "./EMBEDDED-SYS/DEVKIT/RASPBERRYPI/raspberrypi.md"
