@@ -2,7 +2,7 @@
 
 ## STM32
 
-### 班级支持包
+### 板级支持包
 
 <div class="grid cards" markdown>
 
