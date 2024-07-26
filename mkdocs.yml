@@ -208,6 +208,8 @@ plugins:
             # ESP-IDF 🎯: 乐鑫物联网开发框架(ESP-IDF) 🎯
             USEFUL-LIB 🎯: 常用嵌入式开发库 🎯
             DSP: 数字信号处理
+            WAVELET-TRANSFORM 🎯: 小波变换 🎯
+            INDEPENDENT-COMPONENT-ANALYSES 🎯: 独立成分分析 🎯
             NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
             TIME-FREQ-ANA 🎯: 时频分析 🎯
             EMD 🎯: 经验模态分解 🎯
@@ -225,7 +227,6 @@ plugins:
             EWT: 经验小波变换
             DWT 🎯: 离散小波变换 🎯
             WPT 🎯: 小波包变换 🎯
-            WAVELET-TRANSFORM 🎯: 小波变换 🎯
             PERCEPTION: 感知
             SENSORS-CIVIL-ENGINEERING: 土木工程中的传感器
             CONTROL: 控制
@@ -595,9 +596,10 @@ nav:
           - STM-HAL 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/STM-HAL/stm-hal.md"
           - ESP-IDF 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/ESP-IDF/esp-idf.md"  
       - USEFUL-LIB 🎯: "./EMBEDDED-SYS/USEFUL-LIB/useful-lib.md"
-
   - DSP: 
       - "./DSP/dsp.md"
+      - WAVELET-TRANSFORM 🎯: "./DSP/WAVELET-TRANSFORM/wavelet-transform.md"
+      - INDEPENDENT-COMPONENT-ANALYSES 🎯: "./DSP/INDEPENDENT-COMPONENT-ANALYSES/ica.md"
       - NOTE-DSP-STUFF 🎯:
           - TIME-FREQ-ANA 🎯:
               - CH01: "./DSP/NOTE-DSP-STUFF/TIME-FREQ-ANA/CH01/tf-ana-ch01.md"
@@ -633,7 +635,6 @@ nav:
               - EWT: "./DSP/NOTE-DSP-STUFF/EMD/EWT/ewt.md"
               - DWT 🎯: "./DSP/NOTE-DSP-STUFF/EMD/DWT/dwt.md"
               - WPT 🎯: "./DSP/NOTE-DSP-STUFF/EMD/WPT/wpt.md"
-      - WAVELET-TRANSFORM 🎯: "./DSP/WAVELET-TRANSFORM/wavelet-transform.md"
   - PERCEPTION: 
       - "./PERCEPTION/perception.md"
       - SENSORS-CIVIL-ENGINEERING: "./PERCEPTION/SENSORS-CIVIL-ENGINEERING/sensors-ce.md"
