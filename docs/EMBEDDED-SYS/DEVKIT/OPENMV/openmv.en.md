@@ -5,6 +5,7 @@
 The OpenMV project is about creating low-cost, extensible, Python powered, machine vision modules and aims at becoming the "Arduino of Machine Vision".
 
 ## OFFICIAL WEBSITE
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-microchip:{ .lg .middle } [OpenMV](https://openmv.io/)
@@ -32,6 +33,7 @@ The OpenMV project is about creating low-cost, extensible, Python powered, machi
 </div>
 
 ### Quick Reference for the OpenMV Cam 
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-book:{ .lg .middle } [OpenMV Quick Reference](https://docs.openmv.io/openmvcam/quickref.html)
@@ -42,7 +44,10 @@ The OpenMV project is about creating low-cost, extensible, Python powered, machi
 
     [:octicons-arrow-right-24: <a href="https://docs.openmv.io/openmvcam/quickref.html" target="_blank"> Portal </a>](https://docs.openmv.io/openmvcam/quickref.html)
 
+</div>
+
 ### MicroPython Language and Implementation
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-book:{ .lg .middle } [MicroPython](https://docs.openmv.io/reference/index.html)
@@ -55,7 +60,10 @@ The OpenMV project is about creating low-cost, extensible, Python powered, machi
 
 </div>
 
+
 ### MicroPython Differences from CPython
+
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-book:{ .lg .middle } [MicroPython Differences from CPython](https://docs.openmv.io/genrst/index.html)
@@ -68,7 +76,10 @@ The OpenMV project is about creating low-cost, extensible, Python powered, machi
 
 </div>
 
+
 ### MicroPython Libraries
+
+
 <div class="grid cards" markdown>
 
 -   :fontawesome-solid-book:{ .lg .middle } [MicroPython Libraries](https://docs.openmv.io/library/index.html)
