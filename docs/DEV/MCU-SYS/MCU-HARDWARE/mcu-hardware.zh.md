@@ -53,8 +53,23 @@
 
 </div>
 
-#### 安富莱技术资料
+## ESP32
 
-- [x] 01-安富莱_STM32-V7开发板_硬件参考手册（V1.0）.pdf
-- [ ] 02-安富莱_STM32-V7开发板_用户手册，含BSP驱动包设计（V3.5）.pdf [1-20,87,88]
-- [ ] 03-安富莱_STM32-V7开发板_第2版DSP数字信号处理教程（V2.7）.pdf
+### 正点原子 ESP32S3 
+
+<div class="grid cards" markdown>
+
+
+-   :material-book:{ .lg .middle } __ALIENTEK ESP32S3 开发板🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="http://47.111.11.73/docs/boards/esp32/ATK-DNESP32S3.html" target="_blank"> Portal </a>](#)
+
+-   :material-book:{ .lg .middle } __ALIENTEK ESP32S3 教程🏆__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1sH4y1W7Tc/?p=1" target="_blank"> Portal </a>](#)
+
+</div>
