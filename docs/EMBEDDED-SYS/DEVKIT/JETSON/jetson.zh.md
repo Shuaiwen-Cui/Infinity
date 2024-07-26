@@ -8,8 +8,6 @@
 
     ---
 
-    [https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit-Front-Top_0.png](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
-
     [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank"> 传送门 </a>](#)
 
 -   :simple-nvidia:{ .lg .middle } __Jetson Nano 上手__
@@ -17,8 +15,6 @@
     ---
 
     注意这是官方开发套件，而不是替代版本。
-
-    [https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
     [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit" target="_blank"> 传送门 </a>](#)
 

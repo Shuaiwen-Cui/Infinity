@@ -8,8 +8,6 @@
 
     ---
 
-    [https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit-Front-Top_0.png](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
-
     [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank"> Portal </a>](#)
 
 -   :simple-nvidia:{ .lg .middle } __Jetson Nano Getting Started__
@@ -17,8 +15,6 @@
     ---
 
     Note this is for the official DevKit, not substituted versions.
-
-    [https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
     [:octicons-arrow-right-24: <a href="https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit" target="_blank"> Portal </a>](#)
 
