@@ -203,8 +203,9 @@ plugins:
             MDK-MIDDLEWARE: MDK中间件
             PLATFORMIO: PLATFORMIO
             DEV-FRAMEWORK: 开发框架
-            CMSIS 🎯: Cortex微控制器软件接口标准 🎯
-            ESP-IDF: 乐鑫物联网开发框架(ESP-IDF)
+            # CMSIS 🎯: Cortex微控制器软件接口标准 🎯
+            # STM-HAL 🎯: 意法半导体硬件抽象层(STM-HAL) 🎯
+            # ESP-IDF 🎯: 乐鑫物联网开发框架(ESP-IDF) 🎯
             USEFUL-LIB 🎯: 常用嵌入式开发库 🎯
             DSP: 数字信号处理
             NOTE-DSP-STUFF 🎯: “DSP相关内容”笔记 🎯
@@ -591,7 +592,8 @@ nav:
           - PLATFORMIO 🎯: "./EMBEDDED-SYS/IDE/PLATFORMIO/platformio.md"
       - DEV-FRAMEWORK:
           - CMSIS 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/CMSIS/cmsis.md"
-          - ESP-IDF: "./EMBEDDED-SYS/DEV-FRAMEWORK/ESP-IDF/esp-idf.md"  
+          - STM-HAL 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/STM-HAL/stm-hal.md"
+          - ESP-IDF 🎯: "./EMBEDDED-SYS/DEV-FRAMEWORK/ESP-IDF/esp-idf.md"  
       - USEFUL-LIB 🎯: "./EMBEDDED-SYS/USEFUL-LIB/useful-lib.md"
 
   - DSP: 

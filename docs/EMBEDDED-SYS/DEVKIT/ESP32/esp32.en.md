@@ -8,7 +8,7 @@
 
     [:octicons-arrow-right-24: <a href="https://www.espressif.com/en/products/socs/esp32" target="_blank"> Portal </a>](#)
 
--   :simple-espressif:{ .lg .middle } __ESP32 Official Tutorials (CN)__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __ESP32 Official Tutorials (CN)__
 
     ---
 
