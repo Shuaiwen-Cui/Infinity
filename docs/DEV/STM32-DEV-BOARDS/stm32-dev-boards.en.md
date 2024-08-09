@@ -1,10 +1,12 @@
-# MCU Devkits
+# STM32 DEVELOPMENT BOARDS
 
-## STM32
+## YOUNGTALK SERIES
 
 ### Youngtalk STM32F103 Development Board
 
 ### Youngtalk STM32F407 Development Board
+
+## BEARPI SERIES
 
 ### BEARPI STM32L431RCT6 Development Board
 
@@ -25,17 +27,27 @@
 
 </div>
 
+## EMBEDFIRE SERIES
+
 ### EMBEDFIRE - STM32H743IIT6 Challenger Development Board
 
+## ALIENTEK SERIES
+
 ### ALIENTEK - STM32H743IIT6 APPOLO Development Board
+
+## FANKE SERIES
 
 ### FANKE STM32H723 Development Board
 
 ### FANKE STM32H743IIT Development Board
 
+## GEEK SERIES
+
 ### GEEK STM32H743IIT6 Development Board
 
-### ANFULAI V7 Development Board
+## ARMFLY SERIES
+
+### ARMFLY V7 Development Board
 
 <div class="grid cards" markdown>
 
@@ -54,23 +66,3 @@
 
 </div>
 
-## ESP32
-
-### ALIENTEK ESP32S3 
-
-<div class="grid cards" markdown>
-
-
--   :material-book:{ .lg .middle } __ALIENTEK ESP32S3 Devkit🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="http://47.111.11.73/docs/boards/esp32/ATK-DNESP32S3.html" target="_blank"> Portal </a>](#)
-
--   :material-book:{ .lg .middle } __ALIENTEK ESP32S3 Tutorial 🏆__
-
-    ---
-
-    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1sH4y1W7Tc/?p=1" target="_blank"> Portal </a>](#)
-
-</div>

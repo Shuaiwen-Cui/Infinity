@@ -317,12 +317,12 @@ plugins:
             GADGETS: 小工具
             SERIAL-ASSISTANT: 串口助手
             CHARACTER-EXTRACTION: 字模提取
-            MCU-SYS 🎯: 微控制器系统
-            MCU-HARDWARE: 微控制器系统-硬件
-            BASIC-FUNCTIONS: 基础功能
-            ADVANCED-FUNCTIONS: 高级功能
-            APPLICATION-DEV: 应用开发
-            MPU-SYS 🎯: 微处理器系统
+            STM32-DEV-BOARDS: STM32开发板
+            STM32-DEV-REF: STM32开发参考
+            ESP32-DEV-BOARDS: ESP32开发板
+            ESP32-DEV-REF: ESP32开发参考
+            MCU-SYS 🎯: 微控制器系统 🎯
+            MPU-SYS 🎯: 微处理器系统 🎯
             XNODE 🎯: XNODE 🎯
             XNODE-DOCS: XNODE文档
             BASIC-VERSION: 基础版本
@@ -737,12 +737,12 @@ nav:
       - GADGETS: 
           - SERIAL-ASSISTANT: "./DEV/GADGETS/SERIAL-ASSISTANT/serial-assistant.md"
           - CHARACTER-EXTRACTION: "./DEV/GADGETS/CHARACTER-EXTRACTION/character-extraction.md"
+      - STM32-DEV-BOARDS: "./DEV/STM32-DEV-BOARDS/stm32-dev-boards.md"
+      - STM32-DEV-REF: "./DEV/STM32-DEV-REF/stm32-dev-ref.md"
+      - ESP32-DEV-BOARDS: "./DEV/ESP32-DEV-BOARDS/esp32-dev-boards.md"
+      - ESP32-DEV-REF: "./DEV/ESP32-DEV-REF/esp32-dev-ref.md"
       - MCU-SYS 🎯:
           - "./DEV/MCU-SYS/mcu-sys.md"
-          - MCU-HARDWARE: "./DEV/MCU-SYS/MCU-HARDWARE/mcu-hardware.md"
-          - BASIC-FUNCTIONS: "./DEV/MCU-SYS/BASIC-FUNCTIONS/basic-functions.md"
-          - ADVANCED-FUNCTIONS: "./DEV/MCU-SYS/ADVANCED-FUNCTIONS/advanced-functions.md"
-          - APPLICATION-DEV: "./DEV/MCU-SYS/APPLICATION-DEV/application-dev.md"
       - MPU-SYS 🎯:
           - "./DEV/MPU-SYS/mpu-sys.md"
       # - EMBEDDED:
