@@ -17,6 +17,11 @@
     [:octicons-arrow-right-24: <a href="https://stanford.edu/~boyd/cvxbook/" target="_blank"> Textbook </a>](#)
 </div>
 
+VIDEO:
+
+- [x] LECTURE 1: Introduction
+
+
 ## BAYESIAN OPTIMIZATION
 
 <div class="grid cards" markdown>
