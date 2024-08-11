@@ -20,7 +20,18 @@
 VIDEO:
 
 - [x] LECTURE 1: Introduction
-
+- [ ] LECTURE 2: Convex Sets
+- [ ] LECTURE 3: Convex Functions
+- [ ] LECTURE 4: Convex Optimization Problems
+- [ ] LECTURE 5: Duality
+- [ ] LECTURE 6: Approximation and fitting
+- [ ] LECTURE 7: Statistical estimation
+- [ ] LECTURE 8: Geometric problems
+- [ ] LECTURE 9: Numerical linear algebra background
+- [ ] LECTURE 10: Unconstrained minimization
+- [ ] LECTURE 11: Equality constrained minimization
+- [ ] LECTURE 12: Interior-point methods
+- [ ] LECTURE 13: Equality constrained minimization
 
 ## BAYESIAN OPTIMIZATION
 
