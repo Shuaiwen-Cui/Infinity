@@ -246,6 +246,7 @@ plugins:
             IOT: 物联网
             WSN 🎯: 无线传感器网络 🎯
             MQTT: 消息队列遥测传输协议
+            HOME-ASSISTANT: 家居助手
             BROKER: 代理
             CLIENT: 客户端
             CLOUD: 云
@@ -661,6 +662,7 @@ nav:
           - "./IOT/MQTT/mqtt.md"
           - BROKER: "./IOT/MQTT/BROKER/broker.md"
           - CLIENT: "./IOT/MQTT/CLIENT/client.md"
+      - HOME-ASSISTANT: "./IOT/HOME-ASSISTANT/home-assistant.md"
   - CLOUD: 
       - "./CLOUD/cloud.md"
       - CLOUD-TECH 🎯: "./CLOUD/CLOUD-TECH/cloud-tech.md"
