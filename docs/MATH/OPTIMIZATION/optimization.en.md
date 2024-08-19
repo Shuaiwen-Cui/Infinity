@@ -20,7 +20,7 @@
 VIDEO:
 
 - [x] LECTURE 1: Introduction
-- [ ] LECTURE 2: Convex Sets
+- [x] LECTURE 2: Convex Sets
 - [ ] LECTURE 3: Convex Functions
 - [ ] LECTURE 4: Convex Optimization Problems
 - [ ] LECTURE 5: Duality
