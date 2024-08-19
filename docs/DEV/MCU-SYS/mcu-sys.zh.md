@@ -13,7 +13,7 @@
     基于 STM32 的 MCU 节点
 
 
-    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_STM32.git" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_STM32.git" target="_blank"> Github Repo </a>](#)
 
     [:octicons-arrow-right-24: <a href="https://shuaiwen-cui.github.io/MCU_NODE_STM32/" target="_blank"> Documentation </a>](#)
 
@@ -31,6 +31,20 @@
 </div>
 
 ## 板级支持包 (BSP)
+
+<div class="grid cards" markdown>
+
+-   :simple-github:{ .lg .middle } __MCU_BSP__
+
+    ---
+
+    基于 STM32 的 MCU BSP
+
+
+
+    [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_BSP.git" target="_blank"> 项目仓库 </a>](#)
+
+</div>
 
 ## MCU 计算与智能库
 
