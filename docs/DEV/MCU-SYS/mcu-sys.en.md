@@ -47,6 +47,6 @@ This section focuses on the development of the microcontroller unit (MCU) system
 
 ## MCU COMPUTATION & INTELLIGENCE LIBRARY
 
-## MCU COMMUNICATION LIBRARY
+## MCU NETWORK LIBRARY
 
 ## MCU VISUALIZATION LIBRARY
