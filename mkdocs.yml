@@ -180,7 +180,7 @@ plugins:
             EMBEDFIRE: 野火科技
             ALIENTEK: 正点原子
             DIGIKEY: 德捷电子
-            STM32CUBE-DEV: STM32CUBE开发
+            STM32CUBE-DEV 🎯: STM32CUBE开发 🎯
             REFERENCE: 参考链接
             SIMULATION: 仿真
             DEVKIT 🎯: 开发板 🎯
@@ -560,7 +560,7 @@ nav:
               - EMBEDFIRE: "./EMBEDDED-SYS/BASICS/EMBEDFIRE/embedfire.md"
               - ALIENTEK: "./EMBEDDED-SYS/BASICS/ALIENTEK/alientek.md"
               - DIGIKEY: "./EMBEDDED-SYS/BASICS/DIGIKEY/digikey.md"
-              - STM32CUBE-DEV: "./EMBEDDED-SYS/BASICS/STM32CUBE-DEV/stm32cube-dev.md"
+              - STM32CUBE-DEV 🎯: "./EMBEDDED-SYS/BASICS/STM32CUBE-DEV/stm32cube-dev.md"
               - REFERENCE: "./EMBEDDED-SYS/BASICS/REFERENCE/reference.md"
       - SIMULATION: 
           # - "./EMBEDDED-SYS/SIMULATION/simulation.md"
