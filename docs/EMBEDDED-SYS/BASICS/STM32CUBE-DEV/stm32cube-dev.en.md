@@ -26,8 +26,8 @@ PROGRESS TABLE:
 | 5 | :white_check_mark: | :white_check_mark: | - | - | - |
 | 6 | :white_check_mark: | :white_check_mark: | - | - | - |
 | 7 | :white_check_mark: | :white_check_mark: | - | - | - |
-| 8 | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | - | - |
-| 9 | :negative_squared_cross_mark: | :negative_squared_cross_mark: | - | - | - |
+| 8 | :white_check_mark: | :white_check_mark: | :white_check_mark: | - | - |
+| 9 | :white_check_mark:| :white_check_mark: | - | - | - |
 | 10 | :negative_squared_cross_mark: | :negative_squared_cross_mark: | - | - | - |
 | 11 | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | - |
 | 12 | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | - |
