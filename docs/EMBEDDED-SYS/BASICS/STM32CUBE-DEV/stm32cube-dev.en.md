@@ -57,6 +57,12 @@ PROGRESS TABLE:
 
 </div>
 
+PROGRESS TABLE:
+
+| CHAPTER | EPSIODE 1 | EPISODE 2 | EPSIODE 3 | EPISODE 4 | EPISODE 5 | 
+|---------|-----------|-----------|-----------|-----------|-----------|
+| 1 | :white_check_mark: | :white_check_mark: | :white_check_mark: | - | - |
+
 ## ADVANCED - FATFS
 
 <div class="grid cards" markdown>
