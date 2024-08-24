@@ -69,6 +69,14 @@
 
     [:octicons-arrow-right-24: <a href="https://leung-manwah.blog.csdn.net/category_10508589.html" target="_blank"> Portal </a>](#)
 
+-   :fontawesome-solid-blog:{ .lg .middle } __PERIPHERAL DEVELOPMENT🎯🏆__
+
+    ---
+
+    COMMON PERIPHERALS
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/qq_45217381/category_12355452.html" target="_blank"> Portal </a>](#)
+
 </div>
 
 

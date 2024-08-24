@@ -29,7 +29,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/1341140649/channel/series" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://space.bilibili.com/1341140649/channel/series" target="_blank"> 传送门 </a>](#)
 
 </div>
 
@@ -43,37 +43,45 @@
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/126943245" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/Mculover666/article/details/126943245" target="_blank"> 传送门 </a>](#)
 
 -   :fontawesome-solid-blog:{ .lg .middle } __STM32 Z小旋🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/as480133937/category_9188655.html" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/as480133937/category_9188655.html" target="_blank"> 传送门 </a>](#)
 
 -   :fontawesome-solid-blog:{ .lg .middle } __STM32CubeMX+STM32F4系列教程🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://www.cnblogs.com/lc-guo/p/17937268" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://www.cnblogs.com/lc-guo/p/17937268" target="_blank"> 传送门 </a>](#)
 
 -   :fontawesome-solid-blog:{ .lg .middle } __STM32CubeMX自动配置工程系列🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/weixin_42880082/category_12054555.html" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/weixin_42880082/category_12054555.html" target="_blank"> 传送门 </a>](#)
 
 -   :fontawesome-solid-blog:{ .lg .middle } __STM32CubeMX教程🎯🏆__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://leung-manwah.blog.csdn.net/category_10508589.html" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://leung-manwah.blog.csdn.net/category_10508589.html" target="_blank"> 传送门 </a>](#)
 
 -   :fontawesome-solid-blog:{ .lg .middle } __边缘智能开发-专栏索引__
 
     ---
 
-    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/696554081" target="_blank"> Portal </a>](#)
+    [:octicons-arrow-right-24: <a href="https://zhuanlan.zhihu.com/p/696554081" target="_blank"> 传送门 </a>](#)
+
+-   :fontawesome-solid-blog:{ .lg .middle } __外设开发🎯🏆__
+
+    ---
+
+    常见外设
+
+    [:octicons-arrow-right-24: <a href="https://blog.csdn.net/qq_45217381/category_12355452.html" target="_blank"> 传送门 </a>](#)
 
 </div>
 

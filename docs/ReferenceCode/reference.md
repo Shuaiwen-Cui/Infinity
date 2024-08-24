@@ -8,6 +8,19 @@ This file is for reference uses.
 🎯✅🏆
 
 # Links
+
+<div class="grid cards" markdown>
+
+-   :material-file:{ .lg .middle } __NSEL Report Series🎯__
+
+    ---
+
+    Newmark Structural Engineering Laboratory (NSEL) Report Series
+
+
+    [:octicons-arrow-right-24: <a href="https://www.ideals.illinois.edu/units/53" target="_blank"> Portal </a>](#)
+
+</div>
  
 <div class="grid cards" markdown>
 
