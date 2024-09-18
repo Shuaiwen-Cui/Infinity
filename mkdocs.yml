@@ -319,6 +319,8 @@ plugins:
             GADGETS: 小工具
             SERIAL-ASSISTANT: 串口助手
             CHARACTER-EXTRACTION: 字模提取
+            BACKGROUND-REMOVAL: 背景去除
+            WATERMARK-ADDING: 水印添加
             STM32-DEV-BOARDS: STM32开发板
             STM32-DEV-REF: STM32开发参考
             ESP32-DEV-BOARDS: ESP32开发板
@@ -741,6 +743,8 @@ nav:
       - GADGETS: 
           - SERIAL-ASSISTANT: "./DEV/GADGETS/SERIAL-ASSISTANT/serial-assistant.md"
           - CHARACTER-EXTRACTION: "./DEV/GADGETS/CHARACTER-EXTRACTION/character-extraction.md"
+          - BACKGROUND-REMOVAL: "./DEV/GADGETS/BACKGROUND-REMOVAL/background-removal.md"
+          - WATERMARK-ADDING: "./DEV/GADGETS/WATERMARK/watermark.md"
       - STM32-DEV-BOARDS: "./DEV/STM32-DEV-BOARDS/stm32-dev-boards.md"
       - STM32-DEV-REF: "./DEV/STM32-DEV-REF/stm32-dev-ref.md"
       - ESP32-DEV-BOARDS: "./DEV/ESP32-DEV-BOARDS/esp32-dev-boards.md"
