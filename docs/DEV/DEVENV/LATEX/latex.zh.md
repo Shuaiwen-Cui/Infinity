@@ -65,3 +65,7 @@
 
 </div>
 
+!!! tip
+    代码->PDF: `Ctrl + Alt + J`
+    
+    PDF->代码: `Ctrl + 鼠标左键`

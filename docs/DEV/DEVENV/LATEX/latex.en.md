@@ -64,3 +64,8 @@
     [:octicons-arrow-right-24: <a href="https://hackmd.io/@x5758x/maclatex" target="_blank"> Mac </a>](#)
 
 </div>
+
+!!! tip
+    Code -> PDF: `Ctrl + Alt + J`
+    
+    PDF -> Code: `Ctrl + Mouse Left Click`
