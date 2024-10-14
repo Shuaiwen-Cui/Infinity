@@ -11,12 +11,18 @@
 
     [:octicons-arrow-right-24: <a href="https://www.runoob.com/python3/python3-tutorial.html" target="_blank"> 传送门 </a>](#)
 
--   :fontawesome-solid-book:{ .lg .middle } __Python For Beginners__
+-   :fontawesome-solid-book:{ .lg .middle } __Python For Beginners 🎯🏆__
 
     ---
 
     中文，可视化机器学习系列之第一部
 
+    学习进度：[4/36]
+
+    [:octicons-arrow-right-24: 查看 PDF](/CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf){:target="_blank"}
+
     [:octicons-arrow-right-24: <a href="https://github.com/Visualize-ML/Book1_Python-For-Beginners" target="_blank"> Portal </a>](#)
 
 </div>
+
+<iframe src="/CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf" width="100%" height="600px"></iframe>
