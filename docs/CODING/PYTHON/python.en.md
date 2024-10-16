@@ -18,7 +18,7 @@
 
     In Chinese, Visual ML Series 1
 
-    Study Progress: [4/36]
+    Study Progress: [5/36]
 
     [:octicons-arrow-right-24: Check PDF](/CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf){:target="_blank"}
 

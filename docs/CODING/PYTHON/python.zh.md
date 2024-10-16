@@ -17,7 +17,7 @@
 
     中文，可视化机器学习系列之第一部
 
-    学习进度：[4/36]
+    学习进度：[5/36]
 
     [:octicons-arrow-right-24: 查看 PDF](/CODING/PYTHON/Book1_Python-For-Beginners_编程不难.pdf){:target="_blank"}
 
