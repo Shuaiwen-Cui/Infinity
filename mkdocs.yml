@@ -132,6 +132,7 @@ plugins:
             GAME-THEORY 🎯: 博弈论 🎯 
             GEOMETRY-GRAPHICS: 几何与图形学
             # COMPUTER-GRAPHICS-FROM-SCRATCH: 计算机图形学从零开始
+            VISUALIZE-ML 🎯: 可视化机器学习 🎯 
             CS: 计算机科学
             THE-MISSING-SEMESTER 🎯: 计算机必学工具 🎯
             COMPUTER-SYSTEM: 计算机系统
@@ -485,6 +486,7 @@ nav:
       - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
           # - GEOMETRY-GRAPHICS: "./MATH/GEOMETRY-GRAPHICS/geometry-graphics.md"
           # - COMPUTER-GRAPHICS-FROM-SCRATCH: "./MATH/GEOMETRY-GRAPHICS/COMPUTER-GRAPHICS/computer-graphics.md"
+      - VISUALIZE-ML 🎯: "./MATH/VISUALIZE-ML/visualize-ml.md"
   - CS: 
       - CS: "./CS/CS.md"
       - THE-MISSING-SEMESTER 🎯: "./CS/THE-MISSING-SEMESTER/the-missing-semester.md"
