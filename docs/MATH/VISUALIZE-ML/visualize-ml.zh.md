@@ -2,6 +2,8 @@
 
 ## BOOK1 编程不难
 
+[9/36]
+
 <iframe src="http://www.cuishuaiwen.com:7500/MATH/VISUALIZE-ML/Book1_Python-For-Beginners_编程不难.pdf" width="100%" height="600px"></iframe>
 
 ## BOOK2 可视之美

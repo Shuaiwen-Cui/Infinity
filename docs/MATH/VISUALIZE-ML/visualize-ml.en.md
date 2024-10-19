@@ -27,3 +27,4 @@
 ## BOOK7 VISUALIZATIONS FOR MACHINE LEARNING
 
 <iframe src="http://www.cuishuaiwen.com:7500/MATH/VISUALIZE-ML/Book7_Visualizations-for-Machine-Learning_机器学习.pdf" width="100%" height="600px"></iframe>
+
