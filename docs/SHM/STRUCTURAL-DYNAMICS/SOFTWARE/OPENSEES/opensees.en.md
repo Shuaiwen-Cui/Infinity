@@ -19,5 +19,11 @@
 
     [:octicons-arrow-right-24: <a href="https://opensees.github.io/OpenSeesDocumentation/index.html" target="_blank"> Portal </a>](#)
 
+-   :material-file:{ .lg .middle } __OPENSEES Tutorial🎯__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=xh0Y2SA2C-8&list=PLKye-ANOSWn1-BsaURprXSndOSzjDPD3a&index=1" target="_blank"> Portal </a>](#)
+
 
 </div>
