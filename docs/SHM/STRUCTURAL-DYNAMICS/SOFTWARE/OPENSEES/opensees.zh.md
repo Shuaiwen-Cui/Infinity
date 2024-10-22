@@ -17,6 +17,14 @@
 
     [:octicons-arrow-right-24: <a href="https://opensees.github.io/OpenSeesDocumentation/index.html" target="_blank"> 传送门 </a>](#)
 
+
+-   :material-file:{ .lg .middle } __OPENSEESPY 文档🎯__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://openseespydoc.readthedocs.io/en/latest/" target="_blank"> 传送门 </a>](#)
+
+
 -   :material-file:{ .lg .middle } __OPENSEES Tutorial🎯__
 
     ---

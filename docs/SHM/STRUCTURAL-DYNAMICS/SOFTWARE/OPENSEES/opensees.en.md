@@ -19,6 +19,12 @@
 
     [:octicons-arrow-right-24: <a href="https://opensees.github.io/OpenSeesDocumentation/index.html" target="_blank"> Portal </a>](#)
 
+-   :material-file:{ .lg .middle } __OPENSEESPY DOCUMENTATION🎯__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://openseespydoc.readthedocs.io/en/latest/" target="_blank"> Portal </a>](#)
+
 -   :material-file:{ .lg .middle } __OPENSEES Tutorial🎯__
 
     ---
