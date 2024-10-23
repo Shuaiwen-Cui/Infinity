@@ -25,11 +25,16 @@
     [:octicons-arrow-right-24: <a href="https://openseespydoc.readthedocs.io/en/latest/" target="_blank"> 传送门 </a>](#)
 
 
--   :material-file:{ .lg .middle } __OPENSEES Tutorial🎯__
+-   :material-file:{ .lg .middle } __OPENSEES 教程🎯__
 
     ---
 
     [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1h5411n7TR?spm_id_from=333.788.videopod.episodes&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
 
+-   :material-file:{ .lg .middle } __OPENSEESPY 教程🎯__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.youtube.com/watch?v=MG6GXBd_zwg&list=PL-KPmwg026LPlJ0wroqF1F5yjBqhw9I74&index=1" target="_blank"> 传送门 </a>](#)
 
 </div>
