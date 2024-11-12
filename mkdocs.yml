@@ -168,6 +168,8 @@ plugins:
             TSDB: 时序数据库
             GRAPHDB: 图数据库
             EMBEDDED-SYS: 嵌入式系统
+            STM32 🎯: STM32 🎯
+            ESP32 🎯: ESP32 🎯
             THEORY: 理论
             ELECTRONICS: 电子学
             CIRCUITS: 电路
@@ -552,6 +554,8 @@ nav:
             - NEO4J 🎯: "./CODING/DATABASE/GRAPHDB/NEO4J/neo4j.md"
   - EMBEDDED-SYS: 
       - "./EMBEDDED-SYS/embedded-sys.md"
+      - STM32 🎯: "./EMBEDDED-SYS/STM32/stm32.md"
+      - ESP32 🎯: "./EMBEDDED-SYS/ESP32/esp32.md"
       - THEORY:
           - ELECTRONICS: "./EMBEDDED-SYS/THEORY/ELECTRONICS/electronics.md"
           - CIRCUITS: "./EMBEDDED-SYS/THEORY/CIRCUITS/circuits.md"
