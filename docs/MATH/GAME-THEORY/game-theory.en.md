@@ -35,7 +35,7 @@
 
 ### Extensive Form Games
 
-- [ ] Subgame Perfect Equilibrium
+- [x] Subgame Perfect Equilibrium
 - [ ] Backward Induction 
 - [ ] How NOT to Write a Subgame Perfect Equilibrium
 - [ ] Multiple Subgame Perfect Equilibria
