@@ -786,9 +786,9 @@ nav:
           - CLIENT-BASED: "./DEV/VISUALIZATION/CLIENT-BASED/client-based.md"
   - RESEARCH: 
       - NODE 🎯: 
-          - MCU-NODE-STM32H743 🎯: "./RESEARCH/NODE/MCU-NODE-STM32H743/mcu-node-stm32h743.md"
-          - MCU-NODE-ESP32S3: "./RESEARCH/NODE/MCU-NODE-ESP32S3/mcu-node-esp32s3.md"
-      - SYSTEM 🎯: "./RESEARCH/SYSTEM/system.md"
+          - "./RESEARCH/NODE/node.md"
+      - SYSTEM 🎯: 
+          - "./RESEARCH/SYSTEM/system.md"
   - PROJECT: 
       - "./PROJECT/project.md"
       - TECH-BLOG: "./PROJECT/TECH-BLOG/mkdocs_and_material.md"
