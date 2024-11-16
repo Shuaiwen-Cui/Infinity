@@ -14,6 +14,9 @@
 +------------------------------+
 ```
 
+!!! info 
+    Except for the application layer content, which is strongly bound to specific uses, the contents of other layers are universal, so the development of hardware, platform abstraction layer, and system services layer can be universal and can be ported to different application scenarios. They are placed in different repositories for easy management and maintenance.
+
 ## NODE HARDWARE
 
 !!! note "Hardware Development"
@@ -21,7 +24,7 @@
 
 <div class="grid cards" markdown>
 
--   :simple-github:{ .lg .middle } __MCU_NODE_STM32__
+-   :simple-github:{ .lg .middle } __MCU_NODE_STM32🎯🏆__
 
     ---
 
@@ -30,7 +33,7 @@
 
     [:octicons-arrow-right-24: <a href="https://github.com/Shuaiwen-Cui/MCU_NODE_STM32.git" target="_blank"> Portal </a>](#)
 
--   :simple-github:{ .lg .middle } __MCU_NODE_ESP32__
+-   :simple-github:{ .lg .middle } __MCU_NODE_ESP32🎯🏆__
 
     ---
 
@@ -46,9 +49,12 @@
 !!! note "Driver Development"
     Driver development is an important part of edge intelligence node development. We have developed various drivers, including sensor drivers, communication drivers, display drivers, etc. These drivers provide rich peripheral support for edge intelligence nodes, enabling nodes to better adapt to different application scenarios.
 
+!!! tip "Note"
+    The drivers included in this repository are actually included in the node repositories of ESP32 and STM32 above. Here, they are only organized and included for easy porting to other devices and platforms.
+
 <div class="grid cards" markdown>
 
--   :simple-github:{ .lg .middle } __MCU_BSP__
+-   :simple-github:{ .lg .middle } __MCU_BSP🎯🏆__
 
     ---
 
@@ -75,7 +81,7 @@
 
 <div class="grid cards" markdown>
 
--   :simple-github:{ .lg .middle } __TinySHM__
+-   :simple-github:{ .lg .middle } __TinySHM🎯🏆__
 
     ---
 
