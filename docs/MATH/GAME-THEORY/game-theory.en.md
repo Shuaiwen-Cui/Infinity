@@ -39,8 +39,8 @@
 - [x] Backward Induction 
 - [x] How NOT to Write a Subgame Perfect Equilibrium
 - [x] Multiple Subgame Perfect Equilibria
-- [ ] Games with Stages
-- [ ] Punishment Strategies
+- [x] Games with Stages
+- [x] Punishment Strategies
 - [ ] Tying Hands (Burning Bridges)
 - [ ] Commitment Problems
 - [ ] The Centipede Game
