@@ -38,7 +38,7 @@
 - [x] Subgame Perfect Equilibrium
 - [x] Backward Induction 
 - [x] How NOT to Write a Subgame Perfect Equilibrium
-- [ ] Multiple Subgame Perfect Equilibria
+- [x] Multiple Subgame Perfect Equilibria
 - [ ] Games with Stages
 - [ ] Punishment Strategies
 - [ ] Tying Hands (Burning Bridges)
