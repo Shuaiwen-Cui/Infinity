@@ -41,9 +41,9 @@
 - [x] Multiple Subgame Perfect Equilibria
 - [x] Games with Stages
 - [x] Punishment Strategies
-- [ ] Tying Hands (Burning Bridges)
-- [ ] Commitment Problems
-- [ ] The Centipede Game
+- [x] Tying Hands (Burning Bridges)
+- [x] Commitment Problems
+- [x] The Centipede Game
 - [ ] Problems with Backward Induction
 - [ ] Forward Induction
 
