@@ -44,8 +44,8 @@
 - [x] Tying Hands (Burning Bridges)
 - [x] Commitment Problems
 - [x] The Centipede Game
-- [ ] Problems with Backward Induction
-- [ ] Forward Induction
+- [x] Problems with Backward Induction
+- [x] Forward Induction
 
 ### Advanced Strategic Form Games 
 
