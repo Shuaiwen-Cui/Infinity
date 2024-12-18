@@ -63,6 +63,9 @@
 
     [:octicons-arrow-right-24: <a href="https://hackmd.io/@x5758x/maclatex" target="_blank"> Mac </a>](#)
 
+    [:octicons-arrow-right-24: <a href="https://github.com/shinyypig/latex-vscode-config" target="_blank"> VSCode 设置 </a>](#)
+    
+
 </div>
 
 !!! tip
