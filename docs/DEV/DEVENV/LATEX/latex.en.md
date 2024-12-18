@@ -34,8 +34,6 @@
     [:octicons-arrow-right-24: <a href="https://www.overleaf.com/" target="_blank"> Portal </a>](#)
 
     [:octicons-arrow-right-24: <a href="https://www.overleaf.com/learn" target="_blank"> Documentation </a>](#)
-
-    [:octicons-arrow-right-24: <a href="https://github.com/shinyypig/latex-vscode-config" target="_blank"> VSCode Set Up </a>](#)
     
 </div>
 
@@ -64,6 +62,8 @@
     [:octicons-arrow-right-24: <a href="https://mathjiajia.github.io/vscode-and-latex/" target="_blank"> Windows </a>](#)
 
     [:octicons-arrow-right-24: <a href="https://hackmd.io/@x5758x/maclatex" target="_blank"> Mac </a>](#)
+
+    [:octicons-arrow-right-24: <a href="https://github.com/shinyypig/latex-vscode-config" target="_blank"> VSCode Set Up </a>](#)
 
 </div>
 
