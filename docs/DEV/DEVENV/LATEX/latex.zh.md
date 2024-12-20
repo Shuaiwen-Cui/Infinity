@@ -75,4 +75,61 @@
 
 !!! tip
     插件 better bibtex 可以帮助更好的管理文献引用。
-    其中citetation key 可以设置为`[auth:lower]_[veryshorttitle:lower]_[year]`,记得选中所有论文然后refresh后导出bib文件。    
+    其中citation key 可以设置为`[auth:lower]_[veryshorttitle:lower]_[year]`,记得选中所有论文然后refresh后导出bib文件。    
+
+VSCODE SETTINGS 配置
+```text
+    "latex-workshop.hover.preview.mathjax.extensions": [
+        "boldsymbol"
+    ],
+    "latex-workshop.intellisense.package.enabled": true,
+    "latex-workshop.latex.outDir": ".",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.mathpreviewpanel.cursor.enabled": true,
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+    // "latex-workshop.view.pdf.invert": 1,
+    // "latex-workshop.view.pdf.invertMode.enabled": "auto",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatexmk"
+            ]
+        },
+        {
+            "name": "PdfLaTeX",
+            "tools": [
+                "pdflatexmk"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "args": [
+                "-synctex=1",
+                "-pdfxe",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "xelatexmk"
+        },
+        {
+            "args": [
+                "-synctex=1",
+                "-pdf",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "command": "latexmk",
+            "env": {},
+            "name": "pdflatexmk"
+        }
+    ],
+```
