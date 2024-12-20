@@ -72,3 +72,7 @@
     代码->PDF: `Ctrl + Alt + J`
     
     PDF->代码: `Ctrl + 鼠标左键`
+
+!!! tip
+    插件 better bibtex 可以帮助更好的管理文献引用。
+    其中citetation key 可以设置为`[auth:lower]_[veryshorttitle:lower]_[year]`,记得选中所有论文然后refresh后导出bib文件。    

@@ -71,3 +71,7 @@
     Code -> PDF: `Ctrl + Alt + J`
     
     PDF -> Code: `Ctrl + Mouse Left Click`
+
+!!! tip
+    Plugin better bibtext can help manage references better.
+    The citation key can be setup as `[auth:lower]_[veryshorttitle:lower]_[year]`. Before exporting, remember to select all papers and refresh to export the bib file.
