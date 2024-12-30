@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
--   :material-home-assistant:{ .lg .middle } __HOME ASSISTANT🎯__
+-   :fontawesome-brands-bilibili:{ .lg .middle } __HOME ASSISTANT🎯__
 
     ---
 
