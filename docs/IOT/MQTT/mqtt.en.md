@@ -60,7 +60,15 @@ EMQ X is an open source MQTT client library. It is available for a wide range of
 
 MQTT.js is an open source MQTT client library. It is available for JavaScript. It is an open source project and can be found on the MQTT.js project page.
 
+## References
 
+<div class="grid cards" markdown>
 
+-   :material-home-assistant:{ .lg .middle } __WHY MQTT 🎯__
 
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1bx6aY2EpR/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> Portal </a>](#)
+
+</div>
 

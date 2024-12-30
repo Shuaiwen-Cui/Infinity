@@ -60,6 +60,16 @@ EMQ X 是一个开源的 MQTT 客户端库。它可用于多种编程语言，�
 
 MQTT.js 是一个开源的 MQTT 客户端库。它可用于 JavaScript。它是一个开源项目，可以在 MQTT.js 项目页面上找到。
 
+## 参考
 
+<div class="grid cards" markdown>
+
+-   :material-home-assistant:{ .lg .middle } __WHY MQTT 🎯__
+
+    ---
+
+    [:octicons-arrow-right-24: <a href="https://www.bilibili.com/video/BV1bx6aY2EpR/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=5a427660f0337fedc22d4803661d493f" target="_blank"> 传送门 </a>](#)
+
+</div>
 
 
