@@ -2,7 +2,7 @@
 comments: false
 --- -->
 
-# 🔭 抱元守一，道法术器
+# 🔭 道法术器，抱元守一
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shuaiwen-Cui/Infinity)
 ![GitHub stars](https://img.shields.io/github/stars/Shuaiwen-Cui/Infinity?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Shuaiwen-Cui/Infinity?style=social)
